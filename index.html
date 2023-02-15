@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Google</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/default.css" />
+		<script src="data/links.js"></script>
+		<script src="data/emugames.js"></script>
+	</head>
+
+	<body>
+		<h1>Choose a category</h1>
+
+		<div id="buttonparent" class="tab"></div>
+
+		<div class="settings webhidden">
+			<!--convert these to css-->
+			<br />
+			<br />
+			<br />
+			<br />
+
+			<!--Not really used as a toggle-->
+			<button id="emulatortoggle" class="buttonslim" onclick="toggleEmulator();"></button>
+
+			<button id="coretoggle" class="buttonslim" onclick="toggleoldcores();">
+				Toggle Old Cores
+			</button>
+		</div>
+
+		<!--convert these to css-->
+		<br />
+		<br />
+		<br />
+
+		<div id="NES" class="tabcontent"></div>
+
+		<div id="GBA" class="tabcontent"></div>
+
+		<div id="N64" class="tabcontent"></div>
+
+		<div id="DS" class="tabcontent"></div>
+
+		<div id="Web" class="tabcontent">
+			<label for="websearch">Search: </label>
+			<input type="text" id="websearch" oninput="onSearchInput();" />
+
+			<!--convert these to css-->
+			<br />
+			<br />
+
+			<div id="siteselector"></div>
+
+			<!--convert these to css-->
+			<br />
+			<br />
+
+			<p class="pagedisplay"></p>
+			<button class="buttonslim" onclick="prevPage();">Previous</button>
+			<button class="buttonslim" onclick="nextPage();">Next</button>
+
+			<!--convert these to css-->
+			<br />
+			<br />
+			<br />
+
+			<div id="webgames"></div>
+
+			<p class="pagedisplay"></p>
+			<button class="buttonslim" onclick="prevPage();">Previous</button>
+			<button class="buttonslim" onclick="nextPage();">Next</button>
+		</div>
+
+		<!--convert these to css-->
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+
+		<!--not really navigation, but thats what you get when copying from w3schools-->
+		<div class="bottomnav">
+			<a href="https://github.com/Wade7wastaken/TrulyUnblockedGames">Github</a>
+			<a href="https://wade7wastaken.github.io/TrulyUnblockedGames/"> Continuous integration</a>
+			<a href="https://www.google.com">I have something to suggest</a>
+		</div>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>
