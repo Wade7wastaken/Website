@@ -1,6 +1,7 @@
 {
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[python]":{
+	"[python]": {
 		"editor.defaultFoldingRangeProvider": "ms-python.python"
 	},
+	"files.encoding": "utf8"
 }
