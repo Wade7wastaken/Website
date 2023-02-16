@@ -5,25 +5,6 @@ console.log(
 );
 console.log('Set session storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.');
 
-// set coretoggle to what is currently in localStorage (defaults to inactive)
-getId("coretoggle").className += " " + (localStorage.oldCores == "1" ? "active" : "inactive");
-
-// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
-switch (localStorage.emu) {
-	case "EJS":
-		getId("emulatortoggle").textContent = "EmulatorJS";
-		break;
-	case "NJS":
-		getId("emulatortoggle").textContent = "NeptunJS";
-		getId("coretoggle").style.display = "none";
-		break;
-	default:
-		getId("emulatortoggle").textContent = "EmulatorJS";
-		break;
-}
-
-loadEmuGames();
-
 // Global variables
 const linknames = links.names; // a mapping from internal site names to display names
 const linknamelist = Object.keys(links.names).sort(); // an array of the internal site names
@@ -35,21 +16,15 @@ const linksperpage = 100; // 100 seems to be the max without causeing slowdowns 
 
 delete links.names; // delete this so we can iterate through the object without this being there
 
-addSiteSelectors();
+getLocalStorage(); // Loads openTab, oldCores, and emu from localStorage
 
-getLocalStorage();
+loadEmuGames();
 
 updateTabs(localStorage.openTab);
 
-const domain = document.createElement("a");
-for (const site in links) {
-	let sitelist = links[site];
-	for (const game of sitelist) {
-		domain.href = game[1];
-		games.push([game[0], game[1], site, domain.hostname]);
-	}
-}
-games.sort();
+loadLinks();
+
+addSiteSelectors();
 
 sortLinks();
 
@@ -80,19 +55,25 @@ function quickAppend(type, container, text) {
 
 // major functions
 function getLocalStorage() {
+	// default openTab to NES
 	if (!localStorage.openTab) localStorage.openTab = "NES";
-}
 
-function addSiteSelectors() {
-	let main = document.getElementById("siteselector");
-	let btn = document.createElement("button");
-	btn.className = "buttonslim";
-	btn.setAttribute("onclick", "togglesites(event);");
-	linknamelist.forEach((element) => {
-		btn.textContent = linknames[element];
-		btn.setAttribute("data", element);
-		main.appendChild(btn.cloneNode(true));
-	});
+	// set coretoggle to what is currently in localStorage (defaults to inactive)
+	getId("coretoggle").className += " " + (localStorage.oldCores == "1" ? "active" : "inactive");
+
+	// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
+	switch (localStorage.emu) {
+		case "EJS":
+			getId("emulatortoggle").textContent = "EmulatorJS";
+			break;
+		case "NJS":
+			getId("emulatortoggle").textContent = "NeptunJS";
+			getId("coretoggle").style.display = "none";
+			break;
+		default:
+			getId("emulatortoggle").textContent = "EmulatorJS";
+			break;
+	}
 }
 
 function loadEmuGames() {
@@ -154,7 +135,7 @@ function loadEmuGames() {
 
 function updateTabs(tab) {
 	// updates the tabs and buttons
-	sessionStorage.openTab = tab;
+	localStorage.openTab = tab;
 	let tabcontent = getClass("tabcontent");
 	for (let i = 0; i < tabcontent.length; i++) {
 		// hides all tabs
@@ -177,51 +158,28 @@ function updateTabs(tab) {
 	}
 }
 
-function togglesites(event) {
-	const el = event.currentTarget;
-
-	let classes = el.className.split(" ");
-
-	if (classes.includes("active")) {
-		classes = remove(classes, "active");
-		filteredsites = remove(filteredsites, el.attributes["data"].nodeValue);
-	} else {
-		classes.push("active");
-		filteredsites.push(el.attributes["data"].nodeValue);
+function loadLinks() {
+	const domain = document.createElement("a");
+	for (const site in links) {
+		let sitelist = links[site];
+		for (const game of sitelist) {
+			domain.href = game[1];
+			games.push([game[0], game[1], site, domain.hostname]);
+		}
 	}
-
-	el.className = classes.join(" ");
-
-	onSearchInput();
+	games.sort();
 }
 
-function toggleoldcores() {
-	let toggle = getId("coretoggle");
-	let classes = toggle.className.split(" ");
-
-	if (classes.includes("active")) {
-		classes = remove(classes, "active");
-		localStorage.oldCores = "0";
-	} else {
-		localStorage.oldCores = "1";
-		classes.push("active");
-	}
-
-	toggle.className = classes.join(" ");
-}
-
-function toggleEmulator() {
-	let main = getId("emulatortoggle");
-
-	if (main.textContent == "EmulatorJS") {
-		localStorage.emu = "NJS";
-		main.textContent = "NeptunJS";
-		getId("coretoggle").style.display = "none";
-	} else {
-		localStorage.emu = "EJS";
-		main.textContent = "EmulatorJS";
-		getId("coretoggle").style.display = "inline-block";
-	}
+function addSiteSelectors() {
+	let main = document.getElementById("siteselector");
+	let btn = document.createElement("button");
+	btn.className = "buttonslim";
+	btn.setAttribute("onclick", "togglesites(event);");
+	linknamelist.forEach((element) => {
+		btn.textContent = linknames[element];
+		btn.setAttribute("data", element);
+		main.appendChild(btn.cloneNode(true));
+	});
 }
 
 function sortLinks() {
@@ -270,6 +228,53 @@ function renderLinks() {
 	Array.from(disp).forEach((element) => {
 		element.textContent = `Page ${page + 1} of ${Math.floor(matches.length / linksperpage) + 1}`;
 	});
+}
+
+function togglesites(event) {
+	const el = event.currentTarget;
+
+	let classes = el.className.split(" ");
+
+	if (classes.includes("active")) {
+		classes = remove(classes, "active");
+		filteredsites = remove(filteredsites, el.attributes["data"].nodeValue);
+	} else {
+		classes.push("active");
+		filteredsites.push(el.attributes["data"].nodeValue);
+	}
+
+	el.className = classes.join(" ");
+
+	onSearchInput();
+}
+
+function toggleoldcores() {
+	let toggle = getId("coretoggle");
+	let classes = toggle.className.split(" ");
+
+	if (classes.includes("active")) {
+		classes = remove(classes, "active");
+		localStorage.oldCores = "0";
+	} else {
+		localStorage.oldCores = "1";
+		classes.push("active");
+	}
+
+	toggle.className = classes.join(" ");
+}
+
+function toggleEmulator() {
+	let main = getId("emulatortoggle");
+
+	if (main.textContent == "EmulatorJS") {
+		localStorage.emu = "NJS";
+		main.textContent = "NeptunJS";
+		getId("coretoggle").style.display = "none";
+	} else {
+		localStorage.emu = "EJS";
+		main.textContent = "EmulatorJS";
+		getId("coretoggle").style.display = "inline-block";
+	}
 }
 
 function nextPage() {
