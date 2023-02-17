@@ -141,7 +141,7 @@ const emugames = {
 		name: "Nintendo DS",
 		consolename: "nds",
 		games: {
-			"Kirby Super Star Ultra": {
+			Kirby: {
 				main: [
 					{
 						name: "Kirby Super Star Ultra (USA)",
@@ -154,6 +154,14 @@ const emugames = {
 					{
 						name: "Pokemon Platinum (1.1) (USA)",
 						rom: "pokemon_platinum",
+					},
+				],
+			},
+			"Mario Kart": {
+				main: [
+					{
+						name: "Mario Kart DS (USA)",
+						rom: "mkds",
 					},
 				],
 			},
