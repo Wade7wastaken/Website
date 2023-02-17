@@ -139,7 +139,16 @@ const emugames = {
 	},
 	DS: {
 		name: "Nintendo DS",
-		consolename: "ds",
-		games: {},
+		consolename: "nds",
+		games: {
+			"Kirby Super Star Ultra": {
+				main: [
+					{
+						name: "Kirby Super Star Ultra (USA)",
+						rom: "kssu",
+					},
+				],
+			},
+		},
 	},
 };
