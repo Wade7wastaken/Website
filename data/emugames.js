@@ -159,6 +159,10 @@ const emugames = {
 						name: "Pokemon Diamond (1.5) (USA)",
 						rom: "pokemon_diamond",
 					},
+					{
+						name: "Pokemon Pearl (1.5) (USA)",
+						rom: "pokemon_pearl",
+					},
 				],
 			},
 			"Mario Kart": {
