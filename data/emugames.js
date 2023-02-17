@@ -145,7 +145,7 @@ const emugames = {
 				main: [
 					{
 						name: "Kirby Super Star Ultra (USA)",
-						rom: "kssu",
+						rom: "kssu_us",
 					},
 				],
 			},
