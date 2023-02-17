@@ -149,6 +149,14 @@ const emugames = {
 					},
 				],
 			},
+			Pokemon: {
+				main: [
+					{
+						name: "Pokemon Platinum (1.1) (USA)",
+						rom: "pokemon_platinum",
+					},
+				],
+			},
 		},
 	},
 };
