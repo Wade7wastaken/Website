@@ -167,6 +167,10 @@ const emugames = {
 						name: "Pokemon Heart Gold (1.0) (USA)",
 						rom: "pokemon_heartgold",
 					},
+					{
+						name: "Pokemon Soul Silver (1.0) (USA)",
+						rom: "pokemon_soulsilver",
+					},
 				],
 			},
 			"Mario Kart": {
