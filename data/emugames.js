@@ -165,6 +165,14 @@ const emugames = {
 					},
 				],
 			},
+			"Phoenix Wright": {
+				main: [
+					{
+						name: "Phoenix Wright: Ace Attorney (USA)",
+						rom: "pwaa",
+					},
+				],
+			},
 		},
 	},
 };
