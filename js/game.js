@@ -33,8 +33,8 @@ switch (localStorage.emu) {
 			emuloader.src = "https://raw.githack.com/EmulatorJS/EmulatorJS/main/data/loader.js";
 			console.log("Loading from github");
 		} else {
-			var EJS_pathtodata = "EmulatorJS/data/";
-			emuloader.src = "EmulatorJS/data/loader.js";
+			var EJS_pathtodata = "Emulators/EmulatorJS/data/";
+			emuloader.src = "Emulators/EmulatorJS/data/loader.js";
 			console.log("Loading locally");
 		}
 		document.body.append(emuloader);
