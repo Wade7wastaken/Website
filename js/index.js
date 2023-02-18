@@ -3,7 +3,7 @@ console.log("Advanced features:");
 console.log(
 	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.',
 );
-console.log('Set session storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.');
+console.log('Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.');
 
 // Global variables
 const linknames = links.names; // a mapping from internal site names to display names
