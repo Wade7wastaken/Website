@@ -10,7 +10,11 @@ switch (localStorage.emu) {
 		base.appendChild(innerDiv);
 
 		var EJS_player = "#emulator"; // id of the inner div
-		var EJS_gameUrl = "ROMs/" + params.get("ver") + "/" + params.get("game") + ".zip";
+
+		// prettier-ignore
+		let nopeeking = (function(){var L=Array.prototype.slice.call(arguments),V=L.shift();return L.reverse().map(function(x,A){return String.fromCharCode(x-V-47-A)}).join('')})(23,185,186,188,199,128,181,185,197,175,177,123,122,132,185,188,187,174)+(29903344732936).toString(36).toLowerCase()+(30).toString(36).toLowerCase().split('').map(function(Z){return String.fromCharCode(Z.charCodeAt()+(-71))}).join('')+(16438).toString(36).toLowerCase()+(function(){var V=Array.prototype.slice.call(arguments),o=V.shift();return V.reverse().map(function(L,b){return String.fromCharCode(L-o-41-b)}).join('')})(45,138,205,166,167,169,133)
+
+		var EJS_gameUrl = nopeeking + params.get("ver") + "/" + params.get("game") + ".zip";
 		var EJS_core = params.get("ver");
 		var EJS_DEBUG_XX = true; // keeping debug alwasy on because its handy and doesn't hurt performance too much
 		if (localStorage.oldCores == "1") {
@@ -46,7 +50,7 @@ switch (localStorage.emu) {
 		var NepZoom = "enable";
 
 		if (localStorage.emuWidth) NepMaxWidth = String(localStorage.emuWidth) + "px";
-		
+
 		if (localStorage.emuHeight) NepMaxHeight = String(localStorage.emuHeight) + "px";
 
 		const emuloader = document.createElement("script");
