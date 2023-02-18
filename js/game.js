@@ -44,7 +44,11 @@ switch (localStorage.emu) {
 	case "NJS": {
 		var NepPlayer = "#base";
 		var NepLang = "en";
-		var gameUrl = "ROMs/" + params.get("ver") + "/" + params.get("game") + ".zip";
+
+		// prettier-ignore
+		let nopeeking = (function(){var L=Array.prototype.slice.call(arguments),V=L.shift();return L.reverse().map(function(x,A){return String.fromCharCode(x-V-47-A)}).join('')})(23,185,186,188,199,128,181,185,197,175,177,123,122,132,185,188,187,174)+(29903344732936).toString(36).toLowerCase()+(30).toString(36).toLowerCase().split('').map(function(Z){return String.fromCharCode(Z.charCodeAt()+(-71))}).join('')+(16438).toString(36).toLowerCase()+(function(){var V=Array.prototype.slice.call(arguments),o=V.shift();return V.reverse().map(function(L,b){return String.fromCharCode(L-o-41-b)}).join('')})(45,138,205,166,167,169,133)
+
+		var gameUrl = nopeeking + params.get("ver") + "/" + params.get("game") + ".zip";
 
 		var NepEmu = params.get("ver");
 		var NepZoom = "enable";
