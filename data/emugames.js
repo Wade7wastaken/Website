@@ -211,6 +211,22 @@ const emugames = {
 						name: "Phoenix Wright: Ace Attorney (USA)",
 						rom: "pwaa",
 					},
+					{
+						name: "Phoenix Wright: Ace Attorney - Justice for All (USA)",
+						rom: "pwaajfa",
+					},
+					{
+						name: "Phoenix Wright: Ace Attorney - Trials and Tribulations (USA)",
+						rom: "pwaatat",
+					},
+				],
+			},
+			"Grand Theft Auto": {
+				main: [
+					{
+						name: "Grand Theft Auto - Chinatown Wars (1.0) (USA)",
+						rom: "gtactw",
+					},
 				],
 			},
 		},
