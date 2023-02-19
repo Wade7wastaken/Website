@@ -1,0 +1,17 @@
+{
+  "name": "minify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^5.1.15",
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.17.4"
+  }
+}
