@@ -191,6 +191,10 @@ const emugames = {
 						name: "Pokemon Black 2 (1.0) (USA)",
 						rom: "pokemon_black2",
 					},
+					{
+						name: "Pokemon Whtie 2 (1.0) (USA)",
+						rom: "pokemon_white2",
+					},
 				],
 			},
 			"Mario Kart": {
