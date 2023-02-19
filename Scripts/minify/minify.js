@@ -1,11 +1,25 @@
 const fs = require("fs");
 const htmlminifier = require("html-minifier");
+const csso = require("csso");
+const UglifyJS = require("uglify-js");
 
-const ignored_folders = ["Scripts", "form"];
+const ignored_folders = ["Output", "Scripts", "form"];
 const ignored_endings = ["md"];
 
 // Remove the contents of the Output folder
-fs.readdirSync("./Output").forEach((f) => fs.rmSync(`${dir}/${f}`));
+function del(loc) {
+	const dir = fs.opendirSync(loc);
+	let dirent;
+	while ((dirent = dir.readSync()) !== null) {
+		if (dirent.isFile()) {
+			fs.rmSync(loc + "/" + dirent.name, { recursive: true });
+		} else if (dirent.isDirectory()) {
+		}
+	}
+	dir.closeSync();
+}
+
+fs.rmSync("./Output", { recursive: true });
 
 function loop(loc) {
 	const dir = fs.opendirSync(loc);
@@ -23,9 +37,10 @@ function loop(loc) {
 					!(loc.includes("EmulatorJS") && ending == "html")
 				) {
 					const contents = fs.readFileSync(path, "utf8");
+					let min;
 					switch (ending) {
 						case "html": {
-							const min = htmlminifier.minify(contents, {
+							min = htmlminifier.minify(contents, {
 								collapseBooleanAttributes: true,
 								collapseInlineTagWhitespace: true,
 								collapseWhitespace: true,
@@ -47,21 +62,47 @@ function loop(loc) {
 								sortClassName: true,
 								useShortDoctype: true,
 							});
+							break;
+						}
 
-							const outfile = "./Output" + path.slice(1);
-							let outdir = outfile.split("/").slice(0, -1).join("/");
+						case "css": {
+							min = csso.minify(contents, {
+								comments: false,
+								restructure: true,
+							}).css;
+							break;
+						}
 
-							// we need to create the folders before writing the file
+						case "js": {
+							min = UglifyJS.minify(contents, {}).code;
 
-							fs.mkdirSync(outdir, { recursive: true });
+							break;
+						}
 
-							fs.writeFileSync(outfile, min);
+						case "json": {
+							min = UglifyJS.minify(contents, {
+								expression: true,
+								output: {
+									quote_keys: true,
+								},
+							}).code;
+
 							break;
 						}
 
 						default:
+							min = contents;
 							break;
 					}
+
+					const outfile = "./Output" + path.slice(1);
+					let outdir = outfile.split("/").slice(0, -1).join("/");
+
+					// we need to create the folders before writing the file
+
+					fs.mkdirSync(outdir, { recursive: true });
+
+					fs.writeFileSync(outfile, min);
 
 					console.log("File: " + path);
 				}

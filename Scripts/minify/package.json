@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cssnano": "^5.1.15",
+    "csso": "^5.0.5",
     "html-minifier": "^4.0.0",
     "uglify-js": "^3.17.4"
   }
