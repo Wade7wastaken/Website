@@ -1,5 +1,5 @@
 {
-	"printWidth": 100,
+	"printWidth": 80,
 	"useTabs": true,
 	"semi": true,
 	"singleQuote": false,
@@ -8,8 +8,8 @@
 	"jsxBracketSameLine": true,
 	"arrowParens": "always",
 	"proseWrap": "never",
-    "bracketSameLine": true,
-    "jsxSingleQuote": false,
-    "htmlWhitespaceSensitivity": "strict",
-    "endOfLine": "crlf"
+	"bracketSameLine": true,
+	"jsxSingleQuote": false,
+	"htmlWhitespaceSensitivity": "strict",
+	"endOfLine": "crlf"
 }

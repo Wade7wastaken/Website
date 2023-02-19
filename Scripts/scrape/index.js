@@ -22,16 +22,22 @@ async function coolmath() {
 		.each((i, elem) => {
 			promises.push(
 				(async (i, elem) => {
-					let gameurl = "https://www.coolmathgames.com" + $(elem).attr("href") + "/play";
+					let gameurl =
+						"https://www.coolmathgames.com" + $(elem).attr("href") + "/play";
 
 					const existprm = exists(gameurl);
 
-					if ($(elem).parent().siblings(".icon-gamethumbnail-all-game-pg").length != 0) return; // acts like continue
+					if (
+						$(elem).parent().siblings(".icon-gamethumbnail-all-game-pg")
+							.length != 0
+					)
+						return; // acts like continue
 					const gametext = $(elem).text();
 
 					let result = await existprm;
 
-					if (!result) gameurl = "https://www.coolmathgames.com" + $(elem).attr("href");
+					if (!result)
+						gameurl = "https://www.coolmathgames.com" + $(elem).attr("href");
 
 					console.log([gametext, gameurl]);
 					output.push([gametext, gameurl]);
@@ -55,7 +61,8 @@ async function edit() {
 		.each((i, elem) => {
 			promises.push(
 				(async (i, elem) => {
-					let gameurl = "https://edit.coolmath-games.com" + $(elem).attr("href") + "/play";
+					let gameurl =
+						"https://edit.coolmath-games.com" + $(elem).attr("href") + "/play";
 
 					const existprm = exists(gameurl);
 

@@ -3,7 +3,9 @@ console.log("Advanced features:");
 console.log(
 	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.',
 );
-console.log('Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.');
+console.log(
+	'Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.',
+);
 
 // Global variables
 const linknames = links.names; // a mapping from internal site names to display names
@@ -59,7 +61,8 @@ function getLocalStorage() {
 	if (!localStorage.openTab) localStorage.openTab = "NES";
 
 	// set coretoggle to what is currently in localStorage (defaults to inactive)
-	getId("coretoggle").className += " " + (localStorage.oldCores == "1" ? "active" : "inactive");
+	getId("coretoggle").className +=
+		" " + (localStorage.oldCores == "1" ? "active" : "inactive");
 
 	// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
 	switch (localStorage.emu) {
@@ -216,7 +219,9 @@ function renderLinks() {
 		a.textContent = game[0] + " - " + linknames[game[2]];
 		a.href = game[1];
 		a.style.color =
-			"hsl(" + (360 / linknamelist.length) * linknamelist.indexOf(game[2]) + ", 100%, 90%)";
+			"hsl(" +
+			(360 / linknamelist.length) * linknamelist.indexOf(game[2]) +
+			", 100%, 90%)";
 
 		p.textContent = "(" + game[3] + ")";
 
@@ -226,7 +231,9 @@ function renderLinks() {
 	const disp = getClass("pagedisplay");
 
 	Array.from(disp).forEach((element) => {
-		element.textContent = `Page ${page + 1} of ${Math.floor(matches.length / linksperpage) + 1}`;
+		element.textContent = `Page ${page + 1} of ${
+			Math.floor(matches.length / linksperpage) + 1
+		}`;
 	});
 }
 
