@@ -135,6 +135,14 @@ const emugames = {
 					},
 				],
 			},
+			"Buck Bumble": {
+				main: [
+					{
+						name: "Buck Bumble (USA)",
+						rom: "buckb",
+					},
+				],
+			},
 		},
 	},
 	DS: {
