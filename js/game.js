@@ -16,7 +16,9 @@ switch (localStorage.emu) {
 
 		var EJS_gameUrl = nopeeking + params.get("ver") + "/" + params.get("game") + ".zip";
 		var EJS_core = params.get("ver");
-		var EJS_DEBUG_XX = true; // keeping debug alwasy on because its handy and doesn't hurt performance too much
+
+		var EJS_DEBUG_XX = true; // turn on debugging if it is in production
+
 		if (localStorage.oldCores == "1") {
 			var EJS_oldCores = true;
 			console.log("Using old cores");
