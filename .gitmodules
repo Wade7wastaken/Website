@@ -1,9 +1,6 @@
 [submodule "Emulators/EmulatorJS"]
 	path = Emulators/EmulatorJS
 	url = https://github.com/EmulatorJS/EmulatorJS.git
-[submodule "Emulators/Desmond"]
-	path = Emulators/Desmond
-	url = https://github.com/js-emulators/desmond.git
 [submodule "Emulators/N64Wasm"]
 	path = Emulators/N64Wasm
 	url = https://github.com/nbarkhina/N64Wasm.git
