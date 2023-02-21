@@ -229,6 +229,14 @@ const emugames = {
 					},
 				],
 			},
+			"Homebrew Games": {
+				main: [
+					{
+						name: "Apeture Science DS (PortalDS)",
+						rom: "portalds",
+					},
+				],
+			},
 		},
 	},
 };
