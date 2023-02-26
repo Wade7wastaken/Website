@@ -4,7 +4,7 @@ if (!localStorage.emu) localStorage.emu = "EJS";
 
 switch (localStorage.emu) {
 	case "EJS": {
-		const base = document.getElementById("base");
+		const base = getId("base");
 
 		// ejs requires an inner div element to work. idk why
 		const innerDiv = document.createElement("div");
