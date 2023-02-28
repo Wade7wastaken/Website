@@ -18,7 +18,6 @@ jobs:
         working-directory: ./Scripts/minify
         run: npm install
       - name: Minify files
-        working-directory:
         run: node ./Scripts/minify/minify.js
         env:
           OUTPUT_BRANCH: minified
@@ -27,7 +26,7 @@ jobs:
         with:
           message: "Minify files"
           add: "Output/*"
-          branch: ${{ env.OUTPUT_BRANCH }}
+          #branch: ${{ env.OUTPUT_BRANCH }}
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
