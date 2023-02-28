@@ -7033,6 +7033,7 @@ const links = {
 		edit: "Coolmath Games Mirror",
 		unblocked66: "Unblocked Games 66 EZ",
 		google: "Google",
-		flash: "Flash",
+		ruffle: "Flash(Ruffle)",
+		waflash: "Flash(WAFlash)",
 	},
 };

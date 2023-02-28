@@ -149,7 +149,8 @@ function loadLinks() {
 	}
 
 	for (const game of flashgames) {
-		games.push([game[0], "./ruffle.html?game=" + game[1], "flash", "local"]);
+		games.push([game[0], "./ruffle.html?game=" + game[1], "ruffle", "local"]);
+		games.push([game[0], "./ruffle.html?game=" + game[1], "waflash", "local"]);
 	}
 
 	games.sort();
