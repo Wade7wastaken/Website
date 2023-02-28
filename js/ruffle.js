@@ -5,9 +5,13 @@ window.addEventListener("load", (event) => {
 	const ruffle = window.RufflePlayer.newest();
 	const player = ruffle.createPlayer();
 	getId("ruffle").appendChild(player);
-	player.load("https://rawcdn.githack.com/wade7wastaken/TrulyUnblockedGamesSWF/main/" + params.get("game") + ".swf");
-    // make it resizable
-    player.style.resize = "both";
-    player.style.overflow = "auto";
-    player.style.border = "2px solid";
+	player.load(
+		"https://rawcdn.githack.com/wade7wastaken/TrulyUnblockedGamesSWF/main/" +
+			params.get("game") +
+			".swf",
+	);
+	// make it resizable
+	player.style.resize = "both";
+	player.style.overflow = "auto";
+	player.style.border = "2px solid";
 });
