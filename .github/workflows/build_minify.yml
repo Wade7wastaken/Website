@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Load submodules
+        run: git submodule update --init --recursive
       - name: Install dependencies
         working-directory: ./Scripts/minify
         run: npm install
