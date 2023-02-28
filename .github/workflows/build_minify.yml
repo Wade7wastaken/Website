@@ -10,26 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@master
         with:
           submodules: recursive
-      #- name: Load submodules
-        #run: git submodule update --init --recursive
       - name: Install dependencies
         working-directory: ./Scripts/minify
         run: npm install
       - name: Minify files
         run: node ./Scripts/minify/minify.js
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@master
         with:
           message: "Minify files"
           default_author: github_actions
-          #add: "Output/"
-          #branch: ${{ env.OUTPUT_BRANCH }}
-      #- name: Push changes
-        #uses: ad-m/github-push-action@master
-        #with:
-          #default_author: github_actions
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          #branch: ${{ env.OUTPUT_BRANCH }}
