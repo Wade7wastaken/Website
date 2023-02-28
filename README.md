@@ -1,6 +1,6 @@
 # TrulyUnblockedGames
 
-[Primary Version](david.thecallenders.com)
+[Primary Version](http://david.thecallenders.com)
 
 [GitHub Pages](https://wade7wastaken.github.io/TrulyUnblockedGames/) (Console games currently don't work)
 
