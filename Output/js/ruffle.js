@@ -1,0 +1,1 @@
+const params=new URLSearchParams(window.location.search);window.RufflePlayer=window.RufflePlayer||{},window.addEventListener("load",e=>{var a=window.RufflePlayer.newest().createPlayer();getId("ruffle").appendChild(a),a.load(params.get("game")+".swf"),a.style.resize="both",a.style.overflow="auto",a.style.border="2px solid"});
