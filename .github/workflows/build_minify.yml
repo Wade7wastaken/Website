@@ -21,6 +21,8 @@ jobs:
         run: node ./Scripts/minify/minify.js
         env:
           OUTPUT_BRANCH: minified
+      - name: Debug
+        run: ls
       - name: Commit changes
         uses: EndBug/add-and-commit@v9.1.1
         with:
