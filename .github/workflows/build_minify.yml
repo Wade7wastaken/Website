@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install dependencies
+      working-directory: ./Scripts/minify
+      run: npm install
+    - name: Minify files
+      working-directory: ./Scripts/minify
+      run: node minify.js
+      env:
+        OUTPUT_BRANCH: minified
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: "Minify files"
+        add: "Output/*"
+        branch: ${{ env.OUTPUT_BRANCH }}
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        branch: ${{ env.OUTPUT_BRANCH }}
