@@ -114,6 +114,7 @@ function loop(loc) {
 						let outdir = outfile.split("/").slice(0, -1).join("/");
 						fs.mkdirSync(outdir, { recursive: true });
 						fs.copyFileSync(path, outfile);
+						console.log("File: " + path);
 					}
 				}
 			} else if (dirent.isDirectory()) {
