@@ -20,12 +20,13 @@ jobs:
         env:
           OUTPUT_BRANCH: minified
       - name: Commit changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9.1.1
         with:
           message: "Minify files"
           add: "Output/*"
           branch: ${{ env.OUTPUT_BRANCH }}
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.OUTPUT_BRANCH }}
