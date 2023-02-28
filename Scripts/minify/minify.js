@@ -61,10 +61,10 @@ function loop(loc) {
 										minifyJS: true,
 										minifyURLs: true,
 										quoteCharacter: '"',
-										removeAttributeQuotes: true,
+										//removeAttributeQuotes: true, // prettier doesnt like this
 										removeComments: true,
 										removeEmptyAttributes: true,
-										//removeOptionalTags: true,
+										removeOptionalTags: true,
 										removeRedundantAttributes: true,
 										removeScriptTypeAttributes: true,
 										removeStyleLinkTypeAttributes: true,
