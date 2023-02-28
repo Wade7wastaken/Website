@@ -147,6 +147,11 @@ function loadLinks() {
 			games.push([game[0], game[1], site, domain.hostname]);
 		}
 	}
+
+	for (const game of flashgames) {
+		games.push([game[0], game[1], "flash", "local"]);
+	}
+
 	games.sort();
 }
 
@@ -198,7 +203,7 @@ function renderLinks() {
 		a.style.color =
 			"hsl(" +
 			(360 / linknamelist.length) * linknamelist.indexOf(game[2]) +
-			", 100%, 90%)";
+			", 100%, 85%)";
 
 		p.textContent = "(" + game[3] + ")";
 
