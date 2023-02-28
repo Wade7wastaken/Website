@@ -27,7 +27,7 @@ jobs:
         uses: EndBug/add-and-commit@v9.1.1
         with:
           message: "Minify files"
-          add: "Output/*"
+          add: "Output/"
           #branch: ${{ env.OUTPUT_BRANCH }}
       - name: Push changes
         uses: ad-m/github-push-action@master
