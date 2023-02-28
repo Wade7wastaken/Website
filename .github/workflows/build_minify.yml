@@ -15,8 +15,8 @@ jobs:
         working-directory: ./Scripts/minify
         run: npm install
       - name: Minify files
-        working-directory: ./Scripts/minify
-        run: node minify.js
+        working-directory:
+        run: node ./Scripts/minify/minify.js
         env:
           OUTPUT_BRANCH: minified
       - name: Commit changes
