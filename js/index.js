@@ -26,11 +26,11 @@ loadLinks();
 
 addSiteSelectors();
 
-updateTabs(localStorage.openTab);
-
 sortLinks();
 
 renderLinks();
+
+updateTabs(localStorage.openTab);
 
 /**
  * Loads openTab, oldCores, and emu from localStorage
@@ -40,7 +40,7 @@ function getLocalStorage() {
 	if (!localStorage.openTab) localStorage.openTab = "NES";
 
 	// set coretoggle to what is currently in localStorage (defaults to inactive)
-	if (localStorage.oldCores == "1" ) getId("coretoggle").className += " active";
+	if (localStorage.oldCores == "1") getId("coretoggle").className += " active";
 
 	// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
 	switch (localStorage.emu) {
@@ -57,6 +57,38 @@ function getLocalStorage() {
 	}
 }
 
+/**
+ * Updates the tabs to the clicked on tab and shows/hides the proper content
+ * @param {string} tab The new active tab
+ */
+function updateTabs(tab) {
+	// updates the tabs and buttons
+	localStorage.openTab = tab;
+	let tabcontent = getClass("tabcontent");
+	for (let i = 0; i < tabcontent.length; i++) {
+		// hides all tabs
+		tabcontent[i].style.display = "none";
+	}
+	getId(tab).style.display = "block"; // shows the correct tab
+	let tabbuttons = getClass("tabbuttons");
+	for (let i = 0; i < tabbuttons.length; i++) {
+		// clears the active class from all tabs and adds the active class to the correct tab
+		tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+		if (tabbuttons[i].className.includes(tab)) {
+			tabbuttons[i].className += " active";
+		}
+	}
+	let hidden = getClass("webhidden");
+	let disp = tab == "Web" ? "none" : "inline";
+
+	for (let el of hidden) {
+		el.style.display = disp;
+	}
+}
+
+/**
+ * Loades all emulator games
+ */
 function loadEmuGames() {
 	const buttonParent = getId("buttonparent");
 
@@ -114,31 +146,9 @@ function loadEmuGames() {
 	buttonParent.append(web);
 }
 
-function updateTabs(tab) {
-	// updates the tabs and buttons
-	localStorage.openTab = tab;
-	let tabcontent = getClass("tabcontent");
-	for (let i = 0; i < tabcontent.length; i++) {
-		// hides all tabs
-		tabcontent[i].style.display = "none";
-	}
-	getId(tab).style.display = "block"; // shows the correct tab
-	let tabbuttons = getClass("tabbuttons");
-	for (let i = 0; i < tabbuttons.length; i++) {
-		// clears the active class from all tabs and adds the active class to the correct tab
-		tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
-		if (tabbuttons[i].className.includes(tab)) {
-			tabbuttons[i].className += " active";
-		}
-	}
-	let hidden = getClass("webhidden");
-	let disp = tab == "Web" ? "none" : "inline";
-
-	for (let el of hidden) {
-		el.style.display = disp;
-	}
-}
-
+/**
+ * Loads all links into games
+ */
 function loadLinks() {
 	const domain = document.createElement("a");
 	// loop over all keys in links
@@ -171,9 +181,12 @@ function loadLinks() {
 	games.sort();
 }
 
+/**
+ * Adds site filter buttons
+ */
 function addSiteSelectors() {
-	let main = document.getElementById("siteselector");
-	let btn = document.createElement("button");
+	const main = document.getElementById("siteselector");
+	const btn = document.createElement("button");
 	btn.className = "buttonslim";
 	btn.setAttribute("onclick", "togglesites(event);");
 	linknames.forEach((element) => {
@@ -183,6 +196,9 @@ function addSiteSelectors() {
 	});
 }
 
+/**
+ * Sorts links based on the search parameters
+ */
 function sortLinks() {
 	matches = [];
 
@@ -196,6 +212,9 @@ function sortLinks() {
 	}
 }
 
+/**
+ * Renders the sorted links (must be called after sortLinks())
+ */
 function renderLinks() {
 	main = getId("webgames");
 	main.innerHTML = "";
@@ -235,6 +254,35 @@ function renderLinks() {
 	});
 }
 
+function toggleEmulator() {
+	let main = getId("emulatortoggle");
+
+	if (main.textContent == "EmulatorJS") {
+		localStorage.emu = "NJS";
+		main.textContent = "NeptunJS";
+		getId("coretoggle").style.display = "none";
+	} else {
+		localStorage.emu = "EJS";
+		main.textContent = "EmulatorJS";
+		getId("coretoggle").style.display = "inline-block";
+	}
+}
+
+function toggleoldcores() {
+	let toggle = getId("coretoggle");
+	let classes = toggle.className.split(" ");
+
+	if (classes.includes("active")) {
+		classes.remove("active");
+		localStorage.oldCores = "0";
+	} else {
+		localStorage.oldCores = "1";
+		classes.push("active");
+	}
+
+	toggle.className = classes.join(" ");
+}
+
 function togglesites(event) {
 	const el = event.currentTarget;
 
@@ -253,35 +301,6 @@ function togglesites(event) {
 	onSearchInput();
 }
 
-function toggleoldcores() {
-	let toggle = getId("coretoggle");
-	let classes = toggle.className.split(" ");
-
-	if (classes.includes("active")) {
-		classes.remove("active");
-		localStorage.oldCores = "0";
-	} else {
-		localStorage.oldCores = "1";
-		classes.push("active");
-	}
-
-	toggle.className = classes.join(" ");
-}
-
-function toggleEmulator() {
-	let main = getId("emulatortoggle");
-
-	if (main.textContent == "EmulatorJS") {
-		localStorage.emu = "NJS";
-		main.textContent = "NeptunJS";
-		getId("coretoggle").style.display = "none";
-	} else {
-		localStorage.emu = "EJS";
-		main.textContent = "EmulatorJS";
-		getId("coretoggle").style.display = "inline-block";
-	}
-}
-
 function nextPage() {
 	if (page != Math.floor(matches.length / linksperpage)) {
 		page += 1;
@@ -297,7 +316,6 @@ function prevPage() {
 }
 
 function onSearchInput() {
-	console.log("running search input");
 	page = 0;
 	sortLinks();
 	renderLinks();
