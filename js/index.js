@@ -8,15 +8,17 @@ console.log(
 );
 
 // Global variables
-const linknames = links.names; // a mapping from internal site names to display names
-const linknamelist = Object.keys(links.names).sort(); // an array of the internal site names
+const links = { ...scrapelinks, ...customlinks };
+
+const linknames = remove(
+	Object.keys(links).concat(["Flash (Ruffle)", "Flash (WAFlash)"]),
+	"flash",
+).sort(); // an array of site names
 let page = 0; // the current page of links
 let games = []; // the main array of games
 let matches = [];
 let filteredsites = [];
 const linksperpage = 100; // 100 seems to be the max without causeing slowdowns on older computers
-
-delete links.names; // delete this so we can iterate through the object without this being there
 
 getLocalStorage(); // Loads openTab, oldCores, and emu from localStorage
 
@@ -140,17 +142,31 @@ function updateTabs(tab) {
 
 function loadLinks() {
 	const domain = document.createElement("a");
+	// loop over all keys in links
 	for (const site in links) {
 		let sitelist = links[site];
-		for (const game of sitelist) {
-			domain.href = game[1];
-			games.push([game[0], game[1], site, domain.hostname]);
+		// other logic for flash games
+		if (site == "flash") {
+			for (const game of sitelist) {
+				games.push([
+					game[0],
+					"./ruffle.html?game=" + game[1],
+					"Flash (Ruffle)",
+					"local",
+				]);
+				games.push([
+					game[0],
+					"./ruffle.html?game=" + game[1],
+					"Flash (WAFlash)",
+					"local",
+				]);
+			}
+		} else {
+			for (const game of sitelist) {
+				domain.href = game[1];
+				games.push([game[0], game[1], site, domain.hostname]);
+			}
 		}
-	}
-
-	for (const game of flashgames) {
-		games.push([game[0], "./ruffle.html?game=" + game[1], "ruffle", "local"]);
-		games.push([game[0], "./ruffle.html?game=" + game[1], "waflash", "local"]);
 	}
 
 	games.sort();
@@ -161,8 +177,8 @@ function addSiteSelectors() {
 	let btn = document.createElement("button");
 	btn.className = "buttonslim";
 	btn.setAttribute("onclick", "togglesites(event);");
-	linknamelist.forEach((element) => {
-		btn.textContent = linknames[element];
+	linknames.forEach((element) => {
+		btn.textContent = element;
 		btn.setAttribute("data", element);
 		main.appendChild(btn.cloneNode(true));
 	});
@@ -199,11 +215,11 @@ function renderLinks() {
 	const startvalue = page * linksperpage;
 
 	for (const game of matches.slice(startvalue, startvalue + linksperpage)) {
-		a.textContent = game[0] + " - " + linknames[game[2]];
+		a.textContent = game[0] + " - " + game[2];
 		a.href = game[1];
 		a.style.color =
 			"hsl(" +
-			(360 / linknamelist.length) * linknamelist.indexOf(game[2]) +
+			(360 / linknames.length) * linknames.indexOf(game[2]) +
 			", 100%, 85%)";
 
 		p.textContent = "(" + game[3] + ")";

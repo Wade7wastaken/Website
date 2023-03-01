@@ -1,8 +1,9 @@
 {
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[python]": {
-		"editor.defaultFoldingRangeProvider": "ms-python.python"
+		"editor.defaultFormatter": "ms-python.python"
 	},
 	"files.encoding": "utf8",
-	"liveServer.settings.port": 5500
+	"liveServer.settings.port": 5500,
+	"python.formatting.provider": "autopep8"
 }

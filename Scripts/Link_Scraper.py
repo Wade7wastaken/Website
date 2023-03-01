@@ -181,22 +181,20 @@ def google():
 
 def main():
     output = {}
-    output["coolmath"] = coolmath()
-    output["edit"] = edit()
-    output["unblocked66"] = unblocked66()
-    output["google"] = google()
+    output["Coolmath Games"] = coolmath()
+    output["Coolmath Games Mirror"] = edit()
+    output["Unblocked Games 66 EZ"] = unblocked66()
+    #output["Google"] = google()
 
-    output["names"] = {
-        "coolmath": "Coolmath Games", "edit": "Coolmath Games Mirror", "unblocked66": "Unblocked Games 66 EZ", "google": "Google"
-    }
+    print("Coolmath Games: " + str(len(output["Coolmath Games"])))
+    print("Coolmath Games Mirror: " +
+          str(len(output["Coolmath Games Mirror"])))
+    print("Unblocked Games 66 EZ: " +
+          str(len(output["Unblocked Games 66 EZ"])))
+    #print("Google: " + str(len(output["Google"])))
 
-    print("coolmath: " + str(len(output["coolmath"])))
-    print("edit: " + str(len(output["edit"])))
-    print("unblocked66: " + str(len(output["unblocked66"])))
-    print("google: " + str(len(output["google"])))
-
-    with open("data/links.js", "w+") as f:
-        f.write("const links=")
+    with open("data/scrapelinks.js", "w+") as f:
+        f.write("const scrapelinks=")
         f.write(json.dumps(output, separators=(',', ':')))
 
 
