@@ -156,7 +156,7 @@ function loadLinks() {
 				]);
 				games.push([
 					game[0],
-					"./ruffle.html?game=" + game[1],
+					"./waflash.html?game=" + game[1],
 					"Flash (WAFlash)",
 					"local",
 				]);

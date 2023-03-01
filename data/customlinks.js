@@ -23,5 +23,6 @@ const customlinks = {
 		["Into Space", "into-space"],
 		["Into Space 2", "into-space-2"],
 		["Into Space 3 Christmas Story", "into-space-3-xmas-story"],
+		["Super Smash Flash 2", "supersmashflash2"],
 	],
 };
