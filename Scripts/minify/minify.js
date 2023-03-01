@@ -3,7 +3,7 @@ const htmlminifier = require("html-minifier");
 const csso = require("csso");
 const UglifyJS = require("uglify-js");
 
-const ignored_folders = ["Output", "Scripts", "form", "N64Wasm"];
+const ignored_folders = ["Output", "Scripts", "N64Wasm"];
 const ignored_endings = ["md"];
 const endings_to_process = ["css", "js", "json", "html"];
 
