@@ -1,4 +1,3 @@
-// page loading stuff
 console.log("Advanced features:");
 console.log(
 	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.',
@@ -8,40 +7,40 @@ console.log(
 );
 
 // Global variables
-const links = { ...scrapelinks, ...customlinks };
-
-const linknames = remove(
-	Object.keys(links).concat(["Flash (Ruffle)", "Flash (WAFlash)"]),
-	"flash",
-).sort(); // an array of site names
+const links = { ...scrapelinks, ...customlinks }; // combine scrapelinks and customlinks into one variable
+const linknames = Object.keys(links)
+	.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
+	.remove("flash")
+	.sort(); // an array of site names
 let page = 0; // the current page of links
 let games = []; // the main array of games
-let matches = [];
-let filteredsites = [];
+let matches = []; // an array of games that meet the search criteria
+let filteredsites = []; // an array of sites that are filtered out
 const linksperpage = 100; // 100 seems to be the max without causeing slowdowns on older computers
 
-getLocalStorage(); // Loads openTab, oldCores, and emu from localStorage
+getLocalStorage();
 
 loadEmuGames();
-
-updateTabs(localStorage.openTab);
 
 loadLinks();
 
 addSiteSelectors();
 
+updateTabs(localStorage.openTab);
+
 sortLinks();
 
 renderLinks();
 
-// major functions
+/**
+ * Loads openTab, oldCores, and emu from localStorage
+ */
 function getLocalStorage() {
 	// default openTab to NES
 	if (!localStorage.openTab) localStorage.openTab = "NES";
 
 	// set coretoggle to what is currently in localStorage (defaults to inactive)
-	getId("coretoggle").className +=
-		" " + (localStorage.oldCores == "1" ? "active" : "inactive");
+	if (localStorage.oldCores == "1" ) getId("coretoggle").className += " active";
 
 	// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
 	switch (localStorage.emu) {
@@ -242,8 +241,8 @@ function togglesites(event) {
 	let classes = el.className.split(" ");
 
 	if (classes.includes("active")) {
-		classes = remove(classes, "active");
-		filteredsites = remove(filteredsites, el.attributes["data"].nodeValue);
+		classes.remove("active");
+		filteredsites.remove(el.attributes["data"].nodeValue);
 	} else {
 		classes.push("active");
 		filteredsites.push(el.attributes["data"].nodeValue);
@@ -259,7 +258,7 @@ function toggleoldcores() {
 	let classes = toggle.className.split(" ");
 
 	if (classes.includes("active")) {
-		classes = remove(classes, "active");
+		classes.remove("active");
 		localStorage.oldCores = "0";
 	} else {
 		localStorage.oldCores = "1";

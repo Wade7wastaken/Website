@@ -22,12 +22,25 @@ function getClass(className) {
  * @param {*} value The value to remove
  * @returns The input array with the specific value removed
  */
-function remove(arr, value) {
+/*function remove(arr, value) {
 	var index = arr.indexOf(value);
 	if (index > -1) {
 		arr.splice(index, 1);
 	}
 	return arr;
+}*/
+
+/**
+ * Removes a value from an array and returns the new array
+ * @param {*} value The value to remove
+ * @returns The updated array
+ */
+Array.prototype.remove = function(value) {
+	let index = this.indexOf(value);
+	if (index > -1) {
+		this.splice(index, 1);
+	}
+	return this;
 }
 
 /**
