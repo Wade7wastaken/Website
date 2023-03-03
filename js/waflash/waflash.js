@@ -1,3 +1,5 @@
+// This code is from unblockedgames66ez, but adapted to this website by me
+
 var ua = navigator.userAgent.toLowerCase();
 if (
 	(navigator.appName == "Netscape" && ua.indexOf("trident") != -1) ||

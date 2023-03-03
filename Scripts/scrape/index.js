@@ -1,3 +1,5 @@
+// I'm letting this version go, I just found it to difficult. If someone wants to port the rest of the python code, that would be much appreciated
+
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");

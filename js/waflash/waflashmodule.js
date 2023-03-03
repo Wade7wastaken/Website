@@ -1,3 +1,5 @@
+// This code is from unblockedgames66ez, but adapted to this website by me
+
 let is_mobile = /Mobi/i.test(window.navigator.userAgent);
 if (is_mobile) {
 	function scrollToSubject() {

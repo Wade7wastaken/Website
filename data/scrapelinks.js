@@ -387,6 +387,10 @@ const scrapelinks = {
 			"https://www.coolmathgames.com/0-connect-the-roads/play",
 		],
 		["Connected", "https://www.coolmathgames.com/0-connected/play"],
+		[
+			"Connected Towers",
+			"https://www.coolmathgames.com/0-connected-towers/play",
+		],
 		["Connection", "https://www.coolmathgames.com/0-connection/play"],
 		["Constellation", "https://www.coolmathgames.com/0-constellation/play"],
 		[
@@ -1098,6 +1102,7 @@ const scrapelinks = {
 			"https://www.coolmathgames.com/0-mahjong-for-christmas/play",
 		],
 		["Mainlands Wars", "https://www.coolmathgames.com/0-mainlands-wars/play"],
+		["Make The Cube", "https://www.coolmathgames.com/0-make-the-cube/play"],
 		["Mancala", "https://www.coolmathgames.com/0-mancala/play"],
 		["Mango Mania", "https://www.coolmathgames.com/0-mango-mania/play"],
 		["Maptroid", "https://www.coolmathgames.com/0-maptroid/play"],
@@ -1120,6 +1125,10 @@ const scrapelinks = {
 		["Maze", "https://www.coolmathgames.com/0-maze/play"],
 		["Maze 64", "https://www.coolmathgames.com/0-maze-64/play"],
 		["Maze Challenge", "https://www.coolmathgames.com/0-maze-challenge/play"],
+		[
+			"Me and Another Me",
+			"https://www.coolmathgames.com/0-me-and-another-me/play",
+		],
 		[
 			"Me and My Launcher",
 			"https://www.coolmathgames.com/0-me-and-my-launcher/play",
@@ -1804,6 +1813,10 @@ const scrapelinks = {
 			"https://www.coolmathgames.com/0-tail-of-the-dragon/play",
 		],
 		["Tako Bubble", "https://www.coolmathgames.com/0-tako-bubble/play"],
+		[
+			"Tamachi Explosive Adventure",
+			"https://www.coolmathgames.com/0-tamachi-explosive-adventure/play",
+		],
 		["Tangleshapes", "https://www.coolmathgames.com/0-tangleshapes/play"],
 		["Tarzan Ball", "https://www.coolmathgames.com/0-tarzan-ball/play"],
 		[
@@ -1857,6 +1870,10 @@ const scrapelinks = {
 		],
 		["The Schema", "https://www.coolmathgames.com/0-the-schema/play"],
 		["The Sky House", "https://www.coolmathgames.com/0-the-sky-house/play"],
+		[
+			"The Smurfs: Village Cleaning",
+			"https://www.coolmathgames.com/0-the-smurfs-village-cleaning/play",
+		],
 		[
 			"The Spectacular Lefty and Righty",
 			"https://www.coolmathgames.com/0-the-spectacular-lefty-and-righty/play",
@@ -3580,6 +3597,10 @@ const scrapelinks = {
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://835140793-361837406927483175.preview.editmysite.com/uploads/b/139890129-331646845806169131/files/bntower.xml",
 		],
 		[
+			"Big Tall Small",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://538104932-173620588274136504.preview.editmysite.com/uploads/b/139890129-436559681805495872/files/bts.xml",
+		],
+		[
 			"Big Tower Tiny Square",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@e5e9185f3853af2f524d5d7039ffa0ed0fdc8e3b/ge4q26/btts.xml",
 		],
@@ -3840,6 +3861,10 @@ const scrapelinks = {
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://183650283-372551307294772945.preview.editmysite.com/uploads/b/139890129-520594963191552353/files/cho.xml",
 		],
 		[
+			"CircloO 2",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://218650836-639104836294117402.preview.editmysite.com/uploads/b/139890129-763278518475418313/files/crlo2.xml",
+		],
+		[
 			"Civilizations Wars",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fcivilizations-wars.xml",
 		],
@@ -4010,6 +4035,10 @@ const scrapelinks = {
 		[
 			"Curveball",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fcurveball.xml",
+		],
+		[
+			"Cut and Dunk",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://429501738-163829673055841933.preview.editmysite.com/uploads/b/139890129-903035575386050284/files/cad.xml",
 		],
 		[
 			"Cut the Rope",
@@ -4183,6 +4212,10 @@ const scrapelinks = {
 		[
 			"Duel of Wizards",
 			"https://sites.google.com/site/unblockedgames66ez/duel-of-wizards",
+		],
+		[
+			"Dunk Shot",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://274539104-375910364482639571.preview.editmysite.com/uploads/b/139890129-908503369318119606/files/ds.xml",
 		],
 		[
 			"Earn to Die 2012 Part 2",
@@ -4730,6 +4763,10 @@ const scrapelinks = {
 		[
 			"Funny Tennis",
 			"https://sites.google.com/site/unblockedgames66ez/funny-tennis",
+		],
+		[
+			"Funny Wheels Racers",
+			"https://sites.google.com/site/unblockedgames66ez/funny-wheels-racers",
 		],
 		[
 			"Future Buddy",
@@ -5997,10 +6034,6 @@ const scrapelinks = {
 			"https://sites.google.com/site/unblockedgames66ez/rabbit-samurai-2",
 		],
 		[
-			"Racemasters",
-			"https://sites.google.com/site/unblockedgames66ez/racemasters",
-		],
-		[
 			"Racing Jump",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@55635df1b10d2237707bd48a43dbb4ee1fcbb1fc/ujdf48v/racing-jump.xml",
 		],
@@ -6615,6 +6648,10 @@ const scrapelinks = {
 		],
 		["Sprinter", "https://sites.google.com/site/unblockedgames66ez/sprinter"],
 		[
+			"Springy Walk",
+			"https://sites.google.com/site/unblockedgames66ez/springy-walk",
+		],
+		[
 			"Squadd Royale",
 			"https://sites.google.com/site/unblockedgames66ez/squadd-royale",
 		],
@@ -6887,6 +6924,7 @@ const scrapelinks = {
 			"Tail Swing",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://837501352-284751047264931735.preview.editmysite.com/uploads/b/139890129-891932832599494216/files/ts.xml",
 		],
+		["Takeover", "https://sites.google.com/site/unblockedgames66ez/takeover"],
 		[
 			"Talking Tom Run",
 			"https://sites.google.com/site/unblockedgames66ez/talking-tom-run",
@@ -7118,6 +7156,7 @@ const scrapelinks = {
 			"Tiny Fishing",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/tf.xml",
 		],
+		["Tiny Tomb", "https://sites.google.com/site/unblockedgames66ez/tiny-tomb"],
 		[
 			"Tom and Jerry Run",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if9dv@cbc2d4bcd2eff275bb954a2c30de99d12dd6d4ca/3dgf6h/d8g3s.xml",

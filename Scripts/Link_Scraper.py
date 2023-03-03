@@ -6,13 +6,6 @@ import concurrent.futures
 debug = True
 
 
-def _exists_old(url):
-    page = requests.get(url)
-    if page.status_code != 404:
-        return True
-    return False
-
-
 def exists(url):
     return requests.head(url).status_code == 200
 
@@ -32,8 +25,6 @@ def editprocessgame(game):
 
 
 def edit():
-    output = []
-
     url = "https://edit.coolmath-games.com/1-complete-game-list/view-all"
     page = requests.get(url)
 
@@ -144,11 +135,6 @@ def unblocked66():
 
     games = soup.find_all(attrs={"class": "jYxBte Fpy8Db"})[0].contents
 
-    # unblocked66processgame(games[3])
-
-    # for game in games:
-    # unblocked66processgame(game)
-
     with concurrent.futures.ThreadPoolExecutor() as executor:
         results = executor.map(unblocked66processgame, games)
 
@@ -157,41 +143,17 @@ def unblocked66():
         return results
 
 
-def google():
-    return [
-        ["Google Snake", "https://www.google.com/fbx?fbx=snake_arcade"],
-
-        ["Google Minesweeper", "https://www.google.com/fbx?fbx=minesweeper"],
-
-        ["Google Pacman", "https://www.google.com/fbx?fbx=pacman"],
-
-        ["Google Tic-Tac-Toe", "https://www.google.com/fbx?fbx=tic_tac_toe"],
-
-        ["Google Solitaire", "https://www.google.com/fbx?fbx=solitaire"],
-
-        ["Google Doodle Baseball",
-         "https://www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en&sdoodles=1"],
-
-        ["Google Doodle Halloween",
-         "https://www.google.com/logos/2020/halloween20/rc1/halloween20.html?hl=en&sdoodles=1"],
-
-        ["All Google Doodles", "https://www.google.com/doodles"]
-    ]
-
-
 def main():
     output = {}
     output["Coolmath Games"] = coolmath()
     output["Coolmath Games Mirror"] = edit()
     output["Unblocked Games 66 EZ"] = unblocked66()
-    #output["Google"] = google()
 
     print("Coolmath Games: " + str(len(output["Coolmath Games"])))
     print("Coolmath Games Mirror: " +
           str(len(output["Coolmath Games Mirror"])))
     print("Unblocked Games 66 EZ: " +
           str(len(output["Unblocked Games 66 EZ"])))
-    #print("Google: " + str(len(output["Google"])))
 
     with open("data/scrapelinks.js", "w+") as f:
         f.write("const scrapelinks=")
