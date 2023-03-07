@@ -25,4 +25,5 @@ const customlinks = {
 		["Into Space 3 Christmas Story", "into-space-3-xmas-story"],
 		["Super Smash Flash 2", "supersmashflash2"],
 	],
+	Other: [["Push Your Luck", "https://html5-games.io/game/push-your-lucky/"]],
 };

@@ -10,8 +10,8 @@ console.log(
 const links = { ...scrapelinks, ...customlinks }; // combine scrapelinks and customlinks into one variable
 const linknames = Object.keys(links)
 	.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
-	.remove("flash")
-	.sort(); // an array of site names
+	.remove("flash"); // an array of site names
+//.sort();
 let page = 0; // the current page of links
 let games = []; // the main array of games
 let matches = []; // an array of games that meet the search criteria
