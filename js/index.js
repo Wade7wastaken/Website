@@ -216,7 +216,7 @@ function sortLinks() {
  * Renders the sorted links (must be called after sortLinks())
  */
 function renderLinks() {
-	main = getId("webgames");
+	const main = getId("webgames");
 	main.innerHTML = "";
 
 	const div = document.createElement("div");
