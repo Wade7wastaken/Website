@@ -320,3 +320,7 @@ function onSearchInput() {
 	sortLinks();
 	renderLinks();
 }
+
+function randomGame() {
+	window.open(matches[Math.floor(Math.random() * matches.length)][1]);
+}

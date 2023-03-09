@@ -1,12 +1,24 @@
+const validEmulators = ["EJS", "NJS"];
+
 // get url queries (?game=)
 const params = new URLSearchParams(window.location.search);
 
-// set emu if it doesn't exist to ejs
-if (!localStorage.emu) localStorage.emu = "EJS";
+// set emu to EJS if it doesn't exist
+if (!localStorage.emu) {
+	localStorage.emu = "EJS";
+}
+// if emu isn't valid, set it to ejs
+if (!validEmulators.includes(localStorage.emu)) {
+	localStorage.emu = "EJS";
+}
 
 switch (localStorage.emu) {
 	case "EJS": {
 		const base = getId("base");
+		
+		// make the div resizable
+		base.style.resize = "both";
+		base.style.overflow = "auto";
 
 		// ejs requires an inner div element to work. idk why
 		const innerDiv = document.createElement("div");
