@@ -56,6 +56,10 @@ const scrapelinks = {
 		["Alarmy", "https://www.coolmathgames.com/0-alarmy/play"],
 		["Alfi", "https://www.coolmathgames.com/0-alfi/play"],
 		["Amidst the Sky", "https://www.coolmathgames.com/0-amidst-the-sky/play"],
+		[
+			"An Ordinary Adventure",
+			"https://www.coolmathgames.com/0-an-ordinary-adventure/play",
+		],
 		["Animail", "https://www.coolmathgames.com/0-animail/play"],
 		[
 			"Another Gentleman's Adventure",
@@ -1307,6 +1311,7 @@ const scrapelinks = {
 		["Ozark Rush", "https://www.coolmathgames.com/0-ozark-rush/play"],
 		["Pack The Graves", "https://www.coolmathgames.com/0-pack-the-graves/play"],
 		["Paddle Pals", "https://www.coolmathgames.com/0-paddle-pals/play"],
+		["Papa's Bakeria", "https://www.coolmathgames.com/0-papas-bakeria/play"],
 		["Papa's Burgeria", "https://www.coolmathgames.com/0-papas-burgeria/play"],
 		[
 			"Papa's Cupcakeria",
@@ -1646,6 +1651,7 @@ const scrapelinks = {
 			"Snappy Maps: USA",
 			"https://www.coolmathgames.com/0-snappy-maps-usa/play",
 		],
+		["Sneks", "https://www.coolmathgames.com/0-sneks/play"],
 		[
 			"Snowball Christmas World",
 			"https://www.coolmathgames.com/0-snowball-christmas-world/play",
@@ -1796,6 +1802,7 @@ const scrapelinks = {
 		["Sweet Jelly", "https://www.coolmathgames.com/0-sweet-jelly/play"],
 		["Swing Monkey", "https://www.coolmathgames.com/0-swing-monkey/play"],
 		["Swing Sticks", "https://www.coolmathgames.com/0-swing-sticks/play"],
+		["Swipepi", "https://www.coolmathgames.com/0-swipepi/play"],
 		["Swipex", "https://www.coolmathgames.com/0-swipex/play"],
 		[
 			"Switchways: Dimensions",
@@ -1824,6 +1831,10 @@ const scrapelinks = {
 			"https://www.coolmathgames.com/0-tauriel-teaches-typing/play",
 		],
 		["Taxi Pickup", "https://www.coolmathgames.com/0-taxi-pickup/play"],
+		[
+			"Telephone Trouble",
+			"https://www.coolmathgames.com/0-telephone-trouble/play",
+		],
 		["Teleport Jumper", "https://www.coolmathgames.com/0-teleport-jumper/play"],
 		[
 			"Temple of the Four Serpents",
@@ -3417,6 +3428,10 @@ const scrapelinks = {
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fadam-and-eve-3.xml",
 		],
 		[
+			"Adam and Eve 6",
+			"https://sites.google.com/site/unblockedgames66ez/adam-and-eve-6",
+		],
+		[
 			"Agario Lite",
 			"https://sites.google.com/site/unblockedgames66ez/agario-lite",
 		],
@@ -3463,6 +3478,10 @@ const scrapelinks = {
 		[
 			"Armed With Wings 2",
 			"https://sites.google.com/site/unblockedgames66ez/armed-with-wings-2",
+		],
+		[
+			"Armour Clash",
+			"https://sites.google.com/site/unblockedgames66ez/armour-clash",
 		],
 		[
 			"Army Commander",
@@ -3957,6 +3976,14 @@ const scrapelinks = {
 			"https://sites.google.com/site/unblockedgames66ez/color-by-number",
 		],
 		[
+			"Color Shoot",
+			"https://sites.google.com/site/unblockedgames66ez/color-shoot",
+		],
+		[
+			"Color Switch",
+			"https://sites.google.com/site/unblockedgames66ez/color-switch",
+		],
+		[
 			"Copter vs Tank EZ",
 			"https://sites.google.com/site/unblockedgames66ez/copter-vs-tank-ez",
 		],
@@ -4043,6 +4070,10 @@ const scrapelinks = {
 		[
 			"Cut the Rope",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://638401824-140825937501728463.preview.editmysite.com/uploads/b/139890129-351488130894771558/files/ctr.xml",
+		],
+		[
+			"Cut the Rope: Time Travel",
+			"https://sites.google.com/site/unblockedgames66ez/cut-the-rope-time-travel",
 		],
 		[
 			"Cyberpunk: Resistance",
@@ -4178,6 +4209,10 @@ const scrapelinks = {
 			"https://sites.google.com/site/unblockedgames66ez/drift-racing",
 		],
 		[
+			"Drive A Cat",
+			"https://sites.google.com/site/unblockedgames66ez/drive-a-cat",
+		],
+		[
 			"Drive Mad",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://295734015-153005836283618337.preview.editmysite.com/uploads/b/139890129-329349294395718866/files/dm.xml",
 		],
@@ -4212,6 +4247,10 @@ const scrapelinks = {
 		[
 			"Duel of Wizards",
 			"https://sites.google.com/site/unblockedgames66ez/duel-of-wizards",
+		],
+		[
+			"Dungeon Adventure",
+			"https://sites.google.com/site/unblockedgames66ez/dungeon-adventure",
 		],
 		[
 			"Dunk Shot",
@@ -4404,6 +4443,10 @@ const scrapelinks = {
 		[
 			"Extreme Ball",
 			"https://sites.google.com/site/unblockedgames66ez/extreme-ball",
+		],
+		[
+			"Extreme Bikers",
+			"https://sites.google.com/site/unblockedgames66ez/extreme-bikers",
 		],
 		[
 			"Factory Balls",
@@ -4869,6 +4912,7 @@ const scrapelinks = {
 			"Gold Miner",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if8dv@6c0a0ae452aba09d821673f5690e9437598d6451/5hd6jh/d8g3s.xml",
 		],
+		["Golf Park", "https://sites.google.com/site/unblockedgames66ez/golf-park"],
 		[
 			"Google Doodle Baseball",
 			"https://sites.google.com/site/unblockedgames66ez/google-doodle-baseball",
@@ -5282,6 +5326,10 @@ const scrapelinks = {
 			"https://sites.google.com/site/unblockedgames66ez/kiba-and-kumba",
 		],
 		[
+			"Kids vs Ice Cream",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fkids-vs-ice-cream.xml",
+		],
+		[
 			"Kindergarten",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fkindergarten.xml",
 		],
@@ -5358,6 +5406,10 @@ const scrapelinks = {
 		[
 			"Light It Up",
 			"https://sites.google.com/site/unblockedgames66ez/light-it-up",
+		],
+		[
+			"Life in the Static",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://371846205-173620047382271593.preview.editmysite.com/uploads/b/139890129-468572850586498933/files/lits.xml",
 		],
 		[
 			"Line Rider",
@@ -5475,6 +5527,10 @@ const scrapelinks = {
 			"https://sites.google.com/site/unblockedgames66ez/minecraft-remake",
 		],
 		[
+			"Minecraft Skin Editor",
+			"https://sites.google.com/site/unblockedgames66ez/minecraft-skin-editor",
+		],
+		[
 			"Minecraft Skyblock",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://369472517-638573637225069371.preview.editmysite.com/uploads/b/139890129-584561123718065342/files/skyblocs.xml",
 		],
@@ -5530,6 +5586,14 @@ const scrapelinks = {
 		[
 			"Modern Blocky Paint",
 			"https://sites.google.com/site/unblockedgames66ez/modern-blocky-paint",
+		],
+		[
+			"Money Movers 2",
+			"https://sites.google.com/site/unblockedgames66ez/money-movers-2",
+		],
+		[
+			"Monkey Mart",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://218463058-163927403382736103.preview.editmysite.com/uploads/b/139890129-297434511671085883/files/mm.xml",
 		],
 		[
 			"Monkey GO Happy",
@@ -5628,6 +5692,10 @@ const scrapelinks = {
 		[
 			"Neon Blaster",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if1dv@6cf9112f6ecb33d74d6a200af3d02c773e757429/hy4er63/bb.xml",
+		],
+		[
+			"Neon Guitar",
+			"https://sites.google.com/site/unblockedgames66ez/neon-guitar",
 		],
 		[
 			"New Super Mario Flash",
@@ -6178,6 +6246,7 @@ const scrapelinks = {
 			"Robo Fighter",
 			"https://sites.google.com/site/unblockedgames66ez/robo-fighter",
 		],
+		["Road Fury", "https://sites.google.com/site/unblockedgames66ez/road-fury"],
 		[
 			"Robot Unicorn Attack",
 			"https://sites.google.com/site/unblockedgames66ez/robot-unicorn-attack",
@@ -6607,6 +6676,10 @@ const scrapelinks = {
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@f01e5191f117ff155895d6a56258be772536d7ab/bm4x7n/space_balls.xml",
 		],
 		[
+			"Space Racing",
+			"https://sites.google.com/site/unblockedgames66ez/space-racing",
+		],
+		[
 			"Space Thing",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://470113582-152950052461873527.preview.editmysite.com/uploads/b/139890129-950550426932561582/files/st.xml",
 		],
@@ -6895,6 +6968,10 @@ const scrapelinks = {
 		[
 			"Swamp Attack",
 			"https://sites.google.com/site/unblockedgames66ez/swamp-attack",
+		],
+		[
+			"Sweet Candy",
+			"https://sites.google.com/site/unblockedgames66ez/sweet-candy",
 		],
 		[
 			"Swimming Pro",
@@ -7405,7 +7482,15 @@ const scrapelinks = {
 			"Vex 6",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://882300221708216345-489941489768578779.preview.editmysite.com/uploads/b/139890129-360170156295738788/files/vx6.xml",
 		],
+		[
+			"Viking Dash",
+			"https://sites.google.com/site/unblockedgames66ez/viking-dash",
+		],
 		["Visitors", "https://sites.google.com/site/unblockedgames66ez/visitors"],
+		[
+			"Volley Random",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://274105583-163826330694719375.preview.editmysite.com/uploads/b/139890129-613310438668365288/files/vr.xml",
+		],
 		[
 			"Warfare 1917",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2FWarfare_1917.xml",
@@ -7413,6 +7498,10 @@ const scrapelinks = {
 		[
 			"Warfare 1944",
 			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2FWarfare_1944.xml",
+		],
+		[
+			"Warlords",
+			"https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fwarlords.xml",
 		],
 		[
 			"Wavy Trip",
@@ -7480,6 +7569,10 @@ const scrapelinks = {
 		],
 		["Zig-Zag", "https://sites.google.com/site/unblockedgames66ez/zig-zag"],
 		[
+			"Zombie Derby",
+			"https://sites.google.com/site/unblockedgames66ez/zombie-derby",
+		],
+		[
 			"Zombie Derby 2",
 			"https://sites.google.com/site/unblockedgames66ez/zombie-derby-2",
 		],
@@ -7534,6 +7627,10 @@ const scrapelinks = {
 		],
 		["ZomCraft", "https://sites.google.com/site/unblockedgames66ez/zomcraft"],
 		["Zoo Run", "https://sites.google.com/site/unblockedgames66ez/zoo-run"],
+		[
+			"Zuma Shooter",
+			"https://sites.google.com/site/unblockedgames66ez/zuma-shooter",
+		],
 		["Feedback", "https://sites.google.com/site/unblockedgames66ez/feedback"],
 	],
 };
