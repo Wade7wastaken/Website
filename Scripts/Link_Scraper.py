@@ -155,8 +155,8 @@ def main():
     print("Unblocked Games 66 EZ: " +
           str(len(output["Unblocked Games 66 EZ"])))
 
-    with open("data/scrapelinks.js", "w+") as f:
-        f.write("const scrapelinks=")
+    with open("data/scrapelinks.json", "w+") as f:
+        #f.write("const scrapelinks=")
         f.write(json.dumps(output, separators=(',', ':')))
 
 

@@ -1,3 +1,12 @@
+// Global Variables
+const linksperpage = 100; // 100 seems to be the max without causeing slowdowns on older computers
+let linknames = [];
+let emugames;
+let page = 0; // the current page of links
+let games = []; // the main array of games
+let matches = []; // an array of games that meet the search criteria
+let filteredsites = []; // an array of sites that are filtered out
+
 console.log("Advanced features:");
 console.log(
 	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.',
@@ -6,31 +15,93 @@ console.log(
 	'Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.',
 );
 
-// Global variables
-const links = { ...scrapelinks, ...customlinks }; // combine scrapelinks and customlinks into one variable
-const linknames = Object.keys(links)
-	.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
-	.remove("flash"); // an array of site names
-//.sort();
-let page = 0; // the current page of links
-let games = []; // the main array of games
-let matches = []; // an array of games that meet the search criteria
-let filteredsites = []; // an array of sites that are filtered out
-const linksperpage = 100; // 100 seems to be the max without causeing slowdowns on older computers
+const mainPrm = (async () => {
+	await fetchLinks();
 
-getLocalStorage();
+	getLocalStorage();
 
-loadEmuGames();
+	loadEmuGames();
 
-loadLinks();
+	addSiteSelectors();
 
-addSiteSelectors();
+	sortLinks();
 
-sortLinks();
+	renderLinks();
 
-renderLinks();
+	updateTabs(localStorage.openTab);
+})();
 
-updateTabs(localStorage.openTab);
+async function fetchLinks() {
+	await Promise.all(
+		((paths) => {
+			let promises = [];
+			paths.forEach((pathdata) => {
+				promises.push(
+					fetch(`./data/${pathdata[0]}.json`)
+						.then((res) => {
+							return res.json();
+						})
+						.then((data) => {
+							//console.log(data);
+							pathdata[1](data);
+						})
+						.catch((err) => {
+							throw new Error(`Error fetching ${pathdata[0]}: ${err}`);
+						}),
+				);
+			});
+			return promises;
+		})([
+			["scrapelinks", processLinks],
+			["customlinks", processLinks],
+			[
+				"emugames",
+				(data) => {
+					emugames = data;
+				},
+			],
+		]),
+	).then(() => {
+		games.sort();
+
+		linknames = linknames
+			.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
+			.remove("flash")
+			.sort();
+		// Make sure other is at the end
+		linknames.remove("Other");
+		linknames.push("Other");
+	});
+
+	function processLinks(data) {
+		const domain = document.createElement("a");
+		for (const site in data) {
+			linknames.push(site);
+			const sitelist = data[site];
+			if (site == "flash") {
+				for (const game of sitelist) {
+					games.push([
+						game[0],
+						"./ruffle.html?game=" + game[1],
+						"Flash (Ruffle)",
+						"local",
+					]);
+					games.push([
+						game[0],
+						"./waflash.html?game=" + game[1],
+						"Flash (WAFlash)",
+						"local",
+					]);
+				}
+			} else {
+				for (const game of sitelist) {
+					domain.href = game[1];
+					games.push([game[0], game[1], site, domain.hostname]);
+				}
+			}
+		}
+	}
+}
 
 /**
  * Loads openTab, oldCores, and emu from localStorage
@@ -61,7 +132,8 @@ function getLocalStorage() {
  * Updates the tabs to the clicked on tab and shows/hides the proper content
  * @param {string} tab The new active tab
  */
-function updateTabs(tab) {
+async function updateTabs(tab) {
+	await mainPrm;
 	// updates the tabs and buttons
 	localStorage.openTab = tab;
 	let tabcontent = getClass("tabcontent");
@@ -254,7 +326,8 @@ function renderLinks() {
 	});
 }
 
-function toggleEmulator() {
+async function toggleEmulator() {
+	await mainPrm;
 	let main = getId("emulatortoggle");
 
 	if (main.textContent == "EmulatorJS") {
@@ -268,7 +341,8 @@ function toggleEmulator() {
 	}
 }
 
-function toggleoldcores() {
+async function toggleoldcores() {
+	await mainPrm;
 	let toggle = getId("coretoggle");
 	let classes = toggle.className.split(" ");
 
@@ -283,7 +357,8 @@ function toggleoldcores() {
 	toggle.className = classes.join(" ");
 }
 
-function togglesites(event) {
+async function togglesites(event) {
+	await mainPrm;
 	const el = event.currentTarget;
 
 	let classes = el.className.split(" ");
@@ -301,26 +376,30 @@ function togglesites(event) {
 	onSearchInput();
 }
 
-function nextPage() {
+async function nextPage() {
+	await mainPrm;
 	if (page != Math.floor(matches.length / linksperpage)) {
 		page += 1;
 		renderLinks();
 	}
 }
 
-function prevPage() {
+async function prevPage() {
+	await mainPrm;
 	if (page != 0) {
 		page -= 1;
 		renderLinks();
 	}
 }
 
-function onSearchInput() {
+async function onSearchInput() {
+	await mainPrm;
 	page = 0;
 	sortLinks();
 	renderLinks();
 }
 
-function randomGame() {
+async function randomGame() {
+	await mainPrm;
 	window.open(matches[Math.floor(Math.random() * matches.length)][1]);
 }
