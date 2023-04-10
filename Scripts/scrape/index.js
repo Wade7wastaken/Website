@@ -1,8 +1,5 @@
-// I'm letting this version go, I just found it to difficult. If someone wants to port the rest of the python code, that would be much appreciated
-
 const axios = require("axios");
 const cheerio = require("cheerio");
-const fs = require("fs");
 
 async function exists(url) {
 	try {
@@ -13,119 +10,147 @@ async function exists(url) {
 	return true;
 }
 
-async function coolmath() {
-	let promises = [];
-	let output = [];
+const links = {};
 
-	const url = "https://www.coolmathgames.com/1-complete-game-list/view-all";
-	const $ = cheerio.load((await axios.get(url)).data);
-	$(".view-all-games:first > .views-row")
-		.find(".game-title a:first-child")
-		.each((i, elem) => {
-			promises.push(
-				(async (i, elem) => {
-					let gameurl =
-						"https://www.coolmathgames.com" + $(elem).attr("href") + "/play";
+const functions = [
+	async () => {
+		// EDIT COOLMATH GAMES
+		const promises = [];
 
-					const existprm = exists(gameurl);
+		await axios
+			.get("https://edit.coolmath-games.com/1-complete-game-list/view-all")
+			.then((res) => {
+				console.log("request to edit done");
+				const $ = cheerio.load(res.data);
 
-					if (
-						$(elem).parent().siblings(".icon-gamethumbnail-all-game-pg")
-							.length != 0
-					)
-						return; // acts like continue
-					const gametext = $(elem).text();
+				$(".view-all-games:first .views-row")
+					.find(".game-title a:first-child")
+					.each((i, elem) => {
+						const promise = new Promise((resolve, reject) => {
+							const gameurl =
+								"https://edit.coolmath-games.com" +
+								$(elem).attr("href") +
+								"/play";
 
-					let result = await existprm;
+							exists(gameurl).then((res) => {
+								const gametext = $(elem).text();
+								console.log([gametext, gameurl]);
+								resolve([gametext, gameurl]);
+							});
+						});
+						promises.push(promise);
+					});
+			});
 
-					if (!result)
-						gameurl = "https://www.coolmathgames.com" + $(elem).attr("href");
+		links.edit = await Promise.all(promises);
+	},
+	async () => {
+		// COOLMATH GAMES
+		const promises = [];
 
-					console.log([gametext, gameurl]);
-					output.push([gametext, gameurl]);
-				})(i, elem),
-			);
+		await axios
+			.get("https://www.coolmathgames.com/1-complete-game-list/view-all")
+			.then((res) => {
+				console.log("request to edit done");
+				const $ = cheerio.load(res.data);
+
+				$(".view-all-games:first")
+					.find("> .views-row:not(:has(>.icon-gamethumbnail-all-game-pg))")
+					.find(".game-title a:first-child")
+					.each((i, elem) => {
+						const promise = new Promise((resolve, reject) => {
+							const gameurl =
+								"https://www.coolmathgames.com" +
+								$(elem).attr("href") +
+								"/play";
+
+							exists(gameurl).then((res) => {
+								const gametext = $(elem).text();
+								console.log([gametext, gameurl]);
+								resolve([gametext, gameurl]);
+							});
+						});
+						promises.push(promise);
+					});
+			});
+
+		links.coolmath = "hi";
+	},
+];
+
+functions.forEach((fnc) => {
+	fnc()
+		.then((res) => {
+			if (functions.length == Object.keys(links).length) {
+				console.log(links);
+
+				process.exit(); // exit so it doesn't get printed twice if two functions finish at the same time
+			}
+			//console.log(res);
+		})
+		.catch((err) => {
+			throw new Error(err);
 		});
-	await Promise.all(promises);
+});
 
-	return output;
+/*
+
+// basically we push promises to this array, then use promise.all to wait for all of them to finish
+let promises = [];
+
+let links = {
+	edit: [],
+};
+
+async function exists(url) {
+	try {
+		await axios.get(url);
+	} catch (error) {
+		return false;
+	}
+	return true;
 }
 
 async function edit() {
-	let promises = [];
-	let output = [];
+	await axios
+		.get("https://edit.coolmath-games.com/1-complete-game-list/view-all")
+		.then((res) => {
+			console.log("request done");
+			const $ = cheerio.load(res.data);
+			let promises1 = [];
+			const games = $(".view-all-games:first .views-row")
+				.find(".game-title a:first-child")
+				.each((i, elem) => {
+					promises1.push(
+						(async (i, elem) => {
+							const gameurl =
+								"https://edit.coolmath-games.com" +
+								$(elem).attr("href") +
+								"/play";
 
-	const url = "https://edit.coolmath-games.com/1-complete-game-list/view-all";
-	const $ = cheerio.load((await axios.get(url)).data);
-
-	$(".view-all-games:first .views-row")
-		.find(".game-title a:first-child")
-		.each((i, elem) => {
-			promises.push(
-				(async (i, elem) => {
-					let gameurl =
-						"https://edit.coolmath-games.com" + $(elem).attr("href") + "/play";
-
-					const existprm = exists(gameurl);
-
-					const gametext = $(elem).text();
-
-					let result = await existprm;
-
-					if (!result) return;
-
-					console.log([gametext, gameurl]);
-					output.push([gametext, gameurl]);
-				})(i, elem),
-			);
-		});
-	await Promise.all(promises);
-
-	return output;
-}
-
-async function unblocked66() {
-	let promises = [];
-	let output = [];
-
-	const url = "https://sites.google.com/site/unblockedgames66ez/home";
-	const $ = cheerio.load((await axios.get(url)).data);
-
-	$(".jYxBte.Fpy8Db:first")
-		.children()
-		.each((i, elem) => {
-			promises.push(
-				(async (i, elem) => {
-					let gameurl = "https://sites.google.com" + $(elem).attr("href");
-					const gametext = $(elem).text();
-
-					promises.push(
-						axios
-							.get(url)
-							.then((res) => {
-								const $_ = cheerio.load(res.data);
-								console.log(
-									$_(".w536ob").each((i, elem) => {
-										console.log($_(elem));
-									}),
-								);
-								debugger;
-							})
-							.catch((err) => {}),
+							await exists(gameurl).then((res) => {
+								const gametext = $(elem).text();
+								console.log([gametext, gameurl]);
+								links.edit.push([gametext, gameurl]);
+							});
+						})(i, elem),
 					);
-				})(i, elem),
-			);
+				});
+		})
+		.catch((err) => {
+			throw new Error(err);
 		});
 }
 
-(async () => {
-	Promise.all([unblocked66()]).then((results) => {
-		results.forEach((result) => {
-			console.log(JSON.stringify(result));
-		});
-	});
+edit();
 
-	//fs.writeFile("./output.js", "const links = " + JSON.stringify(output), (err) => {
-	//if (err) console.log(err);
-	//});
-})();
+/* 
+Promise.all(promises)
+	.then((res) => {
+		//console.log(res);
+		console.log(links);
+	})
+	.catch((err) => {
+		throw new Error(err);
+	});
+*/
