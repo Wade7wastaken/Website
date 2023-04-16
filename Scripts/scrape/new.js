@@ -167,9 +167,15 @@ layer1.push(
 (async () => {
 	await Promise.all(layer1);
 	console.log("done fetching");
-	data["Coolmath Games"].sort();
-	data["Coolmath Games Mirror"].sort();
-	data["Unblocked Games 66 EZ"].sort();
+	data["Coolmath Games"].sort(function (a, b) {
+		return a[0].toLowerCase().localeCompare(b[0].toLowerCase());
+	});
+	data["Coolmath Games Mirror"].sort(function (a, b) {
+		return a[0].toLowerCase().localeCompare(b[0].toLowerCase());
+	});
+	data["Unblocked Games 66 EZ"].sort(function (a, b) {
+		return a[0].toLowerCase().localeCompare(b[0].toLowerCase());
+	});
 	console.log(data);
 
 	fs.writeFileSync(
