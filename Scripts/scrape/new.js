@@ -179,7 +179,7 @@ layer1.push(
 	console.log(data);
 
 	fs.writeFileSync(
-		"./test.json",
+		"./data/scrapelinks.json",
 		JSON.stringify(data, Object.keys(data).sort()),
 	);
 
