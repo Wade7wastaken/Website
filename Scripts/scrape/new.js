@@ -1,5 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const fs = require("fs");
 
 async function exists(url) {
 	try {
@@ -29,9 +30,9 @@ function findSequenceIndex(seq, arr) {
 }
 
 const data = {
-	edit: [],
-	coolmath: [],
-	unblocked66: [],
+	"Coolmath Games": [],
+	"Coolmath Games Mirror": [],
+	"Unblocked Games 66 EZ": [],
 };
 
 const layer1 = [];
@@ -57,7 +58,7 @@ layer1.push(
 
 								if (await exists(gameurl)) {
 									const result = [$(elem).text(), gameurl];
-									data.edit.push(result);
+									data["Coolmath Games Mirror"].push(result);
 									console.log("Edit: " + result);
 								}
 								// Some non-flash games still get filtered out by this (probably last thing to worry about)
@@ -91,11 +92,11 @@ layer1.push(
 
 								if (await exists(gameurl)) {
 									const result = [$(elem).text(), gameurl];
-									data.coolmath.push(result);
+									data["Coolmath Games"].push(result);
 									console.log("Coolmath: " + result);
 								} else if (await exists(pageurl)) {
 									const result = [$(elem).text(), pageurl];
-									data.coolmath.push(result);
+									data["Coolmath Games"].push(result);
 									console.log("Coolmath page: " + result);
 								}
 							})(i, elem),
@@ -118,8 +119,7 @@ layer1.push(
 					layer2.push(
 						(async (i, elem) => {
 							const gamename = $(elem).text();
-							const gameurl =
-								"https://sites.google.com" + $(elem).attr("href");
+							const gameurl = "https://sites.google.com" + $(elem).attr("href");
 
 							// filter out ignored games
 							if (!ignoredgames.includes(gamename)) {
@@ -130,8 +130,8 @@ layer1.push(
 								const num = buttons.length;
 								if (num == 1) {
 									const result = [gamename, gameurl];
-									data.unblocked66.push(result);
-									console.log(result);
+									data["Unblocked Games 66 EZ"].push(result);
+									console.log("Unblocked 66 page: " + result);
 								} else if (num >= 2) {
 									const $3 = cheerio.load(buttons[1].attribs["data-code"]);
 									const spliced = $3("script:first").html().split(/\s+/);
@@ -146,12 +146,12 @@ layer1.push(
 										const embedurl = spliced[foundindex + 3].slice(1, -2);
 										if (await exists(embedurl)) {
 											const result = [gamename, embedurl];
-											data.unblocked66.push(result);
-											console.log(result);
+											data["Unblocked Games 66 EZ"].push(result);
+											console.log("Unblocked 66: " + result);
 										} else {
 											const result = [gamename, gameurl];
-											data.unblocked66.push(result);
-											console.log(result);
+											data["Unblocked Games 66 EZ"].push(result);
+											console.log("Unblocked 66 page:" + result);
 										}
 									}
 								}
@@ -166,6 +166,18 @@ layer1.push(
 
 (async () => {
 	await Promise.all(layer1);
+	console.log("done fetching");
+	data["Coolmath Games"].sort();
+	data["Coolmath Games Mirror"].sort();
+	data["Unblocked Games 66 EZ"].sort();
+	console.log(data);
+
+	fs.writeFileSync(
+		"./test.json",
+		JSON.stringify(data, Object.keys(data).sort()),
+	);
+
 	console.log("done");
-	console.log(data)
+
+	debugger;
 })();
