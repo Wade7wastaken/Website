@@ -6,6 +6,7 @@ async function exists(url) {
 	try {
 		await axios.get(url);
 	} catch (error) {
+		console.log(url + " returned " + error);
 		return false;
 	}
 	return true;
@@ -29,143 +30,144 @@ function findSequenceIndex(seq, arr) {
 	return -1;
 }
 
+function processResult(result, location) {
+	data[location].push(result);
+	console.log(`${location}: ${result}`)
+}
+
 const data = {
 	"Coolmath Games": [],
 	"Coolmath Games Mirror": [],
 	"Unblocked Games 66 EZ": [],
 };
 
-const layer1 = [];
+async function coolmath() {
+	const layer2 = [];
+	const res = await axios.get(
+		"https://www.coolmathgames.com/1-complete-game-list/view-all",
+	);
 
-layer1.push(
-	(async () => {
-		const layer2 = [];
-		await axios
-			.get("https://edit.coolmath-games.com/1-complete-game-list/view-all")
-			.then((res) => {
-				console.log("edit request done");
-				const $ = cheerio.load(res.data);
+	console.log("coolmath request done");
+	const $ = cheerio.load(res.data);
 
-				$(".view-all-games:first .views-row")
-					.find(".game-title a:first-child")
-					.each((i, elem) => {
-						layer2.push(
-							(async (i, elem) => {
-								const gameurl =
-									"https://edit.coolmath-games.com" +
-									$(elem).attr("href") +
-									"/play";
+	$(".view-all-games:first")
+		.find("> .views-row:not(:has(>.icon-gamethumbnail-all-game-pg))")
+		.find(".game-title a:first-child")
+		.each((i, elem) => {
+			layer2.push(
+				(async (elem) => {
+					const gameurl =
+						"https://www.coolmathgames.com" + $(elem).attr("href") + "/play";
 
-								if (await exists(gameurl)) {
-									const result = [$(elem).text(), gameurl];
-									data["Coolmath Games Mirror"].push(result);
-									console.log("Edit: " + result);
-								}
-								// Some non-flash games still get filtered out by this (probably last thing to worry about)
-							})(i, elem),
-						);
-					});
-			});
-		await Promise.all(layer2);
-	})(),
-	(async () => {
-		const layer2 = [];
-		await axios
-			.get("https://www.coolmathgames.com/1-complete-game-list/view-all")
-			.then((res) => {
-				console.log("coolmath request done");
-				const $ = cheerio.load(res.data);
+					const pageurl =
+						"https://www.coolmathgames.com" + $(elem).attr("href");
 
-				$(".view-all-games:first")
-					.find("> .views-row:not(:has(>.icon-gamethumbnail-all-game-pg))")
-					.find(".game-title a:first-child")
-					.each((i, elem) => {
-						layer2.push(
-							(async (i, elem) => {
-								const gameurl =
-									"https://www.coolmathgames.com" +
-									$(elem).attr("href") +
-									"/play";
+					if (await exists(gameurl)) {
+						const result = [$(elem).text(), gameurl];
+						data["Coolmath Games"].push(result);
+						console.log("Coolmath: " + result);
+					} else if (await exists(pageurl)) {
+						const result = [$(elem).text(), pageurl];
+						data["Coolmath Games"].push(result);
+						console.log("Coolmath page: " + result);
+					}
+				})(elem),
+			);
+		});
+	await Promise.all(layer2);
+}
 
-								const pageurl =
-									"https://www.coolmathgames.com" + $(elem).attr("href");
+async function edit() {
+	const layer2 = [];
+	await axios
+		.get("https://edit.coolmath-games.com/1-complete-game-list/view-all")
+		.then((res) => {
+			console.log("edit request done");
+			const $ = cheerio.load(res.data);
 
-								if (await exists(gameurl)) {
-									const result = [$(elem).text(), gameurl];
-									data["Coolmath Games"].push(result);
-									console.log("Coolmath: " + result);
-								} else if (await exists(pageurl)) {
-									const result = [$(elem).text(), pageurl];
-									data["Coolmath Games"].push(result);
-									console.log("Coolmath page: " + result);
-								}
-							})(i, elem),
-						);
-					});
-			});
-		await Promise.all(layer2);
-	})(),
-	(async () => {
-		const ignoredgames = ["All Unblocked games 66 EZ", "Feedback"];
-		const layer2 = [];
-
-		await axios
-			.get("https://sites.google.com/site/unblockedgames66ez/home")
-			.then((res) => {
-				console.log("unblocked66 request done");
-				const $ = cheerio.load(res.data);
-
-				$(".aJHbb.dk90Ob.hDrhEe.HlqNPb").each((i, elem) => {
+			$(".view-all-games:first .views-row")
+				.find(".game-title a:first-child")
+				.each((i, elem) => {
 					layer2.push(
 						(async (i, elem) => {
-							const gamename = $(elem).text();
-							const gameurl = "https://sites.google.com" + $(elem).attr("href");
+							const gameurl =
+								"https://edit.coolmath-games.com" +
+								$(elem).attr("href") +
+								"/play";
 
-							// filter out ignored games
-							if (!ignoredgames.includes(gamename)) {
-								const res2 = await axios.get(gameurl);
-								const $2 = cheerio.load(res2.data);
-
-								const buttons = $2(".w536ob");
-								const num = buttons.length;
-								if (num == 1) {
-									const result = [gamename, gameurl];
-									data["Unblocked Games 66 EZ"].push(result);
-									console.log("Unblocked 66 page: " + result);
-								} else if (num >= 2) {
-									const $3 = cheerio.load(buttons[1].attribs["data-code"]);
-									const spliced = $3("script:first").html().split(/\s+/);
-									const foundindex = findSequenceIndex(
-										["var", "url", "="],
-										spliced,
-									);
-
-									if (foundindex == -1) {
-										console.log("error in " + gamename);
-									} else {
-										const embedurl = spliced[foundindex + 3].slice(1, -2);
-										if (await exists(embedurl)) {
-											const result = [gamename, embedurl];
-											data["Unblocked Games 66 EZ"].push(result);
-											console.log("Unblocked 66: " + result);
-										} else {
-											const result = [gamename, gameurl];
-											data["Unblocked Games 66 EZ"].push(result);
-											console.log("Unblocked 66 page:" + result);
-										}
-									}
-								}
+							if (await exists(gameurl)) {
+								const result = [$(elem).text(), gameurl];
+								data["Coolmath Games Mirror"].push(result);
+								console.log("Edit: " + result);
 							}
+							// Some non-flash games still get filtered out by this (probably last thing to worry about)
 						})(i, elem),
 					);
 				});
+		});
+	await Promise.all(layer2);
+}
+
+async function unblocked66() {
+	const ignoredgames = ["All Unblocked games 66 EZ", "Feedback"];
+	const layer2 = [];
+
+	await axios
+		.get("https://sites.google.com/site/unblockedgames66ez/home")
+		.then((res) => {
+			console.log("unblocked66 request done");
+			const $ = cheerio.load(res.data);
+
+			$(".aJHbb.dk90Ob.hDrhEe.HlqNPb").each((i, elem) => {
+				layer2.push(
+					(async (i, elem) => {
+						const gamename = $(elem).text();
+						const gameurl = "https://sites.google.com" + $(elem).attr("href");
+
+						// filter out ignored games
+						if (!ignoredgames.includes(gamename)) {
+							const res2 = await axios.get(gameurl);
+							const $2 = cheerio.load(res2.data);
+
+							const buttons = $2(".w536ob");
+							const num = buttons.length;
+							if (num == 1) {
+								const result = [gamename, gameurl];
+								data["Unblocked Games 66 EZ"].push(result);
+								console.log("Unblocked 66 page: " + result);
+							} else if (num >= 2) {
+								const $3 = cheerio.load(buttons[1].attribs["data-code"]);
+								const spliced = $3("script:first").html().split(/\s+/);
+								const foundindex = findSequenceIndex(
+									["var", "url", "="],
+									spliced,
+								);
+
+								if (foundindex == -1) {
+									console.log("error in " + gamename);
+								} else {
+									const embedurl = spliced[foundindex + 3].slice(1, -2);
+									if (await exists(embedurl)) {
+										const result = [gamename, embedurl];
+										data["Unblocked Games 66 EZ"].push(result);
+										console.log("Unblocked 66: " + result);
+									} else {
+										const result = [gamename, gameurl];
+										data["Unblocked Games 66 EZ"].push(result);
+										console.log("Unblocked 66 page:" + result);
+									}
+								}
+							}
+						}
+					})(i, elem),
+				);
 			});
-		await Promise.all(layer2);
-	})(),
-);
+		});
+	await Promise.all(layer2);
+}
 
 (async () => {
-	await Promise.all(layer1);
+	await Promise.all([coolmath() /*, edit(), unblocked66()*/]);
 	console.log("done fetching");
 	data["Coolmath Games"].sort(function (a, b) {
 		return a[0].toLowerCase().localeCompare(b[0].toLowerCase());
