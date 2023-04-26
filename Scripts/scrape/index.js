@@ -6,28 +6,10 @@ async function exists(url) {
 	try {
 		await axios.get(url);
 	} catch (error) {
-		//console.log(url + " returned " + error);
+		console.log(`${url} returned ${error}`);
 		return false;
 	}
 	return true;
-}
-
-function findSequenceIndex(seq, arr) {
-	for (let i = 0; i < arr.length; i++) {
-		if (arr[i] === seq[0]) {
-			let match = true;
-			for (let j = 1; j < seq.length; j++) {
-				if (arr[i + j] !== seq[j]) {
-					match = false;
-					break;
-				}
-			}
-			if (match) {
-				return i;
-			}
-		}
-	}
-	return -1;
 }
 
 function processResult(result, location, logtext) {
@@ -95,9 +77,11 @@ async function edit() {
 		.each((i, elem) => {
 			layer1.push(
 				(async (elem) => {
-					const gameurl =
-						"https://edit.coolmath-games.com" + $(elem).attr("href") + "/play";
+					const gameurl = `https://edit.coolmath-games.com${$(elem).attr(
+						"href",
+					)}/play`;
 
+					// Some non-flash games still get filtered out by this (probably last thing to worry about)
 					if (await exists(gameurl)) {
 						processResult(
 							[$(elem).text(), gameurl],
@@ -105,7 +89,6 @@ async function edit() {
 							"Edit",
 						);
 					}
-					// Some non-flash games still get filtered out by this (probably last thing to worry about)
 				})(elem),
 			);
 		});
@@ -114,7 +97,7 @@ async function edit() {
 }
 
 async function unblocked66() {
-	const ignoredgames = ["All Unblocked games 66 EZ", "Feedback"];
+	const ignoredgames = ["All Unblocked Games 66 EZ", "Feedback"];
 	const layer1 = [];
 
 	const res = await axios.get(
@@ -128,44 +111,18 @@ async function unblocked66() {
 		layer1.push(
 			(async (elem) => {
 				const gamename = $(elem).text();
-				const gameurl = "https://sites.google.com" + $(elem).attr("href");
+				const gameurl = `https://sites.google.com${$(elem).attr("href")}`;
 
 				// filter out ignored games
 				if (!ignoredgames.includes(gamename)) {
-					const res2 = await axios.get(gameurl);
-					const $2 = cheerio.load(res2.data);
-
-					const buttons = $2(".w536ob");
-					const num = buttons.length;
-					if (num == 1) {
+					if (await exists(gameurl)) {
 						processResult(
 							[gamename, gameurl],
 							"Unblocked Games 66 EZ",
-							"Unblocked 66 page",
+							"Unblocked 66",
 						);
-					} else if (num >= 2) {
-						const $3 = cheerio.load(buttons[1].attribs["data-code"]);
-						const spliced = $3("script:first").html().split(/\s+/);
-						const foundindex = findSequenceIndex(["var", "url", "="], spliced);
-
-						if (foundindex == -1) {
-							console.log("error in " + gamename);
-						} else {
-							const embedurl = spliced[foundindex + 3].slice(1, -2);
-							if (await exists(embedurl)) {
-								processResult(
-									[gamename, embedurl],
-									"Unblocked Games 66 EZ",
-									"Unblocked 66",
-								);
-							} else {
-								processResult(
-									[gamename, gameurl],
-									"Unblocked Games 66 EZ",
-									"Unblocked 66 page",
-								);
-							}
-						}
+					} else {
+						console.log(`${gamename} doesn't exist`);
 					}
 				}
 			})(elem),
