@@ -6,7 +6,7 @@ async function exists(url) {
 	try {
 		await axios.get(url);
 	} catch (error) {
-		console.log(url + " returned " + error);
+		//console.log(url + " returned " + error);
 		return false;
 	}
 	return true;
@@ -78,7 +78,7 @@ async function coolmath() {
 			);
 		});
 	await Promise.all(layer1);
-	console.log("done with coolmath")
+	console.log("done with coolmath");
 }
 
 async function edit() {
@@ -110,7 +110,7 @@ async function edit() {
 			);
 		});
 	await Promise.all(layer1);
-	console.log("done with edit")
+	console.log("done with edit");
 }
 
 async function unblocked66() {
@@ -172,7 +172,7 @@ async function unblocked66() {
 		);
 	});
 	await Promise.all(layer1);
-	console.log("done with unblocked66")
+	console.log("done with unblocked66");
 }
 
 (async () => {
