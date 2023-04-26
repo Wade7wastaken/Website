@@ -80,6 +80,8 @@ async function fetchLinks() {
 			const sitelist = data[site];
 			if (site == "flash") {
 				for (const game of sitelist) {
+					// for makeshift comments
+					if (typeof game === "string") continue;
 					games.push([
 						game[0],
 						"./ruffle.html?game=" + game[1],
