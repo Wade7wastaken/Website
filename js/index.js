@@ -110,7 +110,7 @@ async function fetchLinks() {
  */
 function getLocalStorage() {
 	// default openTab to NES
-	if (!localStorage.openTab) localStorage.openTab = "NES";
+	if (!localStorage.openTab) localStorage.openTab = "Web";
 
 	// set coretoggle to what is currently in localStorage (defaults to inactive)
 	if (localStorage.oldCores == "1") getId("coretoggle").className += " active";
@@ -173,6 +173,12 @@ function loadEmuGames() {
 
 	li.append(link);
 
+	let web = document.createElement("button");
+	web.textContent = "Web";
+	web.className = "tabbuttons Web";
+	web.setAttribute("onclick", 'updateTabs("Web")');
+	buttonParent.append(web);
+
 	for (const system in emugames) {
 		// Generate buttons
 		let data = emugames[system];
@@ -212,12 +218,6 @@ function loadEmuGames() {
 			}
 		}
 	}
-
-	let web = document.createElement("button");
-	web.textContent = "Web";
-	web.className = "tabbuttons Web";
-	web.setAttribute("onclick", 'updateTabs("Web")');
-	buttonParent.append(web);
 }
 
 /**
