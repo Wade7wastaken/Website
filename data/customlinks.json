@@ -16,14 +16,27 @@
 		["All Google Doodles", "https://www.google.com/doodles"]
 	],
 	"flash": [
-		["Jacksmith", "jacksmith"],
+		"Papa's games",
 		["Papa's Bakeria", "papasbakeria"],
+		["Papa's Burgeria", "papasburgeria"],
+		["Papa's Cheeseria", "papascheeseria_102"],
+		["Papa's Cupcakeria", "papascupcakeria"],
+		["Papa's Donuteria", "papasdonuteria"],
 		["Papa's Freezeria", "papasfreezeria"],
+		["Papa's Hot Doggeria", "papashotdoggeria"],
+		["Papa's Pancakeria", "papaspancakeria"],
+		["Papa's Pastaria", "papaspastaria"],
 		["Papa's Pizzeria", "papaspizzeria_v2"],
+		["Papa's Scooperia", "papasscooperia_v102"],
+		["Papa's Sushirira", "papassushiria"],
+		["Papa's Tacomia", "papastacomia"],
+		["Papa's Wingeria", "papaswingeria"],
+		"Other flipline games",
+		["Jacksmith", "jacksmith"],
+		"Into space",
 		["Into Space", "into-space"],
 		["Into Space 2", "into-space-2"],
-		["Into Space 3 Christmas Story", "into-space-3-xmas-story"],
-		["Super Smash Flash 1", "supersmashflash2"]
+		["Into Space 3 Christmas Story", "into-space-3-xmas-story"]
 	],
 	"Other": [
 		["Push Your Luck", "https://html5-games.io/game/push-your-lucky/"],
