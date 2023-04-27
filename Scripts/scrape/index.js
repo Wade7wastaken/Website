@@ -25,6 +25,7 @@ const data = {
 	"Coolmath Games": [],
 	"Coolmath Games Mirror": [],
 	"Unblocked Games 66 EZ": [],
+	"Tyrone's Unblocked Games": [],
 };
 
 async function coolmath() {
@@ -132,12 +133,49 @@ async function unblocked66() {
 	console.log("done with unblocked66");
 }
 
+async function tyrones() {
+	const ignoredgames = ["Home"];
+	const layer1 = [];
+
+	const res = await axios.get(
+		"https://sites.google.com/site/tyronesgameshack/home",
+	);
+
+	console.log("tyrones request done");
+	const $ = cheerio.load(res.data);
+
+	$(".aJHbb.dk90Ob.hDrhEe.HlqNPb").each((i, elem) => {
+		layer1.push(
+			(async (elem) => {
+				const gamename = $(elem).text();
+				const gameurl = `https://sites.google.com${$(elem).attr("href")}`;
+
+				// filter out ignored games
+				if (!ignoredgames.includes(gamename)) {
+					if (await exists(gameurl)) {
+						processResult(
+							[gamename, gameurl],
+							"Tyrone's Unblocked Games",
+							"Tyrones",
+						);
+					} else {
+						console.log(`${gamename} doesn't exist`);
+					}
+				}
+			})(elem),
+		);
+	});
+	await Promise.all(layer1);
+	console.log("done with tyrones");
+}
+
 (async () => {
-	await Promise.all([coolmath(), edit(), unblocked66()]);
+	await Promise.all([coolmath(), edit(), unblocked66(), tyrones()]);
 	console.log("done fetching");
 	data["Coolmath Games"].sort(lowerCaseSort);
 	data["Coolmath Games Mirror"].sort(lowerCaseSort);
 	data["Unblocked Games 66 EZ"].sort(lowerCaseSort);
+	data["Tyrone's Unblocked Games"].sort(lowerCaseSort);
 	console.log("done sorting");
 	console.log(data);
 
