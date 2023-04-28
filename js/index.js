@@ -153,7 +153,7 @@ async function updateTabs(tab) {
 		}
 	}
 	let hidden = getClass("webhidden");
-	let disp = tab == "Web" ? "none" : "inline";
+	let disp = tab == "Web" ? "none" : "block";
 
 	for (let el of hidden) {
 		el.style.display = disp;

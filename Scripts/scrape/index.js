@@ -6,6 +6,7 @@ async function exists(url) {
 	try {
 		await axios.get(url);
 	} catch (error) {
+		// need to somehow filter out 503
 		console.log(`${url} returned ${error}`);
 		return false;
 	}

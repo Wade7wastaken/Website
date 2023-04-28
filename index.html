@@ -11,14 +11,9 @@
 	<body>
 		<h1>Choose a category</h1>
 
-		<div id="buttonparent" class="tab"></div>
+		<div id="buttonparent" class="tab" style="margin-bottom: 85px"></div>
 
-		<div class="settings webhidden">
-			<!--convert these to css-->
-			<br />
-			<br />
-			<br />
-
+		<div class="settings webhidden" style="margin-bottom: 45px">
 			<!--Not really used as a toggle-->
 			<p>Current Emulator:</p>
 			<button
@@ -31,28 +26,22 @@
 			</button>
 		</div>
 
-		<!--convert these to css-->
-		<br />
-		<br />
-		<br />
-
 		<div id="Web" class="tabcontent">
-			<label for="websearch">Search: </label>
-			<input type="text" id="websearch" oninput="onSearchInput();" />
+			<div style="margin-bottom: 20px">
+				<label for="websearch">Search: </label>
+				<input type="text" id="websearch" oninput="onSearchInput();" />
+			</div>
+
+			<div id="siteselector" style="margin-bottom: 90px;"></div>
 
 			<!--convert these to css-->
-			<br />
-			<br />
 
-			<div id="siteselector"></div>
 
-			<!--convert these to css-->
-			<br />
-			<br />
-
-			<p class="pagedisplay"></p>
-			<button class="buttonslim" onclick="prevPage();">Previous</button>
-			<button class="buttonslim" onclick="nextPage();">Next</button>
+			<div>
+				<p class="pagedisplay"></p>
+				<button class="buttonslim" onclick="prevPage();">Previous</button>
+				<button class="buttonslim" onclick="nextPage();">Next</button>
+			</div>
 
 			<!--convert these to css-->
 			<br />
@@ -83,12 +72,8 @@
 
 		<div id="DS" class="tabcontent"></div>
 
-		<!--convert these to css-->
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
+		<!--spacing between prev/next buttons and bottom nav bar-->
+		<div style="margin-top: 35px"></div>
 
 		<!--not really navigation, but thats what you get when copying from w3schools-->
 		<div class="bottomnav">
