@@ -1,12 +1,21 @@
-const axios = require("axios");
+const axios = require("axios").default;
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-async function exists(url) {
+async function exists(url, iter = 0) {
+	if (iter >= 5) {
+		console.log(`${url} failed after ${iter - 1} attempts.`);
+		return false;
+	}
+
 	try {
 		await axios.get(url);
 	} catch (error) {
-		// need to somehow filter out 503
+		if (error.response.status != 404) {
+			console.log(`NON-404: ${url} returned ${error}`);
+			await new Promise((r) => setTimeout(r, 1000)); // wait 1 second
+			return await exists(url, iter + 1); // call this function again and increase the iteration
+		}
 		console.log(`${url} returned ${error}`);
 		return false;
 	}
