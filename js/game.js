@@ -15,7 +15,7 @@ if (!validEmulators.includes(localStorage.emu)) {
 switch (localStorage.emu) {
 	case "EJS": {
 		const base = getId("base");
-		
+
 		// make the div resizable
 		base.style.resize = "both";
 		base.style.overflow = "auto";

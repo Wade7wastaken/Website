@@ -1,11 +1,11 @@
 // Global Variables
 const linksperpage = 100; // 100 seems to be the max without causeing slowdowns on older computers
-let linknames = [];
-let emugames;
+let linknames = []; // the names of sites that links come from
+let emugames; // json data for emulator games
 let page = 0; // the current page of links
-let games = []; // the main array of games
-let matches = []; // an array of games that meet the search criteria
-let filteredsites = []; // an array of sites that are filtered out
+const games = []; // the main array of games
+const matches = []; // an array of games that meet the search criteria
+const filteredsites = []; // an array of sites that are filtered out
 
 console.log("Advanced features:");
 console.log(
@@ -17,61 +17,28 @@ console.log(
 
 const mainPrm = (async () => {
 	await fetchLinks();
-
 	getLocalStorage();
-
 	loadEmuGames();
-
 	addSiteSelectors();
-
 	sortLinks();
-
 	renderLinks();
-
 	updateTabs(localStorage.openTab);
 })();
 
 async function fetchLinks() {
-	await Promise.all(
-		((paths) => {
-			let promises = [];
-			paths.forEach((pathdata) => {
-				promises.push(
-					fetch(`./data/${pathdata[0]}.json`)
-						.then((res) => {
-							return res.json();
-						})
-						.then((data) => {
-							//console.log(data);
-							pathdata[1](data);
-						})
-						.catch((err) => {
-							throw new Error(`Error fetching ${pathdata[0]}: ${err}`);
-						}),
-				);
-			});
-			return promises;
-		})([
-			["scrapelinks", processLinks],
-			["customlinks", processLinks],
-			[
-				"emugames",
-				(data) => {
-					emugames = data;
-				},
-			],
-		]),
-	).then(() => {
-		games.sort();
+	// fetches links from json files and puts them in the right variable
 
-		linknames = linknames
-			.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
-			.remove("flash")
-			.sort();
-		// Make sure other is at the end
-		linknames.remove("Other");
-		linknames.push("Other");
-	});
+	// each of these is a location to a json file, and a function to call to process the data
+	const locationdata = [
+		["scrapelinks", processLinks],
+		["customlinks", processLinks],
+		[
+			"emugames",
+			(data) => {
+				emugames = data; // nothing special needs to be done for emugames
+			},
+		],
+	];
 
 	function processLinks(data) {
 		const domain = document.createElement("a");
@@ -103,6 +70,39 @@ async function fetchLinks() {
 			}
 		}
 	}
+
+	// fetches data from each json file and processes it
+	function fetchData(paths) {
+		const promises = [];
+		paths.forEach((pathdata) => {
+			promises.push(
+				fetch(`./data/${pathdata[0]}.json`)
+					.then((res) => {
+						return res.json();
+					})
+					.then((data) => {
+						// call the process function
+						pathdata[1](data);
+					})
+					.catch((err) => {
+						throw new Error(`Error fetching ${pathdata[0]}: ${err}`);
+					}),
+			);
+		});
+		return promises;
+	}
+
+	await Promise.all(fetchData(locationdata)).then(() => {
+		games.sort();
+
+		linknames = linknames
+			.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
+			.remove("flash")
+			.sort();
+		// Make sure other is at the end
+		linknames.remove("Other");
+		linknames.push("Other");
+	});
 }
 
 /**
@@ -274,7 +274,7 @@ function addSiteSelectors() {
  * Sorts links based on the search parameters
  */
 function sortLinks() {
-	matches = [];
+	matches.length = 0; // cursed way of "matches = []" (cant do that because of const)
 
 	for (const game of games) {
 		if (

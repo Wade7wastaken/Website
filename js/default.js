@@ -35,13 +35,13 @@ function getClass(className) {
  * @param {*} value The value to remove
  * @returns The updated array
  */
-Array.prototype.remove = function(value) {
+Array.prototype.remove = function (value) {
 	let index = this.indexOf(value);
 	if (index > -1) {
 		this.splice(index, 1);
 	}
 	return this;
-}
+};
 
 /**
  * Creates a new element of the given type and text and appends it to the container element
