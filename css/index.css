@@ -1,14 +1,13 @@
 button {
 	color: rgb(220, 220, 220);
 	background-color: #1495ff;
-	float: left;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	padding: 14px 16px;
 	transition: 0.3s;
 	border-radius: 12px;
-	margin-left: 8px;
+	margin: 4px 4px;
 }
 
 /*For list of emu games*/
@@ -71,6 +70,13 @@ button.active {
 
 .bottomnav a:last-child {
 	margin-right: 0px;
+}
+
+.websettings {
+	background-color: rgb(40, 40, 40);
+	border-radius: 10px;
+	padding: 7px 7px;
+	width:fit-content;
 }
 
 .overlay {
