@@ -9,6 +9,28 @@
 	</head>
 
 	<body>
+		<div class="overlay" id="loadscreen">
+			<div class="fullcentered">
+				<div class="noerror">
+					<p class="loadtext center">Loading...</p>
+					<div class="loader center"></div>
+				</div>
+				<div class="error">
+					<p class="loadtext">An error has occured</p>
+					<p class="loadtext" id="errmsg"></p>
+					<a href="javascript:void(0)" class="loadtext" onclick="doneLoading();">Continue anyway</a>
+				</div>
+			</div>
+			<div class="bottomnav">
+				If the page never loads, check the developer console. You can submit an
+				issue
+				<a
+					href="https://github.com/Wade7wastaken/TrulyUnblockedGames/issues/new"
+					>here</a
+				>.
+			</div>
+		</div>
+
 		<h1>Choose a category</h1>
 
 		<div id="buttonparent" class="tab" style="margin-bottom: 85px"></div>

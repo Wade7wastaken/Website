@@ -16,13 +16,18 @@ console.log(
 );
 
 const mainPrm = (async () => {
-	await fetchLinks();
-	getLocalStorage();
-	loadEmuGames();
-	addSiteSelectors();
-	sortLinks();
-	renderLinks();
-	updateTabs(localStorage.openTab);
+	try {
+		await fetchLinks();
+		getLocalStorage();
+		loadEmuGames();
+		addSiteSelectors();
+		sortLinks();
+		renderLinks();
+		updateTabs(localStorage.openTab);
+		doneLoading();
+	} catch (err) {
+		loadError("Generic error", err);
+	}
 })();
 
 async function fetchLinks() {
@@ -85,24 +90,28 @@ async function fetchLinks() {
 						pathdata[1](data);
 					})
 					.catch((err) => {
-						throw new Error(`Error fetching ${pathdata[0]}: ${err}`);
+						loadError(`Error fetching ${pathdata[0]}`, err);
 					}),
 			);
 		});
 		return promises;
 	}
 
-	await Promise.all(fetchData(locationdata)).then(() => {
-		games.sort();
+	await Promise.all(fetchData(locationdata))
+		.then(() => {
+			games.sort();
 
-		linknames = linknames
-			.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
-			.remove("flash")
-			.sort();
-		// Make sure other is at the end
-		linknames.remove("Other");
-		linknames.push("Other");
-	});
+			linknames = linknames
+				.concat(["Flash (Ruffle)", "Flash (WAFlash)"])
+				.remove("flash")
+				.sort();
+			// Make sure other is at the end
+			linknames.remove("Other");
+			linknames.push("Other");
+		})
+		.catch((err) => {
+			loadError("Error fetching/processing json data", err);
+		});
 }
 
 /**
@@ -158,6 +167,28 @@ async function updateTabs(tab) {
 	for (let el of hidden) {
 		el.style.display = disp;
 	}
+}
+
+function doneLoading() {
+	getId("loadscreen").style.display = "none";
+}
+
+function loadError(location, msg) {
+	getId("errmsg").innerHTML = `${location}: ${msg}`;
+
+	Array.from(getClass("loadtext")).forEach((el) => {
+		el.style.color = "red";
+	});
+
+	Array.from(getClass("error")).forEach((el) => {
+		el.style.display = "block";
+	});
+
+	Array.from(getClass("noerror")).forEach((el) => {
+		el.style.display = "none";
+	});
+
+	throw msg;
 }
 
 /**
@@ -259,7 +290,7 @@ function loadLinks() {
  * Adds site filter buttons
  */
 function addSiteSelectors() {
-	const main = document.getElementById("siteselector");
+	const main = getId("siteselector");
 	const btn = document.createElement("button");
 	btn.className = "buttonslim";
 	btn.setAttribute("onclick", "togglesites(event);");
