@@ -65,7 +65,6 @@ button.active {
 
 .bottomnav a {
 	margin-right: 40px;
-	text-decoration: none;
 }
 
 .bottomnav a:last-child {
@@ -76,7 +75,7 @@ button.active {
 	background-color: rgb(40, 40, 40);
 	border-radius: 10px;
 	padding: 7px 7px;
-	width:fit-content;
+	width: fit-content;
 }
 
 .overlay {

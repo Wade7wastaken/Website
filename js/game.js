@@ -12,6 +12,8 @@ if (!validEmulators.includes(localStorage.emu)) {
 	localStorage.emu = "EJS";
 }
 
+const gameFile = `http://david.thecallenders.com/ROMs/${params.get("ver")}/${params.get("game")}.zip`;
+
 switch (localStorage.emu) {
 	case "EJS": {
 		const base = getId("base");
@@ -27,10 +29,7 @@ switch (localStorage.emu) {
 
 		var EJS_player = "#emulator"; // id of the inner div
 
-		// prettier-ignore
-		let z = (function(){var L=Array.prototype.slice.call(arguments),V=L.shift();return L.reverse().map(function(x,A){return String.fromCharCode(x-V-47-A)}).join('')})(23,185,186,188,199,128,181,185,197,175,177,123,122,132,185,188,187,174)+(29903344732936).toString(36).toLowerCase()+(30).toString(36).toLowerCase().split('').map(function(Z){return String.fromCharCode(Z.charCodeAt()+(-71))}).join('')+(16438).toString(36).toLowerCase()+(function(){var V=Array.prototype.slice.call(arguments),o=V.shift();return V.reverse().map(function(L,b){return String.fromCharCode(L-o-41-b)}).join('')})(45,138,205,166,167,169,133)
-
-		var EJS_gameUrl = z + params.get("ver") + "/" + params.get("game") + ".zip";
+		var EJS_gameUrl = gameFile;
 		var EJS_core = params.get("ver");
 
 		var EJS_DEBUG_XX = true; // turn off debugging if production
@@ -67,10 +66,7 @@ switch (localStorage.emu) {
 		var NepPlayer = "#base";
 		var NepLang = "en";
 
-		// prettier-ignore
-		let z = (function(){var L=Array.prototype.slice.call(arguments),V=L.shift();return L.reverse().map(function(x,A){return String.fromCharCode(x-V-47-A)}).join('')})(23,185,186,188,199,128,181,185,197,175,177,123,122,132,185,188,187,174)+(29903344732936).toString(36).toLowerCase()+(30).toString(36).toLowerCase().split('').map(function(Z){return String.fromCharCode(Z.charCodeAt()+(-71))}).join('')+(16438).toString(36).toLowerCase()+(function(){var V=Array.prototype.slice.call(arguments),o=V.shift();return V.reverse().map(function(L,b){return String.fromCharCode(L-o-41-b)}).join('')})(45,138,205,166,167,169,133)
-
-		var gameUrl = z + params.get("ver") + "/" + params.get("game") + ".zip";
+		var gameUrl = gameFile;
 
 		var NepEmu = params.get("ver");
 		var NepZoom = "enable";
