@@ -12,7 +12,9 @@ if (!validEmulators.includes(localStorage.emu)) {
 	localStorage.emu = "EJS";
 }
 
-const gameFile = `http://david.thecallenders.com/ROMs/${params.get("ver")}/${params.get("game")}.zip`;
+const gameFile = `http://david.thecallenders.com/ROMs/${params.get(
+	"ver"
+)}/${params.get("game")}.zip`;
 
 switch (localStorage.emu) {
 	case "EJS": {

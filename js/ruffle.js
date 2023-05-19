@@ -9,7 +9,7 @@ window.addEventListener("load", (_e) => {
 	player.load(
 		"https://rawcdn.githack.com/wade7wastaken/TrulyUnblockedGamesSWF/main/" +
 			params.get("game") +
-			".swf",
+			".swf"
 	);
 	// make it resizable (cant figure out how to get it to resize to the current window. Setting width and height to 100% doesn't work)
 	player.style.resize = "both";

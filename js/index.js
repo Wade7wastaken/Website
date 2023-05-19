@@ -10,10 +10,10 @@ let keybuffer = "";
 
 console.log("Advanced features:");
 console.log(
-	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.',
+	'Set local storage "origin" to "0" to run the emulator hosted on this domain, and "1" to run it from GitHub.'
 );
 console.log(
-	'Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.',
+	'Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.'
 );
 
 document.onkeydown = async function (e) {
@@ -102,7 +102,7 @@ async function fetchLinks() {
 					})
 					.catch((err) => {
 						loadError(`Error fetching ${pathdata[0]}`, err);
-					}),
+					})
 			);
 		});
 		return promises;
@@ -133,7 +133,8 @@ function getLocalStorage() {
 	if (!localStorage.openTab) localStorage.openTab = "Web";
 
 	// set coretoggle to what is currently in localStorage (defaults to inactive)
-	if (localStorage.oldCores == "1") getId("coretoggle").className += " active";
+	if (localStorage.oldCores == "1")
+		getId("coretoggle").className += " active";
 
 	// set emulatortoggle to what is currently in localStorage (defaults to EmulatorJS)
 	switch (localStorage.emu) {
@@ -167,7 +168,10 @@ async function updateTabs(tab) {
 	let tabbuttons = getClass("tabbuttons");
 	for (let i = 0; i < tabbuttons.length; i++) {
 		// clears the active class from all tabs and adds the active class to the correct tab
-		tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+		tabbuttons[i].className = tabbuttons[i].className.replace(
+			" active",
+			""
+		);
 		if (tabbuttons[i].className.includes(tab)) {
 			tabbuttons[i].className += " active";
 		}
@@ -320,7 +324,9 @@ function sortLinks() {
 
 	for (const game of games) {
 		if (
-			game[0].toLowerCase().includes(getId("websearch").value.toLowerCase()) &&
+			game[0]
+				.toLowerCase()
+				.includes(getId("websearch").value.toLowerCase()) &&
 			!filteredsites.includes(game[2])
 		) {
 			matches.push(game);

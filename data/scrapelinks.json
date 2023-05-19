@@ -4,7 +4,10 @@
 		["1 Square", "https://www.coolmathgames.com/0-1-square/play"],
 		["10x10", "https://www.coolmathgames.com/0-10x10/play"],
 		["2048", "https://www.coolmathgames.com/0-2048/play"],
-		["2048: Fibonacci", "https://www.coolmathgames.com/0-2048-fibonacci/play"],
+		[
+			"2048: Fibonacci",
+			"https://www.coolmathgames.com/0-2048-fibonacci/play"
+		],
 		["3 Pandas", "https://www.coolmathgames.com/0-3-pandas/play"],
 		["31", "https://www.coolmathgames.com/0-31/play"],
 		[
@@ -30,17 +33,26 @@
 			"A Clockmaker's Tale",
 			"https://www.coolmathgames.com/0-a-clockmakers-tale/play"
 		],
-		["A Husk at Dusk", "https://www.coolmathgames.com/0-a-husk-at-dusk/play"],
+		[
+			"A Husk at Dusk",
+			"https://www.coolmathgames.com/0-a-husk-at-dusk/play"
+		],
 		[
 			"A Knight and His Ghost",
 			"https://www.coolmathgames.com/0-a-knight-and-his-ghost/play"
 		],
-		["A Lonely Alpaca", "https://www.coolmathgames.com/0-a-lonely-alpaca/play"],
+		[
+			"A Lonely Alpaca",
+			"https://www.coolmathgames.com/0-a-lonely-alpaca/play"
+		],
 		[
 			"A Pirate and His Crates",
 			"https://www.coolmathgames.com/0-a-pirate-and-his-crates/play"
 		],
-		["A Sliding Thing", "https://www.coolmathgames.com/0-a-sliding-thing/play"],
+		[
+			"A Sliding Thing",
+			"https://www.coolmathgames.com/0-a-sliding-thing/play"
+		],
 		[
 			"A Strange Creature Joined My Party",
 			"https://www.coolmathgames.com/0-a-strange-creature-joined-my-party/play"
@@ -58,7 +70,10 @@
 		["Air Nomad", "https://www.coolmathgames.com/0-air-nomad/play"],
 		["Alarmy", "https://www.coolmathgames.com/0-alarmy/play"],
 		["Alfi", "https://www.coolmathgames.com/0-alfi/play"],
-		["Amidst the Sky", "https://www.coolmathgames.com/0-amidst-the-sky/play"],
+		[
+			"Amidst the Sky",
+			"https://www.coolmathgames.com/0-amidst-the-sky/play"
+		],
 		[
 			"An Ordinary Adventure",
 			"https://www.coolmathgames.com/0-an-ordinary-adventure/play"
@@ -70,7 +85,10 @@
 		],
 		["Antiban", "https://www.coolmathgames.com/0-antiban/play"],
 		["Apple Worm", "https://www.coolmathgames.com/0-apple-worm/play"],
-		["Aquatic Rescue", "https://www.coolmathgames.com/0-aquatic-rescue/play"],
+		[
+			"Aquatic Rescue",
+			"https://www.coolmathgames.com/0-aquatic-rescue/play"
+		],
 		[
 			"Arcade Golf Neon",
 			"https://www.coolmathgames.com/0-arcade-golf-neon/play"
@@ -80,7 +98,10 @@
 			"Archery World Tour",
 			"https://www.coolmathgames.com/0-archery-world-tour/play"
 		],
-		["Are You Human?", "https://www.coolmathgames.com/0-are-you-human/play"],
+		[
+			"Are You Human?",
+			"https://www.coolmathgames.com/0-are-you-human/play"
+		],
 		["ARROW", "https://www.coolmathgames.com/0-arrow/play"],
 		[
 			"ARROW 2: Patterns",
@@ -94,13 +115,19 @@
 		["Astray 2", "https://www.coolmathgames.com/0-astray-2/play"],
 		["Astroballz", "https://www.coolmathgames.com/0-astroballz/play"],
 		["Atari Asteroids", "https://www.coolmathgames.com/0-asteroids/play"],
-		["Atari Breakout", "https://www.coolmathgames.com/0-atari-breakout/play"],
+		[
+			"Atari Breakout",
+			"https://www.coolmathgames.com/0-atari-breakout/play"
+		],
 		["Atari Pong", "https://www.coolmathgames.com/0-atari-pong/play"],
 		["Aurie", "https://www.coolmathgames.com/0-aurie/play"],
 		["Aurie+", "https://www.coolmathgames.com/0-aurie-plus/play"],
 		["AutoLand", "https://www.coolmathgames.com/0-autoland/play"],
 		["Awesome Tanks", "https://www.coolmathgames.com/0-awesome-tanks/play"],
-		["Awesome Tanks 2", "https://www.coolmathgames.com/0-awesome-tanks-2/play"],
+		[
+			"Awesome Tanks 2",
+			"https://www.coolmathgames.com/0-awesome-tanks-2/play"
+		],
 		["Axiel", "https://www.coolmathgames.com/0-axiel/play"],
 		["Aztec Escape", "https://www.coolmathgames.com/0-aztec-escape/play"],
 		["B Side", "https://www.coolmathgames.com/0-b-side/play"],
@@ -113,7 +140,10 @@
 		],
 		["Ballooner", "https://www.coolmathgames.com/0-ballooner/play"],
 		["Ballooner LP", "https://www.coolmathgames.com/0-ballooner-lp/play"],
-		["Basket and Ball", "https://www.coolmathgames.com/0-basket-and-ball/play"],
+		[
+			"Basket and Ball",
+			"https://www.coolmathgames.com/0-basket-and-ball/play"
+		],
 		[
 			"Basketball Master 2",
 			"https://www.coolmathgames.com/0-basketball-master-2/play"
@@ -132,7 +162,10 @@
 			"Bear on a Scooter",
 			"https://www.coolmathgames.com/0-bear-on-a-scooter/play"
 		],
-		["Beastie Blocks", "https://www.coolmathgames.com/0-beastie-blocks/play"],
+		[
+			"Beastie Blocks",
+			"https://www.coolmathgames.com/0-beastie-blocks/play"
+		],
 		["Beavus", "https://www.coolmathgames.com/0-beavus/play"],
 		[
 			"Big FLAPPY Tower Tiny Square",
@@ -146,7 +179,10 @@
 			"Big NEON Tower Tiny Square",
 			"https://www.coolmathgames.com/0-big-neon-tower-tiny-square/play"
 		],
-		["Big Tall Small", "https://www.coolmathgames.com/0-big-tall-small/play"],
+		[
+			"Big Tall Small",
+			"https://www.coolmathgames.com/0-big-tall-small/play"
+		],
 		[
 			"Big Tower Tiny Square",
 			"https://www.coolmathgames.com/0-big-tower-tiny-square/play"
@@ -159,9 +195,15 @@
 		["Binary", "https://www.coolmathgames.com/0-binary/play"],
 		["Bind", "https://www.coolmathgames.com/0-bind/play"],
 		["Black", "https://www.coolmathgames.com/0-black/play"],
-		["Black and White", "https://www.coolmathgames.com/0-black-and-white/play"],
+		[
+			"Black and White",
+			"https://www.coolmathgames.com/0-black-and-white/play"
+		],
 		["Black Matter", "https://www.coolmathgames.com/0-black-matter/play"],
-		["Black vs. Blue", "https://www.coolmathgames.com/0-black-vs-blue/play"],
+		[
+			"Black vs. Blue",
+			"https://www.coolmathgames.com/0-black-vs-blue/play"
+		],
 		["Blast Red!", "https://www.coolmathgames.com/0-blast-red/play"],
 		["BLcGR", "https://www.coolmathgames.com/0-blcgr/play"],
 		["Blightborne", "https://www.coolmathgames.com/0-blightborne/play"],
@@ -191,7 +233,10 @@
 		["Blue Box", "https://www.coolmathgames.com/0-blue-box/play"],
 		["Blue Boy", "https://www.coolmathgames.com/0-blue-boy/play"],
 		["Blue Turn", "https://www.coolmathgames.com/0-blue-turn/play"],
-		["Bob the Robber", "https://www.coolmathgames.com/0-bob-the-robber/play"],
+		[
+			"Bob the Robber",
+			"https://www.coolmathgames.com/0-bob-the-robber/play"
+		],
 		[
 			"Bob the Robber To Go",
 			"https://www.coolmathgames.com/0-bob-the-robber-to-go/play"
@@ -201,11 +246,17 @@
 		["Bokdown", "https://www.coolmathgames.com/0-bokdown/play"],
 		["Bolderline", "https://www.coolmathgames.com/0-bolderline/play"],
 		["Bond Breaker", "https://www.coolmathgames.com/0-bond-breaker/play"],
-		["Bonsai Builder", "https://www.coolmathgames.com/0-bonsai-builder/play"],
+		[
+			"Bonsai Builder",
+			"https://www.coolmathgames.com/0-bonsai-builder/play"
+		],
 		["Boo!", "https://www.coolmathgames.com/0-boo/play"],
 		["Borbo's Quest", "https://www.coolmathgames.com/0-borbos-quest/play"],
 		["Borderless", "https://www.coolmathgames.com/0-borderless/play"],
-		["Bots Boom Bang", "https://www.coolmathgames.com/0-bots-boom-bang/play"],
+		[
+			"Bots Boom Bang",
+			"https://www.coolmathgames.com/0-bots-boom-bang/play"
+		],
 		["Bounce", "https://www.coolmathgames.com/0-bounce/play"],
 		["Bounce Floor", "https://www.coolmathgames.com/0-bounce-floor/play"],
 		["Bouncy Quest", "https://www.coolmathgames.com/0-bouncy-quest/play"],
@@ -218,18 +269,27 @@
 			"Brain For Monster Truck",
 			"https://www.coolmathgames.com/0-brain-for-monster-truck/play"
 		],
-		["Brainy Warrior", "https://www.coolmathgames.com/0-brainy-warrior/play"],
+		[
+			"Brainy Warrior",
+			"https://www.coolmathgames.com/0-brainy-warrior/play"
+		],
 		["BRDG", "https://www.coolmathgames.com/0-brdg/play"],
 		["Brick Boss", "https://www.coolmathgames.com/0-brick-boss/play"],
 		["Brick Breaker", "https://www.coolmathgames.com/0-brick-breaker/play"],
-		["Bricks Breaking", "https://www.coolmathgames.com/0-bricksbreaking/play"],
+		[
+			"Bricks Breaking",
+			"https://www.coolmathgames.com/0-bricksbreaking/play"
+		],
 		[
 			"Bricks Breaking 2",
 			"https://www.coolmathgames.com/0-bricksbreaking2/play"
 		],
 		["Broken TV", "https://www.coolmathgames.com/0-broken-tv/play"],
 		["Brother Bolha", "https://www.coolmathgames.com/0-brother-bolha/play"],
-		["Bubble Invasion", "https://www.coolmathgames.com/0-bubble-invasion/play"],
+		[
+			"Bubble Invasion",
+			"https://www.coolmathgames.com/0-bubble-invasion/play"
+		],
 		[
 			"Bubble Pop Adventures",
 			"https://www.coolmathgames.com/0-bubble-pop-adventures/play"
@@ -244,7 +304,10 @@
 			"https://www.coolmathgames.com/0-bugongo-snowy-peaks/play"
 		],
 		["Bulldozer", "https://www.coolmathgames.com/0-bulldozer/play"],
-		["Bump Bump Bump", "https://www.coolmathgames.com/0-bump-bump-bump/play"],
+		[
+			"Bump Bump Bump",
+			"https://www.coolmathgames.com/0-bump-bump-bump/play"
+		],
 		["BumpSquare", "https://www.coolmathgames.com/0-bumpsquare/play"],
 		["Bunny Hop", "https://www.coolmathgames.com/0-bunny-hop/play"],
 		["Bunny Run", "https://www.coolmathgames.com/0-bunny-run/play"],
@@ -252,7 +315,10 @@
 		["C-Square", "https://www.coolmathgames.com/0-c-square/play"],
 		["Cactu-Sama", "https://www.coolmathgames.com/0-cactu-sama/play"],
 		["Cactu-Sama 2", "https://www.coolmathgames.com/0-cactu-sama-2/play"],
-		["Calculate This!", "https://www.coolmathgames.com/0-calculate-this/play"],
+		[
+			"Calculate This!",
+			"https://www.coolmathgames.com/0-calculate-this/play"
+		],
 		["Candy Jump", "https://www.coolmathgames.com/0-candy-jump/play"],
 		["Candy Pool", "https://www.coolmathgames.com/0-candy-pool/play"],
 		["Candy Word", "https://www.coolmathgames.com/0-candy-word/play"],
@@ -282,7 +348,10 @@
 		["Carrot Crave", "https://www.coolmathgames.com/0-carrot-crave/play"],
 		["Carrot Quest", "https://www.coolmathgames.com/0-carrot-quest/play"],
 		["Cataractae", "https://www.coolmathgames.com/0-cataractae/play"],
-		["Catch the Candy", "https://www.coolmathgames.com/0-catch-the-candy/play"],
+		[
+			"Catch the Candy",
+			"https://www.coolmathgames.com/0-catch-the-candy/play"
+		],
 		[
 			"Catch the Candy Halloween",
 			"https://www.coolmathgames.com/0-catch-the-candy-halloween/play"
@@ -309,7 +378,10 @@
 			"Chainy Chisai Medieval",
 			"https://www.coolmathgames.com/0-chainy-chisai-medieval/play"
 		],
-		["Chase of Boxes", "https://www.coolmathgames.com/0-chase-of-boxes/play"],
+		[
+			"Chase of Boxes",
+			"https://www.coolmathgames.com/0-chase-of-boxes/play"
+		],
 		["Cheap Golf", "https://www.coolmathgames.com/0-cheap-golf/play"],
 		["Checkers", "https://www.coolmathgames.com/0-checkers/play"],
 		["Cheese Quest", "https://www.coolmathgames.com/0-cheese-quest/play"],
@@ -364,7 +436,10 @@
 		["Clockwise", "https://www.coolmathgames.com/0-clockwise/play"],
 		["Coco Monkey", "https://www.coolmathgames.com/0-coco-monkey/play"],
 		["Code Panda", "https://www.coolmathgames.com/0-code-panda/play"],
-		["Coffee Mahjong", "https://www.coolmathgames.com/0-coffee-mahjong/play"],
+		[
+			"Coffee Mahjong",
+			"https://www.coolmathgames.com/0-coffee-mahjong/play"
+		],
 		["Coffee Shop", "https://www.coolmathgames.com/0-coffee-shop/play"],
 		["Cognite", "https://www.coolmathgames.com/0-cognite/play"],
 		["Color Count", "https://www.coolmathgames.com/0-color-count/play"],
@@ -381,8 +456,14 @@
 		["Coloruid 2", "https://www.coolmathgames.com/0-coloruid-2/play"],
 		["Colorush", "https://www.coolmathgames.com/0-colorush/play"],
 		["Colour Rush", "https://www.coolmathgames.com/0-colour-rush/play"],
-		["Combo Crusader", "https://www.coolmathgames.com/0-combo-crusader/play"],
-		["Completed Paths", "https://www.coolmathgames.com/0-completed-paths/play"],
+		[
+			"Combo Crusader",
+			"https://www.coolmathgames.com/0-combo-crusader/play"
+		],
+		[
+			"Completed Paths",
+			"https://www.coolmathgames.com/0-completed-paths/play"
+		],
 		["Compulse", "https://www.coolmathgames.com/0-compulse/play"],
 		["Concentration", "https://www.coolmathgames.com/0-concentration/play"],
 		["Conduit", "https://www.coolmathgames.com/0-conduit/play"],
@@ -434,7 +515,10 @@
 			"https://www.coolmathgames.com/0-cricket-cup-online/play"
 		],
 		["Cross the Gap", "https://www.coolmathgames.com/0-cross-the-gap/play"],
-		["Crossbar Kevin", "https://www.coolmathgames.com/0-crossbar-kevin/play"],
+		[
+			"Crossbar Kevin",
+			"https://www.coolmathgames.com/0-crossbar-kevin/play"
+		],
 		["Crossy Cat", "https://www.coolmathgames.com/0-crossy-cat/play"],
 		["Cryomancer", "https://www.coolmathgames.com/0-cryomancer/play"],
 		["Cryptic Clash", "https://www.coolmathgames.com/0-cryptic-clash/play"],
@@ -449,22 +533,40 @@
 			"Cup of Tea Mahjong",
 			"https://www.coolmathgames.com/0-cup-of-tea-mahjong/play"
 		],
-		["Cupcake Monster", "https://www.coolmathgames.com/0-cupcake-monster/play"],
+		[
+			"Cupcake Monster",
+			"https://www.coolmathgames.com/0-cupcake-monster/play"
+		],
 		["Curve Ball 3D", "https://www.coolmathgames.com/0-curve-ball-3d/play"],
 		["Cut & Dunk", "https://www.coolmathgames.com/0-cut-dunk/play"],
-		["Cut the Buttons", "https://www.coolmathgames.com/0-cut-the-buttons/play"],
+		[
+			"Cut the Buttons",
+			"https://www.coolmathgames.com/0-cut-the-buttons/play"
+		],
 		["Cut the Rope", "https://www.coolmathgames.com/0-cut-the-rope/play"],
-		["Cut the Rope 2", "https://www.coolmathgames.com/0-cut-the-rope-2/play"],
+		[
+			"Cut the Rope 2",
+			"https://www.coolmathgames.com/0-cut-the-rope-2/play"
+		],
 		["Cutoff", "https://www.coolmathgames.com/0-cutoff/play"],
 		["Cyber Tank", "https://www.coolmathgames.com/0-cyber-tank/play"],
 		["Cyber Tank 2", "https://www.coolmathgames.com/0-cyber-tank-2/play"],
-		["Cyclop Physics", "https://www.coolmathgames.com/0-cyclop-physics/play"],
+		[
+			"Cyclop Physics",
+			"https://www.coolmathgames.com/0-cyclop-physics/play"
+		],
 		[
 			"Cyclop Physics Level Pack",
 			"https://www.coolmathgames.com/0-cyclop-physics-level-pack/play"
 		],
-		["Daily Crossword", "https://www.coolmathgames.com/0-daily-crossword/play"],
-		["Daily FreeCell", "https://www.coolmathgames.com/0-daily-freecell/play"],
+		[
+			"Daily Crossword",
+			"https://www.coolmathgames.com/0-daily-crossword/play"
+		],
+		[
+			"Daily FreeCell",
+			"https://www.coolmathgames.com/0-daily-freecell/play"
+		],
 		["Daily Jigsaw", "https://www.coolmathgames.com/0-daily-jigsaw/play"],
 		["Daily Jumble", "https://www.coolmathgames.com/0-daily-jumble/play"],
 		["Daily Mahjong", "https://www.coolmathgames.com/0-daily-mahjong/play"],
@@ -474,7 +576,10 @@
 		],
 		["Daily Sudoku", "https://www.coolmathgames.com/0-daily-sudoku/play"],
 		["Dalo", "https://www.coolmathgames.com/0-dalo/play"],
-		["Dark Light Swap", "https://www.coolmathgames.com/0-dark-light-swap/play"],
+		[
+			"Dark Light Swap",
+			"https://www.coolmathgames.com/0-dark-light-swap/play"
+		],
 		["Dark Tomb", "https://www.coolmathgames.com/0-dark-tomb/play"],
 		["Darts", "https://www.coolmathgames.com/0-darts/play"],
 		["Dasshubox", "https://www.coolmathgames.com/0-dasshubox/play"],
@@ -521,7 +626,10 @@
 			"Delia the Traveling Witch",
 			"https://www.coolmathgames.com/0-delia-the-traveling-witch/play"
 		],
-		["Destroy Numbers", "https://www.coolmathgames.com/0-destroy-numbers/play"],
+		[
+			"Destroy Numbers",
+			"https://www.coolmathgames.com/0-destroy-numbers/play"
+		],
 		["Detective GUI", "https://www.coolmathgames.com/0-detective-gui/play"],
 		["Detiled", "https://www.coolmathgames.com/0-detiled/play"],
 		["Diff", "https://www.coolmathgames.com/0-diff/play"],
@@ -534,8 +642,14 @@
 		["Distanced", "https://www.coolmathgames.com/0-distanced/play"],
 		["Districts", "https://www.coolmathgames.com/0-districts/play"],
 		["Divide", "https://www.coolmathgames.com/0-divide/play"],
-		["Doctor Acorn 2", "https://www.coolmathgames.com/0-doctor-acorn-2/play"],
-		["Doctor Acorn 3", "https://www.coolmathgames.com/0-doctor-acorn-3/play"],
+		[
+			"Doctor Acorn 2",
+			"https://www.coolmathgames.com/0-doctor-acorn-2/play"
+		],
+		[
+			"Doctor Acorn 3",
+			"https://www.coolmathgames.com/0-doctor-acorn-3/play"
+		],
 		["Dodge", "https://www.coolmathgames.com/0-dodge/play"],
 		["Doggnation", "https://www.coolmathgames.com/0-doggnation/play"],
 		["Dokia", "https://www.coolmathgames.com/0-dokia/play"],
@@ -548,7 +662,10 @@
 		["Donut Slicing", "https://www.coolmathgames.com/0-donut-slicing/play"],
 		["Doodle Alive", "https://www.coolmathgames.com/0-doodle-alive/play"],
 		["Dotless", "https://www.coolmathgames.com/0-dotless/play"],
-		["Dots and Boxes", "https://www.coolmathgames.com/0-dots-and-boxes/play"],
+		[
+			"Dots and Boxes",
+			"https://www.coolmathgames.com/0-dots-and-boxes/play"
+		],
 		[
 			"Double Cheeseburger, Medium Fries",
 			"https://www.coolmathgames.com/0-double-cheeseburger-medium-fries/play"
@@ -589,7 +706,10 @@
 		["Dunk Shot", "https://www.coolmathgames.com/0-dunk-shot/play"],
 		["Duplicube", "https://www.coolmathgames.com/0-duplicube/play"],
 		["E.T.P", "https://www.coolmathgames.com/0-etp/play"],
-		["Edge Not Found", "https://www.coolmathgames.com/0-edge-not-found/play"],
+		[
+			"Edge Not Found",
+			"https://www.coolmathgames.com/0-edge-not-found/play"
+		],
 		["Efi", "https://www.coolmathgames.com/0-efi/play"],
 		[
 			"Eggy's Adventure",
@@ -600,7 +720,10 @@
 			"Electric Shocktopus",
 			"https://www.coolmathgames.com/0-electric-shocktopus/play"
 		],
-		["Elemental Tiles", "https://www.coolmathgames.com/0-elemental-tiles/play"],
+		[
+			"Elemental Tiles",
+			"https://www.coolmathgames.com/0-elemental-tiles/play"
+		],
 		["Else Walker", "https://www.coolmathgames.com/0-else-walker/play"],
 		[
 			"Emerald and Amber",
@@ -610,14 +733,23 @@
 			"Emoticon Defense",
 			"https://www.coolmathgames.com/0-emoticon-defense/play"
 		],
-		["Emperors on Ice", "https://www.coolmathgames.com/0-emperors-on-ice/play"],
+		[
+			"Emperors on Ice",
+			"https://www.coolmathgames.com/0-emperors-on-ice/play"
+		],
 		["Encaged", "https://www.coolmathgames.com/0-encaged/play"],
 		["Encase", "https://www.coolmathgames.com/0-encase/play"],
-		["Enchanted Path", "https://www.coolmathgames.com/0-enchanted-path/play"],
+		[
+			"Enchanted Path",
+			"https://www.coolmathgames.com/0-enchanted-path/play"
+		],
 		["Epic Tangram", "https://www.coolmathgames.com/0-epic-tangram/play"],
 		["Escape Hatch", "https://www.coolmathgames.com/0-escape-hatch/play"],
 		["Escape Kid", "https://www.coolmathgames.com/0-escape-kid/play"],
-		["Escape Sequence", "https://www.coolmathgames.com/0-escape-sequence/play"],
+		[
+			"Escape Sequence",
+			"https://www.coolmathgames.com/0-escape-sequence/play"
+		],
 		["Escape!", "https://www.coolmathgames.com/0-escape/play"],
 		["Escorial", "https://www.coolmathgames.com/0-escorial/play"],
 		["Evil Wyrm", "https://www.coolmathgames.com/0-evil-wyrm/play"],
@@ -634,8 +766,14 @@
 			"https://www.coolmathgames.com/0-eyecopter-gemland/play"
 		],
 		["Factory Balls", "https://www.coolmathgames.com/0-factory-balls/play"],
-		["Factory Balls 2", "https://www.coolmathgames.com/0-factory-balls-2/play"],
-		["Factory Balls 3", "https://www.coolmathgames.com/0-factory-balls-3/play"],
+		[
+			"Factory Balls 2",
+			"https://www.coolmathgames.com/0-factory-balls-2/play"
+		],
+		[
+			"Factory Balls 3",
+			"https://www.coolmathgames.com/0-factory-balls-3/play"
+		],
 		[
 			"Factory Balls Christmas Edition",
 			"https://www.coolmathgames.com/0-factory-balls-christmas/play"
@@ -656,7 +794,10 @@
 		["Faraway", "https://www.coolmathgames.com/0-faraway/play"],
 		["Fat Slice", "https://www.coolmathgames.com/0-fat-slice/play"],
 		["Fat Slice 2", "https://www.coolmathgames.com/0-fat-slice-2/play"],
-		["Feed That Thing", "https://www.coolmathgames.com/0-feed-that-thing/play"],
+		[
+			"Feed That Thing",
+			"https://www.coolmathgames.com/0-feed-that-thing/play"
+		],
 		[
 			"Feed the Figures",
 			"https://www.coolmathgames.com/0-feed-the-figures/play"
@@ -666,11 +807,17 @@
 			"https://www.coolmathgames.com/0-feed-the-figures-2/play"
 		],
 		["Feelingz", "https://www.coolmathgames.com/0-feelingz/play"],
-		["Fill Multicolor", "https://www.coolmathgames.com/0-fill-multicolor/play"],
+		[
+			"Fill Multicolor",
+			"https://www.coolmathgames.com/0-fill-multicolor/play"
+		],
 		["Fill Tracks", "https://www.coolmathgames.com/0-fill-tracks/play"],
 		["Fillall", "https://www.coolmathgames.com/0-fillall/play"],
 		["Fillness", "https://www.coolmathgames.com/0-fillness/play"],
-		["Find the Candy", "https://www.coolmathgames.com/0-find-the-candy/play"],
+		[
+			"Find the Candy",
+			"https://www.coolmathgames.com/0-find-the-candy/play"
+		],
 		[
 			"Find the Candy 2 Winter",
 			"https://www.coolmathgames.com/0-find-the-candy-2-winter/play"
@@ -684,7 +831,10 @@
 			"https://www.coolmathgames.com/0-finders-critters/play"
 		],
 		["Fireblob", "https://www.coolmathgames.com/0-fireblob/play"],
-		["FireBlob Winter", "https://www.coolmathgames.com/0-fireblob-winter/play"],
+		[
+			"FireBlob Winter",
+			"https://www.coolmathgames.com/0-fireblob-winter/play"
+		],
 		[
 			"Fireboy and Water Girl 2 in The Light Temple",
 			"https://www.coolmathgames.com/0-fireboy-watergirl-2-light-temple/play"
@@ -733,8 +883,14 @@
 		["For the King", "https://www.coolmathgames.com/0-for-the-king/play"],
 		["Four in a Row", "https://www.coolmathgames.com/0-four-in-a-row"],
 		["Fox 'N' Roll", "https://www.coolmathgames.com/0-fox-n-roll/play"],
-		["Fox 'N' Roll Pro", "https://www.coolmathgames.com/0-fox-n-roll-pro/play"],
-		["Fox Adventurer", "https://www.coolmathgames.com/0-fox-adventurer/play"],
+		[
+			"Fox 'N' Roll Pro",
+			"https://www.coolmathgames.com/0-fox-n-roll-pro/play"
+		],
+		[
+			"Fox Adventurer",
+			"https://www.coolmathgames.com/0-fox-adventurer/play"
+		],
 		["FoxBot", "https://www.coolmathgames.com/0-foxbot/play"],
 		["Foxy Blocks", "https://www.coolmathgames.com/0-foxy-blocks/play"],
 		["FreeCell", "https://www.coolmathgames.com/0-freecell/play"],
@@ -742,7 +898,10 @@
 		["Freeze!", "https://www.coolmathgames.com/0-freeze/play"],
 		["Froggo Coins", "https://www.coolmathgames.com/0-froggo-coins/play"],
 		["Frostwing", "https://www.coolmathgames.com/0-frostwing/play"],
-		["Fruita Swipe 2", "https://www.coolmathgames.com/0-fruita-swipe-2/play"],
+		[
+			"Fruita Swipe 2",
+			"https://www.coolmathgames.com/0-fruita-swipe-2/play"
+		],
 		["Full Moon", "https://www.coolmathgames.com/0-full-moon/play"],
 		["Full Stacks", "https://www.coolmathgames.com/0-full-stacks/play"],
 		["Fuse", "https://www.coolmathgames.com/0-fuse/play"],
@@ -759,10 +918,16 @@
 			"https://www.coolmathgames.com/0-gentleman-rescue-2/play"
 		],
 		["Geometrica", "https://www.coolmathgames.com/0-geometrica/play"],
-		["Geometry Tower", "https://www.coolmathgames.com/0-geometry-tower/play"],
+		[
+			"Geometry Tower",
+			"https://www.coolmathgames.com/0-geometry-tower/play"
+		],
 		["Get 10", "https://www.coolmathgames.com/0-get-10/play"],
 		["Get It Filled", "https://www.coolmathgames.com/0-get-it-filled/play"],
-		["Get it Filled 2", "https://www.coolmathgames.com/0-get-it-filled-2/play"],
+		[
+			"Get it Filled 2",
+			"https://www.coolmathgames.com/0-get-it-filled-2/play"
+		],
 		[
 			"Get To the Other Side",
 			"https://www.coolmathgames.com/0-get-to-the-other-side/play"
@@ -783,24 +948,39 @@
 			"https://www.coolmathgames.com/0-gnome-of-time-garden/play"
 		],
 		["Gof", "https://www.coolmathgames.com/0-gof/play"],
-		["Golf is a Blast", "https://www.coolmathgames.com/0-golf-is-a-blast/play"],
+		[
+			"Golf is a Blast",
+			"https://www.coolmathgames.com/0-golf-is-a-blast/play"
+		],
 		["Grabble", "https://www.coolmathgames.com/0-grabble/play"],
 		["Grabbot", "https://www.coolmathgames.com/0-grabbot/play"],
-		["Grapple Tongue", "https://www.coolmathgames.com/0-grapple-tongue/play"],
+		[
+			"Grapple Tongue",
+			"https://www.coolmathgames.com/0-grapple-tongue/play"
+		],
 		["Gravisquare", "https://www.coolmathgames.com/0-gravisquare/play"],
 		["Gravitation", "https://www.coolmathgames.com/0-gravitation/play"],
 		["Gravitee", "https://www.coolmathgames.com/0-gravitee/play"],
 		["Gravitee 2", "https://www.coolmathgames.com/0-gravitee-2/play"],
 		["Gravitus", "https://www.coolmathgames.com/0-gravitus/play"],
-		["Gravity Arrows", "https://www.coolmathgames.com/0-gravity-arrows/play"],
-		["Gravity Control", "https://www.coolmathgames.com/0-gravity-control/play"],
+		[
+			"Gravity Arrows",
+			"https://www.coolmathgames.com/0-gravity-arrows/play"
+		],
+		[
+			"Gravity Control",
+			"https://www.coolmathgames.com/0-gravity-control/play"
+		],
 		["Gravity Grid", "https://www.coolmathgames.com/0-gravitygrid/play"],
 		["Gravity Snake", "https://www.coolmathgames.com/0-gravity-snake/play"],
 		[
 			"Gravity Soccer 3",
 			"https://www.coolmathgames.com/0-gravity-soccer-3/play"
 		],
-		["Gravity Trails", "https://www.coolmathgames.com/0-gravity-trails/play"],
+		[
+			"Gravity Trails",
+			"https://www.coolmathgames.com/0-gravity-trails/play"
+		],
 		["Gravity X", "https://www.coolmathgames.com/0-gravity-x/play"],
 		["Gravix", "https://www.coolmathgames.com/0-gravix/play"],
 		["Greedy Mimic", "https://www.coolmathgames.com/0-greedy-mimic/play"],
@@ -898,7 +1078,10 @@
 		["HUMMING OUT", "https://www.coolmathgames.com/0-humming-out/play"],
 		["Hungry Dog", "https://www.coolmathgames.com/0-hungry-dog/play"],
 		["Hurdles", "https://www.coolmathgames.com/0-hurdles/play"],
-		["I Heard A Rumor", "https://www.coolmathgames.com/0-i-heard-a-rumor/play"],
+		[
+			"I Heard A Rumor",
+			"https://www.coolmathgames.com/0-i-heard-a-rumor/play"
+		],
 		[
 			"I Just Wanna Land!",
 			"https://www.coolmathgames.com/0-i-just-wanna-land/play"
@@ -912,7 +1095,10 @@
 		["Icy Gifts", "https://www.coolmathgames.com/0-icy-gifts/play"],
 		["Icy Gifts 2", "https://www.coolmathgames.com/0-icy-gifts-2/play"],
 		["Icy North", "https://www.coolmathgames.com/0-icy-north/play"],
-		["Icy Purple Head", "https://www.coolmathgames.com/0-icy-purple-head/play"],
+		[
+			"Icy Purple Head",
+			"https://www.coolmathgames.com/0-icy-purple-head/play"
+		],
 		[
 			"Icy Purple Head 3",
 			"https://www.coolmathgames.com/0-icy-purple-head-3/play"
@@ -944,7 +1130,10 @@
 			"https://www.coolmathgames.com/0-igni-child-of-fire/play"
 		],
 		["Illiteracy", "https://www.coolmathgames.com/0-illiteracy/play"],
-		["Impossible Path", "https://www.coolmathgames.com/0-impossible-path/play"],
+		[
+			"Impossible Path",
+			"https://www.coolmathgames.com/0-impossible-path/play"
+		],
 		[
 			"Impossible Snake",
 			"https://www.coolmathgames.com/0-impossible-snake/play"
@@ -978,7 +1167,10 @@
 			"https://www.coolmathgames.com/0-islands-of-creatures/play"
 		],
 		["Jacksmith", "https://www.coolmathgames.com/0-jacksmith/play"],
-		["Jelly Collapse", "https://www.coolmathgames.com/0-jelly-collapse/play"],
+		[
+			"Jelly Collapse",
+			"https://www.coolmathgames.com/0-jelly-collapse/play"
+		],
 		["Jelly Doods", "https://www.coolmathgames.com/0-jelly-doods/play"],
 		["Jelly Jumper", "https://www.coolmathgames.com/0-jelly-jumper/play"],
 		["Jelly Slice", "https://www.coolmathgames.com/0-jelly-slice/play"],
@@ -993,17 +1185,26 @@
 			"Jewel Christmas Mania",
 			"https://www.coolmathgames.com/0-jewel-christmas-mania/play"
 		],
-		["Jewel Monsters", "https://www.coolmathgames.com/0-jewel-monsters/play"],
+		[
+			"Jewel Monsters",
+			"https://www.coolmathgames.com/0-jewel-monsters/play"
+		],
 		["Jewel Routes", "https://www.coolmathgames.com/0-jewel-routes/play"],
 		[
 			"Jimothy Piggerton",
 			"https://www.coolmathgames.com/0-jimothy-piggerton/play"
 		],
 		["JLIM", "https://www.coolmathgames.com/0-jlim/play"],
-		["Johnny Upgrade", "https://www.coolmathgames.com/0-johnny-upgrade/play"],
+		[
+			"Johnny Upgrade",
+			"https://www.coolmathgames.com/0-johnny-upgrade/play"
+		],
 		["Joint'd", "https://www.coolmathgames.com/0-jointd/play"],
 		["Jolly Jong", "https://www.coolmathgames.com/0-jolly-jong/play"],
-		["Jolly Jong 2.5", "https://www.coolmathgames.com/0-jolly-jong-25/play"],
+		[
+			"Jolly Jong 2.5",
+			"https://www.coolmathgames.com/0-jolly-jong-25/play"
+		],
 		["Jon Lightning", "https://www.coolmathgames.com/0-jon-lightning/play"],
 		["Jumphase", "https://www.coolmathgames.com/0-jumphase/play"],
 		["Jumphobia", "https://www.coolmathgames.com/0-jumphobia/play"],
@@ -1011,8 +1212,14 @@
 			"Jumpin' Jac Dash",
 			"https://www.coolmathgames.com/0-jumpin-jac-dash/play"
 		],
-		["Jumping Clones", "https://www.coolmathgames.com/0-jumping-clones/play"],
-		["Jumpless World", "https://www.coolmathgames.com/0-jumpless-world/play"],
+		[
+			"Jumping Clones",
+			"https://www.coolmathgames.com/0-jumping-clones/play"
+		],
+		[
+			"Jumpless World",
+			"https://www.coolmathgames.com/0-jumpless-world/play"
+		],
 		["jumpNULL", "https://www.coolmathgames.com/0-jumpnull/play"],
 		["Jumpy Ape Joe", "https://www.coolmathgames.com/0-jumpy-ape-joe/play"],
 		["Jungle Runner", "https://www.coolmathgames.com/0-jungle-runner/play"],
@@ -1021,15 +1228,30 @@
 			"https://www.coolmathgames.com/0-just-a-platformer/play"
 		],
 		["Just One Boss", "https://www.coolmathgames.com/0-just-one-boss/play"],
-		["Just One Color", "https://www.coolmathgames.com/0-just-one-color/play"],
+		[
+			"Just One Color",
+			"https://www.coolmathgames.com/0-just-one-color/play"
+		],
 		["Kaboom Swing", "https://www.coolmathgames.com/0-kaboom-swing/play"],
-		["Keep It Powered", "https://www.coolmathgames.com/0-keep-it-powered/play"],
-		["Key and Shield", "https://www.coolmathgames.com/0-key-and-shield/play"],
+		[
+			"Keep It Powered",
+			"https://www.coolmathgames.com/0-keep-it-powered/play"
+		],
+		[
+			"Key and Shield",
+			"https://www.coolmathgames.com/0-key-and-shield/play"
+		],
 		["Keyholder", "https://www.coolmathgames.com/0-keyholder/play"],
 		["Killer Sudoku", "https://www.coolmathgames.com/0-killer-sudoku/play"],
-		["King of Thieves", "https://www.coolmathgames.com/0-king-of-thieves/play"],
+		[
+			"King of Thieves",
+			"https://www.coolmathgames.com/0-king-of-thieves/play"
+		],
 		["Kirigami", "https://www.coolmathgames.com/0-kirigami/play"],
-		["Kishoutenketsu", "https://www.coolmathgames.com/0-kishoutenketsu/play"],
+		[
+			"Kishoutenketsu",
+			"https://www.coolmathgames.com/0-kishoutenketsu/play"
+		],
 		["Kitsu", "https://www.coolmathgames.com/0-kitsu/play"],
 		["Klocki", "https://www.coolmathgames.com/0-klocki/play"],
 		["Knightin'", "https://www.coolmathgames.com/0-knightin/play"],
@@ -1059,25 +1281,46 @@
 		],
 		["Layer Maze 5", "https://www.coolmathgames.com/0-layer-maze-5/play"],
 		["Le Chat Fonce", "https://www.coolmathgames.com/0-le-chat-fonce/play"],
-		["Le Chat Fonce 2", "https://www.coolmathgames.com/0-le-chat-fonce-2/play"],
-		["Le Chat Fonce 3", "https://www.coolmathgames.com/0-le-chat-fonce-3/play"],
+		[
+			"Le Chat Fonce 2",
+			"https://www.coolmathgames.com/0-le-chat-fonce-2/play"
+		],
+		[
+			"Le Chat Fonce 3",
+			"https://www.coolmathgames.com/0-le-chat-fonce-3/play"
+		],
 		[
 			"Leaftek and Elemental Powers",
 			"https://www.coolmathgames.com/0-leaftek-and-elemental-powers/play"
 		],
-		["Leap the Synth", "https://www.coolmathgames.com/0-leap-the-synth/play"],
+		[
+			"Leap the Synth",
+			"https://www.coolmathgames.com/0-leap-the-synth/play"
+		],
 		["Learn to Fly", "https://www.coolmathgames.com/0-learn-to-fly/play"],
-		["Leave One Ball", "https://www.coolmathgames.com/0-leave-one-ball/play"],
+		[
+			"Leave One Ball",
+			"https://www.coolmathgames.com/0-leave-one-ball/play"
+		],
 		["Legend", "https://www.coolmathgames.com/0-legend/play"],
-		["Lemonade Stand", "https://www.coolmathgames.com/0-lemonade-stand/play"],
+		[
+			"Lemonade Stand",
+			"https://www.coolmathgames.com/0-lemonade-stand/play"
+		],
 		["Let Me Rock", "https://www.coolmathgames.com/0-let-me-rock/play"],
 		["Let's Bounce", "https://www.coolmathgames.com/0-lets-bounce/play"],
-		["Let's Play Golf", "https://www.coolmathgames.com/0-lets-play-golf/play"],
+		[
+			"Let's Play Golf",
+			"https://www.coolmathgames.com/0-lets-play-golf/play"
+		],
 		[
 			"Life in the Static",
 			"https://www.coolmathgames.com/0-life-in-the-static/play"
 		],
-		["Lifespan Candle", "https://www.coolmathgames.com/0-lifespan-candle/play"],
+		[
+			"Lifespan Candle",
+			"https://www.coolmathgames.com/0-lifespan-candle/play"
+		],
 		["Light On", "https://www.coolmathgames.com/0-light-on/play"],
 		["Light Push", "https://www.coolmathgames.com/0-light-push/play"],
 		["Lines 98", "https://www.coolmathgames.com/0-lines-98/play"],
@@ -1100,7 +1343,10 @@
 		["Logic Magnets", "https://www.coolmathgames.com/0-logic-magnets/play"],
 		["Logic Tail", "https://www.coolmathgames.com/0-logic-tail/play"],
 		["Logic Tracks", "https://www.coolmathgames.com/0-logic-tracks/play"],
-		["Logica Emotica", "https://www.coolmathgames.com/0-logica-emotica/play"],
+		[
+			"Logica Emotica",
+			"https://www.coolmathgames.com/0-logica-emotica/play"
+		],
 		["Long Way", "https://www.coolmathgames.com/0-long-way/play"],
 		["Looking For", "https://www.coolmathgames.com/0-looking-for/play"],
 		["Loop Path", "https://www.coolmathgames.com/0-loop-path/play"],
@@ -1122,8 +1368,14 @@
 			"https://www.coolmathgames.com/0-lynx-stealth-mission/play"
 		],
 		["Ma Puzzle", "https://www.coolmathgames.com/0-ma-puzzle/play"],
-		["Magic Cassette", "https://www.coolmathgames.com/0-magic-cassette/play"],
-		["Magic Solitaire", "https://www.coolmathgames.com/0-magic-solitaire/play"],
+		[
+			"Magic Cassette",
+			"https://www.coolmathgames.com/0-magic-cassette/play"
+		],
+		[
+			"Magic Solitaire",
+			"https://www.coolmathgames.com/0-magic-solitaire/play"
+		],
 		["Magic Toenail", "https://www.coolmathgames.com/0-magic-toenail/play"],
 		["Magnet Ban", "https://www.coolmathgames.com/0-magnet-ban/play"],
 		["Magnet Mayhem", "https://www.coolmathgames.com/0-magnet-mayhem/play"],
@@ -1134,15 +1386,24 @@
 			"Mahjong for Christmas",
 			"https://www.coolmathgames.com/0-mahjong-for-christmas/play"
 		],
-		["Mainlands Wars", "https://www.coolmathgames.com/0-mainlands-wars/play"],
+		[
+			"Mainlands Wars",
+			"https://www.coolmathgames.com/0-mainlands-wars/play"
+		],
 		["Make The Cube", "https://www.coolmathgames.com/0-make-the-cube/play"],
 		["Mancala", "https://www.coolmathgames.com/0-mancala/play"],
 		["Mango Mania", "https://www.coolmathgames.com/0-mango-mania/play"],
 		["Maptroid", "https://www.coolmathgames.com/0-maptroid/play"],
 		["Marble Blast", "https://www.coolmathgames.com/0-marble-blast/play"],
 		["Marble Trap", "https://www.coolmathgames.com/0-marble-trap/play"],
-		["Marbles Factory", "https://www.coolmathgames.com/0-marbles-factory/play"],
-		["Marbles Garden", "https://www.coolmathgames.com/0-marbles-garden/play"],
+		[
+			"Marbles Factory",
+			"https://www.coolmathgames.com/0-marbles-factory/play"
+		],
+		[
+			"Marbles Garden",
+			"https://www.coolmathgames.com/0-marbles-garden/play"
+		],
 		["Mark", "https://www.coolmathgames.com/0-mark/play"],
 		["Massi", "https://www.coolmathgames.com/0-massi/play"],
 		["Matchkey", "https://www.coolmathgames.com/0-matchkey/play"],
@@ -1157,7 +1418,10 @@
 		["Mathventure", "https://www.coolmathgames.com/0-mathventure/play"],
 		["Maze", "https://www.coolmathgames.com/0-maze/play"],
 		["Maze 64", "https://www.coolmathgames.com/0-maze-64/play"],
-		["Maze Challenge", "https://www.coolmathgames.com/0-maze-challenge/play"],
+		[
+			"Maze Challenge",
+			"https://www.coolmathgames.com/0-maze-challenge/play"
+		],
 		[
 			"Me and Another Me",
 			"https://www.coolmathgames.com/0-me-and-another-me/play"
@@ -1170,14 +1434,26 @@
 			"Me and the Key 2",
 			"https://www.coolmathgames.com/0-me-and-the-key-2/play"
 		],
-		["Melody Shuffle", "https://www.coolmathgames.com/0-melody-shuffle/play"],
+		[
+			"Melody Shuffle",
+			"https://www.coolmathgames.com/0-melody-shuffle/play"
+		],
 		["MemoFlip", "https://www.coolmathgames.com/0-memoflip/play"],
 		["Memorize Fast", "https://www.coolmathgames.com/0-memorize-fast/play"],
 		["Memory", "https://www.coolmathgames.com/0-memory/play"],
-		["Mercurial Story", "https://www.coolmathgames.com/0-mercurial-story/play"],
+		[
+			"Mercurial Story",
+			"https://www.coolmathgames.com/0-mercurial-story/play"
+		],
 		["Merge Rings", "https://www.coolmathgames.com/0-merge-rings/play"],
-		["MetroCubeVania", "https://www.coolmathgames.com/0-metrocubevania/play"],
-		["Micro Crossword", "https://www.coolmathgames.com/0-micro-crossword/play"],
+		[
+			"MetroCubeVania",
+			"https://www.coolmathgames.com/0-metrocubevania/play"
+		],
+		[
+			"Micro Crossword",
+			"https://www.coolmathgames.com/0-micro-crossword/play"
+		],
 		["Micro Pilots", "https://www.coolmathgames.com/0-micro-pilots/play"],
 		["Milt", "https://www.coolmathgames.com/0-milt/play"],
 		["Mimic", "https://www.coolmathgames.com/0-mimic/play"],
@@ -1185,7 +1461,10 @@
 		["Miner Cave", "https://www.coolmathgames.com/0-miner-cave/play"],
 		["Minesweeper", "https://www.coolmathgames.com/0-minesweeper/play"],
 		["Mini Blocks", "https://www.coolmathgames.com/0-mini-blocks/play"],
-		["Mini Blocks DX", "https://www.coolmathgames.com/0-mini-blocks-dx/play"],
+		[
+			"Mini Blocks DX",
+			"https://www.coolmathgames.com/0-mini-blocks-dx/play"
+		],
 		["Mini Bowl", "https://www.coolmathgames.com/0-mini-bowl/play"],
 		["Mini Bubbles", "https://www.coolmathgames.com/0-mini-bubbles/play"],
 		["Mini Coins", "https://www.coolmathgames.com/0-mini-coins/play"],
@@ -1217,10 +1496,16 @@
 			"https://www.coolmathgames.com/0-mini-traffic-jam/play"
 		],
 		["Minifield", "https://www.coolmathgames.com/0-minifield/play"],
-		["Minigolf Master", "https://www.coolmathgames.com/0-minigolf-master/play"],
+		[
+			"Minigolf Master",
+			"https://www.coolmathgames.com/0-minigolf-master/play"
+		],
 		["Minijumps", "https://www.coolmathgames.com/0-minijumps/play"],
 		["Minor Miner", "https://www.coolmathgames.com/0-minor-miner/play"],
-		["Missile Command", "https://www.coolmathgames.com/0-missile-command/play"],
+		[
+			"Missile Command",
+			"https://www.coolmathgames.com/0-missile-command/play"
+		],
 		["Misspelled", "https://www.coolmathgames.com/0-misspelled/play"],
 		["Mitoosis", "https://www.coolmathgames.com/0-mitoosis/play"],
 		["Mixed World", "https://www.coolmathgames.com/0-mixed-world/play"],
@@ -1237,7 +1522,10 @@
 			"Monkey Bubble Shooter",
 			"https://www.coolmathgames.com/0-monkey-bubble-shooter/play"
 		],
-		["Monster Mahjong", "https://www.coolmathgames.com/0-monster-mahjong/play"],
+		[
+			"Monster Mahjong",
+			"https://www.coolmathgames.com/0-monster-mahjong/play"
+		],
 		["Monster Snake", "https://www.coolmathgames.com/0-monster-snake/play"],
 		["Monsterland 3", "https://www.coolmathgames.com/0-monsterland-3/play"],
 		[
@@ -1259,7 +1547,10 @@
 			"Moto X3M Spooky Land",
 			"https://www.coolmathgames.com/0-moto-x3m-spooky-land/play"
 		],
-		["Moto X3M Winter", "https://www.coolmathgames.com/0-moto-x3m-winter/play"],
+		[
+			"Moto X3M Winter",
+			"https://www.coolmathgames.com/0-moto-x3m-winter/play"
+		],
 		[
 			"Move Here Move There",
 			"https://www.coolmathgames.com/0-move-here-move-there/play"
@@ -1268,7 +1559,10 @@
 		["Mr. Blast", "https://www.coolmathgames.com/0-mr-blast/play"],
 		["Mr. Mine", "https://www.coolmathgames.com/0-mr-mine/play"],
 		["Mr. Spaceman", "https://www.coolmathgames.com/0-mr-spaceman/play"],
-		["Mr. Tulip Head", "https://www.coolmathgames.com/0-mr-tulip-head/play"],
+		[
+			"Mr. Tulip Head",
+			"https://www.coolmathgames.com/0-mr-tulip-head/play"
+		],
 		["Multipod", "https://www.coolmathgames.com/0-multipod/play"],
 		["MultiSheep", "https://www.coolmathgames.com/0-multisheep/play"],
 		["Multitask Air", "https://www.coolmathgames.com/0-multitask-air/play"],
@@ -1280,7 +1574,10 @@
 			"Mysterious Treasures",
 			"https://www.coolmathgames.com/0-mysterious-treasures/play"
 		],
-		["Mystery Temple", "https://www.coolmathgames.com/0-mystery-temple/play"],
+		[
+			"Mystery Temple",
+			"https://www.coolmathgames.com/0-mystery-temple/play"
+		],
 		[
 			"Mystical Bird Link",
 			"https://www.coolmathgames.com/0-mystical-bird-link/play"
@@ -1295,7 +1592,10 @@
 		],
 		["Ninenin", "https://www.coolmathgames.com/0-ninenin/play"],
 		["Ninja Painter", "https://www.coolmathgames.com/0-ninja-painter/play"],
-		["Ninja Painter 2", "https://www.coolmathgames.com/0-ninja-painter-2/play"],
+		[
+			"Ninja Painter 2",
+			"https://www.coolmathgames.com/0-ninja-painter-2/play"
+		],
 		[
 			"Ninja Painter Coolmath Edition",
 			"https://www.coolmathgames.com/0-ninja-painter-coolmath-edition/play"
@@ -1305,15 +1605,24 @@
 		["Node", "https://www.coolmathgames.com/0-node/play"],
 		["NOM NOM", "https://www.coolmathgames.com/0-nom-nom/play"],
 		["Nom Nom Yum", "https://www.coolmathgames.com/0-nom-nom-yum/play"],
-		["Not Your Carrot", "https://www.coolmathgames.com/0-not-your-carrot/play"],
+		[
+			"Not Your Carrot",
+			"https://www.coolmathgames.com/0-not-your-carrot/play"
+		],
 		[
 			"Number Collector",
 			"https://www.coolmathgames.com/0-number-collector/play"
 		],
 		["Number Drop", "https://www.coolmathgames.com/0-number-drop/play"],
-		["Number Sequence", "https://www.coolmathgames.com/0-number-sequence/play"],
+		[
+			"Number Sequence",
+			"https://www.coolmathgames.com/0-number-sequence/play"
+		],
 		["Number Solver", "https://www.coolmathgames.com/0-number-solver/play"],
-		["Number Tumbler", "https://www.coolmathgames.com/0-number-tumbler/play"],
+		[
+			"Number Tumbler",
+			"https://www.coolmathgames.com/0-number-tumbler/play"
+		],
 		["Numberhood", "https://www.coolmathgames.com/0-numberhood/play"],
 		["Numberium", "https://www.coolmathgames.com/0-numberium/play"],
 		["Numone", "https://www.coolmathgames.com/0-numone/play"],
@@ -1325,13 +1634,22 @@
 		["Olympic Jump", "https://www.coolmathgames.com/0-olympic-jump/play"],
 		["Omit Orange 2", "https://www.coolmathgames.com/0-omit-orange-2/play"],
 		["On the Road", "https://www.coolmathgames.com/0-on-the-road/play"],
-		["One Button Hero", "https://www.coolmathgames.com/0-one-button-hero/play"],
-		["One More Flight", "https://www.coolmathgames.com/0-one-more-flight/play"],
+		[
+			"One Button Hero",
+			"https://www.coolmathgames.com/0-one-button-hero/play"
+		],
+		[
+			"One More Flight",
+			"https://www.coolmathgames.com/0-one-more-flight/play"
+		],
 		[
 			"One Ping No Pong",
 			"https://www.coolmathgames.com/0-one-ping-no-pong/play"
 		],
-		["One Trick Mage", "https://www.coolmathgames.com/0-one-trick-mage/play"],
+		[
+			"One Trick Mage",
+			"https://www.coolmathgames.com/0-one-trick-mage/play"
+		],
 		["Onus", "https://www.coolmathgames.com/0-onus/play"],
 		["Orakyubu", "https://www.coolmathgames.com/0-orakyubu/play"],
 		["Orb", "https://www.coolmathgames.com/0-orb/play"],
@@ -1346,10 +1664,19 @@
 		],
 		["OvO", "https://www.coolmathgames.com/0-ovo/play"],
 		["Ozark Rush", "https://www.coolmathgames.com/0-ozark-rush/play"],
-		["Pack The Graves", "https://www.coolmathgames.com/0-pack-the-graves/play"],
+		[
+			"Pack The Graves",
+			"https://www.coolmathgames.com/0-pack-the-graves/play"
+		],
 		["Paddle Pals", "https://www.coolmathgames.com/0-paddle-pals/play"],
-		["Papa's Bakeria", "https://www.coolmathgames.com/0-papas-bakeria/play"],
-		["Papa's Burgeria", "https://www.coolmathgames.com/0-papas-burgeria/play"],
+		[
+			"Papa's Bakeria",
+			"https://www.coolmathgames.com/0-papas-bakeria/play"
+		],
+		[
+			"Papa's Burgeria",
+			"https://www.coolmathgames.com/0-papas-burgeria/play"
+		],
 		[
 			"Papa's Cheeseria",
 			"https://www.coolmathgames.com/0-papas-cheeseria/play"
@@ -1366,14 +1693,29 @@
 			"Papa's Pancakeria",
 			"https://www.coolmathgames.com/0-papas-pancakeria/play"
 		],
-		["Papa's Pizzeria", "https://www.coolmathgames.com/0-papas-pizzeria/play"],
-		["Papa's Taco Mia", "https://www.coolmathgames.com/0-papas-taco-mia/play"],
+		[
+			"Papa's Pizzeria",
+			"https://www.coolmathgames.com/0-papas-pizzeria/play"
+		],
+		[
+			"Papa's Taco Mia",
+			"https://www.coolmathgames.com/0-papas-taco-mia/play"
+		],
 		["Parking Fury", "https://www.coolmathgames.com/0-parking-fury/play"],
-		["Parking Fury 2", "https://www.coolmathgames.com/0-parking-fury-2/play"],
-		["Parking Fury 3", "https://www.coolmathgames.com/0-parking-fury-3/play"],
+		[
+			"Parking Fury 2",
+			"https://www.coolmathgames.com/0-parking-fury-2/play"
+		],
+		[
+			"Parking Fury 3",
+			"https://www.coolmathgames.com/0-parking-fury-3/play"
+		],
 		["Parking Mania", "https://www.coolmathgames.com/0-parkingmania/play"],
 		["Parking Panic", "https://www.coolmathgames.com/0-parking-panic/play"],
-		["Parking Puzzle", "https://www.coolmathgames.com/0-parking-puzzle/play"],
+		[
+			"Parking Puzzle",
+			"https://www.coolmathgames.com/0-parking-puzzle/play"
+		],
 		["Parking Tight", "https://www.coolmathgames.com/0-parking-tight/play"],
 		["Party Animals", "https://www.coolmathgames.com/0-party-animals/play"],
 		["Path Maker", "https://www.coolmathgames.com/0-path-maker/play"],
@@ -1386,14 +1728,20 @@
 			"https://www.coolmathgames.com/0-penalty-kick-online/play"
 		],
 		["Penguin Diner", "https://www.coolmathgames.com/0-penguin-diner/play"],
-		["Penguin Diner 2", "https://www.coolmathgames.com/0-penguin-diner-2/play"],
+		[
+			"Penguin Diner 2",
+			"https://www.coolmathgames.com/0-penguin-diner-2/play"
+		],
 		["Pet Mahjongg", "https://www.coolmathgames.com/0-pet-mahjongg/play"],
 		["Phantomb", "https://www.coolmathgames.com/0-phantomb/play"],
 		["Picnic Bear", "https://www.coolmathgames.com/0-picnic-bear/play"],
 		["Picoban", "https://www.coolmathgames.com/0-picoban/play"],
 		["PicTile", "https://www.coolmathgames.com/0-pictile/play"],
 		["Picturestack", "https://www.coolmathgames.com/0-picturestack/play"],
-		["Pieces of Cake", "https://www.coolmathgames.com/0-pieces-of-cake/play"],
+		[
+			"Pieces of Cake",
+			"https://www.coolmathgames.com/0-pieces-of-cake/play"
+		],
 		["Pile Shapes", "https://www.coolmathgames.com/0-pile-shapes/play"],
 		["Pin Puzzle", "https://www.coolmathgames.com/0-pin-puzzle/play"],
 		["Pink", "https://www.coolmathgames.com/0-pink/play"],
@@ -1403,7 +1751,10 @@
 			"Pirate Jack Gold Beard",
 			"https://www.coolmathgames.com/0-pirate-jack-gold-beard/play"
 		],
-		["Pirates Match 3", "https://www.coolmathgames.com/0-pirates-match-3/play"],
+		[
+			"Pirates Match 3",
+			"https://www.coolmathgames.com/0-pirates-match-3/play"
+		],
 		["Pitfall Panic", "https://www.coolmathgames.com/0-pitfall-panic/play"],
 		["Piv-it", "https://www.coolmathgames.com/0-piv-it/play"],
 		["Pixel Express", "https://www.coolmathgames.com/0-pixel-express/play"],
@@ -1441,7 +1792,10 @@
 		["Plus 10", "https://www.coolmathgames.com/0-plus-10/play"],
 		["Pocket Golf", "https://www.coolmathgames.com/0-pocket-golf/play"],
 		["Polar Tale", "https://www.coolmathgames.com/0-polar-tale/play"],
-		["Polarity Switch", "https://www.coolmathgames.com/0-polarity-switch/play"],
+		[
+			"Polarity Switch",
+			"https://www.coolmathgames.com/0-polarity-switch/play"
+		],
 		["Pop Pop Rush", "https://www.coolmathgames.com/0-pop-pop-rush/play"],
 		["Poptris", "https://www.coolmathgames.com/0-poptris/play"],
 		["Poptropica", "https://www.coolmathgames.com/0-poptropica/play"],
@@ -1458,13 +1812,22 @@
 		],
 		["Prime Mover", "https://www.coolmathgames.com/0-prime-mover/play"],
 		["Prizma Puzzle", "https://www.coolmathgames.com/0-prizma-puzzle/play"],
-		["Prizma Puzzle 2", "https://www.coolmathgames.com/0-prizma-puzzle-2/play"],
+		[
+			"Prizma Puzzle 2",
+			"https://www.coolmathgames.com/0-prizma-puzzle-2/play"
+		],
 		[
 			"Prizma Puzzle Challenges",
 			"https://www.coolmathgames.com/0-prizma-puzzle-challenges/play"
 		],
-		["Proprioception", "https://www.coolmathgames.com/0-proprioception/play"],
-		["Protect Emojis", "https://www.coolmathgames.com/0-protect-emojis/play"],
+		[
+			"Proprioception",
+			"https://www.coolmathgames.com/0-proprioception/play"
+		],
+		[
+			"Protect Emojis",
+			"https://www.coolmathgames.com/0-protect-emojis/play"
+		],
 		[
 			"Protect the Museum",
 			"https://www.coolmathgames.com/0-protect-the-museum/play"
@@ -1475,21 +1838,30 @@
 			"https://www.coolmathgames.com/0-pudding-monsters/play"
 		],
 		["Pullfrog", "https://www.coolmathgames.com/0-pullfrog/play"],
-		["Pumpkin Planner", "https://www.coolmathgames.com/0-pumpkin-planner/play"],
+		[
+			"Pumpkin Planner",
+			"https://www.coolmathgames.com/0-pumpkin-planner/play"
+		],
 		["Pumpking", "https://www.coolmathgames.com/0-pumpking/play"],
 		[
 			"Push and Pull Blocks",
 			"https://www.coolmathgames.com/0-push-and-pull-blocks/play"
 		],
 		["Push the Box", "https://www.coolmathgames.com/0-push-the-box/play"],
-		["Push Your Luck", "https://www.coolmathgames.com/0-push-your-luck/play"],
+		[
+			"Push Your Luck",
+			"https://www.coolmathgames.com/0-push-your-luck/play"
+		],
 		["Pushy Worm", "https://www.coolmathgames.com/0-pushy-worm/play"],
 		["Pusshu-ya!", "https://www.coolmathgames.com/0-pusshu-ya/play"],
 		["Put in Place", "https://www.coolmathgames.com/0-put-in-place/play"],
 		["Putty Putter", "https://www.coolmathgames.com/0-putty-putter/play"],
 		["Puzlogic", "https://www.coolmathgames.com/0-puzlogic/play"],
 		["Puzlogic Plus", "https://www.coolmathgames.com/0-puzlogic-plus/play"],
-		["Puzlogic Slide", "https://www.coolmathgames.com/0-puzlogic-slide/play"],
+		[
+			"Puzlogic Slide",
+			"https://www.coolmathgames.com/0-puzlogic-slide/play"
+		],
 		["Puzzle Ball", "https://www.coolmathgames.com/0-puzzle-ball/play"],
 		[
 			"Puzzle Blocks Ancient",
@@ -1505,12 +1877,18 @@
 		["Quad Blocks", "https://www.coolmathgames.com/0-quad-blocks/play"],
 		["Quadrata", "https://www.coolmathgames.com/0-quadrata/play"],
 		["Quax", "https://www.coolmathgames.com/0-quax/play"],
-		["Rabbit Samurai", "https://www.coolmathgames.com/0-rabbit-samurai/play"],
+		[
+			"Rabbit Samurai",
+			"https://www.coolmathgames.com/0-rabbit-samurai/play"
+		],
 		[
 			"Rabbit Samurai 2",
 			"https://www.coolmathgames.com/0-rabbit-samurai-2/play"
 		],
-		["Ragdoll Rise Up", "https://www.coolmathgames.com/0-ragdoll-rise-up/play"],
+		[
+			"Ragdoll Rise Up",
+			"https://www.coolmathgames.com/0-ragdoll-rise-up/play"
+		],
 		["Rail Connect", "https://www.coolmathgames.com/0-rail-connect/play"],
 		[
 			"Rainbow Mechanic",
@@ -1522,7 +1900,10 @@
 			"Rapid Basket Rabbit",
 			"https://www.coolmathgames.com/0-rapid-basket-rabbit/play"
 		],
-		["Reach the Core", "https://www.coolmathgames.com/0-reach-the-core/play"],
+		[
+			"Reach the Core",
+			"https://www.coolmathgames.com/0-reach-the-core/play"
+		],
 		["Red", "https://www.coolmathgames.com/0-red/play"],
 		[
 			"Red Planet Farming",
@@ -1530,13 +1911,19 @@
 		],
 		["RedLine Pong", "https://www.coolmathgames.com/0-redline-pong/play"],
 		["Reflector", "https://www.coolmathgames.com/0-reflector/play"],
-		["Relic Splatter", "https://www.coolmathgames.com/0-relic-splatter/play"],
+		[
+			"Relic Splatter",
+			"https://www.coolmathgames.com/0-relic-splatter/play"
+		],
 		["Resizer", "https://www.coolmathgames.com/0-resizer/play"],
 		[
 			"Retro Helicopter",
 			"https://www.coolmathgames.com/0-retro-helicopter/play"
 		],
-		["Retro Ping Pong", "https://www.coolmathgames.com/0-retro-ping-pong/play"],
+		[
+			"Retro Ping Pong",
+			"https://www.coolmathgames.com/0-retro-ping-pong/play"
+		],
 		[
 			"Retro Space Blaster",
 			"https://www.coolmathgames.com/0-retro-space-blaster/play"
@@ -1545,7 +1932,10 @@
 		["Reversi", "https://www.coolmathgames.com/0-reversi/play"],
 		["Rewired", "https://www.coolmathgames.com/0-rewired/play"],
 		["Rhomb", "https://www.coolmathgames.com/0-rhomb/play"],
-		["Rhythm is Lava", "https://www.coolmathgames.com/0-rhythm-is-lava/play"],
+		[
+			"Rhythm is Lava",
+			"https://www.coolmathgames.com/0-rhythm-is-lava/play"
+		],
 		[
 			"Right Trick Totem Land",
 			"https://www.coolmathgames.com/0-right-trick-totem-land/play"
@@ -1566,9 +1956,15 @@
 			"https://www.coolmathgames.com/0-rock-paper-scissors/play"
 		],
 		["Rocket Dancer", "https://www.coolmathgames.com/0-rocket-dancer/play"],
-		["Rocket Dancer 2", "https://www.coolmathgames.com/0-rocket-dancer-2/play"],
+		[
+			"Rocket Dancer 2",
+			"https://www.coolmathgames.com/0-rocket-dancer-2/play"
+		],
 		["Rocketate", "https://www.coolmathgames.com/0-rocketate/play"],
-		["Rocketate Next", "https://www.coolmathgames.com/0-rocketate-next/play"],
+		[
+			"Rocketate Next",
+			"https://www.coolmathgames.com/0-rocketate-next/play"
+		],
 		[
 			"Roll & Merge 3D",
 			"https://www.coolmathgames.com/0-roll-and-merge-3d/play"
@@ -1578,7 +1974,10 @@
 			"https://www.coolmathgames.com/0-roll-those-sixes/play"
 		],
 		["Roller Baller", "https://www.coolmathgames.com/0-roller-baller/play"],
-		["Rolling Magnet", "https://www.coolmathgames.com/0-rolling-magnet/play"],
+		[
+			"Rolling Magnet",
+			"https://www.coolmathgames.com/0-rolling-magnet/play"
+		],
 		["Roloong", "https://www.coolmathgames.com/0-roloong/play"],
 		["Rontate", "https://www.coolmathgames.com/0-rontate/play"],
 		["Rookie Bowman", "https://www.coolmathgames.com/0-rookie-bowman/play"],
@@ -1599,7 +1998,10 @@
 		["Salvage", "https://www.coolmathgames.com/0-salvage/play"],
 		["Sand Drawn", "https://www.coolmathgames.com/0-sand-drawn/play"],
 		["Sand Trap", "https://www.coolmathgames.com/0-sand-trap/play"],
-		["Santa Delivery", "https://www.coolmathgames.com/0-santa-delivery/play"],
+		[
+			"Santa Delivery",
+			"https://www.coolmathgames.com/0-santa-delivery/play"
+		],
 		["Santa Run 2", "https://www.coolmathgames.com/0-santa-run-2/play"],
 		[
 			"Santa's Delivery",
@@ -1627,16 +2029,25 @@
 		["Shark Panic", "https://www.coolmathgames.com/0-shark-panic/play"],
 		["Sheepdom", "https://www.coolmathgames.com/0-sheepdom/play"],
 		["Sheepwith", "https://www.coolmathgames.com/0-sheepwith/play"],
-		["Shelled Shinobi", "https://www.coolmathgames.com/0-shelled-shinobi/play"],
+		[
+			"Shelled Shinobi",
+			"https://www.coolmathgames.com/0-shelled-shinobi/play"
+		],
 		[
 			"Shipping Workers",
 			"https://www.coolmathgames.com/0-shipping-workers/play"
 		],
-		["Shoot to Slide", "https://www.coolmathgames.com/0-shoot-to-slide/play"],
+		[
+			"Shoot to Slide",
+			"https://www.coolmathgames.com/0-shoot-to-slide/play"
+		],
 		["Shootanoid", "https://www.coolmathgames.com/0-shootanoid/play"],
 		["Show", "https://www.coolmathgames.com/0-show/play"],
 		["Shuffle World", "https://www.coolmathgames.com/0-shuffle-world/play"],
-		["Signal Explorer", "https://www.coolmathgames.com/0-signal-explorer/play"],
+		[
+			"Signal Explorer",
+			"https://www.coolmathgames.com/0-signal-explorer/play"
+		],
 		["Simon's Lab", "https://www.coolmathgames.com/0-simons-lab/play"],
 		["Simon's Lab 2", "https://www.coolmathgames.com/0-simons-lab-2/play"],
 		["Simple Moves", "https://www.coolmathgames.com/0-simple-moves/play"],
@@ -1647,21 +2058,36 @@
 			"https://www.coolmathgames.com/0-skeleton-launcher-2/play"
 		],
 		["Skwish", "https://www.coolmathgames.com/0-skwish/play"],
-		["Slam Dunk Brush", "https://www.coolmathgames.com/0-slam-dunk-brush/play"],
+		[
+			"Slam Dunk Brush",
+			"https://www.coolmathgames.com/0-slam-dunk-brush/play"
+		],
 		["Sleep Walk", "https://www.coolmathgames.com/0-sleep-walk/play"],
 		["Sleepy Knight", "https://www.coolmathgames.com/0-sleepy-knight/play"],
 		["Slice of Zen", "https://www.coolmathgames.com/0-slice-of-zen/play"],
-		["Slide and Fall", "https://www.coolmathgames.com/0-slide-and-fall/play"],
+		[
+			"Slide and Fall",
+			"https://www.coolmathgames.com/0-slide-and-fall/play"
+		],
 		["Slide Fill", "https://www.coolmathgames.com/0-slide-fill/play"],
 		["Slide Path", "https://www.coolmathgames.com/0-slide-path/play"],
-		["Slide Together", "https://www.coolmathgames.com/0-slide-together/play"],
+		[
+			"Slide Together",
+			"https://www.coolmathgames.com/0-slide-together/play"
+		],
 		["Slideways", "https://www.coolmathgames.com/0-slideways/play"],
-		["Sliding Blocks", "https://www.coolmathgames.com/0-sliding-blocks/play"],
+		[
+			"Sliding Blocks",
+			"https://www.coolmathgames.com/0-sliding-blocks/play"
+		],
 		["Slime Rider", "https://www.coolmathgames.com/0-slime-rider/play"],
 		["Slimey Jump", "https://www.coolmathgames.com/0-slimey-jump/play"],
 		["Slimoban", "https://www.coolmathgames.com/0-slimoban/play"],
 		["Slipways", "https://www.coolmathgames.com/0-slipways/play"],
-		["Slug Adventure", "https://www.coolmathgames.com/0-slug-adventure/play"],
+		[
+			"Slug Adventure",
+			"https://www.coolmathgames.com/0-slug-adventure/play"
+		],
 		["Slydey Blocks", "https://www.coolmathgames.com/0-slydey-blocks/play"],
 		["Small Golf", "https://www.coolmathgames.com/0-small-golf/play"],
 		["Small Islands", "https://www.coolmathgames.com/0-small-islands/play"],
@@ -1719,13 +2145,22 @@
 		],
 		["So Much Money", "https://www.coolmathgames.com/0-so-much-money/play"],
 		["Softov", "https://www.coolmathgames.com/0-softov/play"],
-		["Softwood Blocks", "https://www.coolmathgames.com/0-softwood-blocks/play"],
-		["Sokoban Dungeon", "https://www.coolmathgames.com/0-sokoban-dungeon/play"],
+		[
+			"Softwood Blocks",
+			"https://www.coolmathgames.com/0-softwood-blocks/play"
+		],
+		[
+			"Sokoban Dungeon",
+			"https://www.coolmathgames.com/0-sokoban-dungeon/play"
+		],
 		["Sokoban Miner", "https://www.coolmathgames.com/0-sokoban-miner/play"],
 		["Sokobanana", "https://www.coolmathgames.com/0-sokobanana/play"],
 		["Sokonumber", "https://www.coolmathgames.com/0-sokonumber/play"],
 		["Solitaire", "https://www.coolmathgames.com/0-solitaire/play"],
-		["Solitaire 0-21", "https://www.coolmathgames.com/0-solitaire-0-21/play"],
+		[
+			"Solitaire 0-21",
+			"https://www.coolmathgames.com/0-solitaire-0-21/play"
+		],
 		["Sort Bird", "https://www.coolmathgames.com/0-sort-bird/play"],
 		["Sort It Out", "https://www.coolmathgames.com/0-sort-it-out/play"],
 		["Soul Exchange", "https://www.coolmathgames.com/0-soul-exchange/play"],
@@ -1736,7 +2171,10 @@
 		["Space Duuude", "https://www.coolmathgames.com/0-space-duuude/play"],
 		["Space Filler", "https://www.coolmathgames.com/0-space-filler/play"],
 		["Space Is Key", "https://www.coolmathgames.com/0-space-is-key/play"],
-		["Space Is Key 2", "https://www.coolmathgames.com/0-space-is-key-2/play"],
+		[
+			"Space Is Key 2",
+			"https://www.coolmathgames.com/0-space-is-key-2/play"
+		],
 		[
 			"Space Is Key Christmas",
 			"https://www.coolmathgames.com/0-space-is-key-christmas/play"
@@ -1751,12 +2189,18 @@
 			"https://www.coolmathgames.com/0-space-walrus-3000/play"
 		],
 		["Spaceman 8", "https://www.coolmathgames.com/0-spaceman-8/play"],
-		["Species Morpher", "https://www.coolmathgames.com/0-species-morpher/play"],
+		[
+			"Species Morpher",
+			"https://www.coolmathgames.com/0-species-morpher/play"
+		],
 		[
 			"Spectrum Genesis",
 			"https://www.coolmathgames.com/0-spectrum-genesis/play"
 		],
-		["Spectrum Slider", "https://www.coolmathgames.com/0-spectrum-slider/play"],
+		[
+			"Spectrum Slider",
+			"https://www.coolmathgames.com/0-spectrum-slider/play"
+		],
 		[
 			"Spider Solitaire",
 			"https://www.coolmathgames.com/0-spider-solitaire/play"
@@ -1764,8 +2208,14 @@
 		["Spin Soccer 3", "https://www.coolmathgames.com/0-spin-soccer-3/play"],
 		["Spin!", "https://www.coolmathgames.com/0-spin/play"],
 		["Split Second", "https://www.coolmathgames.com/0-split-second/play"],
-		["Spooky Tripeaks", "https://www.coolmathgames.com/0-spooky-tripeaks/play"],
-		["Square Stacker", "https://www.coolmathgames.com/0-square-stacker/play"],
+		[
+			"Spooky Tripeaks",
+			"https://www.coolmathgames.com/0-spooky-tripeaks/play"
+		],
+		[
+			"Square Stacker",
+			"https://www.coolmathgames.com/0-square-stacker/play"
+		],
 		["Squarot", "https://www.coolmathgames.com/0-squarot/play"],
 		["Squarus", "https://www.coolmathgames.com/0-squarus/play"],
 		["Squarus 2", "https://www.coolmathgames.com/0-squarus-2/play"],
@@ -1785,15 +2235,24 @@
 		],
 		["Starlines", "https://www.coolmathgames.com/0-starlines/play"],
 		["Starnaut", "https://www.coolmathgames.com/0-starnaut/play"],
-		["Start Powerless", "https://www.coolmathgames.com/0-start-powerless/play"],
+		[
+			"Start Powerless",
+			"https://www.coolmathgames.com/0-start-powerless/play"
+		],
 		["Static Cling", "https://www.coolmathgames.com/0-static-cling/play"],
 		["Step Spots", "https://www.coolmathgames.com/0-step-spots/play"],
 		["Steps", "https://www.coolmathgames.com/0-steps/play"],
 		["Stick Golf", "https://www.coolmathgames.com/0-stick-golf/play"],
-		["Sticky Friends", "https://www.coolmathgames.com/0-sticky-friends/play"],
+		[
+			"Sticky Friends",
+			"https://www.coolmathgames.com/0-sticky-friends/play"
+		],
 		["Sticky Ricky", "https://www.coolmathgames.com/0-sticky-ricky/play"],
 		["Sticky Slimes", "https://www.coolmathgames.com/0-sticky-slimes/play"],
-		["Sticky Sorcerer", "https://www.coolmathgames.com/0-sticky-sorcerer/play"],
+		[
+			"Sticky Sorcerer",
+			"https://www.coolmathgames.com/0-sticky-sorcerer/play"
+		],
 		["Stop", "https://www.coolmathgames.com/0-stop/play"],
 		[
 			"Stop the Darkness",
@@ -1805,13 +2264,19 @@
 			"https://www.coolmathgames.com/0-strategic-tic-tac-toe/play"
 		],
 		["Stratform", "https://www.coolmathgames.com/0-stratform/play"],
-		["Strawberry Xmas", "https://www.coolmathgames.com/0-strawberry-xmas/play"],
+		[
+			"Strawberry Xmas",
+			"https://www.coolmathgames.com/0-strawberry-xmas/play"
+		],
 		["Strinop", "https://www.coolmathgames.com/0-strinop/play"],
 		[
 			"Stuck In The Sewers",
 			"https://www.coolmathgames.com/0-stuck-in-the-sewers/play"
 		],
-		["Subatomic Wire", "https://www.coolmathgames.com/0-subatomic-wire/play"],
+		[
+			"Subatomic Wire",
+			"https://www.coolmathgames.com/0-subatomic-wire/play"
+		],
 		[
 			"Subtraction Blast",
 			"https://www.coolmathgames.com/0-subtraction-blast/play"
@@ -1878,7 +2343,10 @@
 		],
 		["Syncro", "https://www.coolmathgames.com/0-syncro/play"],
 		["Table Tanks", "https://www.coolmathgames.com/0-table-tanks/play"],
-		["Tahira's Tower", "https://www.coolmathgames.com/0-tahiras-tower/play"],
+		[
+			"Tahira's Tower",
+			"https://www.coolmathgames.com/0-tahiras-tower/play"
+		],
 		[
 			"Tail of the Dragon",
 			"https://www.coolmathgames.com/0-tail-of-the-dragon/play"
@@ -1899,7 +2367,10 @@
 			"Telephone Trouble",
 			"https://www.coolmathgames.com/0-telephone-trouble/play"
 		],
-		["Teleport Jumper", "https://www.coolmathgames.com/0-teleport-jumper/play"],
+		[
+			"Teleport Jumper",
+			"https://www.coolmathgames.com/0-teleport-jumper/play"
+		],
 		[
 			"Temple of the Four Serpents",
 			"https://www.coolmathgames.com/0-temple-of-the-four-serpents/play"
@@ -1907,7 +2378,10 @@
 		["Terramino", "https://www.coolmathgames.com/0-terramino/play"],
 		["Tethrees", "https://www.coolmathgames.com/0-tethrees/play"],
 		["Tetroid 3", "https://www.coolmathgames.com/0-tetroid-3/play"],
-		["That Gentleman", "https://www.coolmathgames.com/0-that-gentleman/play"],
+		[
+			"That Gentleman",
+			"https://www.coolmathgames.com/0-that-gentleman/play"
+		],
 		["The Bee Way", "https://www.coolmathgames.com/0-the-bee-way/play"],
 		[
 			"The Cat Burglar & The Magic Museum",
@@ -1915,9 +2389,18 @@
 		],
 		["The Chamber", "https://www.coolmathgames.com/0-the-chamber/play"],
 		["The Cloister", "https://www.coolmathgames.com/0-the-cloister/play"],
-		["The Doctor Cat", "https://www.coolmathgames.com/0-the-doctor-cat/play"],
-		["The Faded Path", "https://www.coolmathgames.com/0-the-faded-path/play"],
-		["The Final Earth", "https://www.coolmathgames.com/0-the-final-earth/play"],
+		[
+			"The Doctor Cat",
+			"https://www.coolmathgames.com/0-the-doctor-cat/play"
+		],
+		[
+			"The Faded Path",
+			"https://www.coolmathgames.com/0-the-faded-path/play"
+		],
+		[
+			"The Final Earth",
+			"https://www.coolmathgames.com/0-the-final-earth/play"
+		],
 		[
 			"The Final Earth 2",
 			"https://www.coolmathgames.com/0-the-final-earth-2/play"
@@ -1934,7 +2417,10 @@
 			"The Illusory Wall",
 			"https://www.coolmathgames.com/0-the-illusory-wall/play"
 		],
-		["The Last Rabbit", "https://www.coolmathgames.com/0-the-last-rabbit/play"],
+		[
+			"The Last Rabbit",
+			"https://www.coolmathgames.com/0-the-last-rabbit/play"
+		],
 		[
 			"The Little Giant",
 			"https://www.coolmathgames.com/0-the-little-giant/play"
@@ -2003,7 +2489,10 @@
 			"https://www.coolmathgames.com/0-tingly-bubble-shooter/play"
 		],
 		["Tiny Fishing", "https://www.coolmathgames.com/0-tiny-fishing/play"],
-		["Tiny Fragments", "https://www.coolmathgames.com/0-tiny-fragments/play"],
+		[
+			"Tiny Fragments",
+			"https://www.coolmathgames.com/0-tiny-fragments/play"
+		],
 		[
 			"Tiny Golf Puzzles",
 			"https://www.coolmathgames.com/0-tiny-golf-puzzles/play"
@@ -2023,7 +2512,10 @@
 			"https://www.coolmathgames.com/0-toodee-and-topdee/play"
 		],
 		["Tower Join", "https://www.coolmathgames.com/0-tower-join/play"],
-		["Tower of Colors", "https://www.coolmathgames.com/0-tower-of-colors/play"],
+		[
+			"Tower of Colors",
+			"https://www.coolmathgames.com/0-tower-of-colors/play"
+		],
 		[
 			"Tower of Destiny",
 			"https://www.coolmathgames.com/0-tower-of-destiny/play"
@@ -2036,16 +2528,28 @@
 		["Toy Defense", "https://www.coolmathgames.com/0-toy-defense/play"],
 		["Trace", "https://www.coolmathgames.com/0-trace/play"],
 		["Tradecraft", "https://www.coolmathgames.com/0-tradecraft/play"],
-		["Traffic Control", "https://www.coolmathgames.com/0-traffic-control/play"],
+		[
+			"Traffic Control",
+			"https://www.coolmathgames.com/0-traffic-control/play"
+		],
 		["Traffic Mania", "https://www.coolmathgames.com/0-traffic-mania/play"],
 		["Transmorpher", "https://www.coolmathgames.com/0-transmorpher/play"],
-		["Transmorpher 3", "https://www.coolmathgames.com/0-transmorpher-3/play"],
+		[
+			"Transmorpher 3",
+			"https://www.coolmathgames.com/0-transmorpher-3/play"
+		],
 		[
 			"Transport Mahjong",
 			"https://www.coolmathgames.com/0-transport-mahjong/play"
 		],
-		["Treasure Hunter", "https://www.coolmathgames.com/0-treasure-hunter/play"],
-		["Treasure Slide", "https://www.coolmathgames.com/0-treasure-slide/play"],
+		[
+			"Treasure Hunter",
+			"https://www.coolmathgames.com/0-treasure-hunter/play"
+		],
+		[
+			"Treasure Slide",
+			"https://www.coolmathgames.com/0-treasure-slide/play"
+		],
 		["Tri-Memory", "https://www.coolmathgames.com/0-tri-memory/play"],
 		["Tribolia", "https://www.coolmathgames.com/0-tribolia/play"],
 		["Tricky Cat", "https://www.coolmathgames.com/0-tricky-cat/play"],
@@ -2057,8 +2561,14 @@
 		["Tristepper", "https://www.coolmathgames.com/0-tristepper/play"],
 		["Trivia Jump", "https://www.coolmathgames.com/0-trivia-jump/play"],
 		["Triways", "https://www.coolmathgames.com/0-triways/play"],
-		["Truck Loader 4", "https://www.coolmathgames.com/0-truck-loader-4/play"],
-		["Truck Loader 5", "https://www.coolmathgames.com/0-truck-loader-5/play"],
+		[
+			"Truck Loader 4",
+			"https://www.coolmathgames.com/0-truck-loader-4/play"
+		],
+		[
+			"Truck Loader 5",
+			"https://www.coolmathgames.com/0-truck-loader-5/play"
+		],
 		["Tube Frenzy", "https://www.coolmathgames.com/0-tube-frenzy/play"],
 		["Tube Master", "https://www.coolmathgames.com/0-tube-master/play"],
 		["Tubetris", "https://www.coolmathgames.com/0-tubetris/play"],
@@ -2100,7 +2610,10 @@
 		["Up Left Out", "https://www.coolmathgames.com/0-up-left-out/play"],
 		["Use Boxmen", "https://www.coolmathgames.com/0-use-boxmen/play"],
 		["Ushanka", "https://www.coolmathgames.com/0-ushanka/play"],
-		["Valdi: Shadows", "https://www.coolmathgames.com/0-valdi-shadows/play"],
+		[
+			"Valdi: Shadows",
+			"https://www.coolmathgames.com/0-valdi-shadows/play"
+		],
 		[
 			"Vampires and Garlic",
 			"https://www.coolmathgames.com/0-vampires-and-garlic/play"
@@ -2109,13 +2622,19 @@
 		["Vehicles", "https://www.coolmathgames.com/0-vehicles/play"],
 		["Vehicles 2", "https://www.coolmathgames.com/0-vehicles-2/play"],
 		["Venngram", "https://www.coolmathgames.com/0-venngram/play"],
-		["Vertex Shifter", "https://www.coolmathgames.com/0-vertex-shifter/play"],
+		[
+			"Vertex Shifter",
+			"https://www.coolmathgames.com/0-vertex-shifter/play"
+		],
 		["Vex 7", "https://www.coolmathgames.com/0-vex-7/play"],
 		["Viewnemy", "https://www.coolmathgames.com/0-viewnemy/play"],
 		["Viewpoint", "https://www.coolmathgames.com/0-viewpoint/play"],
 		["Volty's Quest", "https://www.coolmathgames.com/0-voltys-quest/play"],
 		["Voxel Bot", "https://www.coolmathgames.com/0-voxel-bot/play"],
-		["Wake the Santa", "https://www.coolmathgames.com/0-wake-the-santa/play"],
+		[
+			"Wake the Santa",
+			"https://www.coolmathgames.com/0-wake-the-santa/play"
+		],
 		["Wall Roller", "https://www.coolmathgames.com/0-wall-roller/play"],
 		["Warper", "https://www.coolmathgames.com/0-warper/play"],
 		["WASDungeon", "https://www.coolmathgames.com/0-wasdungeon/play"],
@@ -2171,7 +2690,10 @@
 		["Zenge", "https://www.coolmathgames.com/0-zenge/play"],
 		["Zippy Boxes", "https://www.coolmathgames.com/0-zippy-boxes/play"],
 		["Zomberry Hero", "https://www.coolmathgames.com/0-zomberry-hero/play"],
-		["Zombie Launcher", "https://www.coolmathgames.com/0-zombie-launcher/play"],
+		[
+			"Zombie Launcher",
+			"https://www.coolmathgames.com/0-zombie-launcher/play"
+		],
 		[
 			"Zombie Launcher 2",
 			"https://www.coolmathgames.com/0-zombie-launcher-2/play"
@@ -2220,7 +2742,10 @@
 			"Abandoned 2: The Forest",
 			"https://edit.coolmath-games.com/0-abandoned-2-the-forest/play"
 		],
-		["Adventure Tom", "https://edit.coolmath-games.com/0-adventure-tom/play"],
+		[
+			"Adventure Tom",
+			"https://edit.coolmath-games.com/0-adventure-tom/play"
+		],
 		["Alarmy", "https://edit.coolmath-games.com/0-alarmy/play"],
 		["Alfi", "https://edit.coolmath-games.com/0-alfi/play"],
 		["Animail", "https://edit.coolmath-games.com/0-animail/play"],
@@ -2238,7 +2763,10 @@
 		],
 		["Antiban", "https://edit.coolmath-games.com/0-antiban/play"],
 		["Apple Worm", "https://edit.coolmath-games.com/0-apple-worm/play"],
-		["Aquatic Rescue", "https://edit.coolmath-games.com/0-aquatic-rescue/play"],
+		[
+			"Aquatic Rescue",
+			"https://edit.coolmath-games.com/0-aquatic-rescue/play"
+		],
 		[
 			"Arcade Golf Neon",
 			"https://edit.coolmath-games.com/0-arcade-golf-neon/play"
@@ -2248,12 +2776,18 @@
 			"Archery World Tour",
 			"https://edit.coolmath-games.com/0-archery-world-tour/play"
 		],
-		["Arrow Station", "https://edit.coolmath-games.com/0-arrow-station/play"],
+		[
+			"Arrow Station",
+			"https://edit.coolmath-games.com/0-arrow-station/play"
+		],
 		["Arrozoid", "https://edit.coolmath-games.com/0-arrozoid/play"],
 		["Ascend", "https://edit.coolmath-games.com/0-ascend/play"],
 		["Astroballz", "https://edit.coolmath-games.com/0-astroballz/play"],
 		["Aurie", "https://edit.coolmath-games.com/0-aurie/play"],
-		["Awesome Tanks", "https://edit.coolmath-games.com/0-awesome-tanks/play"],
+		[
+			"Awesome Tanks",
+			"https://edit.coolmath-games.com/0-awesome-tanks/play"
+		],
 		[
 			"Awesome Tanks 2",
 			"https://edit.coolmath-games.com/0-awesome-tanks-2/play"
@@ -2278,7 +2812,10 @@
 			"Bear on a Scooter",
 			"https://edit.coolmath-games.com/0-bear-on-a-scooter/play"
 		],
-		["Beastie Blocks", "https://edit.coolmath-games.com/0-beastie-blocks/play"],
+		[
+			"Beastie Blocks",
+			"https://edit.coolmath-games.com/0-beastie-blocks/play"
+		],
 		["Beavus", "https://edit.coolmath-games.com/0-beavus/play"],
 		[
 			"Big Ice Tower Tiny Square",
@@ -2299,7 +2836,10 @@
 			"Block Shooter Frenzy",
 			"https://edit.coolmath-games.com/0-block-shooter-frenzy/play"
 		],
-		["Block the Pig", "https://edit.coolmath-games.com/0-block-the-pig/play"],
+		[
+			"Block the Pig",
+			"https://edit.coolmath-games.com/0-block-the-pig/play"
+		],
 		["Block Turns", "https://edit.coolmath-games.com/0-block-turns/play"],
 		["Blops Plops", "https://edit.coolmath-games.com/0-blops-plops/play"],
 		["Bloxcalibur", "https://edit.coolmath-games.com/0-bloxcalibur/play"],
@@ -2314,12 +2854,21 @@
 		["Bolderline", "https://edit.coolmath-games.com/0-bolderline/play"],
 		["Bond Breaker", "https://edit.coolmath-games.com/0-bond-breaker/play"],
 		["Boo!", "https://edit.coolmath-games.com/0-boo/play"],
-		["Bots Boom Bang", "https://edit.coolmath-games.com/0-bots-boom-bang/play"],
+		[
+			"Bots Boom Bang",
+			"https://edit.coolmath-games.com/0-bots-boom-bang/play"
+		],
 		["Bounce Floor", "https://edit.coolmath-games.com/0-bounce-floor/play"],
-		["Bouncing Balls", "https://edit.coolmath-games.com/0-bouncingballs/play"],
+		[
+			"Bouncing Balls",
+			"https://edit.coolmath-games.com/0-bouncingballs/play"
+		],
 		["Boxed", "https://edit.coolmath-games.com/0-boxed/play"],
 		["Boxed 2", "https://edit.coolmath-games.com/0-boxed-2/play"],
-		["Brick Breaker", "https://edit.coolmath-games.com/0-brick-breaker/play"],
+		[
+			"Brick Breaker",
+			"https://edit.coolmath-games.com/0-brick-breaker/play"
+		],
 		[
 			"Bricks Breaking",
 			"https://edit.coolmath-games.com/0-bricksbreaking/play"
@@ -2333,7 +2882,10 @@
 			"https://edit.coolmath-games.com/0-bridge-crossing/play"
 		],
 		["Bug Match", "https://edit.coolmath-games.com/0-bug-match/play"],
-		["Bump Bump Bump", "https://edit.coolmath-games.com/0-bump-bump-bump/play"],
+		[
+			"Bump Bump Bump",
+			"https://edit.coolmath-games.com/0-bump-bump-bump/play"
+		],
 		["Bunny Hop", "https://edit.coolmath-games.com/0-bunny-hop/play"],
 		["Bunny Run", "https://edit.coolmath-games.com/0-bunny-run/play"],
 		["Burdies", "https://edit.coolmath-games.com/0-burdies/play"],
@@ -2344,7 +2896,10 @@
 		["Candy Jump", "https://edit.coolmath-games.com/0-candy-jump/play"],
 		["Candy Pool", "https://edit.coolmath-games.com/0-candy-pool/play"],
 		["Candy Word", "https://edit.coolmath-games.com/0-candy-word/play"],
-		["Candy Wrapper", "https://edit.coolmath-games.com/0-candy-wrapper/play"],
+		[
+			"Candy Wrapper",
+			"https://edit.coolmath-games.com/0-candy-wrapper/play"
+		],
 		[
 			"Cannon Basketball",
 			"https://edit.coolmath-games.com/0-cannon-basketball/play"
@@ -2403,7 +2958,10 @@
 			"Christmas Friends",
 			"https://edit.coolmath-games.com/0-christmas-friends/play"
 		],
-		["Christmas Pop", "https://edit.coolmath-games.com/0-christmas-pop/play"],
+		[
+			"Christmas Pop",
+			"https://edit.coolmath-games.com/0-christmas-pop/play"
+		],
 		["Circle Flow", "https://edit.coolmath-games.com/0-circle-flow/play"],
 		["CircloO", "https://edit.coolmath-games.com/0-circloo/play"],
 		["CircloO 2", "https://edit.coolmath-games.com/0-circloo-2/play"],
@@ -2425,14 +2983,20 @@
 			"https://edit.coolmath-games.com/0-clickplay-time-5/play"
 		],
 		["Coco Monkey", "https://edit.coolmath-games.com/0-coco-monkey/play"],
-		["Coffee Mahjong", "https://edit.coolmath-games.com/0-coffee-mahjong/play"],
+		[
+			"Coffee Mahjong",
+			"https://edit.coolmath-games.com/0-coffee-mahjong/play"
+		],
 		["Color Memory", "https://edit.coolmath-games.com/0-color-memory/play"],
 		["Color Move 2", "https://edit.coolmath-games.com/0-color-move-2/play"],
 		["Coloruid", "https://edit.coolmath-games.com/0-coloruid/play"],
 		["Coloruid 2", "https://edit.coolmath-games.com/0-coloruid-2/play"],
 		["Colorush", "https://edit.coolmath-games.com/0-colorush/play"],
 		["Colour Rush", "https://edit.coolmath-games.com/0-colour-rush/play"],
-		["Combo Crusader", "https://edit.coolmath-games.com/0-combo-crusader/play"],
+		[
+			"Combo Crusader",
+			"https://edit.coolmath-games.com/0-combo-crusader/play"
+		],
 		[
 			"Completed Paths",
 			"https://edit.coolmath-games.com/0-completed-paths/play"
@@ -2452,8 +3016,14 @@
 			"https://edit.coolmath-games.com/0-connect-the-roads/play"
 		],
 		["Cookie Chomp", "https://edit.coolmath-games.com/0-cookie-chomp/play"],
-		["Copter Rescue", "https://edit.coolmath-games.com/0-copter-rescue/play"],
-		["Count Downula", "https://edit.coolmath-games.com/0-count-downula/play"],
+		[
+			"Copter Rescue",
+			"https://edit.coolmath-games.com/0-copter-rescue/play"
+		],
+		[
+			"Count Downula",
+			"https://edit.coolmath-games.com/0-count-downula/play"
+		],
 		["Crazy Eights", "https://edit.coolmath-games.com/0-crazy-eights/play"],
 		["Creepy Waka", "https://edit.coolmath-games.com/0-creepy-waka/play"],
 		["Crossy Cat", "https://edit.coolmath-games.com/0-crossy-cat/play"],
@@ -2469,7 +3039,10 @@
 		],
 		["Cyber Tank", "https://edit.coolmath-games.com/0-cyber-tank/play"],
 		["Cyber Tank 2", "https://edit.coolmath-games.com/0-cyber-tank-2/play"],
-		["Cyclop Physics", "https://edit.coolmath-games.com/0-cyclop-physics/play"],
+		[
+			"Cyclop Physics",
+			"https://edit.coolmath-games.com/0-cyclop-physics/play"
+		],
 		[
 			"Cyclop Physics Level Pack",
 			"https://edit.coolmath-games.com/0-cyclop-physics-level-pack/play"
@@ -2478,18 +3051,30 @@
 			"Daily Crossword",
 			"https://edit.coolmath-games.com/0-daily-crossword/play"
 		],
-		["Daily FreeCell", "https://edit.coolmath-games.com/0-daily-freecell/play"],
+		[
+			"Daily FreeCell",
+			"https://edit.coolmath-games.com/0-daily-freecell/play"
+		],
 		["Daily Jumble", "https://edit.coolmath-games.com/0-daily-jumble/play"],
 		["Daily KenKen", "https://edit.coolmath-games.com/0-daily-kenken/play"],
-		["Daily Mahjong", "https://edit.coolmath-games.com/0-daily-mahjong/play"],
+		[
+			"Daily Mahjong",
+			"https://edit.coolmath-games.com/0-daily-mahjong/play"
+		],
 		["Dark Tomb", "https://edit.coolmath-games.com/0-dark-tomb/play"],
 		["Deep Down", "https://edit.coolmath-games.com/0-deep-down/play"],
 		["Detiled", "https://edit.coolmath-games.com/0-detiled/play"],
 		["Discrepancy", "https://edit.coolmath-games.com/0-discrepancy/play"],
 		["Districts", "https://edit.coolmath-games.com/0-districts/play"],
 		["Divide", "https://edit.coolmath-games.com/0-divide/play"],
-		["Doctor Acorn 2", "https://edit.coolmath-games.com/0-doctor-acorn-2/play"],
-		["Doctor Acorn 3", "https://edit.coolmath-games.com/0-doctor-acorn-3/play"],
+		[
+			"Doctor Acorn 2",
+			"https://edit.coolmath-games.com/0-doctor-acorn-2/play"
+		],
+		[
+			"Doctor Acorn 3",
+			"https://edit.coolmath-games.com/0-doctor-acorn-3/play"
+		],
 		["Dokia", "https://edit.coolmath-games.com/0-dokia/play"],
 		["Domino Dash", "https://edit.coolmath-games.com/0-domino-dash/play"],
 		["Dominoes", "https://edit.coolmath-games.com/0-dominoes/play"],
@@ -2498,7 +3083,10 @@
 			"https://edit.coolmath-games.com/0-dont-cross-the-line/play"
 		],
 		["Dotless", "https://edit.coolmath-games.com/0-dotless/play"],
-		["Dots and Boxes", "https://edit.coolmath-games.com/0-dots-and-boxes/play"],
+		[
+			"Dots and Boxes",
+			"https://edit.coolmath-games.com/0-dots-and-boxes/play"
+		],
 		[
 			"Dreams and Reality",
 			"https://edit.coolmath-games.com/0-dreams-and-reality/play"
@@ -2519,8 +3107,14 @@
 			"Duck Pond Mahjong",
 			"https://edit.coolmath-games.com/0-duck-pond-mahjong/play"
 		],
-		["Duckstronauts", "https://edit.coolmath-games.com/0-duckstronauts/play"],
-		["Dungeon Decks", "https://edit.coolmath-games.com/0-dungeon-decks/play"],
+		[
+			"Duckstronauts",
+			"https://edit.coolmath-games.com/0-duckstronauts/play"
+		],
+		[
+			"Dungeon Decks",
+			"https://edit.coolmath-games.com/0-dungeon-decks/play"
+		],
 		["Dunk Shot", "https://edit.coolmath-games.com/0-dunk-shot/play"],
 		[
 			"Eggy's Adventure",
@@ -2563,7 +3157,10 @@
 		["Fill Tracks", "https://edit.coolmath-games.com/0-fill-tracks/play"],
 		["Fillall", "https://edit.coolmath-games.com/0-fillall/play"],
 		["Fillness", "https://edit.coolmath-games.com/0-fillness/play"],
-		["Find the Candy", "https://edit.coolmath-games.com/0-find-the-candy/play"],
+		[
+			"Find the Candy",
+			"https://edit.coolmath-games.com/0-find-the-candy/play"
+		],
 		[
 			"Find the Candy 2 Winter",
 			"https://edit.coolmath-games.com/0-find-the-candy-2-winter/play"
@@ -2591,12 +3188,21 @@
 			"Fox 'N' Roll Pro",
 			"https://edit.coolmath-games.com/0-fox-n-roll-pro/play"
 		],
-		["Fox Adventurer", "https://edit.coolmath-games.com/0-fox-adventurer/play"],
+		[
+			"Fox Adventurer",
+			"https://edit.coolmath-games.com/0-fox-adventurer/play"
+		],
 		["Foxy Blocks", "https://edit.coolmath-games.com/0-foxy-blocks/play"],
 		["FreeCell", "https://edit.coolmath-games.com/0-freecell/play"],
-		["Freeport Town", "https://edit.coolmath-games.com/0-freeport-town/play"],
+		[
+			"Freeport Town",
+			"https://edit.coolmath-games.com/0-freeport-town/play"
+		],
 		["Freeze!", "https://edit.coolmath-games.com/0-freeze/play"],
-		["Fruita Swipe 2", "https://edit.coolmath-games.com/0-fruita-swipe-2/play"],
+		[
+			"Fruita Swipe 2",
+			"https://edit.coolmath-games.com/0-fruita-swipe-2/play"
+		],
 		["Gem Swap 2", "https://edit.coolmath-games.com/0-gemswap2/play"],
 		["Generator", "https://edit.coolmath-games.com/0-generator/play"],
 		[
@@ -2604,18 +3210,30 @@
 			"https://edit.coolmath-games.com/0-gentleman-rescue-2/play"
 		],
 		["Get 10", "https://edit.coolmath-games.com/0-get-10/play"],
-		["Get It Filled", "https://edit.coolmath-games.com/0-get-it-filled/play"],
+		[
+			"Get It Filled",
+			"https://edit.coolmath-games.com/0-get-it-filled/play"
+		],
 		[
 			"Get it Filled 2",
 			"https://edit.coolmath-games.com/0-get-it-filled-2/play"
 		],
-		["Ghost Hunters", "https://edit.coolmath-games.com/0-ghost-hunters/play"],
+		[
+			"Ghost Hunters",
+			"https://edit.coolmath-games.com/0-ghost-hunters/play"
+		],
 		["Glow Paint", "https://edit.coolmath-games.com/0-glow-paint/play"],
 		["Gravitation", "https://edit.coolmath-games.com/0-gravitation/play"],
-		["Gravity Trails", "https://edit.coolmath-games.com/0-gravity-trails/play"],
+		[
+			"Gravity Trails",
+			"https://edit.coolmath-games.com/0-gravity-trails/play"
+		],
 		["Gravity X", "https://edit.coolmath-games.com/0-gravity-x/play"],
 		["Gravix", "https://edit.coolmath-games.com/0-gravix/play"],
-		["Green Mission", "https://edit.coolmath-games.com/0-green-mission/play"],
+		[
+			"Green Mission",
+			"https://edit.coolmath-games.com/0-green-mission/play"
+		],
 		["Grim Symbols", "https://edit.coolmath-games.com/0-grim-symbols/play"],
 		[
 			"Guess Countries: Africa",
@@ -2667,7 +3285,10 @@
 			"Hidden Objects Pirate Adventures",
 			"https://edit.coolmath-games.com/0-hidden-objects-pirate-adventures/play"
 		],
-		["Home Security", "https://edit.coolmath-games.com/0-home-security/play"],
+		[
+			"Home Security",
+			"https://edit.coolmath-games.com/0-home-security/play"
+		],
 		["Hook", "https://edit.coolmath-games.com/0-hook/play"],
 		["Hookshot", "https://edit.coolmath-games.com/0-hookshot/play"],
 		["Huggernaut", "https://edit.coolmath-games.com/0-huggernaut/play"],
@@ -2684,7 +3305,10 @@
 			"Icy Purple Head Superslide",
 			"https://edit.coolmath-games.com/0-icy-purple-head-superslide/play"
 		],
-		["Idle Breakout", "https://edit.coolmath-games.com/0-idle-breakout/play"],
+		[
+			"Idle Breakout",
+			"https://edit.coolmath-games.com/0-idle-breakout/play"
+		],
 		["Idle Dice", "https://edit.coolmath-games.com/0-idle-dice/play"],
 		["Illiteracy", "https://edit.coolmath-games.com/0-illiteracy/play"],
 		[
@@ -2713,7 +3337,10 @@
 			"https://edit.coolmath-games.com/0-islands-of-creatures/play"
 		],
 		["Ittle Dew", "https://edit.coolmath-games.com/0-ittle-dew/play"],
-		["Jelly Collapse", "https://edit.coolmath-games.com/0-jelly-collapse/play"],
+		[
+			"Jelly Collapse",
+			"https://edit.coolmath-games.com/0-jelly-collapse/play"
+		],
 		["Jelly Doods", "https://edit.coolmath-games.com/0-jelly-doods/play"],
 		["Jelly Jumper", "https://edit.coolmath-games.com/0-jelly-jumper/play"],
 		["Jelly Slice", "https://edit.coolmath-games.com/0-jelly-slice/play"],
@@ -2724,21 +3351,54 @@
 			"Jimothy Piggerton",
 			"https://edit.coolmath-games.com/0-jimothy-piggerton/play"
 		],
-		["Johnny Upgrade", "https://edit.coolmath-games.com/0-johnny-upgrade/play"],
+		[
+			"Johnny Upgrade",
+			"https://edit.coolmath-games.com/0-johnny-upgrade/play"
+		],
 		["Joint'd", "https://edit.coolmath-games.com/0-jointd/play"],
 		["Jolly Jong", "https://edit.coolmath-games.com/0-jolly-jong/play"],
-		["Jolly Jong 2.5", "https://edit.coolmath-games.com/0-jolly-jong-25/play"],
-		["Jon Lightning", "https://edit.coolmath-games.com/0-jon-lightning/play"],
+		[
+			"Jolly Jong 2.5",
+			"https://edit.coolmath-games.com/0-jolly-jong-25/play"
+		],
+		[
+			"Jon Lightning",
+			"https://edit.coolmath-games.com/0-jon-lightning/play"
+		],
 		["Jumphobia", "https://edit.coolmath-games.com/0-jumphobia/play"],
-		["Jumping Arrows", "https://edit.coolmath-games.com/0-jumpingarrows/play"],
-		["Jumpless World", "https://edit.coolmath-games.com/0-jumpless-world/play"],
-		["Jumpy Ape Joe", "https://edit.coolmath-games.com/0-jumpy-ape-joe/play"],
-		["Jungle Runner", "https://edit.coolmath-games.com/0-jungle-runner/play"],
-		["Just One Boss", "https://edit.coolmath-games.com/0-just-one-boss/play"],
-		["Just One Color", "https://edit.coolmath-games.com/0-just-one-color/play"],
-		["Key and Shield", "https://edit.coolmath-games.com/0-key-and-shield/play"],
+		[
+			"Jumping Arrows",
+			"https://edit.coolmath-games.com/0-jumpingarrows/play"
+		],
+		[
+			"Jumpless World",
+			"https://edit.coolmath-games.com/0-jumpless-world/play"
+		],
+		[
+			"Jumpy Ape Joe",
+			"https://edit.coolmath-games.com/0-jumpy-ape-joe/play"
+		],
+		[
+			"Jungle Runner",
+			"https://edit.coolmath-games.com/0-jungle-runner/play"
+		],
+		[
+			"Just One Boss",
+			"https://edit.coolmath-games.com/0-just-one-boss/play"
+		],
+		[
+			"Just One Color",
+			"https://edit.coolmath-games.com/0-just-one-color/play"
+		],
+		[
+			"Key and Shield",
+			"https://edit.coolmath-games.com/0-key-and-shield/play"
+		],
 		["Kirigami", "https://edit.coolmath-games.com/0-kirigami/play"],
-		["Kishoutenketsu", "https://edit.coolmath-games.com/0-kishoutenketsu/play"],
+		[
+			"Kishoutenketsu",
+			"https://edit.coolmath-games.com/0-kishoutenketsu/play"
+		],
 		["Klocki", "https://edit.coolmath-games.com/0-klocki/play"],
 		["Knightin'", "https://edit.coolmath-games.com/0-knightin/play"],
 		["Lab Rush", "https://edit.coolmath-games.com/0-lab-rush/play"],
@@ -2749,7 +3409,10 @@
 		],
 		["Last Horizon", "https://edit.coolmath-games.com/0-last-horizon/play"],
 		["Lavanoid", "https://edit.coolmath-games.com/0-lavanoid/play"],
-		["Le Chat Fonce", "https://edit.coolmath-games.com/0-le-chat-fonce/play"],
+		[
+			"Le Chat Fonce",
+			"https://edit.coolmath-games.com/0-le-chat-fonce/play"
+		],
 		[
 			"Le Chat Fonce 2",
 			"https://edit.coolmath-games.com/0-le-chat-fonce-2/play"
@@ -2777,13 +3440,22 @@
 			"Magic Solitaire",
 			"https://edit.coolmath-games.com/0-magic-solitaire/play"
 		],
-		["Magnet Theory", "https://edit.coolmath-games.com/0-magnet-theory/play"],
-		["Mahjong Deluxe", "https://edit.coolmath-games.com/0-mahjong-deluxe/play"],
+		[
+			"Magnet Theory",
+			"https://edit.coolmath-games.com/0-magnet-theory/play"
+		],
+		[
+			"Mahjong Deluxe",
+			"https://edit.coolmath-games.com/0-mahjong-deluxe/play"
+		],
 		[
 			"Mahjong for Christmas",
 			"https://edit.coolmath-games.com/0-mahjong-for-christmas/play"
 		],
-		["Mainlands Wars", "https://edit.coolmath-games.com/0-mainlands-wars/play"],
+		[
+			"Mainlands Wars",
+			"https://edit.coolmath-games.com/0-mainlands-wars/play"
+		],
 		["Make 24", "https://edit.coolmath-games.com/0-make-24/play"],
 		["Mancala", "https://edit.coolmath-games.com/0-mancala/play"],
 		["Mango Mania", "https://edit.coolmath-games.com/0-mango-mania/play"],
@@ -2797,16 +3469,25 @@
 		["Math Man", "https://edit.coolmath-games.com/0-math-man/play"],
 		["Math's Up", "https://edit.coolmath-games.com/0-maths-up/play"],
 		["Membrane", "https://edit.coolmath-games.com/0-membrane/play"],
-		["Memorize Fast", "https://edit.coolmath-games.com/0-memorize-fast/play"],
+		[
+			"Memorize Fast",
+			"https://edit.coolmath-games.com/0-memorize-fast/play"
+		],
 		["Memory 3", "https://edit.coolmath-games.com/0-memory3/play"],
 		[
 			"Mercurial Story",
 			"https://edit.coolmath-games.com/0-mercurial-story/play"
 		],
-		["MetroCubeVania", "https://edit.coolmath-games.com/0-metrocubevania/play"],
+		[
+			"MetroCubeVania",
+			"https://edit.coolmath-games.com/0-metrocubevania/play"
+		],
 		["Micro Pilots", "https://edit.coolmath-games.com/0-micro-pilots/play"],
 		["Milt", "https://edit.coolmath-games.com/0-milt/play"],
-		["Mine of Sight", "https://edit.coolmath-games.com/0-mine-of-sight/play"],
+		[
+			"Mine of Sight",
+			"https://edit.coolmath-games.com/0-mine-of-sight/play"
+		],
 		["Miner Cave", "https://edit.coolmath-games.com/0-miner-cave/play"],
 		["Minesweeper", "https://edit.coolmath-games.com/0-minesweeper/play"],
 		[
@@ -2817,12 +3498,18 @@
 			"Mini Metro: London",
 			"https://edit.coolmath-games.com/0-mini-metro-london/play"
 		],
-		["Mini Switcher", "https://edit.coolmath-games.com/0-mini-switcher/play"],
+		[
+			"Mini Switcher",
+			"https://edit.coolmath-games.com/0-mini-switcher/play"
+		],
 		["Minifield", "https://edit.coolmath-games.com/0-minifield/play"],
 		["Minor Miner", "https://edit.coolmath-games.com/0-minor-miner/play"],
 		["Mitoosis", "https://edit.coolmath-games.com/0-mitoosis/play"],
 		["Mixed World", "https://edit.coolmath-games.com/0-mixed-world/play"],
-		["Mixed World 2", "https://edit.coolmath-games.com/0-mixed-world-2/play"],
+		[
+			"Mixed World 2",
+			"https://edit.coolmath-games.com/0-mixed-world-2/play"
+		],
 		["Mobility", "https://edit.coolmath-games.com/0-mobility/play"],
 		["MoHeX", "https://edit.coolmath-games.com/0-mohex/play"],
 		[
@@ -2838,10 +3525,19 @@
 			"Monster Mahjong",
 			"https://edit.coolmath-games.com/0-monster-mahjong/play"
 		],
-		["Monster Snake", "https://edit.coolmath-games.com/0-monster-snake/play"],
+		[
+			"Monster Snake",
+			"https://edit.coolmath-games.com/0-monster-snake/play"
+		],
 		["Monsterland", "https://edit.coolmath-games.com/0-monsterland/play"],
-		["Monsterland 3", "https://edit.coolmath-games.com/0-monsterland-3/play"],
-		["Monsterland 4", "https://edit.coolmath-games.com/0-monsterland-4/play"],
+		[
+			"Monsterland 3",
+			"https://edit.coolmath-games.com/0-monsterland-3/play"
+		],
+		[
+			"Monsterland 4",
+			"https://edit.coolmath-games.com/0-monsterland-4/play"
+		],
 		[
 			"Monsterland Challenge",
 			"https://edit.coolmath-games.com/0-monsterland-challenge/play"
@@ -2870,7 +3566,10 @@
 			"https://edit.coolmath-games.com/0-move-here-move-there/play"
 		],
 		["Mr. Blast", "https://edit.coolmath-games.com/0-mr-blast/play"],
-		["Mr. Tulip Head", "https://edit.coolmath-games.com/0-mr-tulip-head/play"],
+		[
+			"Mr. Tulip Head",
+			"https://edit.coolmath-games.com/0-mr-tulip-head/play"
+		],
 		["Multipod", "https://edit.coolmath-games.com/0-multipod/play"],
 		[
 			"My Kingdom for the Princess",
@@ -2880,7 +3579,10 @@
 			"Mysterious Treasures",
 			"https://edit.coolmath-games.com/0-mysterious-treasures/play"
 		],
-		["Mystery Temple", "https://edit.coolmath-games.com/0-mystery-temple/play"],
+		[
+			"Mystery Temple",
+			"https://edit.coolmath-games.com/0-mystery-temple/play"
+		],
 		[
 			"Mystical Bird Link",
 			"https://edit.coolmath-games.com/0-mystical-bird-link/play"
@@ -2890,14 +3592,20 @@
 			"Number Sequence",
 			"https://edit.coolmath-games.com/0-number-sequence/play"
 		],
-		["Number Tumbler", "https://edit.coolmath-games.com/0-number-tumbler/play"],
+		[
+			"Number Tumbler",
+			"https://edit.coolmath-games.com/0-number-tumbler/play"
+		],
 		["Number Twins", "https://edit.coolmath-games.com/0-number-twins/play"],
 		["Numberhood", "https://edit.coolmath-games.com/0-numberhood/play"],
 		["Numberium", "https://edit.coolmath-games.com/0-numberium/play"],
 		["Nymphiad", "https://edit.coolmath-games.com/0-nymphiad/play"],
 		["Off the Line", "https://edit.coolmath-games.com/0-off-the-line/play"],
 		["Olympic Jump", "https://edit.coolmath-games.com/0-olympic-jump/play"],
-		["Omit Orange 2", "https://edit.coolmath-games.com/0-omit-orange-2/play"],
+		[
+			"Omit Orange 2",
+			"https://edit.coolmath-games.com/0-omit-orange-2/play"
+		],
 		[
 			"One Button Hero",
 			"https://edit.coolmath-games.com/0-one-button-hero/play"
@@ -2906,9 +3614,15 @@
 			"One More Flight",
 			"https://edit.coolmath-games.com/0-one-more-flight/play"
 		],
-		["One Trick Mage", "https://edit.coolmath-games.com/0-one-trick-mage/play"],
+		[
+			"One Trick Mage",
+			"https://edit.coolmath-games.com/0-one-trick-mage/play"
+		],
 		["Onus", "https://edit.coolmath-games.com/0-onus/play"],
-		["Orcs vs Elves", "https://edit.coolmath-games.com/0-orcs-vs-elves/play"],
+		[
+			"Orcs vs Elves",
+			"https://edit.coolmath-games.com/0-orcs-vs-elves/play"
+		],
 		["Orul", "https://edit.coolmath-games.com/0-orul/play"],
 		["Outcome", "https://edit.coolmath-games.com/0-outcome/play"],
 		["OvO", "https://edit.coolmath-games.com/0-ovo/play"],
@@ -2918,18 +3632,39 @@
 		],
 		["Paddle Pals", "https://edit.coolmath-games.com/0-paddle-pals/play"],
 		["Parking Fury", "https://edit.coolmath-games.com/0-parking-fury/play"],
-		["Parking Fury 2", "https://edit.coolmath-games.com/0-parking-fury-2/play"],
-		["Parking Fury 3", "https://edit.coolmath-games.com/0-parking-fury-3/play"],
-		["Parking Mania", "https://edit.coolmath-games.com/0-parkingmania/play"],
-		["Parking Panic", "https://edit.coolmath-games.com/0-parking-panic/play"],
-		["Pattern Memory", "https://edit.coolmath-games.com/0-pattern-memory/play"],
+		[
+			"Parking Fury 2",
+			"https://edit.coolmath-games.com/0-parking-fury-2/play"
+		],
+		[
+			"Parking Fury 3",
+			"https://edit.coolmath-games.com/0-parking-fury-3/play"
+		],
+		[
+			"Parking Mania",
+			"https://edit.coolmath-games.com/0-parkingmania/play"
+		],
+		[
+			"Parking Panic",
+			"https://edit.coolmath-games.com/0-parking-panic/play"
+		],
+		[
+			"Pattern Memory",
+			"https://edit.coolmath-games.com/0-pattern-memory/play"
+		],
 		["Pebble Boy", "https://edit.coolmath-games.com/0-pebble-boy/play"],
-		["Peg Solitaire", "https://edit.coolmath-games.com/0-peg-solitaire/play"],
+		[
+			"Peg Solitaire",
+			"https://edit.coolmath-games.com/0-peg-solitaire/play"
+		],
 		["Pet Mahjongg", "https://edit.coolmath-games.com/0-pet-mahjongg/play"],
 		["Phantomb", "https://edit.coolmath-games.com/0-phantomb/play"],
 		["Picnic Bear", "https://edit.coolmath-games.com/0-picnic-bear/play"],
 		["Picoban", "https://edit.coolmath-games.com/0-picoban/play"],
-		["Pieces of Cake", "https://edit.coolmath-games.com/0-pieces-of-cake/play"],
+		[
+			"Pieces of Cake",
+			"https://edit.coolmath-games.com/0-pieces-of-cake/play"
+		],
 		["Pip!", "https://edit.coolmath-games.com/0-pip/play"],
 		[
 			"Pirate Jack Gold Beard",
@@ -2940,7 +3675,10 @@
 			"https://edit.coolmath-games.com/0-pirates-match-3/play"
 		],
 		["Pixel Puzzle", "https://edit.coolmath-games.com/0-pixel-puzzle/play"],
-		["Pizza Ninja 3", "https://edit.coolmath-games.com/0-pizza-ninja-3/play"],
+		[
+			"Pizza Ninja 3",
+			"https://edit.coolmath-games.com/0-pizza-ninja-3/play"
+		],
 		[
 			"Planet Elain Sort",
 			"https://edit.coolmath-games.com/0-planet-elain-sort/play"
@@ -2971,7 +3709,10 @@
 			"https://edit.coolmath-games.com/0-press-space-to-stick/play"
 		],
 		["Prime Mover", "https://edit.coolmath-games.com/0-prime-mover/play"],
-		["Proprioception", "https://edit.coolmath-games.com/0-proprioception/play"],
+		[
+			"Proprioception",
+			"https://edit.coolmath-games.com/0-proprioception/play"
+		],
 		[
 			"Protect the Museum",
 			"https://edit.coolmath-games.com/0-protect-the-museum/play"
@@ -2987,7 +3728,10 @@
 			"https://edit.coolmath-games.com/0-puzzle-blocks-ancient/play"
 		],
 		["Quad Blocks", "https://edit.coolmath-games.com/0-quad-blocks/play"],
-		["Rabbit Samurai", "https://edit.coolmath-games.com/0-rabbit-samurai/play"],
+		[
+			"Rabbit Samurai",
+			"https://edit.coolmath-games.com/0-rabbit-samurai/play"
+		],
 		[
 			"Rabbit Samurai 2",
 			"https://edit.coolmath-games.com/0-rabbit-samurai-2/play"
@@ -2996,7 +3740,10 @@
 			"Rainbow Mechanic",
 			"https://edit.coolmath-games.com/0-rainbow-mechanic/play"
 		],
-		["Rancho Keeper", "https://edit.coolmath-games.com/0-rancho-keeper/play"],
+		[
+			"Rancho Keeper",
+			"https://edit.coolmath-games.com/0-rancho-keeper/play"
+		],
 		[
 			"Rapid Basket Rabbit",
 			"https://edit.coolmath-games.com/0-rapid-basket-rabbit/play"
@@ -3008,36 +3755,57 @@
 		["Reversi", "https://edit.coolmath-games.com/0-reversi/play"],
 		["Rewired", "https://edit.coolmath-games.com/0-rewired/play"],
 		["Rhomb", "https://edit.coolmath-games.com/0-rhomb/play"],
-		["Rhythm is Lava", "https://edit.coolmath-games.com/0-rhythm-is-lava/play"],
+		[
+			"Rhythm is Lava",
+			"https://edit.coolmath-games.com/0-rhythm-is-lava/play"
+		],
 		[
 			"Right Trick Totem Land",
 			"https://edit.coolmath-games.com/0-right-trick-totem-land/play"
 		],
-		["Robot Islands", "https://edit.coolmath-games.com/0-robot-islands/play"],
+		[
+			"Robot Islands",
+			"https://edit.coolmath-games.com/0-robot-islands/play"
+		],
 		["Robotion", "https://edit.coolmath-games.com/0-robotion/play"],
-		["Rocket Dancer", "https://edit.coolmath-games.com/0-rocket-dancer/play"],
+		[
+			"Rocket Dancer",
+			"https://edit.coolmath-games.com/0-rocket-dancer/play"
+		],
 		[
 			"Rocket Dancer 2",
 			"https://edit.coolmath-games.com/0-rocket-dancer-2/play"
 		],
 		["Rocketate", "https://edit.coolmath-games.com/0-rocketate/play"],
-		["Rocketate Next", "https://edit.coolmath-games.com/0-rocketate-next/play"],
+		[
+			"Rocketate Next",
+			"https://edit.coolmath-games.com/0-rocketate-next/play"
+		],
 		[
 			"Roll Those Sixes",
 			"https://edit.coolmath-games.com/0-roll-those-sixes/play"
 		],
 		["Roloong", "https://edit.coolmath-games.com/0-roloong/play"],
-		["Rookie Bowman", "https://edit.coolmath-games.com/0-rookie-bowman/play"],
+		[
+			"Rookie Bowman",
+			"https://edit.coolmath-games.com/0-rookie-bowman/play"
+		],
 		["Rotate", "https://edit.coolmath-games.com/0-rotate/play"],
 		["Round Runner", "https://edit.coolmath-games.com/0-round-runner/play"],
 		["Row Row", "https://edit.coolmath-games.com/0-row-row/play"],
 		["Rullo", "https://edit.coolmath-games.com/0-rullo/play"],
 		["Run 3", "https://edit.coolmath-games.com/0-run-3/play"],
-		["Running Round", "https://edit.coolmath-games.com/0-running-round/play"],
+		[
+			"Running Round",
+			"https://edit.coolmath-games.com/0-running-round/play"
+		],
 		["S.I.P.", "https://edit.coolmath-games.com/0-sip/play"],
 		["Salvage", "https://edit.coolmath-games.com/0-salvage/play"],
 		["Sand Trap", "https://edit.coolmath-games.com/0-sand-trap/play"],
-		["Santa Delivery", "https://edit.coolmath-games.com/0-santa-delivery/play"],
+		[
+			"Santa Delivery",
+			"https://edit.coolmath-games.com/0-santa-delivery/play"
+		],
 		["Santa Run 2", "https://edit.coolmath-games.com/0-santa-run-2/play"],
 		["Script Ship", "https://edit.coolmath-games.com/0-script-ship/play"],
 		["Scuba Bear", "https://edit.coolmath-games.com/0-scuba-bear/play"],
@@ -3055,7 +3823,10 @@
 		],
 		["Shootanoid", "https://edit.coolmath-games.com/0-shootanoid/play"],
 		["Simon's Lab", "https://edit.coolmath-games.com/0-simons-lab/play"],
-		["Simon's Lab 2", "https://edit.coolmath-games.com/0-simons-lab-2/play"],
+		[
+			"Simon's Lab 2",
+			"https://edit.coolmath-games.com/0-simons-lab-2/play"
+		],
 		["Six Frogs", "https://edit.coolmath-games.com/0-six-frogs/play"],
 		[
 			"Skeleton Launcher 2",
@@ -3065,10 +3836,16 @@
 			"Slam Dunk Brush",
 			"https://edit.coolmath-games.com/0-slam-dunk-brush/play"
 		],
-		["Sleepy Knight", "https://edit.coolmath-games.com/0-sleepy-knight/play"],
+		[
+			"Sleepy Knight",
+			"https://edit.coolmath-games.com/0-sleepy-knight/play"
+		],
 		["Slideways", "https://edit.coolmath-games.com/0-slideways/play"],
 		["Slipways", "https://edit.coolmath-games.com/0-slipways/play"],
-		["Slydey Blocks", "https://edit.coolmath-games.com/0-slydey-blocks/play"],
+		[
+			"Slydey Blocks",
+			"https://edit.coolmath-games.com/0-slydey-blocks/play"
+		],
 		["Snake", "https://edit.coolmath-games.com/0-snake/play"],
 		["Snake Attack", "https://edit.coolmath-games.com/0-snake-attack/play"],
 		["Snake Slider", "https://edit.coolmath-games.com/0-snake-slider/play"],
@@ -3135,7 +3912,10 @@
 		["Space Cord", "https://edit.coolmath-games.com/0-space-cord/play"],
 		["Space Duuude", "https://edit.coolmath-games.com/0-space-duuude/play"],
 		["Space Is Key", "https://edit.coolmath-games.com/0-space-is-key/play"],
-		["Space Is Key 2", "https://edit.coolmath-games.com/0-space-is-key-2/play"],
+		[
+			"Space Is Key 2",
+			"https://edit.coolmath-games.com/0-space-is-key-2/play"
+		],
 		[
 			"Space Is Key Christmas",
 			"https://edit.coolmath-games.com/0-space-is-key-christmas/play"
@@ -3158,14 +3938,23 @@
 			"Spot the Difference",
 			"https://edit.coolmath-games.com/0-spot-the-difference/play"
 		],
-		["Square Stacker", "https://edit.coolmath-games.com/0-square-stacker/play"],
+		[
+			"Square Stacker",
+			"https://edit.coolmath-games.com/0-square-stacker/play"
+		],
 		["Squarus", "https://edit.coolmath-games.com/0-squarus/play"],
 		["Squarus 2", "https://edit.coolmath-games.com/0-squarus-2/play"],
 		["Stacked", "https://edit.coolmath-games.com/0-stacked/play"],
-		["Stained Glass", "https://edit.coolmath-games.com/0-stainedglass/play"],
+		[
+			"Stained Glass",
+			"https://edit.coolmath-games.com/0-stainedglass/play"
+		],
 		["Starries", "https://edit.coolmath-games.com/0-starries/play"],
 		["Sticky Ricky", "https://edit.coolmath-games.com/0-sticky-ricky/play"],
-		["Stranded Isle", "https://edit.coolmath-games.com/0-stranded-isle/play"],
+		[
+			"Stranded Isle",
+			"https://edit.coolmath-games.com/0-stranded-isle/play"
+		],
 		[
 			"Strategic Tic-Tac-Toe",
 			"https://edit.coolmath-games.com/0-strategic-tic-tac-toe/play"
@@ -3205,7 +3994,10 @@
 			"Super Santa Kicker 3",
 			"https://edit.coolmath-games.com/0-super-santa-kicker-3/play"
 		],
-		["SupercEELious", "https://edit.coolmath-games.com/0-superceelious/play"],
+		[
+			"SupercEELious",
+			"https://edit.coolmath-games.com/0-superceelious/play"
+		],
 		["Sushi Slicer", "https://edit.coolmath-games.com/0-sushi-slicer/play"],
 		["Swapblocks", "https://edit.coolmath-games.com/0-swapblocks/play"],
 		["Sweet Jelly", "https://edit.coolmath-games.com/0-sweet-jelly/play"],
@@ -3215,7 +4007,10 @@
 			"https://edit.coolmath-games.com/0-switchways-dimensions/play"
 		],
 		["Table Tanks", "https://edit.coolmath-games.com/0-table-tanks/play"],
-		["Tahira's Tower", "https://edit.coolmath-games.com/0-tahiras-tower/play"],
+		[
+			"Tahira's Tower",
+			"https://edit.coolmath-games.com/0-tahiras-tower/play"
+		],
 		[
 			"Tail of the Dragon",
 			"https://edit.coolmath-games.com/0-tail-of-the-dragon/play"
@@ -3229,7 +4024,10 @@
 			"https://edit.coolmath-games.com/0-temple-of-the-four-serpents/play"
 		],
 		["Tetroid 3", "https://edit.coolmath-games.com/0-tetroid-3/play"],
-		["That Gentleman", "https://edit.coolmath-games.com/0-that-gentleman/play"],
+		[
+			"That Gentleman",
+			"https://edit.coolmath-games.com/0-that-gentleman/play"
+		],
 		["The Cloister", "https://edit.coolmath-games.com/0-the-cloister/play"],
 		[
 			"The Final Earth",
@@ -3252,7 +4050,10 @@
 			"https://edit.coolmath-games.com/0-the-little-giant/play"
 		],
 		["The Schema", "https://edit.coolmath-games.com/0-the-schema/play"],
-		["The Sky House", "https://edit.coolmath-games.com/0-the-sky-house/play"],
+		[
+			"The Sky House",
+			"https://edit.coolmath-games.com/0-the-sky-house/play"
+		],
 		[
 			"The Sun for the Vampire",
 			"https://edit.coolmath-games.com/0-the-sun-for-the-vampire/play"
@@ -3270,7 +4071,10 @@
 			"There Is No Game",
 			"https://edit.coolmath-games.com/0-there-is-no-game/play"
 		],
-		["Three Goblets", "https://edit.coolmath-games.com/0-three-goblets/play"],
+		[
+			"Three Goblets",
+			"https://edit.coolmath-games.com/0-three-goblets/play"
+		],
 		[
 			"Three Second Maze",
 			"https://edit.coolmath-games.com/0-three-second-maze/play"
@@ -3298,7 +4102,10 @@
 		],
 		["Toy Defense", "https://edit.coolmath-games.com/0-toy-defense/play"],
 		["Tradecraft", "https://edit.coolmath-games.com/0-tradecraft/play"],
-		["Traffic Mania", "https://edit.coolmath-games.com/0-traffic-mania/play"],
+		[
+			"Traffic Mania",
+			"https://edit.coolmath-games.com/0-traffic-mania/play"
+		],
 		[
 			"Transport Mahjong",
 			"https://edit.coolmath-games.com/0-transport-mahjong/play"
@@ -3307,12 +4114,18 @@
 			"Treasure Hunter",
 			"https://edit.coolmath-games.com/0-treasure-hunter/play"
 		],
-		["Treasure Slide", "https://edit.coolmath-games.com/0-treasure-slide/play"],
+		[
+			"Treasure Slide",
+			"https://edit.coolmath-games.com/0-treasure-slide/play"
+		],
 		["Tri-Memory", "https://edit.coolmath-games.com/0-tri-memory/play"],
 		["Tribolia", "https://edit.coolmath-games.com/0-tribolia/play"],
 		["Trivia Jump", "https://edit.coolmath-games.com/0-trivia-jump/play"],
 		["Triways", "https://edit.coolmath-games.com/0-triways/play"],
-		["Truck Loader 4", "https://edit.coolmath-games.com/0-truck-loader-4/play"],
+		[
+			"Truck Loader 4",
+			"https://edit.coolmath-games.com/0-truck-loader-4/play"
+		],
 		["Tube Master", "https://edit.coolmath-games.com/0-tube-master/play"],
 		["Tubetris", "https://edit.coolmath-games.com/0-tubetris/play"],
 		["Turn Tower", "https://edit.coolmath-games.com/0-turn-tower/play"],
@@ -3335,7 +4148,10 @@
 			"https://edit.coolmath-games.com/0-up-and-down-words/play"
 		],
 		["Up Left Out", "https://edit.coolmath-games.com/0-up-left-out/play"],
-		["Valdi: Shadows", "https://edit.coolmath-games.com/0-valdi-shadows/play"],
+		[
+			"Valdi: Shadows",
+			"https://edit.coolmath-games.com/0-valdi-shadows/play"
+		],
 		[
 			"Vampires and Garlic",
 			"https://edit.coolmath-games.com/0-vampires-and-garlic/play"
@@ -3344,7 +4160,10 @@
 		["Vehicles", "https://edit.coolmath-games.com/0-vehicles/play"],
 		["Vehicles 2", "https://edit.coolmath-games.com/0-vehicles-2/play"],
 		["Viewpoint", "https://edit.coolmath-games.com/0-viewpoint/play"],
-		["Wake the Santa", "https://edit.coolmath-games.com/0-wake-the-santa/play"],
+		[
+			"Wake the Santa",
+			"https://edit.coolmath-games.com/0-wake-the-santa/play"
+		],
 		["WASDungeon", "https://edit.coolmath-games.com/0-wasdungeon/play"],
 		["WASDungeon 2", "https://edit.coolmath-games.com/0-wasdungeon-2/play"],
 		["Waty", "https://edit.coolmath-games.com/0-waty/play"],
@@ -3357,7 +4176,10 @@
 			"https://edit.coolmath-games.com/0-where-are-my-pets/play"
 		],
 		["Wipo", "https://edit.coolmath-games.com/0-wipo/play"],
-		["Word Detector", "https://edit.coolmath-games.com/0-word-detector/play"],
+		[
+			"Word Detector",
+			"https://edit.coolmath-games.com/0-word-detector/play"
+		],
 		["Word Search", "https://edit.coolmath-games.com/0-word-search/play"],
 		["Word Worm", "https://edit.coolmath-games.com/0-word-worm/play"],
 		["Words Family", "https://edit.coolmath-games.com/0-words-family/play"],
@@ -3419,7 +4241,10 @@
 			"3 on 3 Hockey",
 			"https://sites.google.com/site/tyronesgameshack/3-on-3-hockey"
 		],
-		["360 Snake", "https://sites.google.com/site/tyronesgameshack/360-snake"],
+		[
+			"360 Snake",
+			"https://sites.google.com/site/tyronesgameshack/360-snake"
+		],
 		[
 			"3D Car Driver",
 			"https://sites.google.com/site/tyronesgameshack/3d-car-driver"
@@ -3429,7 +4254,10 @@
 			"https://sites.google.com/site/tyronesgameshack/3d-super-tank"
 		],
 		["4 Colors", "https://sites.google.com/site/tyronesgameshack/4-colors"],
-		["50 States", "https://sites.google.com/site/tyronesgameshack/50-states"],
+		[
+			"50 States",
+			"https://sites.google.com/site/tyronesgameshack/50-states"
+		],
 		[
 			"8 Ball Pool",
 			"https://sites.google.com/site/tyronesgameshack/8-ball-pool"
@@ -3448,7 +4276,10 @@
 		],
 		["Achilles", "https://sites.google.com/site/tyronesgameshack/achilles"],
 		["Agar.io", "https://sites.google.com/site/tyronesgameshack/agar-io"],
-		["Age of War", "https://sites.google.com/site/tyronesgameshack/age-of-war"],
+		[
+			"Age of War",
+			"https://sites.google.com/site/tyronesgameshack/age-of-war"
+		],
 		[
 			"Age of War 2",
 			"https://sites.google.com/site/tyronesgameshack/age-of-war-2"
@@ -3458,7 +4289,10 @@
 			"https://sites.google.com/site/tyronesgameshack/ahoy-survival"
 		],
 		["Air Race", "https://sites.google.com/site/tyronesgameshack/air-race"],
-		["Air Strike", "https://sites.google.com/site/tyronesgameshack/air-strike"],
+		[
+			"Air Strike",
+			"https://sites.google.com/site/tyronesgameshack/air-strike"
+		],
 		[
 			"Airman Challenge",
 			"https://sites.google.com/site/tyronesgameshack/airman-challenge"
@@ -3480,7 +4314,10 @@
 			"Ambulance Traffic Drive",
 			"https://sites.google.com/site/tyronesgameshack/ambulance-traffic-drive"
 		],
-		["Among Man", "https://sites.google.com/site/tyronesgameshack/among-man"],
+		[
+			"Among Man",
+			"https://sites.google.com/site/tyronesgameshack/among-man"
+		],
 		["Among Us", "https://sites.google.com/site/tyronesgameshack/among-us"],
 		[
 			"Animal Hunter",
@@ -3490,7 +4327,10 @@
 			"Animal Jam Dress Up",
 			"https://sites.google.com/site/tyronesgameshack/animal-jam-dress-up"
 		],
-		["Antbuster", "https://sites.google.com/site/tyronesgameshack/antbuster"],
+		[
+			"Antbuster",
+			"https://sites.google.com/site/tyronesgameshack/antbuster"
+		],
 		[
 			"Apocalypse Moto Game",
 			"https://sites.google.com/site/tyronesgameshack/apocalypse-moto-game"
@@ -3512,12 +4352,18 @@
 			"Armed Forces io",
 			"https://sites.google.com/site/tyronesgameshack/armed-forces-io"
 		],
-		["Asteroids", "https://sites.google.com/site/tyronesgameshack/asteroids"],
+		[
+			"Asteroids",
+			"https://sites.google.com/site/tyronesgameshack/asteroids"
+		],
 		[
 			"ATV Quad Racing",
 			"https://sites.google.com/site/tyronesgameshack/atv-quad-racing"
 		],
-		["Avalanche", "https://sites.google.com/site/tyronesgameshack/avalanche"],
+		[
+			"Avalanche",
+			"https://sites.google.com/site/tyronesgameshack/avalanche"
+		],
 		[
 			"Avatar Arena",
 			"https://sites.google.com/site/tyronesgameshack/avatar-arena"
@@ -3595,7 +4441,10 @@
 			"https://sites.google.com/site/tyronesgameshack/basketball-stars"
 		],
 		["Bear You", "https://sites.google.com/site/tyronesgameshack/bear-you"],
-		["Bejeweled", "https://sites.google.com/site/tyronesgameshack/bejeweled"],
+		[
+			"Bejeweled",
+			"https://sites.google.com/site/tyronesgameshack/bejeweled"
+		],
 		[
 			"Ben 10 Match 3 Puzzle",
 			"https://sites.google.com/site/tyronesgameshack/ben-10-match-3-puzzle"
@@ -3608,7 +4457,10 @@
 			"Bike Simulator 3D",
 			"https://sites.google.com/site/tyronesgameshack/bike-simulator-3d"
 		],
-		["Bikemania", "https://sites.google.com/site/tyronesgameshack/bikemania"],
+		[
+			"Bikemania",
+			"https://sites.google.com/site/tyronesgameshack/bikemania"
+		],
 		[
 			"Bikemania 2",
 			"https://sites.google.com/site/tyronesgameshack/bikemania-2"
@@ -3621,7 +4473,10 @@
 			"Blast-O-Matic",
 			"https://sites.google.com/site/tyronesgameshack/blast-o-matic"
 		],
-		["Blobink 2", "https://sites.google.com/site/tyronesgameshack/blobink-2"],
+		[
+			"Blobink 2",
+			"https://sites.google.com/site/tyronesgameshack/blobink-2"
+		],
 		[
 			"Blocky trials",
 			"https://sites.google.com/site/tyronesgameshack/blocky-trials"
@@ -3664,8 +4519,14 @@
 			"Bomb a Bomb",
 			"https://sites.google.com/site/tyronesgameshack/bomb-a-bomb"
 		],
-		["Bomb It 2", "https://sites.google.com/site/tyronesgameshack/bomb-it-2"],
-		["Bomb It 7", "https://sites.google.com/site/tyronesgameshack/bomb-it-7"],
+		[
+			"Bomb It 2",
+			"https://sites.google.com/site/tyronesgameshack/bomb-it-2"
+		],
+		[
+			"Bomb It 7",
+			"https://sites.google.com/site/tyronesgameshack/bomb-it-7"
+		],
 		[
 			"Boss Slayer",
 			"https://sites.google.com/site/tyronesgameshack/boss-slayer"
@@ -3676,12 +4537,18 @@
 		],
 		["Bowman", "https://sites.google.com/site/tyronesgameshack/bowman"],
 		["Bowman 2", "https://sites.google.com/site/tyronesgameshack/bowman-2"],
-		["Bowmaster", "https://sites.google.com/site/tyronesgameshack/bowmaster"],
+		[
+			"Bowmaster",
+			"https://sites.google.com/site/tyronesgameshack/bowmaster"
+		],
 		[
 			"Bowmaster Prelude",
 			"https://sites.google.com/site/tyronesgameshack/bowmaster-prelude"
 		],
-		["Boxhead 2", "https://sites.google.com/site/tyronesgameshack/boxhead-2"],
+		[
+			"Boxhead 2",
+			"https://sites.google.com/site/tyronesgameshack/boxhead-2"
+		],
 		[
 			"Boxing Master 3D",
 			"https://sites.google.com/site/tyronesgameshack/boxing-master-3d"
@@ -3694,7 +4561,10 @@
 			"Break The Wall",
 			"https://sites.google.com/site/tyronesgameshack/break-the-wall"
 		],
-		["Bubble Hit", "https://sites.google.com/site/tyronesgameshack/bubble-hit"],
+		[
+			"Bubble Hit",
+			"https://sites.google.com/site/tyronesgameshack/bubble-hit"
+		],
 		[
 			"Bubble Shooter",
 			"https://sites.google.com/site/tyronesgameshack/bubble-shooter"
@@ -3755,7 +4625,10 @@
 			"Candy Catcher",
 			"https://sites.google.com/site/tyronesgameshack/candy-catcher"
 		],
-		["Cannabalt", "https://sites.google.com/site/tyronesgameshack/cannabalt"],
+		[
+			"Cannabalt",
+			"https://sites.google.com/site/tyronesgameshack/cannabalt"
+		],
 		[
 			"Canyon Defense",
 			"https://sites.google.com/site/tyronesgameshack/canyon-defense"
@@ -3776,8 +4649,14 @@
 			"Castle Slots Casino",
 			"https://sites.google.com/site/tyronesgameshack/castle-slots-casino"
 		],
-		["Cat Mario", "https://sites.google.com/site/tyronesgameshack/cat-mario"],
-		["Cat Ninja", "https://sites.google.com/site/tyronesgameshack/cat-ninja"],
+		[
+			"Cat Mario",
+			"https://sites.google.com/site/tyronesgameshack/cat-mario"
+		],
+		[
+			"Cat Ninja",
+			"https://sites.google.com/site/tyronesgameshack/cat-ninja"
+		],
 		["Chamber", "https://sites.google.com/site/tyronesgameshack/chamber"],
 		[
 			"Choose Your Weapon 2",
@@ -3791,12 +4670,18 @@
 			"City Car Stunt 2",
 			"https://sites.google.com/site/tyronesgameshack/city-car-stunt-2"
 		],
-		["City Wars", "https://sites.google.com/site/tyronesgameshack/city-wars"],
+		[
+			"City Wars",
+			"https://sites.google.com/site/tyronesgameshack/city-wars"
+		],
 		[
 			"Classic Solitaire",
 			"https://sites.google.com/site/tyronesgameshack/classic-solitaire"
 		],
-		["Cleanup.IO", "https://sites.google.com/site/tyronesgameshack/cleanup-io"],
+		[
+			"Cleanup.IO",
+			"https://sites.google.com/site/tyronesgameshack/cleanup-io"
+		],
 		[
 			"Clear Vision",
 			"https://sites.google.com/site/tyronesgameshack/clear-vision"
@@ -3851,7 +4736,10 @@
 			"Crazy Pixel: Warfare",
 			"https://sites.google.com/site/tyronesgameshack/crazy-pixel-warfare"
 		],
-		["Crazy Taxi", "https://sites.google.com/site/tyronesgameshack/crazy-taxi"],
+		[
+			"Crazy Taxi",
+			"https://sites.google.com/site/tyronesgameshack/crazy-taxi"
+		],
 		[
 			"Creative Kill Chamber",
 			"https://sites.google.com/site/tyronesgameshack/creative-kill-chamber"
@@ -3872,14 +4760,23 @@
 			"Crush the Castle",
 			"https://sites.google.com/site/tyronesgameshack/crush-the-castle"
 		],
-		["Cubefield", "https://sites.google.com/site/tyronesgameshack/cubefield"],
+		[
+			"Cubefield",
+			"https://sites.google.com/site/tyronesgameshack/cubefield"
+		],
 		[
 			"Cuphead Adventure - Cuphead and Mugman",
 			"https://sites.google.com/site/tyronesgameshack/cuphead-adventure-cuphead-and-mugman"
 		],
 		["Curling", "https://sites.google.com/site/tyronesgameshack/curling"],
-		["Cursor x10", "https://sites.google.com/site/tyronesgameshack/cursor-x10"],
-		["Curveball", "https://sites.google.com/site/tyronesgameshack/curveball"],
+		[
+			"Cursor x10",
+			"https://sites.google.com/site/tyronesgameshack/cursor-x10"
+		],
+		[
+			"Curveball",
+			"https://sites.google.com/site/tyronesgameshack/curveball"
+		],
 		[
 			"Curveball HTML",
 			"https://sites.google.com/site/tyronesgameshack/curveball-html"
@@ -3892,7 +4789,10 @@
 			"Cute Little Kids Jigsaw",
 			"https://sites.google.com/site/tyronesgameshack/cute-little-kids-jigsaw"
 		],
-		["Dad 'N Me", "https://sites.google.com/site/tyronesgameshack/dad-n-me"],
+		[
+			"Dad 'N Me",
+			"https://sites.google.com/site/tyronesgameshack/dad-n-me"
+		],
 		[
 			"Dance of the Robots",
 			"https://sites.google.com/site/tyronesgameshack/dance-of-the-robots"
@@ -3938,7 +4838,10 @@
 			"Doodle Devil",
 			"https://sites.google.com/site/tyronesgameshack/doodle-devil"
 		],
-		["Doodle God", "https://sites.google.com/site/tyronesgameshack/doodle-god"],
+		[
+			"Doodle God",
+			"https://sites.google.com/site/tyronesgameshack/doodle-god"
+		],
 		[
 			"Doodle Jump",
 			"https://sites.google.com/site/tyronesgameshack/doodle-jump"
@@ -3952,7 +4855,10 @@
 			"DownHill Rush",
 			"https://sites.google.com/site/tyronesgameshack/downhill-rush"
 		],
-		["Draw Play", "https://sites.google.com/site/tyronesgameshack/draw-play"],
+		[
+			"Draw Play",
+			"https://sites.google.com/site/tyronesgameshack/draw-play"
+		],
 		[
 			"Draw Play 2",
 			"https://sites.google.com/site/tyronesgameshack/draw-play-2"
@@ -3973,7 +4879,10 @@
 			"Drunken Duel",
 			"https://sites.google.com/site/tyronesgameshack/drunken-duel"
 		],
-		["Duck Hunt", "https://sites.google.com/site/tyronesgameshack/duck-hunt"],
+		[
+			"Duck Hunt",
+			"https://sites.google.com/site/tyronesgameshack/duck-hunt"
+		],
 		[
 			"Duck Life 1",
 			"https://sites.google.com/site/tyronesgameshack/duck-life-1"
@@ -3994,9 +4903,18 @@
 			"Dude and Zombies",
 			"https://sites.google.com/site/tyronesgameshack/dude-and-zombies"
 		],
-		["Dunk Fall", "https://sites.google.com/site/tyronesgameshack/dunk-fall"],
-		["DX Hockey", "https://sites.google.com/site/tyronesgameshack/dx-hockey"],
-		["Earthbound", "https://sites.google.com/site/tyronesgameshack/earthbound"],
+		[
+			"Dunk Fall",
+			"https://sites.google.com/site/tyronesgameshack/dunk-fall"
+		],
+		[
+			"DX Hockey",
+			"https://sites.google.com/site/tyronesgameshack/dx-hockey"
+		],
+		[
+			"Earthbound",
+			"https://sites.google.com/site/tyronesgameshack/earthbound"
+		],
 		[
 			"Effing Worms",
 			"https://sites.google.com/site/tyronesgameshack/effing-worms"
@@ -4029,7 +4947,10 @@
 			"Euro Free Kick Soccer 20",
 			"https://sites.google.com/site/tyronesgameshack/euro-free-kick-soccer-20"
 		],
-		["Euro2020FK", "https://sites.google.com/site/tyronesgameshack/euro2020fk"],
+		[
+			"Euro2020FK",
+			"https://sites.google.com/site/tyronesgameshack/euro2020fk"
+		],
 		[
 			"Evil Granny Must Die Ch2",
 			"https://sites.google.com/site/tyronesgameshack/evil-granny-must-die-ch2"
@@ -4042,12 +4963,18 @@
 			"Executive Suite",
 			"https://sites.google.com/site/tyronesgameshack/executive-suite"
 		],
-		["Exit Path", "https://sites.google.com/site/tyronesgameshack/exit-path"],
+		[
+			"Exit Path",
+			"https://sites.google.com/site/tyronesgameshack/exit-path"
+		],
 		[
 			"Exit Path 2",
 			"https://sites.google.com/site/tyronesgameshack/exit-path-2"
 		],
-		["Fall Boys", "https://sites.google.com/site/tyronesgameshack/fall-boys"],
+		[
+			"Fall Boys",
+			"https://sites.google.com/site/tyronesgameshack/fall-boys"
+		],
 		[
 			"Falling Bush",
 			"https://sites.google.com/site/tyronesgameshack/falling-bush"
@@ -4060,8 +4987,14 @@
 			"Fancy Pants Adventure: World 2",
 			"https://sites.google.com/site/tyronesgameshack/fancy-pants-adventure-world-2"
 		],
-		["Fat Ninja", "https://sites.google.com/site/tyronesgameshack/fat-ninja"],
-		["Feudalism", "https://sites.google.com/site/tyronesgameshack/feudalism"],
+		[
+			"Fat Ninja",
+			"https://sites.google.com/site/tyronesgameshack/fat-ninja"
+		],
+		[
+			"Feudalism",
+			"https://sites.google.com/site/tyronesgameshack/feudalism"
+		],
 		[
 			"Feudalism 2",
 			"https://sites.google.com/site/tyronesgameshack/feudalism-2"
@@ -4103,8 +5036,14 @@
 			"Flappy Bird",
 			"https://sites.google.com/site/tyronesgameshack/flappy-bird"
 		],
-		["Flash RPG", "https://sites.google.com/site/tyronesgameshack/flash-rpg"],
-		["Flashcraft", "https://sites.google.com/site/tyronesgameshack/flashcraft"],
+		[
+			"Flash RPG",
+			"https://sites.google.com/site/tyronesgameshack/flash-rpg"
+		],
+		[
+			"Flashcraft",
+			"https://sites.google.com/site/tyronesgameshack/flashcraft"
+		],
 		["Flight", "https://sites.google.com/site/tyronesgameshack/flight"],
 		[
 			"Flood Runner",
@@ -4184,7 +5123,10 @@
 			"Geometry Dash",
 			"https://sites.google.com/site/tyronesgameshack/geometry-dash"
 		],
-		["Get On Top", "https://sites.google.com/site/tyronesgameshack/get-on-top"],
+		[
+			"Get On Top",
+			"https://sites.google.com/site/tyronesgameshack/get-on-top"
+		],
 		[
 			"Getaway Shootout",
 			"https://sites.google.com/site/tyronesgameshack/getaway-shootout"
@@ -4219,7 +5161,10 @@
 			"Guitar Hero (Windows Download)",
 			"https://sites.google.com/site/tyronesgameshack/guitar-hero-windows-download"
 		],
-		["Gun Mayhem", "https://sites.google.com/site/tyronesgameshack/gun-mayhem"],
+		[
+			"Gun Mayhem",
+			"https://sites.google.com/site/tyronesgameshack/gun-mayhem"
+		],
 		[
 			"Gun Mayhem 2",
 			"https://sites.google.com/site/tyronesgameshack/gun-mayhem-2"
@@ -4267,8 +5212,14 @@
 			"Heads Mayhem",
 			"https://sites.google.com/site/tyronesgameshack/heads-mayhem"
 		],
-		["Helix Jump", "https://sites.google.com/site/tyronesgameshack/helix-jump"],
-		["Hell Cops", "https://sites.google.com/site/tyronesgameshack/hell-cops"],
+		[
+			"Helix Jump",
+			"https://sites.google.com/site/tyronesgameshack/helix-jump"
+		],
+		[
+			"Hell Cops",
+			"https://sites.google.com/site/tyronesgameshack/hell-cops"
+		],
 		[
 			"Hero Rescue",
 			"https://sites.google.com/site/tyronesgameshack/hero-rescue"
@@ -4315,7 +5266,10 @@
 			"Hungry Shark",
 			"https://sites.google.com/site/tyronesgameshack/hungry-shark"
 		],
-		["Idiot Test", "https://sites.google.com/site/tyronesgameshack/idiot-test"],
+		[
+			"Idiot Test",
+			"https://sites.google.com/site/tyronesgameshack/idiot-test"
+		],
 		[
 			"Idle Emoji Factory",
 			"https://sites.google.com/site/tyronesgameshack/idle-emoji-factory"
@@ -4360,12 +5314,18 @@
 			"Internet RPG",
 			"https://sites.google.com/site/tyronesgameshack/internet-rpg"
 		],
-		["Into Space", "https://sites.google.com/site/tyronesgameshack/into-space"],
+		[
+			"Into Space",
+			"https://sites.google.com/site/tyronesgameshack/into-space"
+		],
 		[
 			"Intruder Combat Training",
 			"https://sites.google.com/site/tyronesgameshack/intruder-combat-training"
 		],
-		["Jacksmith", "https://sites.google.com/site/tyronesgameshack/jacksmith"],
+		[
+			"Jacksmith",
+			"https://sites.google.com/site/tyronesgameshack/jacksmith"
+		],
 		[
 			"Jeff The Killer VS Slendrina",
 			"https://sites.google.com/site/tyronesgameshack/jeff-the-killer-vs-slendrina"
@@ -4384,13 +5344,19 @@
 			"Jungle Bricks",
 			"https://sites.google.com/site/tyronesgameshack/jungle-bricks"
 		],
-		["Jungle.LOL", "https://sites.google.com/site/tyronesgameshack/jungle-lol"],
+		[
+			"Jungle.LOL",
+			"https://sites.google.com/site/tyronesgameshack/jungle-lol"
+		],
 		[
 			"JustBuild.LOL",
 			"https://sites.google.com/site/tyronesgameshack/justbuild-lol"
 		],
 		["Kaboomz", "https://sites.google.com/site/tyronesgameshack/kaboomz"],
-		["Kawai Run", "https://sites.google.com/site/tyronesgameshack/kawai-run"],
+		[
+			"Kawai Run",
+			"https://sites.google.com/site/tyronesgameshack/kawai-run"
+		],
 		[
 			"Kawai Run 2",
 			"https://sites.google.com/site/tyronesgameshack/kawai-run-2"
@@ -4416,7 +5382,10 @@
 			"Kung Fu Remix",
 			"https://sites.google.com/site/tyronesgameshack/kung-fu-remix"
 		],
-		["Lamp Head", "https://sites.google.com/site/tyronesgameshack/lamp-head"],
+		[
+			"Lamp Head",
+			"https://sites.google.com/site/tyronesgameshack/lamp-head"
+		],
 		[
 			"Last Line of Defense",
 			"https://sites.google.com/site/tyronesgameshack/last-line-of-defense"
@@ -4425,7 +5394,10 @@
 			"Last Standing Union City",
 			"https://sites.google.com/site/tyronesgameshack/last-standing-union-city"
 		],
-		["Last Wood", "https://sites.google.com/site/tyronesgameshack/last-wood"],
+		[
+			"Last Wood",
+			"https://sites.google.com/site/tyronesgameshack/last-wood"
+		],
 		[
 			"Learn to Fly",
 			"https://sites.google.com/site/tyronesgameshack/learn-to-fly"
@@ -4466,7 +5438,10 @@
 			"Little Dino Adventure Returns 2",
 			"https://sites.google.com/site/tyronesgameshack/little-dino-adventure-returns-2"
 		],
-		["Lucky Life", "https://sites.google.com/site/tyronesgameshack/lucky-life"],
+		[
+			"Lucky Life",
+			"https://sites.google.com/site/tyronesgameshack/lucky-life"
+		],
 		[
 			"Madalin Cars Multiplayer",
 			"https://sites.google.com/site/tyronesgameshack/madalin-cars-multiplayer"
@@ -4512,7 +5487,10 @@
 			"Mine Blocks",
 			"https://sites.google.com/site/tyronesgameshack/mine-blocks"
 		],
-		["Mine Clone", "https://sites.google.com/site/tyronesgameshack/mine-clone"],
+		[
+			"Mine Clone",
+			"https://sites.google.com/site/tyronesgameshack/mine-clone"
+		],
 		[
 			"MineClicker",
 			"https://sites.google.com/site/tyronesgameshack/mineclicker"
@@ -4545,13 +5523,19 @@
 			"Mini Royale",
 			"https://sites.google.com/site/tyronesgameshack/mini-royale"
 		],
-		["Mini-Putt", "https://sites.google.com/site/tyronesgameshack/mini-putt"],
+		[
+			"Mini-Putt",
+			"https://sites.google.com/site/tyronesgameshack/mini-putt"
+		],
 		[
 			"MiniCar Soccer",
 			"https://sites.google.com/site/tyronesgameshack/minicar-soccer"
 		],
 		["Monopoly", "https://sites.google.com/site/tyronesgameshack/monopoly"],
-		["Motherload", "https://sites.google.com/site/tyronesgameshack/motherload"],
+		[
+			"Motherload",
+			"https://sites.google.com/site/tyronesgameshack/motherload"
+		],
 		[
 			"Moto Trials Junkyard 2",
 			"https://sites.google.com/site/tyronesgameshack/moto-trials-junkyard-2"
@@ -4561,7 +5545,10 @@
 			"Motor Bike Pizza Delivery",
 			"https://sites.google.com/site/tyronesgameshack/motor-bike-pizza-delivery"
 		],
-		["Mr Bullet", "https://sites.google.com/site/tyronesgameshack/mr-bullet"],
+		[
+			"Mr Bullet",
+			"https://sites.google.com/site/tyronesgameshack/mr-bullet"
+		],
 		["Mr Smith", "https://sites.google.com/site/tyronesgameshack/mr-smith"],
 		[
 			"MTB Pro Racer",
@@ -4584,7 +5571,10 @@
 			"https://sites.google.com/site/tyronesgameshack/mutilate-a-doll-2"
 		],
 		["N", "https://sites.google.com/site/tyronesgameshack/n"],
-		["Neon Racer", "https://sites.google.com/site/tyronesgameshack/neon-racer"],
+		[
+			"Neon Racer",
+			"https://sites.google.com/site/tyronesgameshack/neon-racer"
+		],
 		[
 			"NexGen Tennis",
 			"https://sites.google.com/site/tyronesgameshack/nexgen-tennis"
@@ -4609,7 +5599,10 @@
 			"Paintball War",
 			"https://sites.google.com/site/tyronesgameshack/paintball-war"
 		],
-		["Pandemic I", "https://sites.google.com/site/tyronesgameshack/pandemic-i"],
+		[
+			"Pandemic I",
+			"https://sites.google.com/site/tyronesgameshack/pandemic-i"
+		],
 		[
 			"Pandemic II",
 			"https://sites.google.com/site/tyronesgameshack/pandemic-ii"
@@ -4639,8 +5632,14 @@
 			"https://sites.google.com/site/tyronesgameshack/paper-fighter-3d"
 		],
 		["Paper.io", "https://sites.google.com/site/tyronesgameshack/paper-io"],
-		["Paper.io 2", "https://sites.google.com/site/tyronesgameshack/paper-io-2"],
-		["Parachute", "https://sites.google.com/site/tyronesgameshack/parachute"],
+		[
+			"Paper.io 2",
+			"https://sites.google.com/site/tyronesgameshack/paper-io-2"
+		],
+		[
+			"Parachute",
+			"https://sites.google.com/site/tyronesgameshack/parachute"
+		],
 		[
 			"Parking Mania",
 			"https://sites.google.com/site/tyronesgameshack/parking-mania"
@@ -4693,7 +5692,10 @@
 			"Pop It Fidget",
 			"https://sites.google.com/site/tyronesgameshack/pop-it-fidget"
 		],
-		["Poptropica", "https://sites.google.com/site/tyronesgameshack/poptropica"],
+		[
+			"Poptropica",
+			"https://sites.google.com/site/tyronesgameshack/poptropica"
+		],
 		[
 			"Portal: Flash Version",
 			"https://sites.google.com/site/tyronesgameshack/portal-flash-version"
@@ -4714,7 +5716,10 @@
 			"Prince of War 2",
 			"https://sites.google.com/site/tyronesgameshack/prince-of-war-2"
 		],
-		["Prop Hunt", "https://sites.google.com/site/tyronesgameshack/prop-hunt"],
+		[
+			"Prop Hunt",
+			"https://sites.google.com/site/tyronesgameshack/prop-hunt"
+		],
 		[
 			"PUBG Pixel 3",
 			"https://sites.google.com/site/tyronesgameshack/pubg-pixel-3"
@@ -4728,7 +5733,10 @@
 			"Racing Thunder",
 			"https://sites.google.com/site/tyronesgameshack/racing-thunder"
 		],
-		["Raft Wars", "https://sites.google.com/site/tyronesgameshack/raft-wars"],
+		[
+			"Raft Wars",
+			"https://sites.google.com/site/tyronesgameshack/raft-wars"
+		],
 		[
 			"Raft Wars 2",
 			"https://sites.google.com/site/tyronesgameshack/raft-wars-2"
@@ -4741,7 +5749,10 @@
 			"Ragdoll Soccer",
 			"https://sites.google.com/site/tyronesgameshack/ragdoll-soccer"
 		],
-		["Ragdoll.IO", "https://sites.google.com/site/tyronesgameshack/ragdoll-io"],
+		[
+			"Ragdoll.IO",
+			"https://sites.google.com/site/tyronesgameshack/ragdoll-io"
+		],
 		[
 			"Real Estate Tycoon",
 			"https://sites.google.com/site/tyronesgameshack/real-estate-tycoon"
@@ -4754,12 +5765,18 @@
 			"Red Extinction",
 			"https://sites.google.com/site/tyronesgameshack/red-extinction"
 		],
-		["Red Shift", "https://sites.google.com/site/tyronesgameshack/red-shift"],
+		[
+			"Red Shift",
+			"https://sites.google.com/site/tyronesgameshack/red-shift"
+		],
 		[
 			"Rescue friends",
 			"https://sites.google.com/site/tyronesgameshack/rescue-friends"
 		],
-		["Resonance", "https://sites.google.com/site/tyronesgameshack/resonance"],
+		[
+			"Resonance",
+			"https://sites.google.com/site/tyronesgameshack/resonance"
+		],
 		[
 			"Riddle School",
 			"https://sites.google.com/site/tyronesgameshack/riddle-school"
@@ -4800,7 +5817,10 @@
 			"Rocking Sky Trip",
 			"https://sites.google.com/site/tyronesgameshack/rocking-sky-trip"
 		],
-		["Rogue Soul", "https://sites.google.com/site/tyronesgameshack/rogue-soul"],
+		[
+			"Rogue Soul",
+			"https://sites.google.com/site/tyronesgameshack/rogue-soul"
+		],
 		[
 			"Rolling Sky",
 			"https://sites.google.com/site/tyronesgameshack/rolling-sky"
@@ -4823,7 +5843,10 @@
 		],
 		["Run 1", "https://sites.google.com/site/tyronesgameshack/run-1"],
 		["Run 2", "https://sites.google.com/site/tyronesgameshack/run-2"],
-		["Run 3 HTML", "https://sites.google.com/site/tyronesgameshack/run-3-html"],
+		[
+			"Run 3 HTML",
+			"https://sites.google.com/site/tyronesgameshack/run-3-html"
+		],
 		[
 			"Russian Car Driver HD",
 			"https://sites.google.com/site/tyronesgameshack/russian-car-driver-hd"
@@ -4841,7 +5864,10 @@
 			"https://sites.google.com/site/tyronesgameshack/scorched-earth"
 		],
 		["SCP-096", "https://sites.google.com/site/tyronesgameshack/scp-096"],
-		["Shatterbot", "https://sites.google.com/site/tyronesgameshack/shatterbot"],
+		[
+			"Shatterbot",
+			"https://sites.google.com/site/tyronesgameshack/shatterbot"
+		],
 		[
 			"Shell Shockers",
 			"https://sites.google.com/site/tyronesgameshack/shell-shockers"
@@ -4851,12 +5877,18 @@
 			"Shoot Balls",
 			"https://sites.google.com/site/tyronesgameshack/shoot-balls"
 		],
-		["Short Life", "https://sites.google.com/site/tyronesgameshack/short-life"],
+		[
+			"Short Life",
+			"https://sites.google.com/site/tyronesgameshack/short-life"
+		],
 		[
 			"Short Life 2",
 			"https://sites.google.com/site/tyronesgameshack/short-life-2"
 		],
-		["Short Ride", "https://sites.google.com/site/tyronesgameshack/short-ride"],
+		[
+			"Short Ride",
+			"https://sites.google.com/site/tyronesgameshack/short-ride"
+		],
 		[
 			"Sift Heads 1",
 			"https://sites.google.com/site/tyronesgameshack/sift-heads-1"
@@ -4886,13 +5918,19 @@
 			"https://sites.google.com/site/tyronesgameshack/sim-web-2-0-company"
 		],
 		["SimCity", "https://sites.google.com/site/tyronesgameshack/simcity"],
-		["Skull Kid", "https://sites.google.com/site/tyronesgameshack/skull-kid"],
+		[
+			"Skull Kid",
+			"https://sites.google.com/site/tyronesgameshack/skull-kid"
+		],
 		[
 			"Skydom - Match 3",
 			"https://sites.google.com/site/tyronesgameshack/skydom-match-3"
 		],
 		["Skywire", "https://sites.google.com/site/tyronesgameshack/skywire"],
-		["Skywire 2", "https://sites.google.com/site/tyronesgameshack/skywire-2"],
+		[
+			"Skywire 2",
+			"https://sites.google.com/site/tyronesgameshack/skywire-2"
+		],
 		[
 			"Slenderman Must Die: Hell Fire",
 			"https://sites.google.com/site/tyronesgameshack/slenderman-must-die-hell-fire"
@@ -4903,8 +5941,14 @@
 		],
 		["Slope", "https://sites.google.com/site/tyronesgameshack/slope"],
 		["Slope 2", "https://sites.google.com/site/tyronesgameshack/slope-2"],
-		["Slope Ball", "https://sites.google.com/site/tyronesgameshack/slope-ball"],
-		["Slope Game", "https://sites.google.com/site/tyronesgameshack/slope-game"],
+		[
+			"Slope Ball",
+			"https://sites.google.com/site/tyronesgameshack/slope-ball"
+		],
+		[
+			"Slope Game",
+			"https://sites.google.com/site/tyronesgameshack/slope-game"
+		],
 		[
 			"Slope Tunnel",
 			"https://sites.google.com/site/tyronesgameshack/slope-tunnel"
@@ -4930,7 +5974,10 @@
 			"Soccer Physics",
 			"https://sites.google.com/site/tyronesgameshack/soccer-physics"
 		],
-		["Solitaire", "https://sites.google.com/site/tyronesgameshack/solitaire"],
+		[
+			"Solitaire",
+			"https://sites.google.com/site/tyronesgameshack/solitaire"
+		],
 		[
 			"Sonic Revert",
 			"https://sites.google.com/site/tyronesgameshack/sonic-revert"
@@ -4996,8 +6043,14 @@
 			"Stick Merge",
 			"https://sites.google.com/site/tyronesgameshack/stick-merge"
 		],
-		["Stick RPG", "https://sites.google.com/site/tyronesgameshack/stick-rpg"],
-		["Stick War", "https://sites.google.com/site/tyronesgameshack/stick-war"],
+		[
+			"Stick RPG",
+			"https://sites.google.com/site/tyronesgameshack/stick-rpg"
+		],
+		[
+			"Stick War",
+			"https://sites.google.com/site/tyronesgameshack/stick-war"
+		],
 		[
 			"Stickdoll Revenge of Flame",
 			"https://sites.google.com/site/tyronesgameshack/stickdoll-revenge-of-flame"
@@ -5026,7 +6079,10 @@
 			"Stunt Racers Extreme",
 			"https://sites.google.com/site/tyronesgameshack/stunt-racers-extreme"
 		],
-		["Submachine", "https://sites.google.com/site/tyronesgameshack/submachine"],
+		[
+			"Submachine",
+			"https://sites.google.com/site/tyronesgameshack/submachine"
+		],
 		[
 			"Submachine 2",
 			"https://sites.google.com/site/tyronesgameshack/submachine-2"
@@ -5115,8 +6171,14 @@
 			"Supra Racing Speed Turbo Drift",
 			"https://sites.google.com/site/tyronesgameshack/supra-racing-speed-turbo-drift"
 		],
-		["Surviv.IO", "https://sites.google.com/site/tyronesgameshack/surviv-io"],
-		["Sushi Cat", "https://sites.google.com/site/tyronesgameshack/sushi-cat"],
+		[
+			"Surviv.IO",
+			"https://sites.google.com/site/tyronesgameshack/surviv-io"
+		],
+		[
+			"Sushi Cat",
+			"https://sites.google.com/site/tyronesgameshack/sushi-cat"
+		],
 		[
 			"Sushi Cat 2",
 			"https://sites.google.com/site/tyronesgameshack/sushi-cat-2"
@@ -5244,7 +6306,10 @@
 			"Traffic Run",
 			"https://sites.google.com/site/tyronesgameshack/traffic-run"
 		],
-		["Trapped 4", "https://sites.google.com/site/tyronesgameshack/trapped-4"],
+		[
+			"Trapped 4",
+			"https://sites.google.com/site/tyronesgameshack/trapped-4"
+		],
 		[
 			"Treasure Seas Inc.",
 			"https://sites.google.com/site/tyronesgameshack/treasure-seas-inc"
@@ -5303,7 +6368,10 @@
 			"Uphill Bus Simulator 3D",
 			"https://sites.google.com/site/tyronesgameshack/uphill-bus-simulator-3d"
 		],
-		["Use Boxmen", "https://sites.google.com/site/tyronesgameshack/use-boxmen"],
+		[
+			"Use Boxmen",
+			"https://sites.google.com/site/tyronesgameshack/use-boxmen"
+		],
 		["Vex 3", "https://sites.google.com/site/tyronesgameshack/vex-3"],
 		["Vex 4", "https://sites.google.com/site/tyronesgameshack/vex-4_1"],
 		["Vex 4", "https://sites.google.com/site/tyronesgameshack/vex-4"],
@@ -5316,9 +6384,18 @@
 			"Water Scooter Mania",
 			"https://sites.google.com/site/tyronesgameshack/water-scooter-mania"
 		],
-		["Wavy Trip", "https://sites.google.com/site/tyronesgameshack/wavy-trip"],
-		["Web Sudoku", "https://sites.google.com/site/tyronesgameshack/web-sudoku"],
-		["Westerado", "https://sites.google.com/site/tyronesgameshack/westerado"],
+		[
+			"Wavy Trip",
+			"https://sites.google.com/site/tyronesgameshack/wavy-trip"
+		],
+		[
+			"Web Sudoku",
+			"https://sites.google.com/site/tyronesgameshack/web-sudoku"
+		],
+		[
+			"Westerado",
+			"https://sites.google.com/site/tyronesgameshack/westerado"
+		],
 		[
 			"Wheelie Ride",
 			"https://sites.google.com/site/tyronesgameshack/wheelie-ride"
@@ -5345,7 +6422,10 @@
 			"Worlds Hardest Game 2",
 			"https://sites.google.com/site/tyronesgameshack/worlds-hardest-game-2"
 		],
-		["WorldWars", "https://sites.google.com/site/tyronesgameshack/worldwars"],
+		[
+			"WorldWars",
+			"https://sites.google.com/site/tyronesgameshack/worldwars"
+		],
 		[
 			"Worms Zone a Slithery Snake",
 			"https://sites.google.com/site/tyronesgameshack/worms-zone-a-slithery-snake"
@@ -5355,7 +6435,10 @@
 			"https://sites.google.com/site/tyronesgameshack/x-cross-madness"
 		],
 		["X-Racer", "https://sites.google.com/site/tyronesgameshack/x-racer"],
-		["Zahvat.io", "https://sites.google.com/site/tyronesgameshack/zahvat-io"],
+		[
+			"Zahvat.io",
+			"https://sites.google.com/site/tyronesgameshack/zahvat-io"
+		],
 		["Zelda", "https://sites.google.com/site/tyronesgameshack/zelda"],
 		["Zoeken", "https://sites.google.com/site/tyronesgameshack/zoeken"],
 		[
@@ -5380,7 +6463,10 @@
 			"10 Bullets",
 			"https://sites.google.com/site/unblockedgames66ez/10-bullets"
 		],
-		["100 Balls", "https://sites.google.com/site/unblockedgames66ez/100-balls"],
+		[
+			"100 Balls",
+			"https://sites.google.com/site/unblockedgames66ez/100-balls"
+		],
 		["10x10", "https://sites.google.com/site/unblockedgames66ez/10x10"],
 		[
 			"12 MiniBattles",
@@ -5416,7 +6502,10 @@
 			"2048: X2 Merge Blocks",
 			"https://sites.google.com/site/unblockedgames66ez/2048-x2-merge-blocks"
 		],
-		["3 Pandas", "https://sites.google.com/site/unblockedgames66ez/3-pandas"],
+		[
+			"3 Pandas",
+			"https://sites.google.com/site/unblockedgames66ez/3-pandas"
+		],
 		[
 			"3D Missile",
 			"https://sites.google.com/site/unblockedgames66ez/3d-missile"
@@ -5438,7 +6527,10 @@
 			"9 Ball Pool",
 			"https://sites.google.com/site/unblockedgames66ez/9-ball-pool"
 		],
-		["99 Balls", "https://sites.google.com/site/unblockedgames66ez/99-balls"],
+		[
+			"99 Balls",
+			"https://sites.google.com/site/unblockedgames66ez/99-balls"
+		],
 		[
 			"A Koopa's Revenge",
 			"https://sites.google.com/site/unblockedgames66ez/a-koopas-revenge"
@@ -5451,7 +6543,10 @@
 			"A Small World Cup",
 			"https://sites.google.com/site/unblockedgames66ez/a-small-world-cup"
 		],
-		["Abandoned", "https://sites.google.com/site/unblockedgames66ez/abandoned"],
+		[
+			"Abandoned",
+			"https://sites.google.com/site/unblockedgames66ez/abandoned"
+		],
 		[
 			"Ace Gangster",
 			"https://sites.google.com/site/unblockedgames66ez/ace-gangster"
@@ -5524,7 +6619,10 @@
 			"American Football",
 			"https://sites.google.com/site/unblockedgames66ez/retro-bowl-game"
 		],
-		["Among Us", "https://sites.google.com/site/unblockedgames66ez/among-us"],
+		[
+			"Among Us",
+			"https://sites.google.com/site/unblockedgames66ez/among-us"
+		],
 		[
 			"Angry Birds",
 			"https://sites.google.com/site/unblockedgames66ez/angry-birds"
@@ -5602,7 +6700,10 @@
 			"Backflip Maniac",
 			"https://sites.google.com/site/unblockedgames66ez/backflip-maniac"
 		],
-		["Backrooms", "https://sites.google.com/site/unblockedgames66ez/backrooms"],
+		[
+			"Backrooms",
+			"https://sites.google.com/site/unblockedgames66ez/backrooms"
+		],
 		[
 			"Backyard Baseball",
 			"https://sites.google.com/site/unblockedgames66ez/backyard-baseball"
@@ -5635,7 +6736,10 @@
 			"Ball Blast",
 			"https://sites.google.com/site/unblockedgames66ez/ball-blast"
 		],
-		["Ball Cat", "https://sites.google.com/site/unblockedgames66ez/ball-cat"],
+		[
+			"Ball Cat",
+			"https://sites.google.com/site/unblockedgames66ez/ball-cat"
+		],
 		[
 			"Ball Destroyer",
 			"https://sites.google.com/site/unblockedgames66ez/ball-destroyer"
@@ -5760,12 +6864,18 @@
 			"Biker Street",
 			"https://sites.google.com/site/unblockedgames66ez/biker-street"
 		],
-		["Billiards", "https://sites.google.com/site/unblockedgames66ez/billiards"],
+		[
+			"Billiards",
+			"https://sites.google.com/site/unblockedgames66ez/billiards"
+		],
 		[
 			"Bird On Bird",
 			"https://sites.google.com/site/unblockedgames66ez/bird-on-bird"
 		],
-		["Biters.io", "https://sites.google.com/site/unblockedgames66ez/biters-io"],
+		[
+			"Biters.io",
+			"https://sites.google.com/site/unblockedgames66ez/biters-io"
+		],
 		[
 			"BitLife Life Simulator",
 			"https://sites.google.com/site/unblockedgames66ez/bitlife-life-simulator"
@@ -5835,8 +6945,14 @@
 			"Bob The Robber 5",
 			"https://sites.google.com/site/unblockedgames66ez/bob-the-robber-5"
 		],
-		["Bomb it 1", "https://sites.google.com/site/unblockedgames66ez/bomb-it-1"],
-		["Bomb it 2", "https://sites.google.com/site/unblockedgames66ez/bomb-it-2"],
+		[
+			"Bomb it 1",
+			"https://sites.google.com/site/unblockedgames66ez/bomb-it-1"
+		],
+		[
+			"Bomb it 2",
+			"https://sites.google.com/site/unblockedgames66ez/bomb-it-2"
+		],
 		[
 			"Bottle Flip 3D",
 			"https://sites.google.com/site/unblockedgames66ez/bottle-flip-3d"
@@ -5859,7 +6975,10 @@
 		],
 		["Bowling", "https://sites.google.com/site/unblockedgames66ez/bowling"],
 		["Bowman", "https://sites.google.com/site/unblockedgames66ez/bowman"],
-		["Bowman 2", "https://sites.google.com/site/unblockedgames66ez/bowman-2"],
+		[
+			"Bowman 2",
+			"https://sites.google.com/site/unblockedgames66ez/bowman-2"
+		],
 		[
 			"Bowmasters",
 			"https://sites.google.com/site/unblockedgames66ez/bowmasters"
@@ -5892,7 +7011,10 @@
 			"Breaking the Bank",
 			"https://sites.google.com/site/unblockedgames66ez/breaking-the-bank"
 		],
-		["Brick Out", "https://sites.google.com/site/unblockedgames66ez/brick-out"],
+		[
+			"Brick Out",
+			"https://sites.google.com/site/unblockedgames66ez/brick-out"
+		],
 		[
 			"Bricks Breaker",
 			"https://sites.google.com/site/unblockedgames66ez/bricks-breaker"
@@ -5961,7 +7083,10 @@
 			"Burrito Bison: Launcha Libre",
 			"https://sites.google.com/site/unblockedgames66ez/burrito-bison-launcha-libre"
 		],
-		["Bus Rush", "https://sites.google.com/site/unblockedgames66ez/bus-rush"],
+		[
+			"Bus Rush",
+			"https://sites.google.com/site/unblockedgames66ez/bus-rush"
+		],
 		[
 			"Cactus McCoy",
 			"https://sites.google.com/site/unblockedgames66ez/cactus-mccoy"
@@ -6023,7 +7148,10 @@
 			"Cartoon Baseball",
 			"https://sites.google.com/site/unblockedgames66ez/cartoon-baseball"
 		],
-		["Castaway", "https://sites.google.com/site/unblockedgames66ez/castaway"],
+		[
+			"Castaway",
+			"https://sites.google.com/site/unblockedgames66ez/castaway"
+		],
 		[
 			"Castaway 2",
 			"https://sites.google.com/site/unblockedgames66ez/castaway-2"
@@ -6052,7 +7180,10 @@
 			"Cat Gunner",
 			"https://sites.google.com/site/unblockedgames66ez/cat-gunner"
 		],
-		["Cat Trap", "https://sites.google.com/site/unblockedgames66ez/cat-trap"],
+		[
+			"Cat Trap",
+			"https://sites.google.com/site/unblockedgames66ez/cat-trap"
+		],
 		[
 			"Cataractae",
 			"https://sites.google.com/site/unblockedgames66ez/cataractae"
@@ -6082,8 +7213,14 @@
 			"Choppy Orc",
 			"https://sites.google.com/site/unblockedgames66ez/choppy-orc"
 		],
-		["CircloO 2", "https://sites.google.com/site/unblockedgames66ez/circloo-2"],
-		["City Idle", "https://sites.google.com/site/unblockedgames66ez/city-idle"],
+		[
+			"CircloO 2",
+			"https://sites.google.com/site/unblockedgames66ez/circloo-2"
+		],
+		[
+			"City Idle",
+			"https://sites.google.com/site/unblockedgames66ez/city-idle"
+		],
 		[
 			"Civilizations Wars",
 			"https://sites.google.com/site/unblockedgames66ez/civilizations-wars"
@@ -6176,7 +7313,10 @@
 			"Combat Cubic Arena",
 			"https://sites.google.com/site/unblockedgames66ez/combat-cubic-arena"
 		],
-		["Commando", "https://sites.google.com/site/unblockedgames66ez/commando"],
+		[
+			"Commando",
+			"https://sites.google.com/site/unblockedgames66ez/commando"
+		],
 		[
 			"Commando 2",
 			"https://sites.google.com/site/unblockedgames66ez/commando-2"
@@ -6197,7 +7337,10 @@
 			"Concussion",
 			"https://sites.google.com/site/unblockedgames66ez/concussion"
 		],
-		["Connect 4", "https://sites.google.com/site/unblockedgames66ez/connect-4"],
+		[
+			"Connect 4",
+			"https://sites.google.com/site/unblockedgames66ez/connect-4"
+		],
 		[
 			"Conquer Antarctica",
 			"https://sites.google.com/site/unblockedgames66ez/conquer-antarctica"
@@ -6239,7 +7382,10 @@
 			"Cover Orange: Journey",
 			"https://sites.google.com/site/unblockedgames66ez/cover-orange-journey"
 		],
-		["CraftMine", "https://sites.google.com/site/unblockedgames66ez/craftmine"],
+		[
+			"CraftMine",
+			"https://sites.google.com/site/unblockedgames66ez/craftmine"
+		],
 		[
 			"Crazy Caves",
 			"https://sites.google.com/site/unblockedgames66ez/crazy-caves"
@@ -6288,12 +7434,18 @@
 			"Cube Escape: Arles",
 			"https://sites.google.com/site/unblockedgames66ez/cube-escape-arles"
 		],
-		["Cubefield", "https://sites.google.com/site/unblockedgames66ez/cubefield"],
+		[
+			"Cubefield",
+			"https://sites.google.com/site/unblockedgames66ez/cubefield"
+		],
 		[
 			"Cursed Treasure",
 			"https://sites.google.com/site/unblockedgames66ez/cursed-treasure"
 		],
-		["Curveball", "https://sites.google.com/site/unblockedgames66ez/curveball"],
+		[
+			"Curveball",
+			"https://sites.google.com/site/unblockedgames66ez/curveball"
+		],
 		[
 			"Cut and Dunk",
 			"https://sites.google.com/site/unblockedgames66ez/cut-and-dunk"
@@ -6310,7 +7462,10 @@
 			"Cyberpunk: Resistance",
 			"https://sites.google.com/site/unblockedgames66ez/cyberpunk-resistance"
 		],
-		["Dad n Me", "https://sites.google.com/site/unblockedgames66ez/dad-n-me"],
+		[
+			"Dad n Me",
+			"https://sites.google.com/site/unblockedgames66ez/dad-n-me"
+		],
 		[
 			"Dan the Man",
 			"https://sites.google.com/site/unblockedgames66ez/dan-the-man"
@@ -6319,7 +7474,10 @@
 			"Dark Adventure",
 			"https://sites.google.com/site/unblockedgames66ez/dark-adventure"
 		],
-		["Dead Zed", "https://sites.google.com/site/unblockedgames66ez/dead-zed"],
+		[
+			"Dead Zed",
+			"https://sites.google.com/site/unblockedgames66ez/dead-zed"
+		],
 		[
 			"Dead Zed 2",
 			"https://sites.google.com/site/unblockedgames66ez/dead-zed-2"
@@ -6399,7 +7557,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/doodle-jump"
 		],
 		["Doom 2D", "https://sites.google.com/site/unblockedgames66ez/doom-2d"],
-		["Doomz.io", "https://sites.google.com/site/unblockedgames66ez/doomz-io"],
+		[
+			"Doomz.io",
+			"https://sites.google.com/site/unblockedgames66ez/doomz-io"
+		],
 		[
 			"Dotted Fill",
 			"https://sites.google.com/site/unblockedgames66ez/dotted-fill"
@@ -6493,7 +7654,10 @@
 			"Drunken Duel 2",
 			"https://sites.google.com/site/unblockedgames66ez/drunken-duel-2"
 		],
-		["Duck Life", "https://sites.google.com/site/unblockedgames66ez/duck-life"],
+		[
+			"Duck Life",
+			"https://sites.google.com/site/unblockedgames66ez/duck-life"
+		],
 		[
 			"Duck Life 2",
 			"https://sites.google.com/site/unblockedgames66ez/duck-life-2"
@@ -6518,8 +7682,14 @@
 			"Dungeon Adventure",
 			"https://sites.google.com/site/unblockedgames66ez/dungeon-adventure"
 		],
-		["Dunk Down", "https://sites.google.com/site/unblockedgames66ez/dunk-down"],
-		["Dunk Shot", "https://sites.google.com/site/unblockedgames66ez/dunk-shot"],
+		[
+			"Dunk Down",
+			"https://sites.google.com/site/unblockedgames66ez/dunk-down"
+		],
+		[
+			"Dunk Shot",
+			"https://sites.google.com/site/unblockedgames66ez/dunk-shot"
+		],
 		[
 			"Earn to Die 2012 Part 2",
 			"https://sites.google.com/site/unblockedgames66ez/earn-to-die-2012-part-2"
@@ -6564,12 +7734,18 @@
 			"Effing Zombies",
 			"https://sites.google.com/site/unblockedgames66ez/effing-zombies"
 		],
-		["Egg Game", "https://sites.google.com/site/unblockedgames66ez/egg-game"],
+		[
+			"Egg Game",
+			"https://sites.google.com/site/unblockedgames66ez/egg-game"
+		],
 		[
 			"Egg Knight",
 			"https://sites.google.com/site/unblockedgames66ez/egg-knight"
 		],
-		["Eggy Car", "https://sites.google.com/site/unblockedgames66ez/eggy-car"],
+		[
+			"Eggy Car",
+			"https://sites.google.com/site/unblockedgames66ez/eggy-car"
+		],
 		[
 			"Eggy Car 2",
 			"https://sites.google.com/site/unblockedgames66ez/eggy-car-2"
@@ -6662,7 +7838,10 @@
 			"Epic Combo",
 			"https://sites.google.com/site/unblockedgames66ez/epic-combo"
 		],
-		["Epic War", "https://sites.google.com/site/unblockedgames66ez/epic-war"],
+		[
+			"Epic War",
+			"https://sites.google.com/site/unblockedgames66ez/epic-war"
+		],
 		[
 			"Epic War 2",
 			"https://sites.google.com/site/unblockedgames66ez/epic-war-2"
@@ -6712,7 +7891,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/espn-arcade-baseball"
 		],
 		["Evolvo", "https://sites.google.com/site/unblockedgames66ez/evolvo"],
-		["Exit Path", "https://sites.google.com/site/unblockedgames66ez/exit-path"],
+		[
+			"Exit Path",
+			"https://sites.google.com/site/unblockedgames66ez/exit-path"
+		],
 		[
 			"Extreme Ball",
 			"https://sites.google.com/site/unblockedgames66ez/extreme-ball"
@@ -6737,14 +7919,26 @@
 			"Factory Balls 3",
 			"https://sites.google.com/site/unblockedgames66ez/factory-balls-3"
 		],
-		["Fall Ball", "https://sites.google.com/site/unblockedgames66ez/fall-ball"],
+		[
+			"Fall Ball",
+			"https://sites.google.com/site/unblockedgames66ez/fall-ball"
+		],
 		[
 			"Fall Beans",
 			"https://sites.google.com/site/unblockedgames66ez/fall-beans"
 		],
-		["Fall Box", "https://sites.google.com/site/unblockedgames66ez/fall-box"],
-		["Fall Boys", "https://sites.google.com/site/unblockedgames66ez/fall-boys"],
-		["Fall Guys", "https://sites.google.com/site/unblockedgames66ez/fall-guys"],
+		[
+			"Fall Box",
+			"https://sites.google.com/site/unblockedgames66ez/fall-box"
+		],
+		[
+			"Fall Boys",
+			"https://sites.google.com/site/unblockedgames66ez/fall-boys"
+		],
+		[
+			"Fall Guys",
+			"https://sites.google.com/site/unblockedgames66ez/fall-guys"
+		],
 		[
 			"Falling Puzzle",
 			"https://sites.google.com/site/unblockedgames66ez/falling-puzzle"
@@ -6761,7 +7955,10 @@
 			"Fancy Pants Adventures",
 			"https://sites.google.com/site/unblockedgames66ez/fancy-pants-adventures"
 		],
-		["Farafalla", "https://sites.google.com/site/unblockedgames66ez/farafalla"],
+		[
+			"Farafalla",
+			"https://sites.google.com/site/unblockedgames66ez/farafalla"
+		],
 		[
 			"Farmer Day 3D",
 			"https://sites.google.com/site/unblockedgames66ez/farmer-day-3d"
@@ -6770,7 +7967,10 @@
 			"Fashion Star",
 			"https://sites.google.com/site/unblockedgames66ez/fashion-star"
 		],
-		["Fat Ninja", "https://sites.google.com/site/unblockedgames66ez/fat-ninja"],
+		[
+			"Fat Ninja",
+			"https://sites.google.com/site/unblockedgames66ez/fat-ninja"
+		],
 		[
 			"Fatal Fighters",
 			"https://sites.google.com/site/unblockedgames66ez/fatal-fighters"
@@ -6780,10 +7980,22 @@
 			"https://sites.google.com/site/unblockedgames66ez/fatal-fighters-2"
 		],
 		["Feed Us", "https://sites.google.com/site/unblockedgames66ez/feed-us"],
-		["Feed Us 2", "https://sites.google.com/site/unblockedgames66ez/feed-us-2"],
-		["Feed Us 3", "https://sites.google.com/site/unblockedgames66ez/feed-us-3"],
-		["Feed Us 4", "https://sites.google.com/site/unblockedgames66ez/feed-us-4"],
-		["Feed Us 5", "https://sites.google.com/site/unblockedgames66ez/feed-us-5"],
+		[
+			"Feed Us 2",
+			"https://sites.google.com/site/unblockedgames66ez/feed-us-2"
+		],
+		[
+			"Feed Us 3",
+			"https://sites.google.com/site/unblockedgames66ez/feed-us-3"
+		],
+		[
+			"Feed Us 4",
+			"https://sites.google.com/site/unblockedgames66ez/feed-us-4"
+		],
+		[
+			"Feed Us 5",
+			"https://sites.google.com/site/unblockedgames66ez/feed-us-5"
+		],
 		[
 			"Feed Us Happy",
 			"https://sites.google.com/site/unblockedgames66ez/feed-us-happy"
@@ -6796,7 +8008,10 @@
 			"Feed Us Pirates",
 			"https://sites.google.com/site/unblockedgames66ez/feed-us-pirates"
 		],
-		["Feudalism", "https://sites.google.com/site/unblockedgames66ez/feudalism"],
+		[
+			"Feudalism",
+			"https://sites.google.com/site/unblockedgames66ez/feudalism"
+		],
 		[
 			"Feudalism 2",
 			"https://sites.google.com/site/unblockedgames66ez/feudalism-2"
@@ -6817,8 +8032,14 @@
 			"Fire Balls",
 			"https://sites.google.com/site/unblockedgames66ez/fire-balls"
 		],
-		["Fire Free", "https://sites.google.com/site/unblockedgames66ez/fire-free"],
-		["FireBlob", "https://sites.google.com/site/unblockedgames66ez/fireblob"],
+		[
+			"Fire Free",
+			"https://sites.google.com/site/unblockedgames66ez/fire-free"
+		],
+		[
+			"FireBlob",
+			"https://sites.google.com/site/unblockedgames66ez/fireblob"
+		],
 		[
 			"Fireboy and Watergirl 1",
 			"https://sites.google.com/site/unblockedgames66ez/fireboy-and-watergirl"
@@ -6906,7 +8127,10 @@
 			"FNAF Final Purgatory",
 			"https://sites.google.com/site/unblockedgames66ez/fnaf-final-purgatory"
 		],
-		["Foosball", "https://sites.google.com/site/unblockedgames66ez/foosball"],
+		[
+			"Foosball",
+			"https://sites.google.com/site/unblockedgames66ez/foosball"
+		],
 		[
 			"Football Heads",
 			"https://sites.google.com/site/unblockedgames66ez/football-heads"
@@ -6935,7 +8159,10 @@
 			"Formula Racing",
 			"https://sites.google.com/site/unblockedgames66ez/formula-racing"
 		],
-		["Fortnite", "https://sites.google.com/site/unblockedgames66ez/fortnite"],
+		[
+			"Fortnite",
+			"https://sites.google.com/site/unblockedgames66ez/fortnite"
+		],
 		[
 			"Fortnite Building",
 			"https://sites.google.com/site/unblockedgames66ez/fortnite-building"
@@ -6947,8 +8174,14 @@
 		],
 		["FPS.io", "https://sites.google.com/site/unblockedgames66ez/fps-io"],
 		["Fragger", "https://sites.google.com/site/unblockedgames66ez/fragger"],
-		["Frantic 2", "https://sites.google.com/site/unblockedgames66ez/frantic-2"],
-		["Free Gear", "https://sites.google.com/site/unblockedgames66ez/free-gear"],
+		[
+			"Frantic 2",
+			"https://sites.google.com/site/unblockedgames66ez/frantic-2"
+		],
+		[
+			"Free Gear",
+			"https://sites.google.com/site/unblockedgames66ez/free-gear"
+		],
 		[
 			"Free Rally 2",
 			"https://sites.google.com/site/unblockedgames66ez/free-rally-2"
@@ -7105,9 +8338,15 @@
 			"Friday Night Funkin X Event",
 			"https://sites.google.com/site/unblockedgames66ez/friday-night-funkin-x-event"
 		],
-		["Frog Rush", "https://sites.google.com/site/unblockedgames66ez/frog-rush"],
+		[
+			"Frog Rush",
+			"https://sites.google.com/site/unblockedgames66ez/frog-rush"
+		],
 		["Frogger", "https://sites.google.com/site/unblockedgames66ez/frogger"],
-		["Frontier", "https://sites.google.com/site/unblockedgames66ez/frontier"],
+		[
+			"Frontier",
+			"https://sites.google.com/site/unblockedgames66ez/frontier"
+		],
 		[
 			"Fruit Master",
 			"https://sites.google.com/site/unblockedgames66ez/fruit-master"
@@ -7144,7 +8383,10 @@
 			"Future Buddy",
 			"https://sites.google.com/site/unblockedgames66ez/future-buddy"
 		],
-		["G Switch", "https://sites.google.com/site/unblockedgames66ez/g-switch"],
+		[
+			"G Switch",
+			"https://sites.google.com/site/unblockedgames66ez/g-switch"
+		],
 		[
 			"G Switch 2",
 			"https://sites.google.com/site/unblockedgames66ez/g-switch-2"
@@ -7178,8 +8420,14 @@
 			"Gangster Life",
 			"https://sites.google.com/site/unblockedgames66ez/gangster-life"
 		],
-		["Gangsters", "https://sites.google.com/site/unblockedgames66ez/gangsters"],
-		["Geo Dash", "https://sites.google.com/site/unblockedgames66ez/geo-dash"],
+		[
+			"Gangsters",
+			"https://sites.google.com/site/unblockedgames66ez/gangsters"
+		],
+		[
+			"Geo Dash",
+			"https://sites.google.com/site/unblockedgames66ez/geo-dash"
+		],
 		[
 			"Geography game USA States",
 			"https://sites.google.com/site/unblockedgames66ez/geography-game-usa-states"
@@ -7256,7 +8504,10 @@
 			"Gold Miner",
 			"https://sites.google.com/site/unblockedgames66ez/gold-miner"
 		],
-		["Golf Park", "https://sites.google.com/site/unblockedgames66ez/golf-park"],
+		[
+			"Golf Park",
+			"https://sites.google.com/site/unblockedgames66ez/golf-park"
+		],
 		[
 			"Google Doodle Baseball",
 			"https://sites.google.com/site/unblockedgames66ez/google-doodle-baseball"
@@ -7314,13 +8565,22 @@
 			"Grindcraft Remastered",
 			"https://sites.google.com/site/unblockedgames66ez/grindcraft-remastered"
 		],
-		["Grow Cube", "https://sites.google.com/site/unblockedgames66ez/grow-cube"],
+		[
+			"Grow Cube",
+			"https://sites.google.com/site/unblockedgames66ez/grow-cube"
+		],
 		[
 			"Grow Island",
 			"https://sites.google.com/site/unblockedgames66ez/grow-island"
 		],
-		["Grow Nano", "https://sites.google.com/site/unblockedgames66ez/grow-nano"],
-		["Grow RPG", "https://sites.google.com/site/unblockedgames66ez/grow-rpg"],
+		[
+			"Grow Nano",
+			"https://sites.google.com/site/unblockedgames66ez/grow-nano"
+		],
+		[
+			"Grow RPG",
+			"https://sites.google.com/site/unblockedgames66ez/grow-rpg"
+		],
 		[
 			"Grow Tower",
 			"https://sites.google.com/site/unblockedgames66ez/grow-tower"
@@ -7362,7 +8622,10 @@
 			"Gun Night.io",
 			"https://sites.google.com/site/unblockedgames66ez/gun-night-io"
 		],
-		["GunBlood", "https://sites.google.com/site/unblockedgames66ez/gunblood"],
+		[
+			"GunBlood",
+			"https://sites.google.com/site/unblockedgames66ez/gunblood"
+		],
 		[
 			"GunGame Shooting",
 			"https://sites.google.com/site/unblockedgames66ez/gungame-shooting"
@@ -7383,9 +8646,15 @@
 			"Handless Millionaire 2",
 			"https://sites.google.com/site/unblockedgames66ez/handless-millionaire-2"
 		],
-		["Handulum+", "https://sites.google.com/site/unblockedgames66ez/handulum"],
+		[
+			"Handulum+",
+			"https://sites.google.com/site/unblockedgames66ez/handulum"
+		],
 		["Hanger", "https://sites.google.com/site/unblockedgames66ez/hanger"],
-		["Hanger 2", "https://sites.google.com/site/unblockedgames66ez/hanger-2"],
+		[
+			"Hanger 2",
+			"https://sites.google.com/site/unblockedgames66ez/hanger-2"
+		],
 		["Hangman", "https://sites.google.com/site/unblockedgames66ez/hangman"],
 		[
 			"Happy Glass",
@@ -7473,7 +8742,10 @@
 			"Hit Villains",
 			"https://sites.google.com/site/unblockedgames66ez/hit-villains"
 		],
-		["HitBoxing", "https://sites.google.com/site/unblockedgames66ez/hitboxing"],
+		[
+			"HitBoxing",
+			"https://sites.google.com/site/unblockedgames66ez/hitboxing"
+		],
 		["Hobo", "https://sites.google.com/site/unblockedgames66ez/hobo"],
 		[
 			"Hobo 3: Wanted",
@@ -7513,7 +8785,10 @@
 			"Home Sheep Home 2: Lost in Space",
 			"https://sites.google.com/site/unblockedgames66ez/home-sheep-home-2-lost-in-space"
 		],
-		["Horse Run", "https://sites.google.com/site/unblockedgames66ez/horse-run"],
+		[
+			"Horse Run",
+			"https://sites.google.com/site/unblockedgames66ez/horse-run"
+		],
 		[
 			"Horse Simulator 3D",
 			"https://sites.google.com/site/unblockedgames66ez/horse-simulator-3d"
@@ -7570,7 +8845,10 @@
 			"Idle Breakout",
 			"https://sites.google.com/site/unblockedgames66ez/idle-breakout"
 		],
-		["Idle Dice", "https://sites.google.com/site/unblockedgames66ez/idle-dice"],
+		[
+			"Idle Dice",
+			"https://sites.google.com/site/unblockedgames66ez/idle-dice"
+		],
 		[
 			"Idle Factory: Emoji Edition",
 			"https://sites.google.com/site/unblockedgames66ez/idle-factory-emoji-edition"
@@ -7583,12 +8861,18 @@
 			"Idle Miner Tycoon",
 			"https://sites.google.com/site/unblockedgames66ez/idle-miner-tycoon"
 		],
-		["Idle Mobs", "https://sites.google.com/site/unblockedgames66ez/idle-mobs"],
+		[
+			"Idle Mobs",
+			"https://sites.google.com/site/unblockedgames66ez/idle-mobs"
+		],
 		[
 			"Idle Streamer",
 			"https://sites.google.com/site/unblockedgames66ez/idle-streamer"
 		],
-		["Impeached", "https://sites.google.com/site/unblockedgames66ez/impeached"],
+		[
+			"Impeached",
+			"https://sites.google.com/site/unblockedgames66ez/impeached"
+		],
 		[
 			"Impossible Quiz 2",
 			"https://sites.google.com/site/unblockedgames66ez/impossible-quiz-2"
@@ -7625,13 +8909,19 @@
 			"Into Space 3: Xmas Story",
 			"https://sites.google.com/site/unblockedgames66ez/into-space-3-xmas-story"
 		],
-		["Intrusion", "https://sites.google.com/site/unblockedgames66ez/intrusion"],
+		[
+			"Intrusion",
+			"https://sites.google.com/site/unblockedgames66ez/intrusion"
+		],
 		["IQ Ball", "https://sites.google.com/site/unblockedgames66ez/iq-ball"],
 		[
 			"Iron Snout",
 			"https://sites.google.com/site/unblockedgames66ez/iron-snout"
 		],
-		["Jacksmith", "https://sites.google.com/site/unblockedgames66ez/jacksmith"],
+		[
+			"Jacksmith",
+			"https://sites.google.com/site/unblockedgames66ez/jacksmith"
+		],
 		[
 			"Jailbreak 2",
 			"https://sites.google.com/site/unblockedgames66ez/jailbreak-2"
@@ -7660,7 +8950,10 @@
 			"Jelly Truck",
 			"https://sites.google.com/site/unblockedgames66ez/jelly-truck"
 		],
-		["Jellybots", "https://sites.google.com/site/unblockedgames66ez/jellybots"],
+		[
+			"Jellybots",
+			"https://sites.google.com/site/unblockedgames66ez/jellybots"
+		],
 		[
 			"Jellydad Hero",
 			"https://sites.google.com/site/unblockedgames66ez/jellydad-hero_1"
@@ -7682,7 +8975,10 @@
 			"Johnny Upgrade",
 			"https://sites.google.com/site/unblockedgames66ez/johnny-upgrade"
 		],
-		["Jump Ball", "https://sites.google.com/site/unblockedgames66ez/jump-ball"],
+		[
+			"Jump Ball",
+			"https://sites.google.com/site/unblockedgames66ez/jump-ball"
+		],
 		[
 			"Jump Basket",
 			"https://sites.google.com/site/unblockedgames66ez/jump-basket"
@@ -7715,7 +9011,10 @@
 			"Just Build 2",
 			"https://sites.google.com/site/unblockedgames66ez/just-build-2"
 		],
-		["Just Flip", "https://sites.google.com/site/unblockedgames66ez/just-flip"],
+		[
+			"Just Flip",
+			"https://sites.google.com/site/unblockedgames66ez/just-flip"
+		],
 		[
 			"JustAim.LOL",
 			"https://sites.google.com/site/unblockedgames66ez/justaim-lol"
@@ -7732,7 +9031,10 @@
 			"Kart Race 2",
 			"https://sites.google.com/site/unblockedgames66ez/kart-race-2"
 		],
-		["Kawairun", "https://sites.google.com/site/unblockedgames66ez/kawairun"],
+		[
+			"Kawairun",
+			"https://sites.google.com/site/unblockedgames66ez/kawairun"
+		],
 		[
 			"Keep Da Flo",
 			"https://sites.google.com/site/unblockedgames66ez/keep-da-flo"
@@ -7774,7 +9076,10 @@
 			"Kitten Cannon",
 			"https://sites.google.com/site/unblockedgames66ez/kitten-cannon"
 		],
-		["Knife Hit", "https://sites.google.com/site/unblockedgames66ez/knife-hit"],
+		[
+			"Knife Hit",
+			"https://sites.google.com/site/unblockedgames66ez/knife-hit"
+		],
 		[
 			"Knife Ninja",
 			"https://sites.google.com/site/unblockedgames66ez/knife-ninja"
@@ -7795,7 +9100,10 @@
 			"Lady DressUp",
 			"https://sites.google.com/site/unblockedgames66ez/lady-dressup"
 		],
-		["LampHead", "https://sites.google.com/site/unblockedgames66ez/lamphead"],
+		[
+			"LampHead",
+			"https://sites.google.com/site/unblockedgames66ez/lamphead"
+		],
 		[
 			"Last Horizon",
 			"https://sites.google.com/site/unblockedgames66ez/last-horizon"
@@ -7804,7 +9112,10 @@
 			"Last Line of Defense",
 			"https://sites.google.com/site/unblockedgames66ez/last-line-of-defense"
 		],
-		["Last Wood", "https://sites.google.com/site/unblockedgames66ez/last-wood"],
+		[
+			"Last Wood",
+			"https://sites.google.com/site/unblockedgames66ez/last-wood"
+		],
 		[
 			"Le Chat Fonce",
 			"https://sites.google.com/site/unblockedgames66ez/le-chat-fonce"
@@ -7967,7 +9278,10 @@
 			"McDonalds Videogame",
 			"https://sites.google.com/site/unblockedgames66ez/mcdonalds-videogame"
 		],
-		["Meat Boy", "https://sites.google.com/site/unblockedgames66ez/meat-boy"],
+		[
+			"Meat Boy",
+			"https://sites.google.com/site/unblockedgames66ez/meat-boy"
+		],
 		[
 			"Mecha Arena",
 			"https://sites.google.com/site/unblockedgames66ez/mecha-arena"
@@ -8032,7 +9346,10 @@
 			"Mine Rusher",
 			"https://sites.google.com/site/unblockedgames66ez/mine-rusher"
 		],
-		["Minecraft", "https://sites.google.com/site/unblockedgames66ez/minecraft"],
+		[
+			"Minecraft",
+			"https://sites.google.com/site/unblockedgames66ez/minecraft"
+		],
 		[
 			"Minecraft Classic",
 			"https://sites.google.com/site/unblockedgames66ez/minecraft-classic"
@@ -8085,7 +9402,10 @@
 			"Mini Drifts",
 			"https://sites.google.com/site/unblockedgames66ez/mini-drifts"
 		],
-		["Mini Golf", "https://sites.google.com/site/unblockedgames66ez/mini-golf"],
+		[
+			"Mini Golf",
+			"https://sites.google.com/site/unblockedgames66ez/mini-golf"
+		],
 		[
 			"Mini Golf King",
 			"https://sites.google.com/site/unblockedgames66ez/mini-golf-king"
@@ -8094,7 +9414,10 @@
 			"Mini Heads Party",
 			"https://sites.google.com/site/unblockedgames66ez/mini-heads-party"
 		],
-		["Mini Putt", "https://sites.google.com/site/unblockedgames66ez/mini-putt"],
+		[
+			"Mini Putt",
+			"https://sites.google.com/site/unblockedgames66ez/mini-putt"
+		],
 		[
 			"Mini Putt 2",
 			"https://sites.google.com/site/unblockedgames66ez/mini-putt-2"
@@ -8115,7 +9438,10 @@
 			"Miragine War",
 			"https://sites.google.com/site/unblockedgames66ez/miragine-war"
 		],
-		["Moby Dick", "https://sites.google.com/site/unblockedgames66ez/moby-dick"],
+		[
+			"Moby Dick",
+			"https://sites.google.com/site/unblockedgames66ez/moby-dick"
+		],
 		[
 			"Moby Dick 2",
 			"https://sites.google.com/site/unblockedgames66ez/moby-dick-2"
@@ -8156,7 +9482,10 @@
 			"Moto Rider GO",
 			"https://sites.google.com/site/unblockedgames66ez/moto-rider-go"
 		],
-		["Moto X3M", "https://sites.google.com/site/unblockedgames66ez/moto-x3m"],
+		[
+			"Moto X3M",
+			"https://sites.google.com/site/unblockedgames66ez/moto-x3m"
+		],
 		[
 			"Moto X3M 2",
 			"https://sites.google.com/site/unblockedgames66ez/moto-x3m-2"
@@ -8189,7 +9518,10 @@
 			"Mr Autofire",
 			"https://sites.google.com/site/unblockedgames66ez/mr-autofire"
 		],
-		["Mr Bullet", "https://sites.google.com/site/unblockedgames66ez/mr-bullet"],
+		[
+			"Mr Bullet",
+			"https://sites.google.com/site/unblockedgames66ez/mr-bullet"
+		],
 		[
 			"Mr. Superfire",
 			"https://sites.google.com/site/unblockedgames66ez/mr-superfire"
@@ -8259,7 +9591,10 @@
 			"Neon Guitar",
 			"https://sites.google.com/site/unblockedgames66ez/neon-guitar"
 		],
-		["Neon Run", "https://sites.google.com/site/unblockedgames66ez/neon-run"],
+		[
+			"Neon Run",
+			"https://sites.google.com/site/unblockedgames66ez/neon-run"
+		],
 		[
 			"New Super Mario Flash",
 			"https://sites.google.com/site/unblockedgames66ez/new-super-mario-flash"
@@ -8304,7 +9639,10 @@
 			"Obey The Game",
 			"https://sites.google.com/site/unblockedgames66ez/obey-the-game"
 		],
-		["OctoCurse", "https://sites.google.com/site/unblockedgames66ez/octocurse"],
+		[
+			"OctoCurse",
+			"https://sites.google.com/site/unblockedgames66ez/octocurse"
+		],
 		[
 			"One Chance",
 			"https://sites.google.com/site/unblockedgames66ez/one-chance"
@@ -8340,7 +9678,10 @@
 			"Pacxon Deluxe",
 			"https://sites.google.com/site/unblockedgames66ez/pacxon-deluxe"
 		],
-		["Paint.io", "https://sites.google.com/site/unblockedgames66ez/paint-io"],
+		[
+			"Paint.io",
+			"https://sites.google.com/site/unblockedgames66ez/paint-io"
+		],
 		[
 			"Paintball Battle Fun",
 			"https://sites.google.com/site/unblockedgames66ez/paintball-battle-fun"
@@ -8473,7 +9814,10 @@
 			"Perfect Craft",
 			"https://sites.google.com/site/unblockedgames66ez/perfect-craft"
 		],
-		["Pest Beat", "https://sites.google.com/site/unblockedgames66ez/pest-beat"],
+		[
+			"Pest Beat",
+			"https://sites.google.com/site/unblockedgames66ez/pest-beat"
+		],
 		[
 			"Piano Tiles",
 			"https://sites.google.com/site/unblockedgames66ez/piano-tiles"
@@ -8612,7 +9956,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/plazma-burst"
 		],
 		["Plumet", "https://sites.google.com/site/unblockedgames66ez/plumet"],
-		["Plumet 2", "https://sites.google.com/site/unblockedgames66ez/plumet-2"],
+		[
+			"Plumet 2",
+			"https://sites.google.com/site/unblockedgames66ez/plumet-2"
+		],
 		[
 			"Pocket League 3D",
 			"https://sites.google.com/site/unblockedgames66ez/pocket-league-3d"
@@ -8633,8 +9980,14 @@
 			"Police Pursuit 2",
 			"https://sites.google.com/site/unblockedgames66ez/police-pursuit-2"
 		],
-		["Poly Art", "https://sites.google.com/site/unblockedgames66ez/poly-art"],
-		["Pool 8 3D", "https://sites.google.com/site/unblockedgames66ez/pool-8-3d"],
+		[
+			"Poly Art",
+			"https://sites.google.com/site/unblockedgames66ez/poly-art"
+		],
+		[
+			"Pool 8 3D",
+			"https://sites.google.com/site/unblockedgames66ez/pool-8-3d"
+		],
 		[
 			"Poop Clicker",
 			"https://sites.google.com/site/unblockedgames66ez/poop-clicker"
@@ -8644,7 +9997,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/poppy-playtime"
 		],
 		["Portal", "https://sites.google.com/site/unblockedgames66ez/portal"],
-		["Portal 2", "https://sites.google.com/site/unblockedgames66ez/portal-2"],
+		[
+			"Portal 2",
+			"https://sites.google.com/site/unblockedgames66ez/portal-2"
+		],
 		[
 			"Potty Racers",
 			"https://sites.google.com/site/unblockedgames66ez/potty-racers"
@@ -8711,7 +10067,10 @@
 			"Racing Rocket 2",
 			"https://sites.google.com/site/unblockedgames66ez/racing-rocket-2"
 		],
-		["Raft Wars", "https://sites.google.com/site/unblockedgames66ez/raft-wars"],
+		[
+			"Raft Wars",
+			"https://sites.google.com/site/unblockedgames66ez/raft-wars"
+		],
 		[
 			"Raft Wars 2",
 			"https://sites.google.com/site/unblockedgames66ez/raft-wars-2"
@@ -8751,7 +10110,10 @@
 		["Rage", "https://sites.google.com/site/unblockedgames66ez/rage"],
 		["Rage 2", "https://sites.google.com/site/unblockedgames66ez/rage-2"],
 		["Rage 3", "https://sites.google.com/site/unblockedgames66ez/rage-3"],
-		["Rail Run", "https://sites.google.com/site/unblockedgames66ez/rail-run"],
+		[
+			"Rail Run",
+			"https://sites.google.com/site/unblockedgames66ez/rail-run"
+		],
 		[
 			"Rail Run Bali",
 			"https://sites.google.com/site/unblockedgames66ez/rail-run-bali"
@@ -8788,10 +10150,16 @@
 			"Real OFFROAD 4x4",
 			"https://sites.google.com/site/unblockedgames66ez/real-offroad-4x4"
 		],
-		["RealDrive", "https://sites.google.com/site/unblockedgames66ez/realdrive"],
+		[
+			"RealDrive",
+			"https://sites.google.com/site/unblockedgames66ez/realdrive"
+		],
 		["Rebuild", "https://sites.google.com/site/unblockedgames66ez/rebuild"],
 		["Recoil", "https://sites.google.com/site/unblockedgames66ez/recoil"],
-		["Red Ball", "https://sites.google.com/site/unblockedgames66ez/red-ball"],
+		[
+			"Red Ball",
+			"https://sites.google.com/site/unblockedgames66ez/red-ball"
+		],
 		[
 			"Red Ball 3",
 			"https://sites.google.com/site/unblockedgames66ez/red-ball-3"
@@ -8868,7 +10236,10 @@
 			"Riddle Transfer 2",
 			"https://sites.google.com/site/unblockedgames66ez/riddle-transfer-2"
 		],
-		["Road Fury", "https://sites.google.com/site/unblockedgames66ez/road-fury"],
+		[
+			"Road Fury",
+			"https://sites.google.com/site/unblockedgames66ez/road-fury"
+		],
 		[
 			"Robo Fighter",
 			"https://sites.google.com/site/unblockedgames66ez/robo-fighter"
@@ -8945,8 +10316,14 @@
 		["Run", "https://sites.google.com/site/unblockedgames66ez/run"],
 		["Run 2", "https://sites.google.com/site/unblockedgames66ez/run-2"],
 		["Run 3", "https://sites.google.com/site/unblockedgames66ez/run-3"],
-		["Run Dude", "https://sites.google.com/site/unblockedgames66ez/run-dude"],
-		["Run n Gun", "https://sites.google.com/site/unblockedgames66ez/run-n-gun"],
+		[
+			"Run Dude",
+			"https://sites.google.com/site/unblockedgames66ez/run-dude"
+		],
+		[
+			"Run n Gun",
+			"https://sites.google.com/site/unblockedgames66ez/run-n-gun"
+		],
 		[
 			"Run Ninja Run",
 			"https://sites.google.com/site/unblockedgames66ez/run-ninja-run"
@@ -9035,8 +10412,14 @@
 			"Seasonland",
 			"https://sites.google.com/site/unblockedgames66ez/seasonland"
 		],
-		["Sector 01", "https://sites.google.com/site/unblockedgames66ez/sector-01"],
-		["Shadez 2", "https://sites.google.com/site/unblockedgames66ez/shadez-2"],
+		[
+			"Sector 01",
+			"https://sites.google.com/site/unblockedgames66ez/sector-01"
+		],
+		[
+			"Shadez 2",
+			"https://sites.google.com/site/unblockedgames66ez/shadez-2"
+		],
 		[
 			"Shake Rush",
 			"https://sites.google.com/site/unblockedgames66ez/shake-rush"
@@ -9053,7 +10436,10 @@
 		["Shift 2", "https://sites.google.com/site/unblockedgames66ez/shift-2"],
 		["Shift 3", "https://sites.google.com/site/unblockedgames66ez/shift-3"],
 		["Shift 4", "https://sites.google.com/site/unblockedgames66ez/shift-4"],
-		["Shift Run", "https://sites.google.com/site/unblockedgames66ez/shift-run"],
+		[
+			"Shift Run",
+			"https://sites.google.com/site/unblockedgames66ez/shift-run"
+		],
 		[
 			"Shooter 2D",
 			"https://sites.google.com/site/unblockedgames66ez/shooter-2d"
@@ -9150,9 +10536,18 @@
 			"Sinjid Shadow of the Warrior",
 			"https://sites.google.com/site/unblockedgames66ez/sinjid-shadow-of-the-warrior"
 		],
-		["Sketchman", "https://sites.google.com/site/unblockedgames66ez/sketchman"],
-		["Ski King", "https://sites.google.com/site/unblockedgames66ez/ski-king"],
-		["Skull Kid", "https://sites.google.com/site/unblockedgames66ez/skull-kid"],
+		[
+			"Sketchman",
+			"https://sites.google.com/site/unblockedgames66ez/sketchman"
+		],
+		[
+			"Ski King",
+			"https://sites.google.com/site/unblockedgames66ez/ski-king"
+		],
+		[
+			"Skull Kid",
+			"https://sites.google.com/site/unblockedgames66ez/skull-kid"
+		],
 		[
 			"Skull Kid 2",
 			"https://sites.google.com/site/unblockedgames66ez/skull-kid-2"
@@ -9162,7 +10557,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/skull-racer"
 		],
 		["Skywire", "https://sites.google.com/site/unblockedgames66ez/skywire"],
-		["Skywire 2", "https://sites.google.com/site/unblockedgames66ez/skywire-2"],
+		[
+			"Skywire 2",
+			"https://sites.google.com/site/unblockedgames66ez/skywire-2"
+		],
 		[
 			"Sleepy Knight",
 			"https://sites.google.com/site/unblockedgames66ez/sleepy-knight"
@@ -9195,7 +10593,10 @@
 			"Slither.io",
 			"https://sites.google.com/site/unblockedgames66ez/slither-io"
 		],
-		["Slope", "https://sites.google.com/site/unblockedgames66ez/slope-game"],
+		[
+			"Slope",
+			"https://sites.google.com/site/unblockedgames66ez/slope-game"
+		],
 		["Slope 2", "https://sites.google.com/site/unblockedgames66ez/slope-2"],
 		[
 			"Slope 2 Players",
@@ -9206,7 +10607,10 @@
 			"Slope Ball",
 			"https://sites.google.com/site/unblockedgames66ez/slope-ball"
 		],
-		["Slope Run", "https://sites.google.com/site/unblockedgames66ez/slope-run"],
+		[
+			"Slope Run",
+			"https://sites.google.com/site/unblockedgames66ez/slope-run"
+		],
 		[
 			"Slope Tunnel",
 			"https://sites.google.com/site/unblockedgames66ez/slope-tunnel"
@@ -9235,7 +10639,10 @@
 			"Smiley Cubes",
 			"https://sites.google.com/site/unblockedgames66ez/smiley-cubes"
 		],
-		["Snail Bob", "https://sites.google.com/site/unblockedgames66ez/snail-bob"],
+		[
+			"Snail Bob",
+			"https://sites.google.com/site/unblockedgames66ez/snail-bob"
+		],
 		[
 			"Snail Bob 2",
 			"https://sites.google.com/site/unblockedgames66ez/snail-bob-2"
@@ -9398,7 +10805,10 @@
 			"Springy Walk",
 			"https://sites.google.com/site/unblockedgames66ez/springy-walk"
 		],
-		["Sprinter", "https://sites.google.com/site/unblockedgames66ez/sprinter"],
+		[
+			"Sprinter",
+			"https://sites.google.com/site/unblockedgames66ez/sprinter"
+		],
 		[
 			"Squadd Royale",
 			"https://sites.google.com/site/unblockedgames66ez/squadd-royale"
@@ -9435,12 +10845,18 @@
 			"Stick Figure Badminton",
 			"https://sites.google.com/site/unblockedgames66ez/stick-figure-badminton"
 		],
-		["Stick RPG", "https://sites.google.com/site/unblockedgames66ez/stick-rpg"],
+		[
+			"Stick RPG",
+			"https://sites.google.com/site/unblockedgames66ez/stick-rpg"
+		],
 		[
 			"Stick RPG Complete",
 			"https://sites.google.com/site/unblockedgames66ez/stick-rpg-complete"
 		],
-		["Stick War", "https://sites.google.com/site/unblockedgames66ez/stick-war"],
+		[
+			"Stick War",
+			"https://sites.google.com/site/unblockedgames66ez/stick-war"
+		],
 		[
 			"Stickjet Challenge",
 			"https://sites.google.com/site/unblockedgames66ez/stickjet-challenge"
@@ -9481,7 +10897,10 @@
 			"Stop the Darkness",
 			"https://sites.google.com/site/unblockedgames66ez/stop-the-darkness"
 		],
-		["Storm Ops", "https://sites.google.com/site/unblockedgames66ez/storm-ops"],
+		[
+			"Storm Ops",
+			"https://sites.google.com/site/unblockedgames66ez/storm-ops"
+		],
 		[
 			"Storm Ops 4",
 			"https://sites.google.com/site/unblockedgames66ez/storm-ops-4"
@@ -9642,7 +11061,10 @@
 			"Survival Craft",
 			"https://sites.google.com/site/unblockedgames66ez/survival-craft"
 		],
-		["Sushi Cat", "https://sites.google.com/site/unblockedgames66ez/sushi-cat"],
+		[
+			"Sushi Cat",
+			"https://sites.google.com/site/unblockedgames66ez/sushi-cat"
+		],
 		[
 			"Sushi Cat a Pult",
 			"https://sites.google.com/site/unblockedgames66ez/sushi-cat-a-pult"
@@ -9700,7 +11122,10 @@
 			"Tail Swing",
 			"https://sites.google.com/site/unblockedgames66ez/tail-swing"
 		],
-		["Takeover", "https://sites.google.com/site/unblockedgames66ez/takeover"],
+		[
+			"Takeover",
+			"https://sites.google.com/site/unblockedgames66ez/takeover"
+		],
 		[
 			"Talking Angela",
 			"https://sites.google.com/site/unblockedgames66ez/talking-angela"
@@ -9770,7 +11195,10 @@
 			"Teelonians: The Clan Wars",
 			"https://sites.google.com/site/unblockedgames66ez/teelonians-the-clan-wars"
 		],
-		["Temple Go", "https://sites.google.com/site/unblockedgames66ez/temple-go"],
+		[
+			"Temple Go",
+			"https://sites.google.com/site/unblockedgames66ez/temple-go"
+		],
 		[
 			"Temple of Boom",
 			"https://sites.google.com/site/unblockedgames66ez/temple-of-boom"
@@ -9783,7 +11211,10 @@
 			"Tennis Open",
 			"https://sites.google.com/site/unblockedgames66ez/tennis-open"
 		],
-		["Terraria", "https://sites.google.com/site/unblockedgames66ez/terraria"],
+		[
+			"Terraria",
+			"https://sites.google.com/site/unblockedgames66ez/terraria"
+		],
 		[
 			"Territory War",
 			"https://sites.google.com/site/unblockedgames66ez/territory-war"
@@ -9817,7 +11248,10 @@
 			"The Binding of Isaac: Wrath of the Lamb",
 			"https://sites.google.com/site/unblockedgames66ez/the-binding-of-isaac-wrath-of-the-lamb"
 		],
-		["The Cargo", "https://sites.google.com/site/unblockedgames66ez/the-cargo"],
+		[
+			"The Cargo",
+			"https://sites.google.com/site/unblockedgames66ez/the-cargo"
+		],
 		[
 			"The Classroom",
 			"https://sites.google.com/site/unblockedgames66ez/the-classroom"
@@ -9842,7 +11276,10 @@
 			"The Green Mission",
 			"https://sites.google.com/site/unblockedgames66ez/the-green-mission"
 		],
-		["The Heist", "https://sites.google.com/site/unblockedgames66ez/the-heist"],
+		[
+			"The Heist",
+			"https://sites.google.com/site/unblockedgames66ez/the-heist"
+		],
 		[
 			"The Idiot Test",
 			"https://sites.google.com/site/unblockedgames66ez/the-idiot-test"
@@ -9971,7 +11408,10 @@
 			"Tile Master Match",
 			"https://sites.google.com/site/unblockedgames66ez/tile-master-match"
 		],
-		["Tile Step", "https://sites.google.com/site/unblockedgames66ez/tile-step"],
+		[
+			"Tile Step",
+			"https://sites.google.com/site/unblockedgames66ez/tile-step"
+		],
 		[
 			"Time Shooter 2",
 			"https://sites.google.com/site/unblockedgames66ez/time-shooter-2"
@@ -9992,7 +11432,10 @@
 			"Tiny Rifles",
 			"https://sites.google.com/site/unblockedgames66ez/tiny-rifles"
 		],
-		["Tiny Tomb", "https://sites.google.com/site/unblockedgames66ez/tiny-tomb"],
+		[
+			"Tiny Tomb",
+			"https://sites.google.com/site/unblockedgames66ez/tiny-tomb"
+		],
 		[
 			"Tom and Jerry Run",
 			"https://sites.google.com/site/unblockedgames66ez/tom-and-jerry-run"
@@ -10069,7 +11512,10 @@
 			"Train Taxi",
 			"https://sites.google.com/site/unblockedgames66ez/train-taxi"
 		],
-		["Trains.io", "https://sites.google.com/site/unblockedgames66ez/trains-io"],
+		[
+			"Trains.io",
+			"https://sites.google.com/site/unblockedgames66ez/trains-io"
+		],
 		[
 			"Trials Ice Ride",
 			"https://sites.google.com/site/unblockedgames66ez/trials-ice-ride"
@@ -10101,7 +11547,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/tug-of-war"
 		],
 		["Tug War", "https://sites.google.com/site/unblockedgames66ez/tug-war"],
-		["Tug War 2", "https://sites.google.com/site/unblockedgames66ez/tug-war-2"],
+		[
+			"Tug War 2",
+			"https://sites.google.com/site/unblockedgames66ez/tug-war-2"
+		],
 		[
 			"Tunnel Racing",
 			"https://sites.google.com/site/unblockedgames66ez/tunnel-racing"
@@ -10115,7 +11564,10 @@
 			"https://sites.google.com/site/unblockedgames66ez/turtle-trigger"
 		],
 		["Twelve", "https://sites.google.com/site/unblockedgames66ez/twelve"],
-		["Twin Shot", "https://sites.google.com/site/unblockedgames66ez/twin-shot"],
+		[
+			"Twin Shot",
+			"https://sites.google.com/site/unblockedgames66ez/twin-shot"
+		],
 		[
 			"Two Aliens Adventure",
 			"https://sites.google.com/site/unblockedgames66ez/two-aliens-adventure"
@@ -10198,7 +11650,10 @@
 			"Vehicle Wars 2020",
 			"https://sites.google.com/site/unblockedgames66ez/vehicle-wars-2020"
 		],
-		["Vehicles", "https://sites.google.com/site/unblockedgames66ez/vehicles"],
+		[
+			"Vehicles",
+			"https://sites.google.com/site/unblockedgames66ez/vehicles"
+		],
 		[
 			"Vehicles 2",
 			"https://sites.google.com/site/unblockedgames66ez/vehicles-2"
@@ -10216,7 +11671,10 @@
 			"Viking Dash",
 			"https://sites.google.com/site/unblockedgames66ez/viking-dash"
 		],
-		["Visitors", "https://sites.google.com/site/unblockedgames66ez/visitors"],
+		[
+			"Visitors",
+			"https://sites.google.com/site/unblockedgames66ez/visitors"
+		],
 		[
 			"Volley Random",
 			"https://sites.google.com/site/unblockedgames66ez/volley-random"
@@ -10229,7 +11687,10 @@
 			"Warfare 1944",
 			"https://sites.google.com/site/unblockedgames66ez/warfare-1944"
 		],
-		["Warlords", "https://sites.google.com/site/unblockedgames66ez/warlords"],
+		[
+			"Warlords",
+			"https://sites.google.com/site/unblockedgames66ez/warlords"
+		],
 		[
 			"Warship Fury",
 			"https://sites.google.com/site/unblockedgames66ez/warship-fury"
@@ -10238,7 +11699,10 @@
 			"Water Flow",
 			"https://sites.google.com/site/unblockedgames66ez/water-flow"
 		],
-		["Wavy Trip", "https://sites.google.com/site/unblockedgames66ez/wavy-trip"],
+		[
+			"Wavy Trip",
+			"https://sites.google.com/site/unblockedgames66ez/wavy-trip"
+		],
 		[
 			"We Become What We Behold",
 			"https://sites.google.com/site/unblockedgames66ez/we-become-what-we-behold"
@@ -10260,13 +11724,34 @@
 			"Wheelie Bike",
 			"https://sites.google.com/site/unblockedgames66ez/wheelie-bike"
 		],
-		["Wheely 3", "https://sites.google.com/site/unblockedgames66ez/wheely-3"],
-		["Wheely 4", "https://sites.google.com/site/unblockedgames66ez/wheely-4"],
-		["Wheely 5", "https://sites.google.com/site/unblockedgames66ez/wheely-5"],
-		["Wheely 6", "https://sites.google.com/site/unblockedgames66ez/wheely-6"],
-		["Wheely 7", "https://sites.google.com/site/unblockedgames66ez/wheely-7"],
-		["Wheely 8", "https://sites.google.com/site/unblockedgames66ez/wheely-8"],
-		["Will Hero", "https://sites.google.com/site/unblockedgames66ez/will-hero"],
+		[
+			"Wheely 3",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-3"
+		],
+		[
+			"Wheely 4",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-4"
+		],
+		[
+			"Wheely 5",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-5"
+		],
+		[
+			"Wheely 6",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-6"
+		],
+		[
+			"Wheely 7",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-7"
+		],
+		[
+			"Wheely 8",
+			"https://sites.google.com/site/unblockedgames66ez/wheely-8"
+		],
+		[
+			"Will Hero",
+			"https://sites.google.com/site/unblockedgames66ez/will-hero"
+		],
 		[
 			"Wolverine Tokyo Fury",
 			"https://sites.google.com/site/unblockedgames66ez/wolverine-tokyo-fury"
@@ -10287,12 +11772,18 @@
 			"World Cup Kicks",
 			"https://sites.google.com/site/unblockedgames66ez/world-cup-kicks"
 		],
-		["Worm Food", "https://sites.google.com/site/unblockedgames66ez/worm-food"],
+		[
+			"Worm Food",
+			"https://sites.google.com/site/unblockedgames66ez/worm-food"
+		],
 		[
 			"Wormate.io",
 			"https://sites.google.com/site/unblockedgames66ez/wormate-io"
 		],
-		["Worms.io", "https://sites.google.com/site/unblockedgames66ez/worms-io"],
+		[
+			"Worms.io",
+			"https://sites.google.com/site/unblockedgames66ez/worms-io"
+		],
 		[
 			"Xtreme Good Guys vs Bad",
 			"https://sites.google.com/site/unblockedgames66ez/xtreme-good-guys-vs-bad"
@@ -10372,7 +11863,10 @@
 			"Zombocalypse 2",
 			"https://sites.google.com/site/unblockedgames66ez/zombocalypse-2"
 		],
-		["Zombotron", "https://sites.google.com/site/unblockedgames66ez/zombotron"],
+		[
+			"Zombotron",
+			"https://sites.google.com/site/unblockedgames66ez/zombotron"
+		],
 		[
 			"Zombotron 2",
 			"https://sites.google.com/site/unblockedgames66ez/zombotron-2"
@@ -10381,7 +11875,10 @@
 			"Zombotron 2 Time Machine",
 			"https://sites.google.com/site/unblockedgames66ez/zombotron-2-time-machine"
 		],
-		["ZomCraft", "https://sites.google.com/site/unblockedgames66ez/zomcraft"],
+		[
+			"ZomCraft",
+			"https://sites.google.com/site/unblockedgames66ez/zomcraft"
+		],
 		["Zoo Run", "https://sites.google.com/site/unblockedgames66ez/zoo-run"],
 		[
 			"Zuma Shooter",

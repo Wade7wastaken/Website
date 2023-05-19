@@ -39,7 +39,7 @@ document.addEventListener(
 			}
 			return true;
 		};
-	})(),
+	})()
 );
 import { createWaflash } from "https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/js/waflash-player.min.js";
 
@@ -49,5 +49,5 @@ createWaflash(
 	"https://rawcdn.githack.com/wade7wastaken/TrulyUnblockedGamesSWF/main/" +
 		params.get("game") +
 		".swf",
-	window.wafOptions || {},
+	window.wafOptions || {}
 );

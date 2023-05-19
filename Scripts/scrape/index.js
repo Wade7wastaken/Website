@@ -41,7 +41,7 @@ const data = {
 async function coolmath() {
 	const layer1 = [];
 	const res = await axios.get(
-		"https://www.coolmathgames.com/1-complete-game-list/view-all",
+		"https://www.coolmathgames.com/1-complete-game-list/view-all"
 	);
 
 	console.log("coolmath request done");
@@ -59,15 +59,19 @@ async function coolmath() {
 					const pageurl = `https://www.coolmathgames.com${gamehref}`;
 
 					if (await exists(gameurl)) {
-						processResult([gametext, gameurl], "Coolmath Games", "Coolmath");
+						processResult(
+							[gametext, gameurl],
+							"Coolmath Games",
+							"Coolmath"
+						);
 					} else if (await exists(pageurl)) {
 						processResult(
 							[gametext, pageurl],
 							"Coolmath Games",
-							"Coolmath page",
+							"Coolmath page"
 						);
 					}
-				})(elem),
+				})(elem)
 			);
 		});
 	await Promise.all(layer1);
@@ -77,7 +81,7 @@ async function coolmath() {
 async function edit() {
 	const layer1 = [];
 	const res = await axios.get(
-		"https://edit.coolmath-games.com/1-complete-game-list/view-all",
+		"https://edit.coolmath-games.com/1-complete-game-list/view-all"
 	);
 
 	console.log("edit request done");
@@ -88,19 +92,19 @@ async function edit() {
 		.each((i, elem) => {
 			layer1.push(
 				(async (elem) => {
-					const gameurl = `https://edit.coolmath-games.com${$(elem).attr(
-						"href",
-					)}/play`;
+					const gameurl = `https://edit.coolmath-games.com${$(
+						elem
+					).attr("href")}/play`;
 
 					// Some non-flash games still get filtered out by this (probably last thing to worry about)
 					if (await exists(gameurl)) {
 						processResult(
 							[$(elem).text(), gameurl],
 							"Coolmath Games Mirror",
-							"Edit",
+							"Edit"
 						);
 					}
-				})(elem),
+				})(elem)
 			);
 		});
 	await Promise.all(layer1);
@@ -112,7 +116,7 @@ async function unblocked66() {
 	const layer1 = [];
 
 	const res = await axios.get(
-		"https://sites.google.com/site/unblockedgames66ez/home",
+		"https://sites.google.com/site/unblockedgames66ez/home"
 	);
 
 	console.log("unblocked66 request done");
@@ -122,7 +126,9 @@ async function unblocked66() {
 		layer1.push(
 			(async (elem) => {
 				const gamename = $(elem).text();
-				const gameurl = `https://sites.google.com${$(elem).attr("href")}`;
+				const gameurl = `https://sites.google.com${$(elem).attr(
+					"href"
+				)}`;
 
 				// filter out ignored games
 				if (!ignoredgames.includes(gamename)) {
@@ -130,13 +136,13 @@ async function unblocked66() {
 						processResult(
 							[gamename, gameurl],
 							"Unblocked Games 66 EZ",
-							"Unblocked 66",
+							"Unblocked 66"
 						);
 					} else {
 						console.log(`${gamename} doesn't exist`);
 					}
 				}
-			})(elem),
+			})(elem)
 		);
 	});
 	await Promise.all(layer1);
@@ -148,7 +154,7 @@ async function tyrones() {
 	const layer1 = [];
 
 	const res = await axios.get(
-		"https://sites.google.com/site/tyronesgameshack/home",
+		"https://sites.google.com/site/tyronesgameshack/home"
 	);
 
 	console.log("tyrones request done");
@@ -158,7 +164,9 @@ async function tyrones() {
 		layer1.push(
 			(async (elem) => {
 				const gamename = $(elem).text();
-				const gameurl = `https://sites.google.com${$(elem).attr("href")}`;
+				const gameurl = `https://sites.google.com${$(elem).attr(
+					"href"
+				)}`;
 
 				// filter out ignored games
 				if (!ignoredgames.includes(gamename)) {
@@ -166,13 +174,13 @@ async function tyrones() {
 						processResult(
 							[gamename, gameurl],
 							"Tyrone's Unblocked Games",
-							"Tyrones",
+							"Tyrones"
 						);
 					} else {
 						console.log(`${gamename} doesn't exist`);
 					}
 				}
-			})(elem),
+			})(elem)
 		);
 	});
 	await Promise.all(layer1);
@@ -191,7 +199,7 @@ async function tyrones() {
 
 	fs.writeFileSync(
 		"./data/scrapelinks.json",
-		JSON.stringify(data, Object.keys(data).sort()),
+		JSON.stringify(data, Object.keys(data).sort())
 	);
 
 	console.log("done");
