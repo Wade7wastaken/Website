@@ -113,6 +113,22 @@
 					}
 				]
 			},
+			"The Legend of Zelda": {
+				"main": [
+					{
+						"name": "Ocarina of Time (USA)",
+						"rom": "oot"
+					},
+					{
+						"name": "Ocarina of Time (USA) (Rev 1)",
+						"rom": "oot_rev1"
+					},
+					{
+						"name": "Ocarina of Time (USA) (Rev 2)",
+						"rom": "oot_rev2"
+					}
+				]
+			},
 			"Super Smash Bros.": {
 				"main": [
 					{
