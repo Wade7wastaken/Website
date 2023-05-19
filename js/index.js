@@ -6,6 +6,7 @@ let page = 0; // the current page of links
 const games = []; // the main array of games
 const matches = []; // an array of games that meet the search criteria
 const filteredsites = []; // an array of sites that are filtered out
+let keybuffer = "";
 
 console.log("Advanced features:");
 console.log(
@@ -14,6 +15,16 @@ console.log(
 console.log(
 	'Set local storage "emuWidth" and "emuHeight" to set a custom size for EmulatorJS.',
 );
+
+document.onkeydown = async function (e) {
+	keybuffer += e.key;
+	keybuffer = keybuffer.slice(-6);
+	if (keybuffer === "secret") {
+		// this is so cursed
+		const secrets = await (await fetch("./data/secrets.json")).json();
+		location.href = secrets[Math.floor(Math.random() * secrets.length)];
+	}
+};
 
 const mainPrm = (async () => {
 	try {
