@@ -2,6 +2,28 @@ const axios = require("axios").default;
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+async function smart_get(url, iter = 0) {
+	let res;
+
+	try {
+		res = await axios.get(url);
+	} catch (error) {
+		if (error.response.status != 404) {
+			console.log(`NON-404: ${url} returned ${error}`);
+			await new Promise((r) => setTimeout(r, 1000)); // wait 1 second
+			if (iter >= 5) {
+				console.log(`Fetching ${url} failed after ${iter} attempts.`);
+				throw error;
+			}
+			return await smart_get(url, iter + 1); // call this function again and increase the iteration
+		}
+		console.log(`${url} returned ${error}`);
+		throw error;
+	}
+
+	return res;
+}
+
 async function exists(url, iter = 0) {
 	if (iter >= 5) {
 		console.log(`${url} failed after ${iter - 1} attempts.`);
@@ -11,13 +33,20 @@ async function exists(url, iter = 0) {
 	try {
 		await axios.get(url);
 	} catch (error) {
-		if (error.response.status != 404) {
-			console.log(`NON-404: ${url} returned ${error}`);
-			await new Promise((r) => setTimeout(r, 1000)); // wait 1 second
-			return await exists(url, iter + 1); // call this function again and increase the iteration
+		// make sure it exists
+		if (error.response) {
+			if (error.response.status != 404) {
+				console.log(`NON-404: ${url} returned ${error}`);
+				await new Promise((r) => setTimeout(r, 1000)); // wait 1 second
+				return await exists(url, iter + 1); // call this function again and increase the iteration
+			} else {
+				console.log(`${url} returned ${error}`);
+				return false;
+			}
+		} else {
+			console.log(`${url} errored without a status code ${error}`);
+			return false;
 		}
-		console.log(`${url} returned ${error}`);
-		return false;
 	}
 	return true;
 }
@@ -40,7 +69,7 @@ const data = {
 
 async function coolmath() {
 	const layer1 = [];
-	const res = await axios.get(
+	const res = await smart_get(
 		"https://www.coolmathgames.com/1-complete-game-list/view-all"
 	);
 
@@ -80,7 +109,7 @@ async function coolmath() {
 
 async function edit() {
 	const layer1 = [];
-	const res = await axios.get(
+	const res = await smart_get(
 		"https://edit.coolmath-games.com/1-complete-game-list/view-all"
 	);
 
@@ -115,7 +144,7 @@ async function unblocked66() {
 	const ignoredgames = ["All Unblocked Games 66 EZ", "Feedback"];
 	const layer1 = [];
 
-	const res = await axios.get(
+	const res = await smart_get(
 		"https://sites.google.com/site/unblockedgames66ez/home"
 	);
 
@@ -153,7 +182,7 @@ async function tyrones() {
 	const ignoredgames = ["Home"];
 	const layer1 = [];
 
-	const res = await axios.get(
+	const res = await smart_get(
 		"https://sites.google.com/site/tyronesgameshack/home"
 	);
 
@@ -188,7 +217,7 @@ async function tyrones() {
 }
 
 (async () => {
-	await Promise.all([coolmath(), edit(), unblocked66(), tyrones()]);
+	await Promise.all([coolmath(), unblocked66(), tyrones()]);
 	console.log("done fetching");
 	data["Coolmath Games"].sort(lowerCaseSort);
 	data["Coolmath Games Mirror"].sort(lowerCaseSort);
