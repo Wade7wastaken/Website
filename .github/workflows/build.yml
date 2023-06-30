@@ -43,10 +43,7 @@ jobs:
         run: node ./main/Scripts/minify/minify.js
 
       - name: Debug
-        run: ls
-      - name: Debug2
-        working-directory: ./main/
-        run: ls
+        run: du -a
 
       - name: Copy contents
         run: cp -R ./main/Output ./dist
