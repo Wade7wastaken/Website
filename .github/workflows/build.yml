@@ -17,33 +17,40 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout main repo
         uses: actions/checkout@v3
         with:
           submodules: recursive
+          path: main
         
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          
-      - name: Install dependencies
-        working-directory: ./Scripts/minify
-        run: npm ci
-      
-      - name: Minify
-        run: node ./Scripts/minify/minify.js
-
       - name: Checkout dist repo
         uses: actions/checkout@v3
         with:
           repository: Wade7wastaken/TrulyUnblockedGamesDist
+          path: dist
+          
+      - name: Debug
+        run: ls
 
-      - name: Copy contents to the second repository
-        run: cp -R Output/. Wade7wastaken/TrulyUnblockedGamesDist
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Format files"
-          default_author: github_actions
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: 18
+#          
+#      - name: Install dependencies
+#        working-directory: ./Scripts/minify
+#        run: npm ci
+#      
+#      - name: Minify
+#        run: node ./Scripts/minify/minify.js
+#
+#      
+#
+#      - name: Copy contents to the second repository
+#        run: cp -R Output/. Wade7wastaken/TrulyUnblockedGamesDist
+#
+#      - name: Commit changes
+#        uses: EndBug/add-and-commit@v9
+#        with:
+#          message: "Format files"
+#          default_author: github_actions
