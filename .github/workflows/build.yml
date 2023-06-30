@@ -29,8 +29,11 @@ jobs:
           repository: Wade7wastaken/TrulyUnblockedGamesDist
           path: dist
           
-#      - name: Debug
-#        run: ls
+      - name: Debug
+        run: ls
+      - name: Debug2
+        working-directory: ./main/
+        run: ls
 
 
       - name: Set up Node.js
