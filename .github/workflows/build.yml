@@ -40,7 +40,8 @@ jobs:
         run: npm ci
       
       - name: Minify
-        run: node ./main/Scripts/minify/minify.js
+        working-directory: ./main
+        run: node ./Scripts/minify/minify.js
 
       - name: Debug
         run: du -a
