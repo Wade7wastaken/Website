@@ -1,1 +1,0 @@
-function getId(e){return document.getElementById(e)}function getClass(e){return document.getElementsByClassName(e)}function quickAppend(e,t,n){e=document.createElement(e);e.textContent=n,t.append(e)}Array.prototype.remove=function(e){e=this.indexOf(e);return-1<e&&this.splice(e,1),this};
