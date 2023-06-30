@@ -1,45 +1,45 @@
 name: Minify code and push to pages
 
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+            - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+    contents: write
+    pages: write
+    id-token: write
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    group: "pages"
+    cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@master
-        with:
-          submodules: recursive
-      - name: Install dependencies
-        working-directory: ./Scripts/minify
-        run: npm install
-      - name: Minify files
-        run: node ./Scripts/minify/minify.js
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Minify files"
-          default_author: github_actions
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "./Output"
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@master
+              with:
+                  submodules: recursive
+            - name: Install dependencies
+              working-directory: ./Scripts/minify
+              run: npm install
+            - name: Minify files
+              run: node ./Scripts/minify/minify.js
+            - name: Commit changes
+              uses: EndBug/add-and-commit@v9
+              with:
+                  message: "Minify files"
+                  default_author: github_actions
+            - name: Setup Pages
+              uses: actions/configure-pages@v3
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v1
+              with:
+                  path: "./Output"
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v1
