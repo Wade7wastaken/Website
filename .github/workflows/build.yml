@@ -28,12 +28,6 @@ jobs:
         with:
           repository: Wade7wastaken/TrulyUnblockedGamesDist
           path: dist
-          
-      - name: Debug
-        run: ls
-      - name: Debug2
-        working-directory: ./main/
-        run: ls
 
 
       - name: Set up Node.js
@@ -48,8 +42,14 @@ jobs:
       - name: Minify
         run: node ./main/Scripts/minify/minify.js
 
+      - name: Debug
+        run: ls
+      - name: Debug2
+        working-directory: ./main/
+        run: ls
+
       - name: Copy contents
-        run: cp -R main/Output dist
+        run: cp -R ./main/Output ./dist
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
