@@ -3,11 +3,9 @@ name: Run Prettier
 on:
   push:
     branches:
-      - main
       - dev
   pull_request:
     branches:
-      - main
       - dev
 
 # Allow one concurrent deployment
@@ -21,12 +19,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          
+
       - name: Run Prettier
         run: npx prettier --write .
 
