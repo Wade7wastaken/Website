@@ -31,7 +31,9 @@ jobs:
         with:
           repository: Wade7wastaken/TrulyUnblockedGamesDist
           path: dist
-
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
