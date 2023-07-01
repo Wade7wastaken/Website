@@ -25,6 +25,8 @@ jobs:
         with:
           submodules: recursive
           path: main
+          ref: main
+          persist-credentials: false
         
       - name: Checkout dist repo
         uses: actions/checkout@v3
