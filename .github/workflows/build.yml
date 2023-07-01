@@ -22,43 +22,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main repo
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           submodules: recursive
-          path: main
           ref: main
-          persist-credentials: false
-        
-      - name: Checkout dist repo
-        uses: actions/checkout@v3
-        with:
-          repository: Wade7wastaken/TrulyUnblockedGamesDist
-          path: dist
-          ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          
+
       - name: Install dependencies
-        working-directory: ./main/Scripts/minify
+        working-directory: ./Scripts/minify
         run: npm ci
-      
+
       - name: Minify
-        working-directory: ./main
         run: node ./Scripts/minify/minify.js
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-            path: "./main/Output"
+            path: "./Output"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
