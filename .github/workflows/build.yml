@@ -48,8 +48,8 @@ jobs:
         working-directory: ./main
         run: node ./Scripts/minify/minify.js
 
-      - name: Debug
-        run: du -a
+#      - name: Debug
+#        run: du -a
 
       - name: Copy contents
         run: cp -R ./main/Output ./dist
