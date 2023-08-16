@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation";
 import type { FC } from "react";
 
-const Home: FC = () => {
+const Games: FC = () => {
   redirect("/games/web");
 };
 
-export default Home;
+export default Games;
