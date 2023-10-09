@@ -22,6 +22,7 @@ const RootLayout: FC<Props> = ({ children }) => {
     <html lang="en">
       <body>
         {children}
+        <div className="mb-20"></div>
         <Navbar />
       </body>
     </html>
