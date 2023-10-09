@@ -1,0 +1,24 @@
+{
+	"name": "website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "webpack",
+		"build:watch": "webpack --watch",
+		"lint": "eslint ./src",
+		"prettier:write": "prettier --write ./src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.8.3",
+		"ts-loader": "^9.5.0",
+		"typescript": "^5.2.2",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4"
+	}
+}
