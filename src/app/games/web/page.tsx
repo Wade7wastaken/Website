@@ -1,9 +1,9 @@
 import type { FC } from "react";
 
-import { Web } from "@/components/Web";
+import { Web } from "@components/Web";
 
-const Web: FC = () => {
+const WebComponent: FC = () => {
   return <Web />;
 };
 
-export default Web;
+export default WebComponent;

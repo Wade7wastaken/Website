@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { useEffect, type FC } from "react";
 
-import { Link } from "@/components/ui/Link";
+import { Link } from "@components/ui/Link";
 
 declare global {
   interface Window {

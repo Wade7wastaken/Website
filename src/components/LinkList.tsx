@@ -1,8 +1,7 @@
 import type { FC } from "react";
 
-import scrapeLinks from "../data/scrapeLinks.json";
-
-import type { ScrapeLinks } from "@/data/ScrapeLinks";
+import type { ScrapeLinks } from "@data/ScrapeLinks";
+import scrapeLinks from "@data/scrapeLinks.json";
 
 scrapeLinks satisfies ScrapeLinks;
 

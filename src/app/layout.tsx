@@ -3,7 +3,7 @@ import "./styles/globals.css";
 import type { Metadata } from "next";
 import type { FC, ReactNode } from "react";
 
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@components/Navbar";
 
 export const metadata: Metadata = {
   title: "Nothing to see here",

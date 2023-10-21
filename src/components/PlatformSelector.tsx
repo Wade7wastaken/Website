@@ -2,9 +2,7 @@ import type { FC } from "react";
 
 import emuGames from "../data/emuGames.json";
 
-import { NavButton } from "./ui/NavButton";
-
-import type { EmuGames } from "@/data/EmuGames";
+import type { EmuGames } from "@data/EmuGames";
 
 emuGames satisfies EmuGames;
 
@@ -19,9 +17,9 @@ export const PlatformSelector: FC = () => {
   return (
     <div className="flex gap-2">
       {keys.map((item) => (
-        <NavButton key={item.internalName} href={`/games/${item.internalName}`}>
+        <a key={item.internalName} href={`/games/${item.internalName}`}>
           {item.displayName}
-        </NavButton>
+        </a>
       ))}
     </div>
   );
