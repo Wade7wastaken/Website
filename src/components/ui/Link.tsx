@@ -1,14 +1,13 @@
 import type { FC, ReactNode } from "react";
 
-type Props = {
+interface Props {
   children: ReactNode;
   href?: string;
-  styles?: string;
-};
+}
 
-export const Link: FC<Props> = ({ children, href, styles = "" }) => {
+export const Link: FC<Props> = ({ children, href }) => {
   return (
-    <a href={href} className={styles + "hover:underline"}>
+    <a href={href} className={"hover:underline"}>
       {children}
     </a>
   );

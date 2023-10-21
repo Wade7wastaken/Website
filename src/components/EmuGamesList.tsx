@@ -7,9 +7,9 @@ import type { EmuGames, Platforms } from "@data/EmuGames";
 
 emuGames satisfies EmuGames;
 
-type Props = {
+interface Props {
   platform: Platforms;
-};
+}
 
 export const EmuGamesList: FC<Props> = ({ platform }) => {
   const data = emuGames[platform];

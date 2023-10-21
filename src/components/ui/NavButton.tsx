@@ -4,16 +4,15 @@ import type { FC, ReactNode } from "react";
 
 import { Button } from "./Button";
 
-type Props = {
+interface Props {
   children: ReactNode;
-  styles?: string;
   href: Url;
-};
+}
 
-export const NavButton: FC<Props> = ({ children, styles = "", href }) => {
+export const NavButton: FC<Props> = ({ children, href }) => {
   return (
-    <Button styles={styles}>
-      <Link href={href}>{children}</Link>
-    </Button>
+    <Link href={href}>
+      <Button>{children}</Button>
+    </Link>
   );
 };

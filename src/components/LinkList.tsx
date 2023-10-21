@@ -5,9 +5,9 @@ import scrapeLinks from "@data/scrapeLinks.json";
 
 scrapeLinks satisfies ScrapeLinks;
 
-type Props = {
+interface Props {
   search: string;
-};
+}
 
 export const LinkList: FC<Props> = ({ search }) => {
   const filtered = [];

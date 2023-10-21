@@ -9,13 +9,9 @@ export interface Platform {
   games: CollectionList;
 }
 
-interface CollectionList {
-  [key: string]: GameCategory;
-}
+type CollectionList = Record<string, GameCategory>;
 
-interface GameCategory {
-  [key: string | "main" | "Romhacks"]: GameList[];
-}
+type GameCategory = Record<string, GameList[]>;
 
 interface GameList {
   name: string;

@@ -15,8 +15,9 @@
     "eslint:recommended",
     "next/core-web-vitals",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:unicorn/all",
+    "plugin:@typescript-eslint/strict-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:unicorn/recommended",
     "plugin:react/recommended",
     "prettier"
   ],
@@ -57,7 +58,7 @@
       "error",
       {
         "case": "pascalCase",
-        "ignore": ["page.tsx", "layout.tsx"]
+        "ignore": ["page.tsx", "layout.tsx", "next-env.d.ts"]
       }
     ],
 

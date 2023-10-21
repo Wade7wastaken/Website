@@ -2,9 +2,9 @@ import type { FC, ReactNode } from "react";
 
 import { PlatformSelector } from "@components/PlatformSelector";
 
-type Props = {
+interface Props {
   children: ReactNode;
-};
+}
 
 const GamesLayout: FC<Props> = ({ children }) => {
   return (

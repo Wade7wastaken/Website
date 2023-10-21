@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   },
 };
 
-type Props = {
+interface Props {
   children: ReactNode;
-};
+}
 
 const RootLayout: FC<Props> = ({ children }) => {
   return (
