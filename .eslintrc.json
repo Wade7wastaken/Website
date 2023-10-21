@@ -1,76 +1,62 @@
 {
-	"root": true,
-	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"project": "./tsconfig.json",
-		"tsconfigRootDir": "./",
-		"ecmaVersion": "latest",
-		"sourceType": "module"
-	},
-	"plugins": ["@typescript-eslint", "import", "unicorn"],
-	"extends": [
-		"eslint:recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/strict-type-checked",
-		"plugin:@typescript-eslint/stylistic-type-checked",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:unicorn/recommended",
-		"prettier"
-	],
-	"rules": {
-		/* TEMPLATE RULES */
-
-		// TypeScript Rules
-		"@typescript-eslint/consistent-type-exports": "warn",
-		"@typescript-eslint/consistent-type-imports": "warn",
-		"@typescript-eslint/explicit-function-return-type": "warn",
-		"@typescript-eslint/explicit-member-accessibility": "warn",
-		"@typescript-eslint/prefer-readonly": "warn",
-		"@typescript-eslint/no-unused-vars": [
-			"warn",
-			{ "args": "all", "argsIgnorePattern": "^_" }
-		],
-		"@typescript-eslint/no-explicit-any": "warn",
-		"@typescript-eslint/no-non-null-assertion": "warn",
-		"@typescript-eslint/prefer-nullish-coalescing": "warn",
-		"@typescript-eslint/prefer-optional-chain": "warn",
-
-		// Import Rules
-		"import/order": [
-			"warn",
-			{
-				"newlines-between": "always",
-				"alphabetize": { "order": "asc", "caseInsensitive": true }
-			}
-		],
-
-		// Unicorn Rules
-		"unicorn/filename-case": [
-			"error",
-			{
-				"cases": {
-					"camelCase": true
-				}
-			}
-		],
-		"unicorn/prevent-abbreviations": "off",
-
-		/* CUSTOM RULES */
-		"no-debugger": "off"
-	},
-	"overrides": [
-		{
-			"files": ["*.js"],
-			"extends": ["plugin:@typescript-eslint/disable-type-checked"],
-			"rules": {
-				// turn off other type-aware rules
-				"deprecation/deprecation": "off",
-				"@typescript-eslint/internal/no-poorly-typed-ts-props": "off",
-
-				// turn off rules that don't apply to JS code
-				"@typescript-eslint/explicit-function-return-type": "off"
-			}
-		}
-	]
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:unicorn/all",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["@typescript-eslint", "react", "import", "unicorn"],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/explicit-function-return-type": [
+      "warn",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+    ],
+    "@typescript-eslint/strict-boolean-expressions": [
+      "warn",
+      {
+        "allowNullableObject": true
+      }
+    ],
+    "@typescript-eslint/triple-slash-reference": "off",
+    "eqeqeq": ["warn", "always", { "null": "ignore" }],
+    "import/no-absolute-path": ["warn"],
+    "import/no-anonymous-default-export": "error",
+    "import/order": [
+      "warn",
+      {
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "newlines-between": "always"
+      }
+    ],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "pascalCase",
+        "ignore": ["page.tsx", "layout.tsx"]
+      }
+    ],
+    "unicorn/prevent-abbreviations": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
+  }
 }
-
