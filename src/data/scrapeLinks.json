@@ -1,5 +1,10 @@
 {
-  "locations": ["Unblocked Games 66 EZ", "Crazy Games", "Poki", "Coolmath Games"],
+  "locations": [
+    "Unblocked Games 66 EZ",
+    "Crazy Games",
+    "Poki",
+    "Coolmath Games"
+  ],
   "games": [
     {
       "name": "1 On 1 Basketball",

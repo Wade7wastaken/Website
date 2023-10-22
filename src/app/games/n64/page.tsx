@@ -6,7 +6,7 @@ import { PlatformSelector } from "@components/PlatformSelector";
 const N64Page: FC = () => {
   return (
     <>
-      <PlatformSelector activePage="n64"/>
+      <PlatformSelector activePage="n64" />
       <EmuGamesList platform="n64" />
     </>
   );

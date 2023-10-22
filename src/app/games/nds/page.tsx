@@ -6,7 +6,7 @@ import { PlatformSelector } from "@components/PlatformSelector";
 const NdsPage: FC = () => {
   return (
     <>
-      <PlatformSelector activePage="nds"/>
+      <PlatformSelector activePage="nds" />
       <EmuGamesList platform="nds" />
     </>
   );

@@ -6,7 +6,7 @@ import { PlatformSelector } from "@components/PlatformSelector";
 const NesPage: FC = () => {
   return (
     <>
-      <PlatformSelector activePage="nes"/>
+      <PlatformSelector activePage="nes" />
       <EmuGamesList platform="nes" />
     </>
   );
