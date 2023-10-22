@@ -6,8 +6,7 @@ import type { FC, ReactNode } from "react";
 import { Navbar } from "@components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Nothing to see here",
-  description: "Nothing to see here either",
+  title: "Google",
   icons: {
     icon: "./favicon.ico",
   },
@@ -22,7 +21,6 @@ const RootLayout: FC<Props> = ({ children }) => {
     <html lang="en">
       <body>
         {children}
-        <div className="mb-20"></div>
         <Navbar />
       </body>
     </html>

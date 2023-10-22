@@ -7,10 +7,12 @@ body {
   background: #202020;
 }
 
+/* Makes scroll bars dark */
 :root {
   color-scheme: dark;
 }
 
+/* Tailwind disables underline for links */
 a {
   text-decoration: underline;
 }
