@@ -1,9 +1,15 @@
 import type { FC } from "react";
 
+import { PlatformSelector } from "@components/PlatformSelector";
 import { Web } from "@components/Web";
 
-const WebComponent: FC = () => {
-  return <Web />;
+const WebPage: FC = () => {
+  return (
+    <>
+      <PlatformSelector activePage="web" />
+      <Web />
+    </>
+  );
 };
 
-export default WebComponent;
+export default WebPage;

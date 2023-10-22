@@ -1,6 +1,5 @@
+import Link from "next/link";
 import type { FC } from "react";
-
-import { Link } from "./ui/Link";
 
 export const Navbar: FC = () => {
   return (
@@ -9,7 +8,7 @@ export const Navbar: FC = () => {
         GitHub
       </Link>
       <Link href="https://github.com/Wade7wastaken/TrulyUnblockedGames/issues/new">
-        I have something to suggest
+        Submit an issue
       </Link>
       <Link href="mailto:david@thecallenders.com">Email me</Link>
     </div>

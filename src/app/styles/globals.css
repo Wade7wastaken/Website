@@ -6,3 +6,11 @@ body {
   color: #ffffff;
   background: #202020;
 }
+
+:root {
+  color-scheme: dark;
+}
+
+a {
+  text-decoration: underline;
+}

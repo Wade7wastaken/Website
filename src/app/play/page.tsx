@@ -4,8 +4,6 @@ import { useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { useEffect, type FC } from "react";
 
-import { Link } from "@components/ui/Link";
-
 declare global {
   interface Window {
     EJS_player: string;
@@ -54,7 +52,7 @@ const Home: FC = () => {
 
   return (
     <>
-      <Link href={`/games/${platform}`}>Back</Link>
+      <a href={`/games/${platform}`}>Back</a>
       <div
         id="base"
         className="w-[960px] h-[720px] max-w-full max-h-screen min-w-[300px] min-h-[150px] m-auto resize overflow-auto"

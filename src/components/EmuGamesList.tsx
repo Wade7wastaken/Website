@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Fragment, type FC } from "react";
 
 import emuGames from "../data/emuGames.json";
@@ -11,9 +10,14 @@ interface Props {
   platform: Platforms;
 }
 
+const constructGameUrl = (romLocation: string, platform: string): string =>
+  `/play?rom=${romLocation}&platform=${platform}`;
+
 export const EmuGamesList: FC<Props> = ({ platform }) => {
   const data = emuGames[platform];
 
+  // use regular a tags for this because we need a full page reload for most
+  // emulators
   return (
     <div className="flex flex-col gap-8">
       <h1 className="text-2xl font-semibold">{data.name}</h1>
@@ -27,14 +31,9 @@ export const EmuGamesList: FC<Props> = ({ platform }) => {
                 <ul className="list-disc list-inside">
                   {games.map((game) => (
                     <li key={game.name}>
-                      <Link
-                        href={{
-                          pathname: "/play",
-                          query: { rom: game.rom, platform },
-                        }}
-                      >
+                      <a href={constructGameUrl(game.rom, platform)}>
                         {game.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
