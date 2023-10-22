@@ -1,15 +1,9 @@
 import type { FC } from "react";
 
-import { EmuGamesList } from "@components/EmuGamesList";
-import { PlatformSelector } from "@components/PlatformSelector";
+import { EmuPage } from "@components/EmuPage";
 
 const NesPage: FC = () => {
-  return (
-    <>
-      <PlatformSelector activePage="nes" />
-      <EmuGamesList platform="nes" />
-    </>
-  );
+  return <EmuPage page="nes" />;
 };
 
 export default NesPage;

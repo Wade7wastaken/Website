@@ -1,15 +1,9 @@
 import type { FC } from "react";
 
-import { EmuGamesList } from "@components/EmuGamesList";
-import { PlatformSelector } from "@components/PlatformSelector";
+import { EmuPage } from "@components/EmuPage";
 
 const GbaPage: FC = () => {
-  return (
-    <>
-      <PlatformSelector activePage="gba" />
-      <EmuGamesList platform="gba" />
-    </>
-  );
+  return <EmuPage page="gba" />;
 };
 
 export default GbaPage;
