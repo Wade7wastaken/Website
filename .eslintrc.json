@@ -57,8 +57,10 @@
     "unicorn/filename-case": [
       "error",
       {
-        "case": "pascalCase",
-        "ignore": ["page.tsx", "layout.tsx", "next-env.d.ts"]
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
       }
     ],
 

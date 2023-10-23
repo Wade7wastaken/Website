@@ -5,8 +5,8 @@ import { useState, type FC } from "react";
 
 import { Button } from "./ui/Button";
 
-import { type Game } from "@data/ScrapeLinks";
-import scrapeLinks from "@data/scrapeLinks.json";
+import scrapeLinks from "@data/scrapeLinks";
+import type { Game } from "@data/scrapeLinksTypes";
 
 const GAMES_PER_PAGE = 100;
 
