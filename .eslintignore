@@ -4,6 +4,7 @@
 /dist
 /out
 /node_modules
+/host
 
 **/next.config.js
 **/tailwind.config.js

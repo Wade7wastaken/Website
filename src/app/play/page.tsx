@@ -1,13 +1,13 @@
-import { Suspense, type FC } from "react";
+import { type FC } from "react";
 
 import { PlayPage } from "@components/PlayPage";
 
-const Home: FC = () => {
-  return (
-    <Suspense>
-      <PlayPage />
-    </Suspense>
-  );
+interface Props {
+  searchParams: Record<string, string | string[] | undefined>;
+}
+
+const Home: FC<Props> = ({ searchParams }) => {
+  return <PlayPage searchParams={searchParams} />;
 };
 
 export default Home;

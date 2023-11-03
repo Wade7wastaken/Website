@@ -1,9 +1,8 @@
-"use client";
+import { redirect } from "next/navigation";
+import Script from "next/script";
+import { type FC } from "react";
 
-import { redirect, useSearchParams } from "next/navigation";
-import { useEffect, type FC } from "react";
-
-import { EjsContent } from "./EjsContent";
+import { EjsSettings } from "./EjsSettings";
 
 declare global {
   interface Window {
@@ -36,24 +35,36 @@ declare global {
   }
 }
 
-export const PlayPage: FC = () => {
-  const params = useSearchParams();
-  const rom = params.get("rom");
-  const platform = params.get("platform");
+interface Props {
+  searchParams: Record<string, string | string[] | undefined>;
+}
 
-  if (rom === null || platform === null) {
+export const PlayPage: FC<Props> = ({ searchParams }) => {
+  const { rom, platform } = searchParams;
+
+  if (typeof rom !== "string" || typeof platform !== "string") {
     alert("Incorrect search params. Redirecting to main page");
     redirect("/");
   }
 
-  useEffect(() => {
-    window.EJS_player = "#emulator";
-    window.EJS_core = platform;
-    window.EJS_pathtodata = "https://demo.emulatorjs.org/data/";
-    window.EJS_gameUrl = `/roms/${platform}/${rom}.7z`;
-    window.EJS_thread = true;
-    window.EJS_DEBUG_XX = true;
-  });
-
-  return <EjsContent platform={platform} />;
+  return (
+    <>
+      <EjsSettings
+        player="#emulator"
+        core={platform}
+        gameUrl={`/roms/${platform}/${rom}.7z`}
+      />
+      <a href={`/games/${platform}`}>Back</a>
+      <div
+        id="base"
+        className="w-[960px] h-[720px] max-w-full max-h-screen min-w-[300px] min-h-[150px] m-auto resize overflow-auto"
+      >
+        <div id="emulator"></div>
+      </div>
+      <Script
+        src="https://demo.emulatorjs.org/data/loader.js"
+        strategy="lazyOnload"
+      ></Script>
+    </>
+  );
 };
