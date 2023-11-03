@@ -20,7 +20,7 @@ const RootLayout: FC<Props> = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        {children}
+        <div className="m-4">{children}</div>
         <Navbar />
       </body>
     </html>
