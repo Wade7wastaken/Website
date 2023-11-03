@@ -10,11 +10,11 @@
     "prettier:write": "prettier ./src --write"
   },
   "dependencies": {
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.34",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
-    "next": "14.0.0",
+    "next": "14.0.1",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -22,13 +22,13 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.9.0",
+    "@typescript-eslint/eslint-plugin": "6.9.1",
     "eslint": "8.52.0",
-    "eslint-config-next": "14.0.0",
+    "eslint-config-next": "14.0.1",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-unicorn": "48.0.1",
+    "eslint-plugin-unicorn": "49.0.0",
     "prettier": "3.0.3"
   }
 }
