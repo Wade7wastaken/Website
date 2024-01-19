@@ -57,7 +57,7 @@ export const PlayPage: FC<Props> = ({ searchParams }) => {
       <a href={`/games/${platform}`}>Back</a>
       <div
         id="base"
-        className="w-[960px] h-[720px] max-w-full max-h-screen min-w-[300px] min-h-[150px] m-auto resize overflow-auto"
+        className="m-auto h-[720px] max-h-screen min-h-[150px] w-[960px] min-w-[300px] max-w-full resize overflow-auto"
       >
         <div id="emulator"></div>
       </div>

@@ -6,10 +6,8 @@ export const Navbar: FC = () => {
   // be enough
   return (
     <div className="mt-16">
-      <div className="bg-gray-700 fixed bottom-0 left-0 z-50 w-full p-1 flex gap-8 justify-center">
-        <Link href="https://github.com/Wade7wastaken/Website">
-          GitHub
-        </Link>
+      <div className="fixed bottom-0 left-0 z-50 flex w-full justify-center gap-8 bg-gray-700 p-1">
+        <Link href="https://github.com/Wade7wastaken/Website">GitHub</Link>
         <Link href="https://github.com/Wade7wastaken/Website/issues/new">
           Submit an issue
         </Link>

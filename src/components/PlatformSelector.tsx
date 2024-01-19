@@ -13,8 +13,8 @@ interface Props {
 export const PlatformSelector: FC<Props> = ({ activePage }) => {
   return (
     <div>
-      <h1 className="font-bold text-xl mb-2">Choose a platform</h1>
-      <div className="flex whitespace-nowrap overflow-x-auto gap-2 pb-2">
+      <h1 className="mb-2 text-xl font-bold">Choose a platform</h1>
+      <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2">
         {[
           { displayName: "Web", internalName: "web" },
           ...Object.entries(emuGames).map(([platformName, platformData]) => ({

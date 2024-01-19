@@ -88,7 +88,7 @@ export const Web: FC = () => {
   };
 
   const nextPrevButtons = (
-    <div className="flex gap-2 items-center whitespace-nowrap overflow-x-auto">
+    <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap">
       <Button onClick={handlePrev} small active={!prevAllowed(page - 1)}>
         Previous page
       </Button>
@@ -112,11 +112,11 @@ export const Web: FC = () => {
       <div className="flex flex-col gap-2">
         <input
           type="text"
-          className="max-w-[48rem] bg-slate-500 placeholder:text-center border-solid border-[1px] border-slate-200 rounded"
+          className="max-w-[48rem] rounded border-[1px] border-solid border-slate-200 bg-slate-500 placeholder:text-center"
           onChange={handleSearch}
           placeholder="Search"
         />
-        <div className="flex whitespace-nowrap overflow-x-auto gap-2 pb-2">
+        <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2">
           {scrapeLinks.locations.map((item) => (
             <Button
               key={item}

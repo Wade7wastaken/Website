@@ -15,7 +15,7 @@ export const Button: FC<Props> = ({
 }) => {
   return (
     <button
-      className={`transition text-sm py-1.5 px-3 rounded-lg ${
+      className={`rounded-lg px-3 py-1.5 text-sm transition ${
         small ? "h-8" : "h-10"
       } ${active ? "bg-sky-700" : "bg-sky-500 hover:bg-sky-600"}`}
       onClick={onClick}
