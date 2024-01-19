@@ -1,47 +1,49 @@
-import { Fragment, type FC } from "react";
+import { type FC } from "react";
 
-import emuGames from "../data/emuGames.json";
+import emuGames from "../data/emuGames";
 
-import type { EmuGames, Platforms } from "@data/EmuGames";
-
-emuGames satisfies EmuGames;
+import type { EmuGame, EmuPlatformName } from "@data/emuGames";
 
 interface Props {
-  platform: Platforms;
+  platform: EmuPlatformName;
 }
 
 const constructGameUrl = (romLocation: string, platform: string): string =>
   `/play?rom=${romLocation}&platform=${platform}`;
 
 export const EmuGamesList: FC<Props> = ({ platform }) => {
-  const data = emuGames[platform];
+  const platformData = emuGames[platform];
 
   // use regular a tags for this because we need a full page reload for most
   // emulators
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="text-2xl font-semibold">{data.name}</h1>
-      {Object.entries(data.games).map(([gameName, categories]) => (
-        <div key={gameName}>
-          <h2 className="text-xl mb-6">{gameName}</h2>
+      <h1 className="text-2xl font-semibold">{platformData.displayName}</h1>
+      {platformData.groups.map((group) => (
+        <div key={group.name}>
+          <h2 className="text-xl mb-6">{group.name}</h2>
           <div className="ml-4 flex flex-col gap-3">
-            {Object.entries(categories).map(([categoryName, games]) => (
-              <Fragment key={gameName}>
-                {categoryName !== "main" && <h3>{categoryName}</h3>}
-                <ul className="list-disc list-inside">
-                  {games.map((game) => (
-                    <li key={game.name}>
-                      <a href={constructGameUrl(game.rom, platform)}>
-                        {game.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </Fragment>
-            ))}
+            <GameList games={group.main} platform={platform} />
+            {group.romhacks.length > 0 && <h3>Romhacks</h3>}
+            <GameList games={group.romhacks} platform={platform} />
           </div>
         </div>
       ))}
     </div>
+  );
+};
+
+const GameList: FC<{
+  platform: EmuPlatformName;
+  games: EmuGame[];
+}> = ({ platform, games }) => {
+  return (
+    <ul className="list-disc list-inside">
+      {games.map(({ title, internalName }) => (
+        <li key={internalName}>
+          <a href={constructGameUrl(internalName, platform)}>{title}</a>
+        </li>
+      ))}
+    </ul>
   );
 };
