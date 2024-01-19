@@ -4,7 +4,7 @@ import { PlayPage } from "@components/PlayPage";
 
 type Props = {
   searchParams: Record<string, string | string[] | undefined>;
-}
+};
 
 const Home: FC<Props> = ({ searchParams }) => {
   return <PlayPage searchParams={searchParams} />;

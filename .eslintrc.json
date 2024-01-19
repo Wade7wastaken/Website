@@ -61,6 +61,13 @@
         "groups": ["builtin", "external", "parent", "sibling", "index", "type"]
       }
     ],
+    "import/no-unused-modules": [
+      1,
+      {
+        "unusedExports": true,
+        "ignoreExports": ["**/page.tsx", "**/layout.tsx"]
+      }
+    ],
 
     // Unicorn Rules
     "unicorn/prevent-abbreviations": "off",

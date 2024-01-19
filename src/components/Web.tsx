@@ -1,14 +1,13 @@
 "use client";
 
-import { useState, type FC    } from "react";
+import { useState } from "react";
 
 import { Button } from "./ui/Button";
 
 import type { Game } from "@data/scrapeLinksTypes";
-import type { ChangeEvent } from "react";
+import type { ChangeEvent, FC } from "react";
 
 import scrapeLinks from "@data/scrapeLinks";
-
 
 const GAMES_PER_PAGE = 100;
 

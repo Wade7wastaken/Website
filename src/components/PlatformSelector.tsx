@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 import { Button } from "./ui/Button";
 
 import type { EmuPlatformName } from "@data/emuGames";
@@ -10,7 +9,7 @@ import emuGames from "@data/emuGames";
 
 type Props = {
   activePage: EmuPlatformName | "web";
-}
+};
 
 export const PlatformSelector: FC<Props> = ({ activePage }) => {
   return (

@@ -5,6 +5,10 @@ import { type FC } from "react";
 import { EjsSettings } from "./EjsSettings";
 
 declare global {
+  // We have to disable this here because eslint isn't smart enough to see that
+  // we can't use a type here
+
+  // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
   interface Window {
     EJS_player: string;
     EJS_gameUrl: string;
@@ -62,7 +66,7 @@ export const PlayPage: FC<Props> = ({ searchParams }) => {
         <div id="emulator"></div>
       </div>
       <Script
-        src="https://demo.emulatorjs.org/data/loader.js"
+        src="https://cdn.emulatorjs.org/latest/data/loader.js"
         strategy="lazyOnload"
       ></Script>
     </>

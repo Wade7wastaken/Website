@@ -1,19 +1,19 @@
 export type EmuGame = {
   title: string;
   internalName: string;
-}
+};
 
-export type EmuGroup = {
+type EmuGroup = {
   name: string;
   main: readonly EmuGame[];
   romhacks: readonly EmuGame[];
-}
+};
 
-export type EmuPlatform = {
+type EmuPlatform = {
   displayName: string;
   abbreviation: string;
   groups: readonly EmuGroup[];
-}
+};
 
 type EmuGames = Record<string, EmuPlatform>;
 

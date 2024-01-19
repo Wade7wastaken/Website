@@ -6,7 +6,7 @@ import type { EmuGame, EmuPlatformName } from "@data/emuGames";
 
 type Props = {
   platform: EmuPlatformName;
-}
+};
 
 const constructGameUrl = (romLocation: string, platform: string): string =>
   `/play?rom=${romLocation}&platform=${platform}`;

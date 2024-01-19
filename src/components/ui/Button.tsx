@@ -5,7 +5,7 @@ type Props = {
   small?: boolean;
   active?: boolean;
   onClick?: () => void;
-}
+};
 
 export const Button: FC<Props> = ({
   children,

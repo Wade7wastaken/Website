@@ -8,12 +8,12 @@ type Props = {
   dataPath?: string;
   gameUrl: string;
   threading?: boolean;
-}
+};
 
 export const EjsSettings: FC<Props> = ({
   player,
   core,
-  dataPath = "https://demo.emulatorjs.org/data/",
+  dataPath = "https://cdn.emulatorjs.org/latest/data/",
   gameUrl,
   threading = true,
 }) => {

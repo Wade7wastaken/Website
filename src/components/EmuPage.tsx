@@ -1,4 +1,3 @@
-
 import { EmuGamesList } from "./EmuGamesList";
 import { PlatformSelector } from "./PlatformSelector";
 
@@ -7,7 +6,7 @@ import type { FC } from "react";
 
 type Props = {
   page: EmuPlatformName;
-}
+};
 
 export const EmuPage: FC<Props> = ({ page }) => {
   return (

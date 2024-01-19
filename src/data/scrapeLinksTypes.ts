@@ -6,11 +6,11 @@ export type Game = {
   name: string;
   url: string;
   location: (typeof scrapeLinks.locations)[number];
-}
+};
 
-export type ScrapeLinks = {
+type ScrapeLinks = {
   games: readonly Game[];
   locations: Locations;
-}
+};
 
 scrapeLinks satisfies ScrapeLinks;
