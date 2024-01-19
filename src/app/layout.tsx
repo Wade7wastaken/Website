@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-interface Props {
+type Props = {
   children: ReactNode;
 }
 

@@ -35,9 +35,9 @@ declare global {
   }
 }
 
-interface Props {
+type Props = {
   searchParams: Record<string, string | string[] | undefined>;
-}
+};
 
 export const PlayPage: FC<Props> = ({ searchParams }) => {
   const { rom, platform } = searchParams;

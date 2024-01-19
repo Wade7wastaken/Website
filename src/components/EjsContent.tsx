@@ -1,7 +1,8 @@
 import Script from "next/script";
+
 import type { FC } from "react";
 
-interface Props {
+type Props = {
   platform: string;
 }
 

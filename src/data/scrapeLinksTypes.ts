@@ -2,13 +2,13 @@ import scrapeLinks from "@data/scrapeLinks";
 
 type Locations = typeof scrapeLinks.locations;
 
-export interface Game {
+export type Game = {
   name: string;
   url: string;
   location: (typeof scrapeLinks.locations)[number];
 }
 
-export interface ScrapeLinks {
+export type ScrapeLinks = {
   games: readonly Game[];
   locations: Locations;
 }

@@ -4,7 +4,7 @@ import emuGames from "../data/emuGames";
 
 import type { EmuGame, EmuPlatformName } from "@data/emuGames";
 
-interface Props {
+type Props = {
   platform: EmuPlatformName;
 }
 

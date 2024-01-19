@@ -1,11 +1,11 @@
-import type { FC } from "react";
 
 import { EmuGamesList } from "./EmuGamesList";
 import { PlatformSelector } from "./PlatformSelector";
 
 import type { EmuPlatformName } from "@data/emuGames";
+import type { FC } from "react";
 
-interface Props {
+type Props = {
   page: EmuPlatformName;
 }
 

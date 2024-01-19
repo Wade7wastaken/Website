@@ -2,7 +2,7 @@
 
 import { useEffect, type FC } from "react";
 
-interface Props {
+type Props = {
   player: string;
   core: string;
   dataPath?: string;

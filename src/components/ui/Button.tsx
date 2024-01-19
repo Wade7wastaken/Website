@@ -1,6 +1,6 @@
 import type { FC, ReactNode } from "react";
 
-interface Props {
+type Props = {
   children: ReactNode;
   small?: boolean;
   active?: boolean;

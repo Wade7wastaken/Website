@@ -1,12 +1,14 @@
 import Link from "next/link";
-import type { FC } from "react";
+
 
 import { Button } from "./ui/Button";
 
 import type { EmuPlatformName } from "@data/emuGames";
+import type { FC } from "react";
+
 import emuGames from "@data/emuGames";
 
-interface Props {
+type Props = {
   activePage: EmuPlatformName | "web";
 }
 

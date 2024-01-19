@@ -2,7 +2,7 @@ import { type FC } from "react";
 
 import { PlayPage } from "@components/PlayPage";
 
-interface Props {
+type Props = {
   searchParams: Record<string, string | string[] | undefined>;
 }
 

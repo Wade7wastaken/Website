@@ -1,15 +1,15 @@
-export interface EmuGame {
+export type EmuGame = {
   title: string;
   internalName: string;
 }
 
-export interface EmuGroup {
+export type EmuGroup = {
   name: string;
   main: readonly EmuGame[];
   romhacks: readonly EmuGame[];
 }
 
-export interface EmuPlatform {
+export type EmuPlatform = {
   displayName: string;
   abbreviation: string;
   groups: readonly EmuGroup[];
