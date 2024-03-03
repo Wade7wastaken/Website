@@ -5,6 +5,7 @@ import Script from "next/script";
 import { type FC } from "react";
 
 import { EjsSettings } from "./EjsSettings";
+import { RefreshLink } from "./EmuGamesList";
 
 export const PlayPage: FC = () => {
   const params = useSearchParams();
@@ -24,7 +25,7 @@ export const PlayPage: FC = () => {
         core={platform}
         gameUrl={`/roms/${platform}/${rom}.7z`}
       />
-      <a href={`/games/${platform}`}>Back</a>
+      <RefreshLink href={`/games/${platform}`}>Back</RefreshLink>
       <div
         id="base"
         className="m-auto h-[720px] max-h-screen min-h-[150px] w-[960px] min-w-[300px] max-w-full resize overflow-auto"

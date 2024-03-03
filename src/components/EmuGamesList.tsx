@@ -49,11 +49,9 @@ const GameList: FC<{
   );
 };
 
-const RefreshLink: FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({
-  href,
-  children,
-  ...rest
-}) => {
+export const RefreshLink: FC<
+  Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & { href: string }
+> = ({ href, children, ...rest }) => {
   const basePath = process.env.BASE_PATH ? `/${process.env.BASE_PATH}` : "";
 
   const fullHref = `${basePath}${href}`;
