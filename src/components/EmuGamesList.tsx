@@ -52,7 +52,17 @@ const GameList: FC<{
 export const RefreshLink: FC<
   Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & { href: string }
 > = ({ href, children, ...rest }) => {
-  const basePath = process.env.BASE_PATH ? `/${process.env.BASE_PATH}` : "";
+  // if the passed href was an absolute path, then don't add the base path.
+  // maybe even extract the link to its own component?
+  if (!href.startsWith("/"))
+    return (
+      <a {...rest} href={href}>
+        {children}
+      </a>
+    );
+
+  const env = process.env.BASE_PATH;
+  const basePath = env ? `/${env}` : "";
 
   const fullHref = `${basePath}${href}`;
   return (
