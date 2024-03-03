@@ -13,7 +13,7 @@ export const RefreshLink: FC<
     );
 
   return (
-    <a {...rest} href={process.env.BASE_PATH ?? "" + href}>
+    <a {...rest} href={`${process.env.BASE_PATH ?? ""}${href}`}>
       {children}
     </a>
   );
