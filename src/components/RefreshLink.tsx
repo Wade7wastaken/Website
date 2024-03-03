@@ -12,12 +12,8 @@ export const RefreshLink: FC<
       </a>
     );
 
-  const env = process.env.BASE_PATH;
-  const basePath = env ? `/${env}` : "";
-
-  const fullHref = `${basePath}${href}`;
   return (
-    <a {...rest} href={fullHref}>
+    <a {...rest} href={process.env.BASE_PATH ?? "" + href}>
       {children}
     </a>
   );
