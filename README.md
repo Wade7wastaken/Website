@@ -8,6 +8,9 @@ options.
 
 - [Main](http://games.thecallenders.com)
 - [GH Pages](https://wade7wastaken.github.io/Website/games/web/)
+- [Vercel 1](https://website-nine-zeta-45.vercel.app/)
+- [Vercel 2](https://website-git-main-wade7wastakens-projects.vercel.app/)
+- [Vercel 3](https://website-2c9s7xzcb-wade7wastakens-projects.vercel.app/)
 
 If you know of any other _free_ ways of hosting a static website, create an
 issue for it.
