@@ -1,20 +1,17 @@
 import emuGames from "../data/emuGames";
 
-import type { EmuGame, EmuPlatformName } from "@data/emuGames";
-import type { AnchorHTMLAttributes, FC } from "react";
+import { GameList } from "./GameList";
+
+import type { EmuPlatformName } from "@data/emuGames";
+import type { FC } from "react";
 
 type Props = {
   platform: EmuPlatformName;
 };
 
-const constructGameUrl = (romLocation: string, platform: string): string =>
-  `/play?rom=${romLocation}&platform=${platform}`;
-
 export const EmuGamesList: FC<Props> = ({ platform }) => {
   const platformData = emuGames[platform];
 
-  // use regular a tags for this because we need a full page reload for most
-  // emulators
   return (
     <div className="flex flex-col gap-8">
       <h1 className="text-2xl font-semibold">{platformData.displayName}</h1>
@@ -29,45 +26,5 @@ export const EmuGamesList: FC<Props> = ({ platform }) => {
         </div>
       ))}
     </div>
-  );
-};
-
-const GameList: FC<{
-  platform: EmuPlatformName;
-  games: EmuGame[];
-}> = ({ platform, games }) => {
-  return (
-    <ul className="list-inside list-disc">
-      {games.map(({ title, internalName }) => (
-        <li key={internalName}>
-          <RefreshLink href={constructGameUrl(internalName, platform)}>
-            {title}
-          </RefreshLink>
-        </li>
-      ))}
-    </ul>
-  );
-};
-
-export const RefreshLink: FC<
-  Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & { href: string }
-> = ({ href, children, ...rest }) => {
-  // if the passed href was an absolute path, then don't add the base path.
-  // maybe even extract the link to its own component?
-  if (!href.startsWith("/"))
-    return (
-      <a {...rest} href={href}>
-        {children}
-      </a>
-    );
-
-  const env = process.env.BASE_PATH;
-  const basePath = env ? `/${env}` : "";
-
-  const fullHref = `${basePath}${href}`;
-  return (
-    <a {...rest} href={fullHref}>
-      {children}
-    </a>
   );
 };

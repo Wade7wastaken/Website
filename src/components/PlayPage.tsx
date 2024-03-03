@@ -5,7 +5,7 @@ import Script from "next/script";
 import { type FC } from "react";
 
 import { EjsSettings } from "./EjsSettings";
-import { RefreshLink } from "./EmuGamesList";
+import { RefreshLink } from "./RefreshLink";
 
 export const PlayPage: FC = () => {
   const params = useSearchParams();
