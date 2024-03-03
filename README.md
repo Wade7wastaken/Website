@@ -6,7 +6,7 @@ options.
 
 # Current Hosts
 
-- [Main](https://www.games.thecallenders.com)
+- [Main](https://games.thecallenders.com)
 - [GH Pages](https://wade7wastaken.github.io/Website/games/web/)
 
 If you know of any other _free_ ways of hosting a static website, create an
