@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Made so I could play games in class. Yeah that's pretty much it.
 
-## Getting Started
+It is recommended that you bookmark this page instead of a specific mirror.
+These links change often and if one is taken down, you can easily find other
+options.
 
-First, run the development server:
+# Current Hosts
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Main](https://www.games.thecallenders.com)
+- [GH Pages](https://wade7wastaken.github.io/Website/games/web/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you know of any other _free_ ways of hosting a static website, create an
+issue for it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Site Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Emulators for NES, N64, GBA, and NDS. Uses the amazing [EmulatorJS
+   Project](https://github.com/EmulatorJS/EmulatorJS).
+2. A collection of links to web games on multiple other sites. [Link Scraper
+   Script](https://github.com/Wade7wastaken/Scrapers).
