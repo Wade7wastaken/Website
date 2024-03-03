@@ -1,9 +1,10 @@
+"use client";
+
 import { redirect, useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { type FC } from "react";
 
 import { EjsSettings } from "./EjsSettings";
-
 
 export const PlayPage: FC = () => {
   const params = useSearchParams();
