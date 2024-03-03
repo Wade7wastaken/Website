@@ -43,7 +43,7 @@ jobs:
       - name: Set up envirnoment
         run: |
           touch .env.local
-          echo BASE_PATH=Website >> .env.local
+          echo BASE_PATH=/Website >> .env.local
       - name: Install dependencies
         run: pnpm install
         # We have "output: export" set in next.config.js, so we can just run build and it will generate an out folder
