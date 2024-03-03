@@ -1,8 +1,7 @@
-import { type FC } from "react";
-
 import emuGames from "../data/emuGames";
 
 import type { EmuGame, EmuPlatformName } from "@data/emuGames";
+import type { AnchorHTMLAttributes, FC } from "react";
 
 type Props = {
   platform: EmuPlatformName;
@@ -41,9 +40,26 @@ const GameList: FC<{
     <ul className="list-inside list-disc">
       {games.map(({ title, internalName }) => (
         <li key={internalName}>
-          <a href={constructGameUrl(internalName, platform)}>{title}</a>
+          <RefreshLink href={constructGameUrl(internalName, platform)}>
+            {title}
+          </RefreshLink>
         </li>
       ))}
     </ul>
+  );
+};
+
+const RefreshLink: FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({
+  href,
+  children,
+  ...rest
+}) => {
+  const basePath = process.env.BASE_PATH ? `/${process.env.BASE_PATH}` : "";
+
+  const fullHref = `${basePath}${href}`;
+  return (
+    <a {...rest} href={fullHref}>
+      {children}
+    </a>
   );
 };

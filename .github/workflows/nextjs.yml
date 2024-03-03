@@ -40,14 +40,10 @@ jobs:
         with:
           node-version: "20"
           cache: "pnpm"
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
+      - name: Set up envirnoment
+        run: |
+          touch .env.local
+          echo BASE_PATH=Website >> .env.local
       - name: Install dependencies
         run: pnpm install
         # We have "output: export" set in next.config.js, so we can just run build and it will generate an out folder
