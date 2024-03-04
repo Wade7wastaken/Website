@@ -15,7 +15,7 @@ const filterGames = (search: string, filteredSites: string[]): Game[] =>
   scrapeLinks.games.filter(
     (game) =>
       game.name.toLowerCase().includes(search.toLowerCase()) &&
-      !filteredSites.includes(game.location)
+      !filteredSites.includes(game.site)
   );
 
 const collectGames = (
@@ -43,6 +43,15 @@ const randomGame = (search: string, filteredSites: string[]): Game => {
       "Filtered games index out of range. You shouldn't ever see this"
     );
   return random;
+};
+
+const getHostname = (url: string): string => {
+  try {
+    return new URL(url).hostname;
+  } catch (error) {
+    console.error(error);
+    return "";
+  }
 };
 
 const prevAllowed = (proposedNewValue: number): boolean =>
@@ -99,7 +108,8 @@ export const Web: FC = () => {
       <Button
         small
         onClick={(): void => {
-          window.open(randomGame(search, filteredSites).url);
+          // pretty hacky way but i don't really care
+          window.open(randomGame(search, filteredSites).urls[0]);
         }}
       >
         Random
@@ -118,7 +128,7 @@ export const Web: FC = () => {
           placeholder="Search"
         />
         <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2">
-          {scrapeLinks.locations.map((item) => (
+          {scrapeLinks.sites.map((item) => (
             <Button
               key={item}
               onClick={(): void => {
@@ -136,27 +146,31 @@ export const Web: FC = () => {
       {nextPrevButtons}
 
       <div className="flex flex-col gap-3 text-lg">
-        {filtered.games.map((item) => (
-          <div key={item.location + item.name}>
-            <a
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mr-1"
-              style={{
-                color: `hsl(${
-                  (360 / scrapeLinks.locations.length) *
-                  scrapeLinks.locations.indexOf(item.location)
-                }, 100%, 85%)`,
-              }}
-            >
-              {item.name}
-            </a>
-            <span className="text-xs text-slate-500">
-              ({new URL(item.url).hostname})
-            </span>
-          </div>
-        ))}
+        {filtered.games.map((item) =>
+          item.urls.map((url, i) => {
+            return (
+              <div key={item.site + item.name + i.toString()}>
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-1"
+                  style={{
+                    color: `hsl(${
+                      (360 / scrapeLinks.sites.length) *
+                      scrapeLinks.sites.indexOf(item.site)
+                    }, 100%, 85%)`,
+                  }}
+                >
+                  {`${item.name} - ${(i + 1).toString()}`}
+                </a>
+                <span className="text-xs text-slate-500">
+                  ({getHostname(url)})
+                </span>
+              </div>
+            );
+          })
+        )}
       </div>
       {nextPrevButtons}
     </div>
